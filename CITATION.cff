@@ -1,0 +1,22 @@
+﻿cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "RAY-VASC Regenerative Loop"
+abstract: "Speculative open-source neuroplasticity research framework for N-of-1 to cohort implementation, data capture, and publication."
+authors:
+  - family-names: "Henderson"
+    given-names: "Logan"
+year: 2026
+version: "0.2.0"
+repository-code: "https://github.com/onlygreentrades/ray-vasc-regenerative-loop"
+license: "MIT AND CC-BY-4.0"
+keywords:
+  - neuroplasticity
+  - n-of-1
+  - regenerative-loop
+  - APPRE
+  - psychedelic-research
+  - mycology
+  - dementia-research
+  - TBI
+  - stroke-recovery
+  - biomarker-tracking
