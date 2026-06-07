@@ -1,33 +1,9 @@
-﻿Dual License Notice
+MIT License
 
 Copyright (c) 2026 Logan Henderson
 
-This repository contains both software/code materials and research/documentation materials.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated code files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to the following conditions:
 
-1. Code License
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-All software code, scripts, schemas, configuration files, and software utilities in this repository are licensed under the MIT License, unless otherwise stated.
-
-MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of the software and associated documentation files covered by the MIT License to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to inclusion of this copyright notice and permission notice.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-
-2. Documentation and Protocol License
-
-All research documentation, protocol templates, forms, diagrams, study design materials, explanatory text, and non-code content in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), unless otherwise stated.
-
-You are free to share and adapt the documentation materials, including for commercial and academic purposes, provided appropriate credit is given to Logan Henderson and this source repository.
-
-3. No Trademark License
-
-This license does not grant permission to use project names, brand names, logos, marks, trade dress, or related identifiers as branding for another product, company, clinic, facility, retreat, protocol, or commercial service without written permission.
-
-4. Medical, Legal, and Regulatory Disclaimer
-
-Nothing in this repository is medical advice, legal advice, regulatory advice, or a clinical directive.
-
-This repository does not provide controlled-substance sourcing, preparation, dosing, or administration instructions.
-
-Any clinical, psychedelic-related, biomedical, or human-subject research use must comply with applicable laws, medical oversight, ethics review, informed consent requirements, institutional review board requirements, and all relevant jurisdictional regulations.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.

@@ -1,4 +1,4 @@
-# Regulatory Boundary
+# Ethics and Data Boundary
 
 **Version:** 1.1  
 **Date:** 2026-06-06  

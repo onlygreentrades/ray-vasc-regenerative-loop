@@ -1,0 +1,109 @@
+Category,Protocol Element,Status
+Study Design,12-month longitudinal study,❌ MISSING FROM MANUSCRIPT
+Study Design,Prospective N-of-1 observational protocol,❌ MISSING FROM MANUSCRIPT
+Study Design,Baseline Phase (2-4 weeks),❌ MISSING FROM MANUSCRIPT
+Study Design,Intervention Window (clinician-determined),❌ MISSING FROM MANUSCRIPT
+Study Design,Follow-up Phase (8-12 weeks),❌ MISSING FROM MANUSCRIPT
+Study Design,Blinded cognitive/motor assessment where feasible,❌ MISSING FROM MANUSCRIPT
+Primary Objectives (Protocol-Specific),"64-channel EEG spectral power, connectivity, event-related potentials",❌ MISSING FROM MANUSCRIPT
+Primary Objectives (Protocol-Specific),Unified Parkinson's Disease Rating Scale (UPDRS) motor subscore,❌ MISSING FROM MANUSCRIPT
+Primary Objectives (Protocol-Specific),6-minute walk test,❌ MISSING FROM MANUSCRIPT
+Primary Objectives (Protocol-Specific),"Spirometry (FEV1, FVC, FEV1/FVC ratio)",❌ MISSING FROM MANUSCRIPT
+Primary Objectives (Protocol-Specific),EuroQol 5-Dimension (EQ-5D),❌ MISSING FROM MANUSCRIPT
+Primary Objectives (Protocol-Specific),SF-36 physical and mental component summaries,❌ MISSING FROM MANUSCRIPT
+Secondary Objectives (Protocol-Specific),"Blood biomarkers: CRP, IL-6, TNF-α, BDNF, homocysteine, lipid panel, liver/kidney function",❌ MISSING FROM MANUSCRIPT
+Secondary Objectives (Protocol-Specific),"Saliva collection: cortisol (AM and PM), DHEA",❌ MISSING FROM MANUSCRIPT
+Secondary Objectives (Protocol-Specific),Stool sample: microbiome composition (16S rRNA sequencing),❌ MISSING FROM MANUSCRIPT
+Secondary Objectives (Protocol-Specific),Time-series trend analysis and slope estimation,❌ MISSING FROM MANUSCRIPT
+Secondary Objectives (Protocol-Specific),Exploratory correlation analysis between EEG network metrics and cognitive/motor/mood outcomes,❌ MISSING FROM MANUSCRIPT
+Supplement Stack (Specific Dosages),Lion's Mane 500-1000 mg/day,✅ IN MANUSCRIPT
+Supplement Stack (Specific Dosages),Cordyceps 500-1000 mg/day,✅ IN MANUSCRIPT
+Supplement Stack (Specific Dosages),Bacopa 300 mg/day,✅ IN MANUSCRIPT
+Supplement Stack (Specific Dosages),Ashwagandha 300-600 mg/day,✅ IN MANUSCRIPT
+Supplement Stack (Specific Dosages),Rhodiola 200-400 mg/day,❌ MISSING FROM MANUSCRIPT
+Supplement Stack (Specific Dosages),Ginkgo biloba 120-240 mg/day,❌ MISSING FROM MANUSCRIPT
+Supplement Stack (Specific Dosages),Huperzine A 200-400 μg/day (SPECIFIC TO PROTOCOL),❌ MISSING FROM MANUSCRIPT
+Supplement Stack (Specific Dosages),Citicoline 500-1000 mg/day,✅ IN MANUSCRIPT
+Supplement Stack (Specific Dosages),N-Acetylcysteine 600 mg 2x daily,❌ MISSING FROM MANUSCRIPT
+Supplement Stack (Specific Dosages),Melatonin 3-10 mg at bedtime,✅ IN MANUSCRIPT
+Supplement Stack (Specific Dosages),Alpha-Lipoic Acid 600 mg/day,✅ IN MANUSCRIPT
+Supplement Stack (Specific Dosages),Curcumin 90-180 mg/day (bioavailable formulation),✅ IN MANUSCRIPT
+Supplement Stack (Specific Dosages),Phosphatidylserine 300 mg/day (SPECIFIC TO PROTOCOL),❌ MISSING FROM MANUSCRIPT
+Supplement Stack (Specific Dosages),Omega-3 EPA/DHA 1-2 g/day,✅ IN MANUSCRIPT
+Supplement Stack (Specific Dosages),Vitamin D 2000-4000 IU/day,✅ IN MANUSCRIPT
+Supplement Stack (Specific Dosages),B-complex with folate/B12,✅ IN MANUSCRIPT
+Psilocybin Protocol (Protocol-Specific),Three to four guided sessions over 12 months,❌ MISSING FROM MANUSCRIPT
+Psilocybin Protocol (Protocol-Specific),"Preparation session (1-2 hours): psychoeducation, intention-setting, risk assessment",❌ MISSING FROM MANUSCRIPT
+Psilocybin Protocol (Protocol-Specific),Dosing session (6-8 hours): trained facilitators present throughout,❌ MISSING FROM MANUSCRIPT
+Psilocybin Protocol (Protocol-Specific),"Integration session (1-2 hours, within 48 hours post-dosing)",❌ MISSING FROM MANUSCRIPT
+Psilocybin Protocol (Protocol-Specific),Between-session support: phone/video check-ins,❌ MISSING FROM MANUSCRIPT
+Psilocybin Protocol (Protocol-Specific),"Microdose (0.05-0.12 g dried mushroom, Penis Envy strain)",❌ MISSING FROM MANUSCRIPT
+Psilocybin Protocol (Protocol-Specific),Macrodose (0.5-1.0 g) based on participant preference and response,❌ MISSING FROM MANUSCRIPT
+Assessment Schedule (Protocol-Specific Timeline),"Baseline (Month -3 to 0): comprehensive medical/neurological history, baseline labs",❌ MISSING FROM MANUSCRIPT
+Assessment Schedule (Protocol-Specific Timeline),"Monthly assessments (months 1-12): targeted EEG, MoCA, UPDRS motor, PHQ-9, GAD-7, mMRC dyspnea",✅ IN MANUSCRIPT
+Assessment Schedule (Protocol-Specific Timeline),"Quarterly assessments (months 3, 6, 9, 12): full cognitive battery, 6-minute walk, spirometry, biomarkers",❌ MISSING FROM MANUSCRIPT
+Assessment Schedule (Protocol-Specific Timeline),Study endpoint (month 12 ± 2 weeks): comprehensive repeat of all baseline assessments,❌ MISSING FROM MANUSCRIPT
+EEG Processing (Protocol-Specific),"Spectral power analysis (delta, theta, alpha, beta, gamma bands)",❌ MISSING FROM MANUSCRIPT
+EEG Processing (Protocol-Specific),"Time-frequency analysis and event-related potential (ERP) morphology (P3 amplitude, latency, topography)",❌ MISSING FROM MANUSCRIPT
+EEG Processing (Protocol-Specific),"Connectivity measures: functional connectivity (coherence, phase-locking value)",❌ MISSING FROM MANUSCRIPT
+EEG Processing (Protocol-Specific),Source localization (if feasible with 64-channel electrode net),❌ MISSING FROM MANUSCRIPT
+EEG Processing (Protocol-Specific),Monthly trending of key metrics,❌ MISSING FROM MANUSCRIPT
+Respiratory Assessment (Protocol-Specific),"FEV1, FVC, FEV1/FVC ratio; percentage predicted values",❌ MISSING FROM MANUSCRIPT
+Respiratory Assessment (Protocol-Specific),"6-minute walk distance, desaturation nadir, dyspnea trajectory",❌ MISSING FROM MANUSCRIPT
+Respiratory Assessment (Protocol-Specific),Modified Medical Research Council (mMRC) dyspnea scale weekly,❌ MISSING FROM MANUSCRIPT
+Respiratory Assessment (Protocol-Specific),COPD Assessment Test (CAT) monthly,❌ MISSING FROM MANUSCRIPT
+Biomarker Analysis (Protocol-Specific),"Inflammatory markers: CRP, IL-6, TNF-α (baseline vs endpoint, monthly trends)",❌ MISSING FROM MANUSCRIPT
+Biomarker Analysis (Protocol-Specific),"BDNF, homocysteine, cortisol, DHEA (baseline vs endpoint)",❌ MISSING FROM MANUSCRIPT
+Biomarker Analysis (Protocol-Specific),Microbiome diversity indices and taxa abundance (if sequenced),❌ MISSING FROM MANUSCRIPT
+Safety Protocol (Protocol-Specific),"Cardiovascular screening: 12-lead ECG, BP, HR monitoring",❌ MISSING FROM MANUSCRIPT
+Safety Protocol (Protocol-Specific),"Psychiatric screening: structured clinical interview to exclude active psychosis, suicidal ideation",❌ MISSING FROM MANUSCRIPT
+Safety Protocol (Protocol-Specific),Drug interaction check with pharmacist,❌ MISSING FROM MANUSCRIPT
+Safety Protocol (Protocol-Specific),Dose titration: initial microdose with option to escalate,❌ MISSING FROM MANUSCRIPT
+Safety Protocol (Protocol-Specific),"Environmental support: dedicated clinical space, trained facilitators, emergency services within 5 minutes",❌ MISSING FROM MANUSCRIPT
+Safety Protocol (Protocol-Specific),"Monitoring during acute session: continuous vitals at baseline, +30 min, +90 min, +3 hours, near end",❌ MISSING FROM MANUSCRIPT
+Safety Protocol (Protocol-Specific),"Post-session follow-up: phone call within 24 hours, in-person check-in within 1 week",❌ MISSING FROM MANUSCRIPT
+Supplement Safety (Protocol-Specific),"Baseline screening: liver and kidney function (AST, ALT, eGFR)",❌ MISSING FROM MANUSCRIPT
+Supplement Safety (Protocol-Specific),"Thyroid function (TSH, free T4) prior to iodine-containing supplements",❌ MISSING FROM MANUSCRIPT
+Supplement Safety (Protocol-Specific),"Drug-supplement interaction screening for NAC, Ginkgo, Mucuna, Curcumin, Melatonin",✅ IN MANUSCRIPT
+Supplement Safety (Protocol-Specific),"Monthly self-report and clinician assessment of GI symptoms, rash, dizziness",❌ MISSING FROM MANUSCRIPT
+Supplement Safety (Protocol-Specific),"Discontinuation criteria: AST/ALT >3× ULN, eGFR decline >20% from baseline",❌ MISSING FROM MANUSCRIPT
+Data Management (Protocol-Specific),De-identified and assigned study ID,❌ MISSING FROM MANUSCRIPT
+Data Management (Protocol-Specific),Genomic or identifying biomarker data stored securely with restricted access,❌ MISSING FROM MANUSCRIPT
+Data Management (Protocol-Specific),Study protocol registered prior to enrollment (clinicaltrials.gov),❌ MISSING FROM MANUSCRIPT
+Data Management (Protocol-Specific),"Results (positive, negative, or inconclusive) reported in peer-reviewed journals or conference presentations",❌ MISSING FROM MANUSCRIPT
+Budget and Funding (Protocol-Specific),"Personnel (PI, co-investigators, coordinators, technicians)",❌ MISSING FROM MANUSCRIPT
+Budget and Funding (Protocol-Specific),"EEG equipment and software (64-channel system, analysis software)",❌ MISSING FROM MANUSCRIPT
+Budget and Funding (Protocol-Specific),Psilocybin procurement and testing,❌ MISSING FROM MANUSCRIPT
+Budget and Funding (Protocol-Specific),Supplement procurement (daily stacks × 12 months),❌ MISSING FROM MANUSCRIPT
+Budget and Funding (Protocol-Specific),"Laboratory assays (baseline + quarterly labs, biomarkers)",❌ MISSING FROM MANUSCRIPT
+Budget and Funding (Protocol-Specific),Participant compensation (reimbursement for time/travel),❌ MISSING FROM MANUSCRIPT
+Budget and Funding (Protocol-Specific),Insurance/liability,❌ MISSING FROM MANUSCRIPT
+Study Team (Protocol-Specific),"Principal Investigator (PI): medical degree, neurological or psychiatric specialization",❌ MISSING FROM MANUSCRIPT
+Study Team (Protocol-Specific),"Co-Investigators: specialists in neurology, psychiatry, pulmonology, neuropsychology",❌ MISSING FROM MANUSCRIPT
+Study Team (Protocol-Specific),Clinical Coordinator: nursing or clinical research background,❌ MISSING FROM MANUSCRIPT
+Study Team (Protocol-Specific),Psychedelic-Assisted Therapy Facilitators: licensed mental health professionals,❌ MISSING FROM MANUSCRIPT
+Study Team (Protocol-Specific),EEG Technician: certified in 64-channel EEG acquisition and preprocessing,❌ MISSING FROM MANUSCRIPT
+Study Team (Protocol-Specific),Neuropsychologist or trained cognitive assessor: blinded to intervention status,❌ MISSING FROM MANUSCRIPT
+Study Team (Protocol-Specific),"Data Manager: secure database maintenance, de-identification, access controls",❌ MISSING FROM MANUSCRIPT
+Neural Repair Mechanisms (Protocol emphasis),Synaptogenesis and Dendritic Spine Growth: 10% increase in medial frontal cortex within 24 hours,❌ MISSING FROM MANUSCRIPT
+Neural Repair Mechanisms (Protocol emphasis),"Psilocybin activates 5-HT2A receptors, engaging BDNF/TrkB and mTOR pathways",❌ MISSING FROM MANUSCRIPT
+Neural Repair Mechanisms (Protocol emphasis),"Human iPSC-derived cortical neurons: psilocin increases BDNF, upregulates axonal growth genes",❌ MISSING FROM MANUSCRIPT
+Neural Repair Mechanisms (Protocol emphasis),Psilocybin reverses stress-induced dendritic atrophy and restores neurogenesis markers,❌ MISSING FROM MANUSCRIPT
+Neural Repair Mechanisms (Protocol emphasis),Lion's Mane: hericenones and erinacines stimulate NGF and BDNF synthesis,✅ IN MANUSCRIPT
+Neural Repair Mechanisms (Protocol emphasis),Lion's Mane in vitro: neurite outgrowth increased 2-3× in cortical and hippocampal neurons,✅ IN MANUSCRIPT
+Neural Repair Mechanisms (Protocol emphasis),Animal models: peripheral nerve crush injury accelerated regeneration with Lion's Mane,✅ IN MANUSCRIPT
+"Additional Compounds (IN PROTOCOL, NOT MANUSCRIPT)",Panax notoginseng / Panax ginseng,❌ MISSING FROM MANUSCRIPT
+"Additional Compounds (IN PROTOCOL, NOT MANUSCRIPT)",Gastrodin (from Gastrodia elata),❌ MISSING FROM MANUSCRIPT
+"Additional Compounds (IN PROTOCOL, NOT MANUSCRIPT)",Astragaloside IV,❌ MISSING FROM MANUSCRIPT
+"Additional Compounds (IN PROTOCOL, NOT MANUSCRIPT)",Resveratrol (20-50 mg/kg animal equivalent),❌ MISSING FROM MANUSCRIPT
+"Additional Compounds (IN PROTOCOL, NOT MANUSCRIPT)",CoQ10 (1200-2400 mg/day),❌ MISSING FROM MANUSCRIPT
+"Additional Compounds (IN PROTOCOL, NOT MANUSCRIPT)",Ivermectin (neuroscience applications),❌ MISSING FROM MANUSCRIPT
+"Additional Compounds (IN PROTOCOL, NOT MANUSCRIPT)",Dihexa (mechanisms),❌ MISSING FROM MANUSCRIPT
+"Additional Compounds (IN PROTOCOL, NOT MANUSCRIPT)",Mucuna pruriens (L-DOPA source),❌ MISSING FROM MANUSCRIPT
+"Additional Compounds (IN PROTOCOL, NOT MANUSCRIPT)",Gotu kola (Centella asiatica),❌ MISSING FROM MANUSCRIPT
+"Additional Compounds (IN PROTOCOL, NOT MANUSCRIPT)",Sea moss (92 minerals claim),❌ MISSING FROM MANUSCRIPT
+Claim Audit Table (Protocol-Specific),Evidence grade for each ingredient (A-E),❌ MISSING FROM MANUSCRIPT
+Claim Audit Table (Protocol-Specific),Key citations mapped to each claim,❌ MISSING FROM MANUSCRIPT
+Claim Audit Table (Protocol-Specific),Compliance/risk notes for each ingredient,❌ MISSING FROM MANUSCRIPT
+Claim Audit Table (Protocol-Specific),"Safety warnings: bleeding risk, thyroid dysfunction, L-DOPA overdose",❌ MISSING FROM MANUSCRIPT
+Claim Audit Table (Protocol-Specific),Contraindications and drug interactions documented,❌ MISSING FROM MANUSCRIPT
