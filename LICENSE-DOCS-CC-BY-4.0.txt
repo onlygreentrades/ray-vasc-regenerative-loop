@@ -1,0 +1,7 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Documentation, manuscripts, forms, schemas, and non-code research materials in this repository are released under CC BY 4.0 unless otherwise stated.
+
+You are free to share and adapt the material with appropriate attribution.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode

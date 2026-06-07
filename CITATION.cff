@@ -1,22 +1,22 @@
-﻿cff-version: 1.2.0
-message: "If you use this repository, please cite it using the metadata below."
-title: "RAY-VASC Regenerative Loop"
-abstract: "Speculative open-source neuroplasticity research framework for N-of-1 to cohort implementation, data capture, and publication."
+cff-version: 1.2.0
+message: "If you use this framework or manuscript, please cite it using the metadata below."
+title: "The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease"
+version: "1.1"
+date-released: "2026-06-06"
 authors:
-  - family-names: "Henderson"
-    given-names: "Logan"
-year: 2026
-version: "0.2.0"
+  - family-names: Henderson
+    given-names: Logan
+    affiliation: Independent Researcher
 repository-code: "https://github.com/onlygreentrades/ray-vasc-regenerative-loop"
-license: "MIT AND CC-BY-4.0"
+url: "https://github.com/onlygreentrades/ray-vasc-regenerative-loop"
+license: "CC-BY-4.0"
 keywords:
   - neuroplasticity
-  - n-of-1
-  - regenerative-loop
+  - vascular cognitive impairment
+  - progressive supranuclear palsy
   - APPRE
-  - psychedelic-research
-  - mycology
-  - dementia-research
-  - TBI
-  - stroke-recovery
-  - biomarker-tracking
+  - RAY-VASC
+  - functional mycology
+  - psilocybin
+  - N-of-1
+  - open-source protocol design

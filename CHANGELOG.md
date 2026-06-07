@@ -1,17 +1,27 @@
-﻿
-## v0.2.0 — 2026-06-06
+# Changelog
 
-- Removed product-line language from the North Star guide.
-- Established publication-only public research scope.
-- Added OSF pre-registration trigger.
-- Added version governance rule.
-- Added conventional commit standard.
-- Added contributor qualification standard.
-- Added clean conflict-of-interest and funding statement.
+**Author:** Logan Henderson  
+**Repository:** ray-vasc-regenerative-loop
 
-## v0.3.0 — 2026-06-06
+## v1.1 - Paper 1 Public Release - 2026-06-06
 
-- Closed public attribution authorization gate.
-- Added authorization status file.
-- Confirmed Raymond A. Hornsby may be publicly credited as the human origin point and dedicatee of the framework.
-- Reconfirmed that raw medical records, identifiers, and case-level clinical data remain private unless separately authorized.
+- Added final publication-ready manuscript: `manuscript/The_Brain_That_Remains_v1.1.docx`.
+- Added PDF render of the final manuscript for reviewer and preprint workflow.
+- Added Markdown conversion for GitHub readability.
+- Added extracted CSV tables:
+  - Table 1: Candidate Mycology and Governed Plasticity Convergence Map.
+  - Table 2: Expanded Modular Measurement Architecture.
+  - Table 3: RAY-VASC Candidate Intervention Stack - Dosing, Evidence Grades, and Governance.
+- Preserved corrected RAY-VASC acronym definition: Residual Adaptive Vascular And Stroke Capacity.
+- Preserved corrected public names: Raymond Hornsby and Christine A. Hood.
+- Preserved corrected Phase 2 framing: clinician-governed therapeutic-intensity exposure, not microdosing, not APPRE-tunable.
+- Preserved controlled-substance boundaries: published synthetic clinical-trial reference ranges cited for scientific transparency only; no dried-mushroom gram equivalents; no sourcing, preparation, administration, or self-use guidance.
+- Added North Star Build Guide v0.3 publication-only reference file.
+- Added Paper Execution Prompts v2.0 reference file for Papers 2-7 continuity.
+- Added publication gap analysis to clarify that Paper 1 is a framework manuscript and Paper 2 is the protocol implementation manuscript.
+
+## v0.3 - Repository Foundation - 2026-06-06
+
+- Publication-only repository boundary defined.
+- Attribution, privacy, regulatory, and review files queued.
+- OSF registration placeholder added.
