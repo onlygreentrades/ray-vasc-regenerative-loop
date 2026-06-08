@@ -1,32 +1,37 @@
-# Repository Map
+﻿# Repository Map
 
 ## Root Files
 
-- `README.md` - program-level landing page.
-- `PAPER_INDEX.md` - paper-specific asset index.
-- `REPO_MAP.md` - repository structure and folder ownership.
-- `ATTRIBUTION.md` - origin, authorship, and human-origin acknowledgment boundary.
-- `PRIVACY.md` - de-identification and public-data rules.
-- `REGULATORY_BOUNDARY.md` - clinical, legal, and controlled-substance boundaries.
-- `CITATION.cff` - repository citation metadata.
-- `LICENSE-DOCS-CC-BY-4.0.txt` - documentation license.
-- `CHANGELOG.md` - public package history.
-- `MANIFEST_SHA256.txt` - checksum manifest for public files.
+- `README.md` — public repository landing page
+- `PAPER_INDEX.md` — paper-specific asset index
+- `REPO_MAP.md` — repository structure
+- `ATTRIBUTION.md` — authorship and origin language
+- `PRIVACY.md` — data protection and de-identification rules
+- `REGULATORY_BOUNDARY.md` — clinical, legal, and controlled-substance boundaries
+- `CITATION.cff` — citation metadata
+- `LICENSE-DOCS-CC-BY-4.0.txt` — documentation license
+- `CHANGELOG.md` — public package history
+- `MANIFEST_SHA256.txt` — checksum manifest
 
-## Publishing-Clean Manuscripts
+## Manuscripts
 
-- `manuscripts/paper1/final/` - Paper 1 clean DOCX/PDF and folder README.
-- `manuscripts/paper2/final/` - Paper 2 clean DOCX/PDF and folder README.
+- `manuscripts/paper1/final/` — Paper 1 publishing-clean manuscript
+- `manuscripts/paper2/final/` — Paper 2 publishing-clean manuscript
 
-## Supplementary Protocol Materials
+## Supplements
 
-- `supplements/paper2/final/` - Paper 2 reporting checklist, Schedule of Events, EEG schedule, APPRE data dictionary, and public form templates.
+- `supplements/paper2/final/` — Paper 2 checklists, schedules, form templates, and data dictionary
 
-## Release Records
+## Releases
 
-- `releases/paper1/final/` - Paper 1 release notes and checksums.
-- `releases/paper2/final/` - Paper 2 release notes and checksums.
+- `releases/paper1/final/` — Paper 1 release notes and checksums
+- `releases/paper2/final/` — Paper 2 release notes and checksums
 
 ## Archive
 
-- `archive/` - legacy or superseded repo assets if/when they are moved out of the public root. Archive content should remain clearly labeled as legacy and should not be treated as current.
+- `archive/paper1_legacy/` — legacy Paper 1 drafts and prior structure
+- `archive/paper2_legacy/` — legacy Paper 2 drafts and prior structure
+
+## Public Boundary
+
+The primary public citation path is the `manuscripts/*/final/`, `supplements/*/final/`, and `releases/*/final/` structure. Legacy archive folders are retained only for provenance.

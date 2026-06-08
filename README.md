@@ -1,34 +1,41 @@
-# RAY-VASC Regenerative Loop Research Program
+﻿# RAY-VASC Regenerative Loop Research Program
 
-**Originating researcher / author:** Logan Henderson  
+**Repository status:** Public research and protocol documentation repository  
+**Originating researcher / first author:** Logan Henderson  
+**Current public package:** Papers 1 and 2 publishing-clean manuscript package  
 **OSF project:** https://osf.io/y2h79/  
-**Repository purpose:** Public research documentation, protocol architecture, reproducibility assets, and open-science materials.
+**License for documentation:** CC BY 4.0  
 
 ## Purpose
 
-RAY-VASC Regenerative Loop is an open-source research program for studying complex neurovascular and mixed neurodegenerative-vascular disease through structured measurement, safety-gated protocols, caregiver-supported reporting, reproducible data schemas, and transparent open-science documentation.
+The RAY-VASC Regenerative Loop repository publishes open-source research architecture for studying complex neurovascular and mixed neurodegenerative-vascular disease using structured, reproducible, claim-disciplined protocols.
 
-The public package contains two publishing-clean manuscripts:
+The program is designed to make complex trajectories observable before making treatment claims. It focuses on feasibility, longitudinal measurement, safety monitoring, confounder annotation, caregiver-supported reporting, APPRE schema logic, serial EEG, synchronized biomarkers, and open-science reproducibility.
 
-| Paper | Locked title | Package status |
-|---|---|---|
-| Paper 1 | The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease | Publishing-clean framework manuscript |
-| Paper 2 | RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease | Publishing-clean protocol manuscript |
+This repository is not a treatment service, supplement protocol, clinical care pathway, psychedelic protocol, or commercial product repository.
+
+## Current Papers
+
+| Paper | Locked title | Status | Primary folder |
+|---|---|---|---|
+| Paper 1 | The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease | Publishing-clean manuscript | `manuscripts/paper1/final/` |
+| Paper 2 | RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease | Publishing-clean protocol manuscript | `manuscripts/paper2/final/` |
 
 ## Start Here
 
-- `PAPER_INDEX.md` - direct links to Paper 1 and Paper 2 assets.
-- `REPO_MAP.md` - folder map and file ownership.
-- `manuscripts/paper1/final/` - Paper 1 clean PDF and DOCX.
-- `manuscripts/paper2/final/` - Paper 2 clean PDF and DOCX.
-- `supplements/paper2/final/` - protocol supplement files, forms, schedule tables, and data dictionary.
-- `releases/paper1/final/` and `releases/paper2/final/` - release notes and checksums for the clean public package.
+- `PAPER_INDEX.md` — paper-specific asset index
+- `REPO_MAP.md` — repository structure
+- `manuscripts/paper1/final/` — Paper 1 publishing-clean DOCX/PDF
+- `manuscripts/paper2/final/` — Paper 2 publishing-clean DOCX/PDF
+- `supplements/paper2/final/` — protocol supplements, checklists, schedules, and data dictionary
+- `releases/paper1/final/` — Paper 1 release notes and checksums
+- `releases/paper2/final/` — Paper 2 release notes and checksums
 
 ## Research Boundary
 
-This repository is research documentation and protocol architecture only. It is not clinical care, medical advice, legal advice, a treatment recommendation, a supplement protocol, a psychedelic protocol, or a commercial treatment product.
+RAY-VASC is hypothesis-generating research architecture.
 
-The manuscripts and repository do not claim:
+The repository does not claim:
 
 - treatment efficacy
 - disease modification
@@ -40,18 +47,22 @@ The manuscripts and repository do not claim:
 - supplement efficacy
 - controlled-substance treatment efficacy
 
-Controlled-substance content, where referenced, is limited to high-level research-governance architecture and as-administered exposure documentation under lawful, clinician-governed, ethics-approved conditions. No sourcing, preparation, dosing, administration, or self-use instructions are provided.
+Controlled-substance content, where referenced, is limited to research-governance architecture. No sourcing, preparation, dosing, administration, or self-use instructions are provided.
 
-## Open Science and Governance
+## Registration and Governance
 
-External prospective subject data collection intended to contribute to generalizable knowledge requires appropriate ethics review, consent, privacy review, clinician oversight, and OSF preregistration or registration as applicable.
+The OSF project is available at: https://osf.io/y2h79/
 
-No raw clinical records, medical record numbers, full dates of birth, addresses, clinical screenshots, lab screenshots, imaging reports, or identifiable source documents are included in this public repository.
+OSF registration should precede any external prospective subject data collection intended to contribute to generalizable knowledge.
 
-## License
+External implementation requires local ethics review, IRB review, or formal determination as applicable.
 
-Documentation and manuscripts are released under CC BY 4.0 unless a journal, repository, or funder requires a different compatible publication license. Code, if added later, should be licensed separately and explicitly.
+## Public Data Boundary
 
-## Citation
+No raw clinical records, medical record numbers, full dates of birth, clinical screenshots, lab screenshots, imaging reports, or identifiable source documents belong in this public repository.
 
-See `CITATION.cff` for repository-level citation metadata. Paper-specific citation text is provided in `PAPER_INDEX.md`.
+Public repository materials are limited to manuscripts, protocols, forms, schemas, synthetic examples, analysis templates, release notes, and governance documentation.
+
+## Disclaimer
+
+This repository is for research planning, documentation, protocol architecture, and open-science reproducibility only. It is not clinical care, medical advice, legal advice, or a treatment recommendation.

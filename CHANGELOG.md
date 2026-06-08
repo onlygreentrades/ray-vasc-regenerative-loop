@@ -1,26 +1,16 @@
-# Changelog
+﻿# Changelog
 
-## Publishing-Clean Public Package - 2026-06-08
+## Publishing-Clean Public Package — Papers 1 and 2
 
-Published clean public package for Papers 1 and 2.
+This release establishes the public repository as a clean two-paper research package.
 
 Included:
 
-- Paper 1 publishing-clean PDF and DOCX.
-- Paper 2 publishing-clean PDF and DOCX.
-- Paper 2 supplement structure.
-- APPRE data dictionary.
-- Schedule of Events CSV.
-- EEG Schedule CSV.
-- Adverse-event, confounder, fall-event, and stack/legal-input templates.
-- Program-level README, paper index, repository map, attribution, privacy, regulatory boundary, citation metadata, license, and checksum manifest.
+- Paper 1 publishing-clean manuscript DOCX/PDF
+- Paper 2 publishing-clean manuscript DOCX/PDF
+- Paper 2 supplementary checklists, schedules, and form templates
+- Clean root README, Paper Index, and Repository Map
+- Public privacy, attribution, regulatory boundary, citation, and license files
+- SHA256 manifest
 
-Removed from public-facing metadata:
-
-- internal release-management wording
-- stale "pending" wording in folder READMEs
-- target-venue management language
-- corrupted script/heredoc text
-- stale manifest references to older editorial-gate files
-
-No raw clinical records or identifiable source documents are included.
+No raw clinical records, identifiers, clinical screenshots, lab screenshots, imaging reports, or identifiable source documents are included.
