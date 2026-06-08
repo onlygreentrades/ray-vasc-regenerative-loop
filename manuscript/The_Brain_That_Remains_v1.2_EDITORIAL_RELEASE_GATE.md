@@ -1,0 +1,1239 @@
+**The Brain That Remains:\
+A Framework for Neuroplasticity, Residual Capacity, and Open-Source
+Protocol Design in Complex Neurodegenerative Disease**
+
+Manuscript type: Hypothesis and Theory / Framework Paper
+
+Target venue: Frontiers in Neuroscience or equivalent
+
+Version: 1.2 editorial release gate
+
+Date: 2026-06-06
+
+First author / originating researcher: Logan Henderson
+
+Repository:
+[www.github.com/onlygreentrades/ray-vasc-regenerative-loop](http://www.github.com/onlygreentrades/ray-vasc-regenerative-loop)
+
+Changelog: v1.2 editorial release-gate pass tightens journal style,
+standardizes APPRE language, corrects section numbering, resolves
+table-order and cross-reference alignment, and preserves all scientific
+claims, governance boundaries, controlled-substance restrictions,
+attribution language, tables, and references.
+
+# Abstract
+
+Complex neurodegenerative and vascular phenotypes are rarely explained
+by a single failing pathway. Progressive supranuclear palsy, vascular
+cognitive impairment, Parkinsonian syndromes, traumatic brain injury
+burden, post-stroke decline, sleep disruption, inflammation, respiratory
+limitation, and social instability can interact as coupled biological
+systems. Existing evidence supports multidomain lifestyle intervention
+in cognitive-risk populations, emerging neuroplasticity mechanisms in
+psychedelic science, and early neurotrophic signals from selected
+functional mushrooms and related nutraceuticals. These evidence streams
+remain operationally fragmented. This paper proposes the Regenerative
+Loop + APPRE + RAY-VASC architecture as a testable open-source framework
+for studying residual adaptive capacity in complex neurodegenerative and
+vascular phenotypes. The framework integrates four daily biological
+loops - exertion, circadian timing, sleep/repair, and social safety -
+with a three-phase plasticity architecture: Pre-Load, Governed
+Plasticity Window, and Sustain/Integration. APPRE, the Algorithmic
+Personalization Predictive Response Engine, is defined here as a
+schema-and-rules framework for closed-loop measurement rather than a
+validated clinical decision system or AI product; it maps subject
+profile to inputs, outcomes, and updated response policy. RAY-VASC
+supplies the originating measurement spine but does not report clinical
+outcomes in this manuscript. The contribution is architectural: a
+reproducible, de-identified, open-source measurement system for staged
+testing from N-of-1 feasibility to case series, observational cohorts,
+pilot trials, and randomized trials. The framework is speculative and
+hypothesis-generating. It is designed to test coordinated measurement
+and adaptive personalization, not to claim treatment efficacy or disease
+reversal.
+
+Keywords: neuroplasticity; residual capacity; vascular cognitive
+impairment; progressive supranuclear palsy; APPRE; RAY-VASC; functional
+mycology; psilocybin; N-of-1; open-source protocol design
+
+# 1. Introduction
+
+Complex neurodegenerative disease has not yielded to single-factor
+models. Dementia prevention, vascular cognitive impairment, Parkinsonian
+syndromes, post-stroke decline, traumatic brain injury, sleep disorders,
+depression, respiratory limitation, metabolic risk, and inflammatory
+burden rarely occur in isolation. They accumulate, interact, and
+constrain one another. The practical failure is not only a lack of
+disease-modifying therapy; it is also a lack of reproducible
+architecture for measuring how multiple modifiable biological loops
+interact over time.
+
+The dominant clinical workflow often separates domains that the patient
+experiences as one system. A person with vascular injury, Parkinsonian
+features, impaired sleep, reduced mobility, mood disturbance, caregiver
+burden, and respiratory limitation does not live inside separate
+diagnostic compartments. Cognition changes with sleep. Gait changes with
+fatigue and breathing. Mood changes with isolation. Adherence changes
+with family structure. Biomarkers change with infection, medication
+changes, and metabolic instability. A framework that ignores these
+interactions risks misattributing signal, missing confounders, and
+overclaiming transient fluctuation.
+
+Multidomain intervention research already supports the premise that
+cognition is shaped by bundled lifestyle and vascular-risk modification
+rather than isolated inputs alone. The Finnish Geriatric Intervention
+Study to Prevent Cognitive Impairment and Disability (FINGER)
+demonstrated that a two-year multidomain intervention combining diet,
+exercise, cognitive training, and vascular-risk monitoring improved or
+maintained cognition in at-risk older adults (Ngandu et al., 2015).
+Eleven-year follow-up reporting indicates that long-term adherence to
+lifestyle changes and intervention engagement were associated with more
+favorable cognitive trajectories, although the 2025 source is
+conference-supplement reporting rather than the original trial
+publication (Ngandu et al., 2025). The U.S. POINTER randomized clinical
+trial extended the multidomain logic in a U.S. cohort by comparing
+structured and self-guided lifestyle interventions around physical
+activity, diet, cognitive engagement, social interaction, and
+cardiovascular risk monitoring (Baker et al., 2025).
+
+These trials do not prove the framework proposed here. They establish
+the precedent that complex brain aging is best studied through
+coordinated, measurable, multidomain systems. The next problem is not
+whether lifestyle matters; the next problem is how to measure
+individualized response, confounder stability, adaptive timing, and
+durable change in complex phenotypes where single-arm narratives can
+easily become unreliable.
+
+The missing layer is adaptive architecture. Rather than asking whether
+one intervention works for every subject, the RAY-VASC framework asks
+whether coordinated daily biological loops, a candidate neurotrophic
+Pre-Load phase, a lawful clinician-governed Plasticity Window, and
+structured longitudinal measurement can detect individual residual
+capacity. The core claim is deliberately narrow: The Regenerative Loop +
+APPRE + RAY-VASC architecture is designed to test whether coordinated
+daily biological loops and structured adaptive measurement can identify
+and amplify residual adaptive capacity in complex neurodegenerative and
+vascular phenotypes. It is not a treatment claim. It is a testable
+framework.
+
+This paper is a Hypothesis and Theory framework manuscript. It reports
+no new clinical outcomes, claims no vascular-lesion repair or
+neurodegeneration reversal, and provides no controlled-substance
+sourcing, preparation, dosing, administration, or self-use instructions.
+Its purpose is to establish a disciplined measurement architecture that
+qualified teams can test under appropriate clinical, ethics, and
+regulatory governance.
+
+# 2. The Residual Capacity Hypothesis
+
+The residual capacity hypothesis proposes that some measurable
+functional capacity may remain inaccessible under ordinary
+physiological, network, behavioral, or environmental conditions, even
+when structural disease is substantial. Structural loss refers to tissue
+injury, atrophy, infarction, synaptic loss, tauopathy, vascular injury,
+or neurodegenerative pathology. Functional accessibility refers to
+whether remaining networks can coordinate, route information, sustain
+attention, execute motor plans, regulate mood, and support adaptive
+behavior.
+
+This distinction is not a claim that destroyed tissue remains hidden and
+recoverable. It is a claim about network expressions. A brain with
+substantial injury may still exhibit state-dependent differences in
+function: better gait on days with better sleep, better attention after
+controlled exertion, worse processing speed during infection, more falls
+during medication transitions, or altered EEG connectivity after changes
+in arousal and stress load. These are not proof of disease reversal.
+They are measurable expressions of residual system capacity.
+
+The thalamus illustrates the concept. Thalamic pathology is increasingly
+recognized as relevant to cognition and dementia, and thalamocortical
+circuits support more than sensory relay; they participate in attention,
+cortical coordination, and cognitive control (Biesbroek et al., 2024;
+Halassa & Sherman, 2019). In vascular and mixed neurodegenerative
+phenotypes, thalamic, frontal, cerebellar, basal ganglia, and white
+matter systems may interact such that a strategic lesion can impair
+distributed routing beyond the local volume of tissue damage. Under this
+model, improving sleep, arousal, vascular stability, stress state, and
+motor engagement could affect the accessibility of remaining circuits
+without implying regeneration of lost tissue.
+
+Psychedelic neuroimaging and network studies add a second line of
+plausibility: brain network states can be acutely altered. Psilocybin
+has been associated with changes in large-scale functional integration,
+default-mode network dynamics, signal diversity, and topological
+properties of functional networks (Carhart-Harris et al., 2012; Petri et
+al., 2014). These findings support the general proposition that network
+state is modifiable. They do not establish recovery in PSP, vascular
+dementia, stroke injury, or TBI.
+
+RAY-VASC therefore separates three questions that are often collapsed in
+early-stage neuroplasticity claims. First, what tissue or network
+substrate remains? Second, under what physiological and behavioral
+conditions can that substrate express function? Third, can structured
+daily loops and adaptive measurement identify reproducible windows of
+improved function? Only the third question is addressed by this
+framework manuscript.
+
+# 3. The Regenerative Loop
+
+The Regenerative Loop is the daily enabling environment for
+residual-capacity testing. It contains four pillars: exertion, circadian
+timing, sleep/repair, and social safety. Each pillar has independent
+evidence and a plausible mechanism. The framework contribution is not
+that any pillar is new; it is that each pillar is treated as a
+measurable loop in a longitudinal adaptive system.
+
+Exertion is the strongest pillar. Physical activity and structured
+training can support vascular health, metabolic control, mood, sleep
+regulation, and BDNF-related neuroplasticity. Exercise interventions
+have been associated with increased BDNF in neurodegenerative
+populations, though effect size and clinical translation depend on
+population, modality, dose, adherence, and baseline impairment (Zhou et
+al., 2022). In the Regenerative Loop, exertion is not a generic wellness
+recommendation. It is an input variable: duration, intensity, functional
+tolerance, breathlessness, post-exertional fatigue, steps, falls, gait
+speed, and recovery time.
+
+The framework rejects one-size-fits-all exercise prescriptions in
+complex phenotypes. For one subject, the useful signal may be two
+minutes of safe assisted walking. For another, it may be resistance
+training, stationary cycling, balance therapy, or cognitive-motor
+dual-task practice. The hypothesis is not that exertion is universally
+safe or uniformly beneficial. The hypothesis is that carefully measured
+exertion supplies an adaptive demand signal that may reveal or improve
+functional accessibility when safely dosed and tracked.
+
+Circadian timing is the temporal gate. Light exposure, sleep-wake
+regularity, meal timing, activity timing, and daily routine shape the
+biological context in which attention, repair, mood, and adherence
+occur. Circadian disruption can distort every downstream measure. A
+subject tested after fragmented sleep, irregular light exposure,
+late-night stimulation, or inconsistent waking time may appear
+cognitively worse for reasons that are not disease progression.
+Therefore, circadian inputs are treated as measurement prerequisites and
+confounder controls.
+
+Sleep/repair is the maintenance phase. Sleep quality, sleep duration,
+sleep efficiency, obstructive sleep apnea treatment adherence when
+relevant, and periodic limb movement burden can directly affect
+cognition, mood, daytime movement, and biomarker interpretation. Human
+glymphatic research now supports a pathway by which amyloid beta and tau
+can clear from the brain to plasma, strengthening the biological
+rationale for sleep as a measurement and intervention priority (Winer et
+al., 2026). In RAY-VASC, sleep is not merely an outcome; it is also a
+confounder and gatekeeper for interpretation.
+
+Social safety is the adherence and stress-buffering pillar. Social
+connection, emotional safety, caregiver support, meaningful interaction,
+low-threat routines, and stable daily assistance may reduce chronic
+stress load and protect adherence. Social isolation is treated as a
+modifiable dementia risk factor in major prevention frameworks, and
+systematic review evidence has linked social relationship factors with
+dementia risk (Kuiper et al., 2015; Livingston et al., 2024). In this
+framework, social safety is measured because unsupported protocols fail
+operationally even when the biological theory is plausible.
+
+The loop model matters because each pillar can amplify or constrain the
+others. Poor sleep reduces exertion tolerance. Respiratory limitation
+reduces activity. Isolation reduces adherence. Circadian disruption
+worsens sleep and mood. The Regenerative Loop is therefore not a list of
+lifestyle tips. It is a control system for reducing noise, improving
+feasibility, and creating a stable biological context in which
+mechanistic hypotheses can be tested.
+
+# 4. Multidomain Precedent and the Design Gap
+
+The strongest foundation for this framework comes from the multidomain
+prevention literature. The FINGER study demonstrated that diet,
+exercise, cognitive training, and monitoring of vascular risks can be
+integrated into a structured program with specific cognitive outcomes
+(Ngandu et al., 2015). The U.S. POINTER study expanded on this concept
+in a larger trial in the United States, showing that a structured
+multidomain lifestyle intervention can be compared to a self-guided
+version, using global cognitive function as the main outcome measure
+(Baker et al., 2025). These studies signal a shift in the field away
+from single-factor prevention approaches.
+
+However, multidomain intervention success creates a new design gap. Once
+multiple inputs are bundled, attribution becomes more difficult. Which
+components matter? Which subjects respond? Which confounders dominate?
+Which signals are transient, durable, or measurement artifacts? A
+conventional group-level trial can estimate average effect, but it can
+miss individualized trajectories, threshold effects, adherence patterns,
+and interaction effects across sleep, exertion, mood, vascular risk, and
+social structure.
+
+RAY-VASC addresses this gap by treating multidomain intervention as a
+staged, measurable system rather than a fixed lifestyle package. It
+begins with feasibility and baseline stabilization. It records
+confounders before interpreting change. It separates lawful,
+clinician-governed Plasticity Window exposures from legal daily inputs.
+It uses modular measurement so that a home-based N-of-1 study, a case
+series, and a multi-site pilot can share the same data logic even when
+resources differ.
+
+The design gap is also translational. Psychedelic science has produced
+mechanistic and psychiatric evidence, but most studies are not designed
+for complex mixed neurodegenerative and vascular phenotypes. Mycology
+and nutraceutical research contain candidate mechanisms but limited
+standardization and uneven human evidence. Lifestyle intervention
+research is stronger but often not individualized at high temporal
+resolution. APPRE is proposed as the adaptive layer that connects these
+streams without overclaiming any one of them.
+
+The contribution of this paper is therefore an operational synthesis: a
+framework that can absorb strong evidence where it exists, flag weak
+evidence where it remains early, and convert both into testable protocol
+layers.
+
+# 5. Framework Claim Boundary
+
+This manuscript uses a strict claim boundary. The framework is designed
+to test residual adaptive capacity, not to prove that any intervention
+treats PSP, vascular dementia, Alzheimer's disease, stroke injury,
+traumatic brain injury, COPD, depression, or any other condition. It is
+not clinical guidelines. It is not a supplement protocol. It is not a
+psychedelic protocol. It is a measurement architecture.
+
+Publishable claims are limited to architecture, plausibility, and
+testability. Examples include: the framework organizes staged
+measurement; the Pre-Load phase can be tested without entering Phase 2;
+APPRE can structure repeated measurement and response-policy updates;
+and candidate mycology inputs may be studied as a neurotrophic substrate
+under standardized, safety-gated conditions. These statements are
+testable and bounded.
+
+## 5.1 Publishable Claims Included in This Manuscript
+
+- The framework organizes staged measurement around Pre-Load, Governed
+  Plasticity Window, and Sustain/Integration phases.
+
+- The Pre-Load phase can be tested independently without controlled
+  substance exposure.
+
+- APPRE provides an auditable structure for repeated measurement,
+  confounder annotation, and response-policy updates.
+
+- Candidate legal mycology and nutraceutical inputs may be studied as
+  standardized, safety-gated neurotrophic-support variables.
+
+- Published psilocybin clinical-trial ranges can be cited for scientific
+  transparency when clearly separated from self-use guidance and
+  restricted to clinician-governed research contexts.
+
+## 5.2 Non-Publishable Claims Excluded from This Manuscript
+
+Non-publishable claims are excluded. The manuscript does not claim to
+repair brain damage, reverse dementia, cure PSP, restore infarcted
+tissue, regenerate thalamic circuits, or guarantee cognitive recovery.
+It does not claim that psilocybin treats neurodegenerative disease. It
+does not claim that functional mushrooms are disease-modifying
+therapies. Any such claims would require controlled human trials and
+regulatory review.
+
+## 5.3 Controlled-Substance Content Restriction
+
+Controlled-substance use is limited to high-level research design,
+safety monitoring, and documentation of exposure under lawful clinician
+oversight. There are no instructions for sourcing, preparation, dosing,
+administration, or self-use. APPRE is explicitly prohibited from
+adjusting controlled-substance dosing outside formal governance.
+
+# 6. The Three-Phase Plasticity Architecture
+
+The three-phase plasticity architecture is the core operational
+contribution of this paper. It organizes the framework as a temporal
+sequence with distinct measurement objectives and safety gates at each
+stage: Phase 1 Pre-Load, Phase 2 Governed Plasticity Window, and Phase 3
+Sustain/Integration.
+
+This architecture allows staged hypothesis testing. Phase 1 feasibility
+can be tested without ever entering Phase 2. If Phase 2 is legally and
+clinically accessible, its effects can be measured against the Pre-Load
+baseline. Phase 3 tests whether observed changes persist beyond the
+intervention window. This staged approach prevents the framework from
+depending on any controlled-substance layer and preserves scientific
+value even when Phase 2 is unavailable.
+
+## 6.1 Phase 1: Pre-Load
+
+Pre-Load is the preparation and stabilization phase. Its purpose is to
+establish whether the subject is stable enough to interpret the signal.
+It includes sleep stabilization, exertion tolerance assessment,
+circadian regularity, social safety, vascular monitoring, respiratory
+monitoring, medication stability, adverse-event tracking, and
+standardized legal candidate inputs such as functional mycology or
+neuroprotective nutraceuticals, where clinically appropriate. The
+Pre-Load phase does not attempt to prove treatment efficacy. It asks
+whether the measurement system works, whether inputs can be
+standardized, whether confounders can be identified, and whether any
+signal is visible beyond baseline variance.
+
+Pre-Load also serves as a safety gate. Acute infection, recent falls,
+medication changes, unstable sleep, respiratory instability, severe
+stress events, or inconsistent adherence can invalidate interpretation.
+Rather than hiding these realities, the framework captures them. A
+failed Pre-Load phase is not a failed study; it is evidence that the
+subject or setting is not yet ready for mechanistic interpretation.
+
+## 6.2 Phase 2: Governed Plasticity Window
+
+The Governed Plasticity Window is optional. It may include psychedelic
+or controlled-substance variables only where legal, medically
+supervised, and governed by institutional, jurisdictional, and ethical
+requirements. In this framework, Phase 2 refers to
+clinician-administered therapeutic-intensity psilocybin exposure
+designed to test acute and subacute changes in network organization,
+mood, cognition, motor function, biomarkers, and safety. Phase 2 is not
+microdosing and is not self-administered or APPRE-tuned exposure.
+
+The purpose of Phase 2 is not to prescribe exposure. It is to define
+what must be measured if exposure occurs under lawful governance:
+safety, tolerability, acute adverse events, subacute outcome change,
+biomarker timing, EEG timing, psychometric timing, and confounder
+stability. Published clinical protocols and safety reviews are cited
+only to establish that psilocybin has been evaluated under controlled
+therapeutic conditions; they are not included here as public dosing
+instructions (Davis et al., 2021; Garcia-Romeu et al., 2021; Goodwin et
+al., 2022; MacCallum et al., 2022).
+
+## 6.3 Phase 3: Sustain/Integration
+
+Sustain/Integration is the durability phase. It tests whether observed
+changes persist, decay, or depend on continued support. This phase
+emphasizes sleep consistency, exertion progression, social support,
+adverse-event surveillance, confounder review, and repeated measurement.
+Acute change is less important than trajectory. A framework that cannot
+distinguish transient state change from durable functional change is not
+clinically or scientifically useful.
+
+Phase 3 is also where regression is measured rather than ignored. If
+cognition improves for two weeks and returns to baseline, that is a
+finding. If motor function improves only when sleep improves, that is a
+finding. If mood improves but biomarkers do not move, that is a finding.
+The architecture is designed so that negative, mixed, or partial results
+refine the model rather than collapse the project.
+
+# 7. The Mycology + Psilocybin Synergy Hypothesis
+
+The mycology convergence layer is the most novel and least proven human
+component of the framework. It must therefore be stated carefully.
+RAY-VASC proposes that selected legal functional mushrooms and
+neuroprotective compounds may serve as a candidate neurotrophic
+substrate for the Pre-Load and Sustain phases. This is not a treatment
+stack. It is not a clinical recommendation. It is a structured
+hypothesis space for future testing.
+
+The convergence hypothesis is that multiple legal candidate inputs may
+support a measurable biological context for adaptive change by
+converging on neurotrophic, cholinergic, antioxidant, mitochondrial,
+membrane-support, and anti-inflammatory pathways. The mechanistic target
+is not one compound. It is the measured system state before, during, and
+after an intervention window.
+
+Lion's Mane (Hericium erinaceus) is included as a candidate neurotrophic
+input because hericenones and erinacines have been studied for
+NGF-related activity, and Mori et al. reported cognitive-score
+improvement in a small MCI trial, with loss of benefit after
+discontinuation (Mori et al., 2009). Modern human evidence remains
+limited and mixed, including healthy-adult studies with narrower or
+domain-specific findings (Surendran et al., 2025). Therefore, Lion's
+Mane is framed as Evidence Grade C for human MCI outcomes and B for
+preclinical plausibility, not as a proven dementia treatment.
+
+Bacopa monnieri is included as a candidate cognitive and
+cholinergic-support input because meta-analytic evidence suggests
+possible benefits for attention or memory domains, while
+disease-specific evidence in PSP, vascular dementia, and post-stroke
+cognitive impairment remains limited (Kongkeaw et al., 2014). NAC is
+included as an antioxidant and glutathione-support candidate because
+oxidative stress, inflammation, mitochondrial dysfunction, and
+tau-related pathways are relevant to neurodegeneration; however,
+clinical disease-modification evidence remains unproven (Hara et al.,
+2017; Lomeli Martinez et al., 2025).
+
+Cordyceps and Reishi are retained only as lower-evidence mechanistic
+candidates. Cordyceps are framed around mitochondrial and energetic
+context. Reishi is framed around an immune-modulatory and
+inflammation-adjacent context. Neither should be described as proven to
+alter neurodegenerative disease trajectories. In any future
+implementation, batch documentation, standardized form, adverse-event
+tracking, medication interaction review, and adherence capture are
+required before outcome interpretation.
+
+In this framework, psilocybin belongs only in Phase 2 and only under
+lawful clinician- or IRB-governed conditions. Preclinical studies
+indicate that psychedelics can promote structural plasticity, and
+experimental research has shown that psilocin and other psychedelics can
+directly bind to TrkB in controlled settings (Ly et al., 2018; Moliner
+et al., 2023; Shao et al., 2021). Review literature in Alzheimer's
+disease supports continued investigation into neuroplasticity,
+neuroinflammation, and network-level mechanisms, but clinical evidence
+in Alzheimer's disease remains preliminary (Zheng et al., 2024).
+
+Human evidence is strongest in psychiatric indications such as
+treatment-resistant depression, with neurological evidence still early
+and primarily open-label, observational, narrative-review, or
+preclinical. Bradley et al. reported feasibility and tolerability in a
+small open-label Parkinson's disease pilot. Blest-Hopley et al. reported
+observational mental-health and EEG changes in veterans with TBI
+histories after retreat participation. Palmer et al. reviewed potential
+mechanisms in TBI, and Brengel et al. reported preclinical repetitive
+mild head-injury findings in a bioRxiv preprint (Blest-Hopley et al.,
+2025; Bradley et al., 2025; Brengel et al., 2025; Palmer et al., 2025).
+These findings are hypothesis-generating, not causal proof for complex
+neurodegenerative disease.
+
+The synergy hypothesis is as follows: if Phase 1 can measurably improve
+a subject's neurotrophic, inflammatory, sleep, respiratory, and
+behavioral readiness state, then a lawful clinician-governed Phase 2
+exposure may produce a more detectable and durable downstream signal
+than either layer alone. This has not been clinically validated. It is
+the central hypothesis to be tested. Phase 3 then asks whether any
+observed signal persists under continued Regenerative Loop support.
+
+The most important discipline is claiming separation. Mycology can be
+APPRE-tunable only when legal, non-controlled, clinically appropriate,
+and safety-gated. Controlled substances are never APPRE-tuned outside
+formal governance; they are recorded as clinician-governed or
+as-administered exposure variables only.
+
+Table 1. Candidate Mycology and Governed Plasticity Convergence Map
+
+| **Candidate input** | **Proposed biological rationale** | **Convergence target** | **Evidence grade and claim boundary** |
+|----|----|----|----|
+| Lion's Mane (Hericium erinaceus) | Hericenones/erinacines; NGF-like neurotrophic activity; limited human MCI signal; stronger preclinical rationale. | NGF/BDNF context, neurite outgrowth, synaptic support. | C human MCI; B preclinical. Candidate substrate only. |
+| Bacopa monnieri | Cholinergic support, possible AChE inhibition, memory/attention meta-analytic signal. | Cholinergic tone + BDNF-adjacent cognition pathway. | B/C. Not proven for PSP, vascular dementia, or stroke recovery. |
+| N-acetylcysteine (NAC) | Glutathione support; oxidative-stress and inflammatory-pathway rationale; AD-focused review literature. | Oxidative stress, neuroinflammation, mitochondrial context, tau-phosphorylation hypothesis. | B/C for adjacent AD review evidence. Safety and interaction review required. |
+| Cordyceps spp. | Mitochondrial/energetic and adenosine-linked preclinical mechanisms. | Energetic substrate for repair and exertion tolerance. | C/D. Limited disease-specific human evidence. |
+| Reishi (Ganoderma lucidum) | Triterpenes and polysaccharides; immune modulation and anti-inflammatory preclinical rationale. | Permissive inflammatory environment for adaptation. | C/D. Not proven neurodegenerative therapy. |
+| Psilocybin (Phase 2 only) | 5-HT2A signaling plus direct TrkB binding in preclinical systems; human psychiatric evidence; early neurological pilots. | BDNF/TrkB, mTOR, PSD-95, dendritic spines, network dynamics. | B for TRD psychiatric evidence; C/D for neurological/TBI translation. Clinician-governed only. |
+
+**Table 2. Expanded Modular Measurement Architecture**
+
+| **Measurement Tier** | **Domain** | **Instrument/Tool** | **Tier 1 (N-of-1 Feasibility)** | **Tier 2 (Cohort/Standardization)** | **Tier 3 (Pilot RCT Readiness)** |
+|----|----|----|----|----|----|
+| Cognition | Global cognition | MoCA | Daily/weekly self-report + baseline/endpoint MoCA | Blinded rater MoCA | Full neuropsych battery |
+|  | Executive function | Stroop, Trails B | Optional | Baseline + quarterly | Baseline + monthly + endpoint |
+|  | Processing speed | Digit Symbol Substitution | Optional | Baseline + quarterly | Baseline + endpoint |
+| Motor | Gait/balance | Timed Up-and-Go, steps/day | Daily steps + weekly TUG | Wearable actigraphy + monthly TUG | Wearable + video-recorded TUG |
+|  | Parkinsonian signs | MDS-UPDRS Part III | Baseline + endpoint | Baseline + monthly | Baseline + biweekly + endpoint |
+| Mood | Depression | PHQ-9 | Weekly | Weekly | Weekly + blinded clinician rating |
+|  | Anxiety | GAD-7 | Weekly | Weekly | Weekly + blinded clinician rating |
+| Sleep | Efficiency | Sleep diary | Daily | Daily + actigraphy | Daily + actigraphy + PSG if indicated |
+|  | OSA/PLMD | CPAP adherence, PLMD severity | Self-report + device download | Device download monthly | Device download + repeat PSG if clinically indicated |
+| Respiratory | Breathlessness | mMRC Dyspnea Scale | Weekly | Weekly + spirometry baseline | Weekly + spirometry quarterly |
+|  | Exertion tolerance | 6-minute walk test | Optional baseline | Baseline + quarterly | Baseline + monthly + endpoint |
+| Vascular/Metabolic | Blood pressure | Home BP monitoring | Daily | Daily + quarterly clinic BP | Daily + quarterly clinic BP |
+|  | Glycemic control | A1c | Baseline + endpoint | Baseline + quarterly | Baseline + quarterly |
+| Biomarkers | Neurotropic | BDNF serum | Optional | Baseline + endpoint | Baseline + post-Phase 2 + endpoint |
+|  | Inflammatory | hs-CRP | Optional | Baseline + endpoint | Baseline + quarterly |
+|  | Neurodegenerative | p-tau217, NfL | Optional | Baseline + endpoint | Baseline + post-Phase 2 + endpoint |
+| EEG | Network dynamics | Resting-state EEG, alpha/beta coherence, P300 | Optional | Baseline + endpoint | Baseline + post-Phase 2 + endpoint |
+| Adverse Events | Safety | AE log, falls, infections, med changes | Daily | Daily + centralized review | Daily + independent safety monitor |
+| Adherence | Protocol fidelity | Input log, dose timing, confounder annotation | Daily | Daily + adherence algorithm | Daily + blinded adherence audit |
+
+The RAY-VASC protocol employs a modular intervention stack organized by
+evidence strength, governance requirements, and temporal phase. Phase 1
+(Pre-Load) and Phase 3 (Sustain/Integration) inputs are legal,
+non-controlled, and APPRE-tunable within safety constraints. Phase 2
+(Governed Plasticity Window) is defined by a clinician-administered
+therapeutic-intensity psilocybin session under lawful governance or
+ethics-approved research settings and is never algorithmically tuned.
+Optional low-level psilocybin exposure, where lawful and
+clinician-governed, may be recorded in Phase 1 or Phase 3 as an
+as-administered observational variable, but it does not constitute the
+Plasticity Window itself. Table 3 specifies candidate non-controlled
+input ranges derived from published clinical trials, safety reviews, and
+preclinical mechanistic studies, with explicit rationale for each
+candidate. Controlled-substance exposure fields are documented only as
+clinician- or program-administered, as-administered data. Actual
+implementation requires medication interaction review, adverse-event
+monitoring, adherence tracking, and confounder annotation as specified
+in Section 10 (Measurement Architecture).
+
+Published psilocybin clinical protocols identify therapeutic-intensity
+sessions using synthetic psilocybin under clinician-supervised research
+conditions, including weight-adjusted approaches in the range of 20-30
+mg/70 kg and fixed-dose models centered on 25 mg synthetic psilocybin
+(Davis et al., 2021; Garcia-Romeu et al., 2021; Goodwin et al., 2022).
+The RAY-VASC framework uses these published ranges only to classify
+Phase 2 as a therapeutic-intensity governance category, not as a dosing
+instruction and not as a recommendation for any individual subject.
+Because biological material varies substantially in active alkaloid
+content, the public manuscript does not convert synthetic clinical-trial
+doses into dried-mushroom gram equivalents and does not specify a
+subject-level dose. Numeric values are cited from published clinical
+literature for scientific transparency; they do not constitute sourcing,
+preparation, administration, or self-use guidance. Any Phase 2 exposure
+is clinician-administered, lawful, ethics-governed, and recorded as
+as-administered data only.
+
+**Table 3. RAY-VASC Candidate Intervention Stack - Dosing, Evidence
+Grades, and Governance**
+
+| **Category** | **Ingredient** | **Daily Dose Range** | **Evidence Grade** | **Rationale / Claim Boundary** | **Governance Layer** |
+|----|----|----|----|----|----|
+| Core Mycology (Phase 1 & 3) | Lion's Mane | 500-1000 mg/day | C (human MCI); B (preclinical) | Candidate neurotrophic substrate supporting NGF/BDNF-related neurite growth, axon/dendrite remodeling, and myelination hypotheses. Dose range mapped from small human MCI trials and preclinical safety/plausibility literature. Not a proven dementia, PSP, stroke, or TBI treatment. | Legal, non-controlled input. APPRE-tunable only within safety gates; requires batch documentation, medication review, adherence capture, and adverse-event monitoring. |
+| Core Mycology (Phase 1 & 3) | Cordyceps | 500-1000 mg/day | C-D | Candidate energetic and respiratory-support substrate for fatigue, COPD-adjacent exertion tolerance, and post-stroke deconditioning hypotheses. Human evidence remains limited and not disease-modifying. | Legal, non-controlled input. APPRE-tunable with renal/hepatic safety review and batch documentation. |
+| Core Mycology (Phase 1 & 3) | Reishi | 500-1500 mg/day | C-D | Candidate immune-modulatory and anti-inflammatory substrate. Not proven neurodegenerative therapy. | Legal, non-controlled input. APPRE-tunable with medication interaction and adverse-event monitoring. |
+| Neuroprotective Layer (Phase 1 & 3) | Bacopa monnieri | 300-600 mg/day | B-C | Candidate cholinergic support and memory/attention input. Meta-analytic evidence supports cognitive domains; disease-specific evidence (PSP, vascular dementia, stroke) remains limited. | Legal, non-controlled input. APPRE-tunable with GI tolerance and medication interaction review. |
+| Neuroprotective Layer (Phase 1 & 3) | Citicoline | 500-1000 mg/day | B | Candidate membrane, phospholipid, acetylcholine, and mitochondrial-support input. Rationale is stroke-adjacent functional recovery and cognitive-support literature, not proof of PSP or vascular dementia reversal. | Legal, non-controlled input. APPRE-tunable with medication review and adverse-event monitoring. |
+| Neuroprotective Layer (Phase 1 & 3) | NAC | 600 mg twice daily | B-C | Candidate glutathione-support, oxidative-stress, inflammatory, mitochondrial, and tau-adjacent input. Evidence supports mechanistic plausibility and limited clinical signals; disease modification remains unproven. | Legal, non-controlled input. APPRE-tunable with renal function, medication interaction, GI tolerance, and adverse-event monitoring. |
+| Neuroprotective Layer (Phase 1 & 3) | Melatonin | 3-10 mg at bedtime | B-C | Candidate sleep/circadian gate and neuroprotective-support input. Dose range is titrated to individual sleep response and tolerability; not a disease-modifying claim. | Legal, non-controlled input. APPRE-tunable with next-day sedation, fall risk, dream disturbance, and sleep metric monitoring. |
+| Neuroprotective Layer (Phase 1 & 3) | Alpha-Lipoic Acid | 600 mg/day | D (preclinical) | Candidate mitochondrial and antioxidant-support input. Stroke and neurorestoration rationale is primarily preclinical; human dose anchoring is extrapolated from adjacent neuropathy literature. | Legal, non-controlled input. APPRE-tunable only with glucose, renal, hepatic, and medication interaction review. |
+| Neuroprotective Layer (Phase 1 & 3) | Curcumin | 90-180 mg/day (bioavailable formulation) | C-D | Candidate anti-inflammatory and oxidative-stress input. Bioavailable formulation is specified because absorption limits ordinary curcumin interpretation. Evidence remains adjunctive, not disease-modifying. | Legal, non-controlled input. APPRE-tunable with bleeding-risk, GI tolerance, and medication interaction monitoring. |
+| Neuroprotective Layer (Phase 1 & 3) | Phosphatidylserine (DHA-PS preferred) | 300 mg/day | B | Candidate neuronal membrane integrity and cognitive-support input. Dose mapped from published cognitive trials; not proven for PSP or vascular dementia. | Legal, non-controlled input. APPRE-tunable with bleeding-risk review and batch documentation. |
+| Neuroprotective Layer (Phase 1 & 3) | Omega-3 (EPA+DHA) | 1000-2000 mg/day | B | Candidate vascular, anti-inflammatory, and membrane-support input. Cardiovascular and cognitive-support evidence is stronger than disease-specific neurodegenerative evidence. | Legal, non-controlled input. APPRE-tunable with bleeding-risk and GI tolerance monitoring. |
+| Neuroprotective Layer (Phase 1 & 3) | Vitamin D3 | 2000-4000 IU/day | B | Candidate immune, inflammatory, mood, and bone-health support. Dose titrated to 25-OH vitamin D serum level targets (30-50 ng/mL). | Legal, non-controlled input. APPRE-tunable with serum monitoring and hypercalcemia safety review. |
+| Neuroprotective Layer (Phase 1 & 3) | B-Complex | Standard multivitamin B-complex | B | Candidate methylation, homocysteine, and neuroprotective-support input. B6, B9, B12 are emphasized. | Legal, non-controlled input. APPRE-tunable with baseline B12/homocysteine monitoring. |
+| Phase 2 Governed Plasticity Window | Psilocybin | 20-30 mg/70 kg synthetic psilocybin (published clinical-trial range; Davis et al., 2021; Garcia-Romeu et al., 2021; Goodwin et al., 2022) | A (psychiatric RCTs for TRD/MDD); C-D (neurological translation) | Candidate neuroplasticity, network-dynamics, and 5-HT2A + TrkB-binding input. Published clinical-trial dosage ranges are cited for scientific reference only. Dried-mushroom gram equivalents are NOT provided due to alkaloid variability across biological material. Not a prescription, self-use instruction, or dosing recommendation. Neurological evidence (PSP, vascular dementia, TBI, stroke) remains early-stage, open-label, and hypothesis-generating. | Controlled-substance layer. Clinician-governed only; lawful jurisdiction and ethics approval required. Not APPRE-tunable. Recorded as clinician-administered, as-administered exposure data only. No sourcing, preparation, or self-administration instructions. |
+| Optional Phase 3 Observational Field | Low-level psilocybin exposure (if lawful and clinician-governed) | As-administered only; no public dosing range | E-C | Optional observational field for lawful clinical programs. Not required for Phase 3. Evidence Grade E-C reflects limited human evidence for low-frequency neurological dosing. | Controlled-substance layer. Clinician-governed only. Not APPRE-tunable. No public dosing instructions. |
+
+## 7.1 Table 3 Governance Notes
+
+1\. Phase 1 and Phase 3 inputs are legal, non-controlled, and
+APPRE-tunable within safety constraints. Phase 2 is defined by
+clinician-administered therapeutic-intensity psilocybin exposure under
+lawful governance.
+
+2\. Psilocybin clinical-trial reference note: Published synthetic
+psilocybin clinical-trial dosages (20-30 mg/70 kg and 25 mg fixed-dose
+context) are cited from peer-reviewed clinical literature for scientific
+transparency and governance framing (Davis et al., 2021; Garcia-Romeu et
+al., 2021; Goodwin et al., 2022). These values are not instructions for
+sourcing, preparation, administration, or self-use.
+
+3\. Dried-mushroom gram equivalents are intentionally excluded because
+alkaloid content, including psilocybin, psilocin, and related
+tryptamines, varies substantially across biological material,
+cultivation conditions, harvest timing, storage, and preparation
+methods.
+
+4\. Optional low-level Phase 3 psilocybin exposure is an as-administered
+observational field for lawful clinical programs only. Phase 3 does not
+require psilocybin. Core Phase 3 inputs are non-controlled mycology,
+neuroprotective candidates, and Regenerative Loop support.
+
+5\. APPRE tuning applies only to legal, non-controlled inputs and
+implementation variables such as timing, adherence support, safety
+gates, and confounder response. Controlled substances are never
+algorithmically tuned; they are recorded as fixed clinician-governed
+exposure variables.
+
+Controlled-substance note: Phase 2 is a governed therapeutic-intensity
+exposure window, not microdosing. Published synthetic psilocybin
+clinical-trial values are cited for context, transparency, and safety
+framing only. Dried-mushroom gram equivalents are excluded. Any
+controlled-substance exposure must be clinician- or
+program-administered, lawful, ethics-governed, and recorded as
+as-administered data only. This manuscript provides no sourcing,
+preparation, administration, or self-use instructions.
+
+# 8. APPRE - The Closed-Loop Engine
+
+APPRE stands for Algorithmic Personalization Predictive Response Engine.
+In this paper, APPRE is a schema-and-rules framework for closed-loop
+measurement and adaptive protocol refinement, not a validated clinical
+decision system or AI product.
+
+The APPRE loop is: Subject Profile -\> Inputs -\> Outcomes -\> Updated
+Response Policy. A static protocol assigns the same intervention to
+everyone; APPRE assumes heterogeneity. It asks which legal input, at
+which time, in which subject profile, and under which confounder
+conditions produces a reproducible signal. The first goal is not
+machine-learning complexity. The first goal is clean data integrity:
+standardized inputs, clear timestamps, adverse-event capture, confounder
+flags, and reproducible analysis notebooks.
+
+The subject profile includes baseline diagnosis, age, sex, vascular
+risk, sleep status, respiratory status, medication list, functional
+level, cognitive baseline, mood burden, caregiver support, nutritional
+status, biomarker profile, where available, and relevant safety
+constraints. Inputs include daily loop variables, legal candidate
+mycology or nutraceutical inputs, therapy exposure, sleep interventions,
+activity load, social engagement, and clinician-governed exposures when
+present. Outcomes include cognition, motor function, mood, sleep,
+respiratory burden, adverse events, biomarkers, EEG, and daily function.
+
+APPRE operates through six release-gated rules:
+
+1\. Tune one legal variable at a time where feasible.
+
+2\. Prespecify baseline windows before interpretation.
+
+3\. Annotate or exclude confounded intervals.
+
+4\. Define provisional effect-size thresholds, such as a
+framework-defined and unvalidated 0.3 SD signal threshold.
+
+5\. Apply washout or anti-tolerance cycling only to legal,
+non-controlled inputs where biologically and clinically appropriate.
+
+6\. Treat safety overrides as superior to signal detection.
+
+APPRE can support N-of-1 crossover blocks, repeated-measures time
+series, case-series aggregation, and later cohort-level modeling. In the
+earliest stage, APPRE is a spreadsheet-and-schema discipline. At scale,
+it could become a software layer, but it should not be described as
+artificial intelligence until predictive performance is validated.
+Before prediction comes reproducibility.
+
+## 8.1 APPRE Adaptive Logic Examples
+
+1\. If sleep efficiency improves and cognition improves while exertion
+remains low, the response policy can prompt safe exertion progression
+under the appropriate clinical or caregiver safety constraints.
+
+2\. If mood worsens during a respiratory exacerbation, APPRE flags the
+respiratory event as a confounder and prevents premature interpretation
+of mood change as intervention failure.
+
+3\. If adherence drops during a family crisis or caregiver transition,
+APPRE records the social-safety breakdown rather than attributing
+outcome regression to biological failure.
+
+4\. If a legal input produces repeated adverse effects or worsens fall
+risk, safety overrides signal detection, and the input is paused,
+discontinued, or referred back for clinician review.
+
+APPRE is designed to be transparent and auditable. Every input, output,
+decision rule, and confounder annotation is logged. The goal is not to
+create a black-box algorithm. The goal is to create a reproducible
+measurement system that can scale from N-of-1 to cohort to RCT without
+losing the capacity to detect individual response.
+
+The framework also rejects optimization without boundaries. Human
+systems do not have a single objective function. A subject's best week
+is not necessarily the week with the highest exertion, lowest PHQ-9,
+highest HRV, or fastest TUG. A clinically meaningful response policy
+must balance cognition, mobility, mood, sleep, respiratory burden,
+adverse events, caregiver load, and feasibility. APPRE is therefore a
+satisficing engine: it seeks safe, repeatable improvement across
+multiple goals rather than a single maximized metric.
+
+# 9. RAY-VASC: From Originating Case to Open-Source Architecture
+
+RAY-VASC (Residual Adaptive Vascular And Stroke Capacity) is the
+originating case framework that motivated this architecture. It began as
+a single-subject N-of-1 observational protocol for a 66-year-old male
+with progressive supranuclear palsy (PSP), vascular dementia with
+vascular injury, Parkinsonism, sleep disruption, respiratory risk,
+recurrent confounder burden, and functional decline. The case is not
+reported here because this is a framework manuscript, not a case report.
+However, the measurement spine, confounder discipline, three-phase
+logic, and APPRE structure were developed to address the operational
+challenge of studying a complex, multi-system phenotype in a real-world
+setting with limited resources and family-led documentation support.
+
+As a public framework, RAY-VASC is a longitudinal observational protocol
+for tracking cognitive, motor, mood, sleep, respiratory, vascular,
+biomarker, EEG, adverse-event, nutritional-status, medication-change,
+and confounder data in post-stroke vascular dementia, vascular
+Parkinsonism, PSP-adjacent, and COPD-adjacent phenotypes. It is designed
+to be feasible, reproducible, and scalable from home-based N-of-1
+studies to multi-site cohorts.
+
+Authorization for public attribution to Raymond Hornsby is on file dated
+2026-06-06. Christine A. Hood is acknowledged for family authorization
+and care coordination support. All identifying clinical data remains
+private and is not published in this manuscript. Only the de-identified
+measurement framework is shared.
+
+RAY-VASC functions here as the originating protocol spine. Its value is
+architectural: it forced the integration of cognitive, motor, mood,
+sleep, respiratory, vascular, biomarker, EEG, adverse-event, adherence,
+nutritional-status, and confounder measurement into one practical
+system. The same spine can be used without naming or exposing any
+patient.
+
+# 10. Measurement Architecture
+
+As summarized in Table 2, the measurement architecture is modular,
+allowing implementation in layers based on setting, resources, and study
+maturity. Core measures establish feasibility. Biomarkers and EEG add
+mechanistic depth. Wearables provide continuous validation. The goal is
+not maximal data collection at the start; the goal is reliable data
+capture that can survive daily life.
+
+Tier 1 is N-of-1 feasibility: cognition, motor, mood, sleep,
+respiratory/vascular basics, adherence, adverse events, and confounders.
+Tier 2 is case-series or observational-cohort expansion: add biomarkers,
+wearables, and more rigorous assessor standardization. Tier 3 is
+multi-site pilot or RCT readiness: add EEG, full biomarker panels,
+blinded assessment where feasible, data monitoring, and prespecified
+analysis notebooks.
+
+The architecture prioritizes measures that can be repeated. A beautiful
+baseline assessment with no follow-up is less useful than a modest
+assessment repeated with discipline. Daily data should be short enough
+to complete. Weekly data should test the function. Monthly data should
+verify the trajectory. Biomarkers and EEG should be used when they
+answer a specific mechanistic question, not as decoration.
+
+Every measurement layer must include confounder annotation: infection,
+falls, medication changes, sleep disruption, respiratory exacerbation,
+acute stress, missed inputs, clinic visits, travel, caregiver changes,
+and adverse events. Without confounder capture, longitudinal
+neuroplasticity interpretation becomes storytelling.
+
+## 10.1 Core Measurement Principles
+
+1\. Measure confounders before interpreting outcomes. Infection, falls,
+medication changes, sleep disruption, respiratory exacerbation, acute
+stress, missed inputs, clinic visits, travel, caregiver changes,
+nutritional instability, and adverse events must be captured before
+signal interpretation.
+
+2\. Separate signal from noise. Transient fluctuations are not a durable
+change. A two-week cognitive improvement that disappears is a state
+change, not a trajectory shift.
+
+3\. Track adherence as rigorously as outcomes. Non-adherent protocols
+cannot test biological hypotheses.
+
+4\. Document adverse events in real time. Retrospective safety
+assessment is unreliable.
+
+5\. Use validated instruments wherever possible. MoCA, Trail Making,
+PHQ-9, GAD-7, MDS-UPDRS, mPSPRS, mMRC, sleep diaries, actigraphy, home
+BP, SpO2, EEG, and biomarker panels are modular layers rather than
+mandatory starting requirements.
+
+## 10.2 Biomarkers and Mechanistic Probes
+
+Biomarkers and EEG belong in Tier 2 or Tier 3 when they answer a
+specific mechanistic question. Candidate biomarkers include BDNF,
+p-tau217, NfL, hs-CRP, IL-6, TNF-alpha, HbA1c, eGFR, B12, folate,
+homocysteine, vitamin D, ferritin, iron studies, and nutritional-status
+markers when weight loss, dysphagia, or caloric adequacy is a concern.
+These measures do not prove neurorepair; they help test whether
+functional change maps to inflammatory, neurodegenerative, metabolic, or
+neurotrophic context.
+
+## 10.3 EEG as a Mechanistic Window
+
+EEG is relevant because psychedelic neuroimaging and neurophysiology
+literature have identified network-level changes during and after
+psilocybin exposure, while TBI-adjacent observational studies have
+reported EEG shifts in real-world psychedelic retreat contexts. If Phase
+2 produces detectable EEG changes and Phase 3 tracks whether those
+changes persist or decay, EEG becomes a mechanistic probe for
+residual-capacity hypothesis testing, not proof of disease reversal.
+
+# 11. Governance Boundary
+
+The public repository
+([github.com/onlygreentrades/ray-vasc-regenerative-loop](http://www.github.com/onlygreentrades/ray-vasc-regenerative-loop))
+contains de-identified protocols and measurement schemas under CC BY
+4.0.
+
+Raw clinical data remains private. No public file should include medical
+record numbers, full dates of birth, addresses, raw clinical notes,
+private imaging reports, or identifiable clinical documents without
+separate written consent and privacy review. OSF registration should
+precede external prospective data collection. GitHub should mirror
+protocol updates. Major releases should be archived through OSF or
+Zenodo.
+
+Controlled-substance research is restricted to lawful, clinically
+governed, ethics-approved settings. The repository may discuss
+high-level study design, measurement architecture, safety monitoring,
+and as-administered exposure documentation. It must not provide
+sourcing, preparation, dosing, administration, or self-use instructions
+for controlled substances.
+
+## 11.1 Safety Monitoring
+
+All candidate inputs, including legal mycology and neuroprotective
+inputs, require adverse-event monitoring. Safety gates include
+medication interaction review, renal and hepatic function review where
+relevant, bleeding-risk review where relevant, fall-risk assessment,
+sleep disruption tracking, GI intolerance tracking, allergic reaction
+monitoring, infection flags, respiratory exacerbation flags, and
+caregiver-reported functional change. Safety overrides signal detection.
+A promising data trend is not actionable if it increases falls,
+confusion, respiratory burden, agitation, bleeding risk, or caregiver
+instability.
+
+## 11.2 Phase 2 Safety and Contraindication Boundary
+
+Psilocybin has been studied under controlled therapeutic conditions with
+careful screening, preparation, monitoring, and integration support
+(Davis et al., 2021; Garcia-Romeu et al., 2021; Goodwin et al., 2022;
+MacCallum et al., 2022). RAY-VASC does not loosen or replace those
+safeguards. Any Phase 2 exposure requires lawful jurisdiction, physician
+or qualified clinical governance, informed consent, safety monitoring
+during and after the session, adverse-event documentation, and explicit
+exclusion or caution review for psychiatric instability,
+psychosis-spectrum risk, medication interactions, cardiovascular risk,
+uncontrolled medical instability, and caregiver/safety readiness.
+
+## 11.3 Ethics Governance
+
+All research involving human subjects requires appropriate ethics review
+when it is intended to contribute to generalizable knowledge, be
+externally published, or share identifiable or prospectively collected
+data. Personal N-of-1 logging conducted for documentation may be outside
+formal IRB requirements in some settings, but any protocol intended for
+publication, data sharing, recruitment, external implementation, or
+controlled-substance exposure must comply with institutional,
+jurisdictional, consent, privacy, and regulatory requirements.
+
+## 11.4 Informed Consent Minimum Content
+
+1\. Purpose and hypothesis-generating status of the protocol.
+
+2\. What data will be collected, who can access it, and how it will be
+de-identified.
+
+3\. Known and unknown risks, including adverse events, falls,
+psychiatric distress, sleep disruption, medication interactions, and
+privacy risk.
+
+4\. Voluntary participation, withdrawal rights, caregiver role, and
+limits of confidentiality.
+
+5\. Explicit separation between research documentation, medical advice,
+and clinical treatment decisions.
+
+6\. Separate consent and governance requirements for any
+controlled-substance exposure.
+
+# 12. Implementation Path
+
+The implementation path is deliberately staged: N-of-1 feasibility, case
+series, observational cohort, multi-site pilot, and randomized
+controlled trial. Each stage answers a different question and should not
+pretend to answer the next one.
+
+N-of-1 feasibility asks whether daily and weekly measures are tolerable,
+whether inputs can be standardized, whether confounders can be tracked,
+and whether any signal is visible beyond baseline variance. It does not
+establish efficacy. It establishes whether the protocol can run.
+
+Case-series testing asks whether similar signals appear across more than
+one subject or phenotype. It improves generalizability but remains
+vulnerable to selection bias, expectancy effects, regression to the
+mean, and uncontrolled confounding. Observational cohorts ask whether
+signals replicate across broader populations and whether APPRE can
+stratify responders from non-responders.
+
+Multi-site pilot trials test recruitment, protocol fidelity, safety
+monitoring, assessor training, data pipelines, missingness, and endpoint
+sensitivity. Randomized controlled trials are required for causal
+attribution. If Phase 2 controlled-substance exposure is included,
+governance requirements increase substantially and must be addressed
+before recruitment.
+
+The framework is explicitly designed so that negative findings remain
+valuable. If a candidate input fails to produce a signal, if adherence
+collapses, if sleep instability explains all apparent change, or if
+biomarker trajectories do not move, those findings refine the model.
+Publication value comes from disciplined measurement, not only positive
+outcomes.
+
+# 13. Limitations
+
+This paper is speculative and hypothesis-generating. No human-subject
+outcomes are reported. No RCT has tested the full Regenerative Loop +
+mycology convergence + governed plasticity window + APPRE architecture.
+APPRE is a design framework, not a clinically validated algorithm.
+
+The evidence base is uneven. The strongest human evidence supports
+multidomain lifestyle approaches, exercise, dementia-risk modification,
+and social-risk frameworks. Sleep and glymphatic evidence are
+biologically important but still developing for direct clinical
+translation. Mycology evidence remains early, heterogeneous, and
+vulnerable to batch inconsistency, extraction differences, dose-form
+variability, and small-sample human studies.
+
+Psilocybin-related evidence is stronger in depression than in
+neurodegeneration, TBI, or stroke recovery. Neurological applications
+remain early and include small open-label pilots, observational retreat
+studies, narrative reviews, and preclinical work. These sources are
+useful for hypothesis generation but cannot justify treatment claims.
+
+Measurement burden is another limitation. Complex protocols can fail
+because caregivers and subjects cannot sustain data capture. The
+framework addresses this through modular tiers, but feasibility remains
+an empirical question. Overmeasurement can reduce adherence and increase
+missingness.
+
+Finally, the framework may fail. It may identify no reproducible signal.
+It may prove useful only as a measurement architecture rather than an
+intervention architecture. That outcome would still be scientifically
+valuable if documented clearly.
+
+# 14. Future Directions
+
+1\. Pilot feasibility studies: Tier 1 N-of-1 studies should test
+measurement reliability, adherence, missingness, adverse-event rates,
+and confounder capture before interpreting biological efficacy.
+
+2\. Case series: Aggregated Tier 1 or Tier 2 data across 5-10 subjects
+can assess signal consistency, implementation burden, and dominant
+confounder patterns.
+
+3\. Standardization studies: Mycology batch testing,
+certificate-of-analysis validation, extraction consistency, and
+active-constituent characterization are required before reproducible
+multi-site mycology research is credible.
+
+4\. Biomarker validation: Future work should test whether BDNF,
+p-tau217, NfL, inflammatory markers, metabolic measures, nutritional
+markers, and EEG measures correlate with cognitive, motor, mood, sleep,
+respiratory, and adherence outcomes.
+
+5\. Controlled trials: If feasibility and safety are established,
+progression can move toward randomized designs comparing Pre-Load alone,
+Pre-Load plus structured Regenerative Loop support, and, where lawful
+and ethics-approved, Pre-Load plus clinician-governed Phase 2 exposure.
+
+6\. Open-source data sharing: De-identified longitudinal datasets, APPRE
+schemas, synthetic example data, analysis notebooks, and measurement
+templates should be mirrored through GitHub and archived through OSF or
+Zenodo.
+
+# 15. Conclusion
+
+Complex neurodegenerative and vascular phenotypes require complex,
+adaptive, and reproducible measurement systems. The Regenerative Loop +
+APPRE + RAY-VASC architecture is proposed as a testable framework for
+studying residual adaptive capacity in PSP, vascular cognitive
+impairment, Parkinsonian syndromes, post-stroke decline, TBI burden,
+respiratory limitation, sleep disruption, mood burden, and related
+phenotypes.
+
+The framework is not a treatment claim. It is a measurement architecture
+designed to test whether coordinated daily biological loops, candidate
+neurotrophic Pre-Load, lawful clinician-governed Plasticity Window, and
+structured longitudinal tracking can detect individualized functional
+accessibility in complex brain injury and neurodegeneration.
+
+The contribution is operational: staged testing, confounder discipline,
+safety gates, adaptive personalization, and open-source reproducibility.
+The framework can be tested without Phase 2, and Phase 2 can be tested
+only where legal and ethics-approved. Every layer is modular, auditable,
+and refinable.
+
+This is hypothesis-generating work. Its value is not in proving
+efficacy. Its value is in defining what must be measured, how
+confounders must be tracked, and how adaptive systems can scale from
+N-of-1 feasibility to population-level evidence.
+
+# Data Availability Statement
+
+No new clinical data are reported in this manuscript. Protocols, forms,
+schemas, evidence maps, synthetic examples, and analysis pipeline
+templates are intended for public release through
+github.com/onlygreentrades/ray-vasc-regenerative-loop. OSF registration
+should precede any external prospective data collection.
+
+# Ethics Statement
+
+This manuscript is a framework paper and reports no human-subject
+outcomes. Any future implementation involving identifiable participants,
+prospective data collection, clinical interventions, or
+controlled-substance exposure requires appropriate consent, privacy
+review, clinician oversight, and IRB or ethics review as applicable. Not
+medical advice. Not legal advice.
+
+# Conflict of Interest Statement
+
+The originating researcher reports no commercial product, supplement
+brand, retreat, clinic, or treatment service associated with this
+manuscript. Future commercialization, licensing, or platform development
+would require separate disclosure before submission or publication.
+
+# Acknowledgments
+
+This framework was motivated by the care of Raymond Hornsby, who is
+acknowledged as the human origin point of this work. Authorization for
+attribution is on file. Christine A. Hood is acknowledged for family
+authorization and care coordination support. No raw medical records or
+individual-level clinical outcomes are reported in this manuscript.
+
+# Disclaimer
+
+This manuscript is for research planning, documentation, and
+protocol/measurement design only. It is not medical advice, legal
+advice, clinical care, a treatment recommendation, a supplement
+protocol, or a controlled-substance protocol. All clinical decisions
+remain clinician-directed. All controlled-substance exposure, if any,
+requires lawful jurisdiction, ethics governance, qualified clinical
+oversight, informed consent, and adverse-event monitoring.
+
+# Funding
+
+This research received no external funding.
+
+# Author Contributions
+
+Logan Henderson conceived the framework, designed the measurement
+architecture, developed the APPRE logic, originated the RAY-VASC
+protocol, and wrote the manuscript.
+
+# References
+
+Baker, L. D., Espeland, M. A., Whitmer, R. A., et al. (2025). Structured
+vs self-guided multidomain lifestyle interventions for global cognitive
+function: The U.S. POINTER randomized clinical trial. JAMA, 334(8),
+681-691. https://doi.org/10.1001/jama.2025.12923
+
+Biesbroek, J. M., Verhagen, M. G., van der Stigchel, S., & Biessels, G.
+J. (2024). When the central integrator disintegrates: A review of the
+role of the thalamus in cognition and dementia. Alzheimer's & Dementia,
+20(3), 2209-2222. https://doi.org/10.1002/alz.13563
+
+Blest-Hopley, G., Pasculli, G., Ruffell, S., Tsang, W. F., et al.
+(2025). Improved mental health outcomes and normalised spontaneous EEG
+activity in veterans reporting a history of traumatic brain injuries
+following participation in a psilocybin retreat. Frontiers in
+Psychiatry, 16, 1594307. https://doi.org/10.3389/fpsyt.2025.1594307
+
+Bradley, E. R., Sakai, K., Fernandes-Osterhold, G., et al. (2025).
+Psilocybin therapy for mood dysfunction in Parkinson's disease: An
+open-label pilot trial. Neuropsychopharmacology, 50(8), 1200-1209.
+https://doi.org/10.1038/s41386-025-02097-0
+
+Brengel, E. K., Axe, B., Maheswari, A., Abeer, M. I., et al. (2025).
+Psilocybin as a treatment for repetitive mild head injury: Evidence from
+neuroradiology and molecular biology. bioRxiv.
+https://doi.org/10.1101/2025.02.03.636248
+
+Carhart-Harris, R. L., Erritzoe, D., Williams, T., et al. (2012). Neural
+correlates of the psychedelic state as determined by fMRI studies with
+psilocybin. Proceedings of the National Academy of Sciences, 109(6),
+2138-2143. https://doi.org/10.1073/pnas.1119598109
+
+Compass Pathways. (2025, June 23). Compass Pathways successfully
+achieves primary endpoint in first Phase 3 trial evaluating COMP360
+psilocybin for treatment-resistant depression.
+https://ir.compasspathways.com/
+
+Compass Pathways. (2026, February 17). Compass Pathways successfully
+achieves primary endpoint in second Phase 3 trial evaluating COMP360
+psilocybin for treatment-resistant depression.
+https://ir.compasspathways.com/
+
+Davis, A. K., Barrett, F. S., May, D. G., Cosimano, M. P., Sepeda, N.
+D., Johnson, M. W., Finan, P. H., & Griffiths, R. R. (2021). Effects of
+psilocybin-assisted therapy on major depressive disorder: A randomized
+clinical trial. JAMA Psychiatry, 78(5), 481-489.
+https://doi.org/10.1001/jamapsychiatry.2020.3285
+
+Garcia-Romeu, A., Barrett, F. S., Carbonaro, T. M., Johnson, M. W., &
+Griffiths, R. R. (2021). Optimal dosing for psilocybin pharmacotherapy:
+Considering weight-adjusted and fixed dosing approaches. Journal of
+Psychopharmacology, 35(4), 353-361.
+https://doi.org/10.1177/0269881121991822
+
+Goodwin, G. M., Aaronson, S. T., Alvarez, O., et al. (2022). Single-dose
+psilocybin for a treatment-resistant episode of major depression. The
+New England Journal of Medicine, 387, 1637-1648.
+https://doi.org/10.1056/NEJMoa2206443
+
+Halassa, M. M., & Sherman, S. M. (2019). Thalamocortical circuit motifs:
+A general framework. Neuron, 103(5), 762-770.
+https://doi.org/10.1016/j.neuron.2019.06.005
+
+Hara, Y., McKeehan, N., Dacks, P. A., & Fillit, H. M. (2017). Evaluation
+of the neuroprotective potential of N-acetylcysteine for prevention and
+treatment of cognitive aging and dementia. The Journal of Prevention of
+Alzheimer's Disease, 4(3), 201-206.
+
+Hinkle, J. T., Graziosi, M., Nayak, S. M., & Yaden, D. B. (2024).
+Adverse events in studies of classic psychedelics: A systematic review
+and meta-analysis. JAMA Psychiatry, 81(12), 1225-1235.
+https://doi.org/10.1001/jamapsychiatry.2024.2546
+
+Kongkeaw, C., Dilokthornsakul, P., Thanarangsarit, P., Limpeanchob, N.,
+& Norman Scholfield, C. (2014). Meta-analysis of randomized controlled
+trials on cognitive effects of Bacopa monnieri extract. Journal of
+Ethnopharmacology, 151(1), 528-535.
+https://doi.org/10.1016/j.jep.2013.11.008
+
+Kuiper, J. S., Zuidersma, M., Oude Voshaar, R. C., et al. (2015). Social
+relationships and risk of dementia: A systematic review and
+meta-analysis of longitudinal cohort studies. Ageing Research Reviews,
+22, 39-57. https://doi.org/10.1016/j.arr.2015.04.006
+
+Livingston, G., Huntley, J., Liu, K. Y., et al. (2024). Dementia
+prevention, intervention, and care: 2024 report of the Lancet standing
+Commission. The Lancet, 404(10452), 572-628.
+https://doi.org/10.1016/S0140-6736(24)01296-0
+
+Lomeli Martinez, S. M., Pacheco Moises, F. P., Bitzer-Quintero, O. K.,
+Ramirez-Jirano, J., Delgado-Lara, D. L. C., Cortes Trujillo, I., Torres
+Jasso, J. H., Salazar-Flores, J., & Torres-Sanchez, E. D. (2025). Effect
+of N-acetyl cysteine as an adjuvant treatment in Alzheimer's disease.
+Brain Sciences, 15(2), 164. https://doi.org/10.3390/brainsci15020164
+
+Ly, C., Greb, A. C., Cameron, L. P., et al. (2018). Psychedelics promote
+structural and functional neural plasticity. Cell Reports, 23(11),
+3170-3182. https://doi.org/10.1016/j.celrep.2018.05.022
+
+MacCallum, C. A., Lo, L. A., Pistawka, C. A., & Deol, J. K. (2022).
+Therapeutic use of psilocybin: Practical considerations for dosing and
+administration. Frontiers in Psychiatry, 13, 1040217.
+https://doi.org/10.3389/fpsyt.2022.1040217
+
+Mason, N. L., Kuypers, K. P. C., Muller, F., et al. (2023). Psilocybin
+induces acute and persisting alterations in immune status in healthy
+volunteers: An experimental placebo-controlled study. Brain, Behavior,
+and Immunity, 114, 299-310. https://doi.org/10.1016/j.bbi.2023.08.037
+
+Moliner, R., Girych, M., Brunello, C. A., et al. (2023). Psychedelics
+promote plasticity by directly binding to BDNF receptor TrkB. Nature
+Neuroscience, 26, 1032-1041. https://doi.org/10.1038/s41593-023-01316-5
+
+Mori, K., Inatomi, S., Ouchi, K., Azumi, Y., & Tuchida, T. (2009).
+Improving effects of the mushroom Yamabushitake (Hericium erinaceus) on
+mild cognitive impairment: A double-blind placebo-controlled clinical
+trial. Phytotherapy Research, 23(3), 367-372.
+https://doi.org/10.1002/ptr.2634
+
+Ngandu, T., et al. (2025). Long-term adherence to lifestyle changes and
+association with cognitive change: 11-year results from the FINGER
+randomized, controlled trial. Alzheimer's & Dementia, 21(Suppl. 6),
+e106542. https://doi.org/10.1002/alz70860_106542
+
+Ngandu, T., Lehtisalo, J., Solomon, A., et al. (2015). A 2-year
+multidomain intervention of diet, exercise, cognitive training, and
+vascular risk monitoring versus control to prevent cognitive decline in
+at-risk elderly people (FINGER): A randomized controlled trial. The
+Lancet, 385(9984), 2255-2263.
+https://doi.org/10.1016/S0140-6736(15)60461-5
+
+Palmer, C., Ferber, A. T., & Greenwald, B. D. (2025). The potential role
+of psilocybin in traumatic brain injury recovery: A narrative review.
+Brain Sciences, 15(6), 572. https://doi.org/10.3390/brainsci15060572
+
+Petri, G., Expert, P., Turkheimer, F., Carhart-Harris, R., Nutt, D.,
+Hellyer, P. J., & Vaccarino, F. (2014). Homological scaffolds of brain
+functional networks. Journal of The Royal Society Interface, 11(101),
+20140873. https://doi.org/10.1098/rsif.2014.0873
+
+Shao, L. X., Liao, C., Gregg, I., Davoudian, P. A., Savalia, N. K.,
+Delagarza, K., & Kwan, A. C. (2021). Psilocybin induces rapid and
+persistent growth of dendritic spines in frontal cortex in vivo. Neuron,
+109(16), 2535-2544.e4. https://doi.org/10.1016/j.neuron.2021.06.008
+
+Surendran, R., et al. (2025). Acute cognitive and mood effects of a
+standardized fruiting body Hericium erinaceus intervention in healthy
+young adults. Frontiers in Nutrition, 11, 1419567.
+https://doi.org/10.3389/fnut.2024.1419567
+
+Winer, J. R., et al. (2026). The glymphatic system clears amyloid beta
+and tau from brain to plasma in humans. Nature Communications, 17, 715.
+https://doi.org/10.1038/s41467-026-68374-8
+
+Zheng, S., Ma, R., & Yang, Y. (2024). Psilocybin for the treatment of
+Alzheimer's disease. Frontiers in Neuroscience, 18, 1420601.
+https://doi.org/10.3389/fnins.2024.1420601
+
+Zhou, Y., et al. (2022). Effects of physical exercise on plasma
+brain-derived neurotrophic factor in neurodegenerative disorders: A
+systematic review and meta-analysis. Frontiers in Aging Neuroscience,
+14, 981002. https://doi.org/10.3389/fnagi.2022.981002
