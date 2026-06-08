@@ -1,3 +1,19 @@
+﻿
+## Paper 2 v1.8 Final Editorial Release Gate — 2026-06-08
+
+Released the final Paper 2 protocol package:
+
+- Final submission manuscript
+- Supplementary appendices
+- Schedule of Events CSV
+- EEG Schedule CSV
+- Release gate memo
+- Publication bundle, if available
+
+This release preserves the v1.7 submission-style manuscript structure and locks the v1.8 editorial gate:
+Tier 2 Required serial EEG, EEG-biomarker synchrony, two-cycle Compounding Plasticity Architecture,
+dysphagia monitoring, fall-event protocol, wearable rules, caregiver/proxy training, APPRE R1-R13,
+and publication-only governance.
 # Changelog
 
 **Author:** Logan Henderson  
@@ -26,7 +42,7 @@
 - Attribution, privacy, regulatory, and review files queued.
 - OSF registration placeholder added.
 
-## Paper 1 v1.2 Editorial Release Gate — 2026-06-06
+## Paper 1 v1.2 Editorial Release Gate â€” 2026-06-06
 
 - Added final v1.2 editorial release gate manuscript package.
 - Copied authoritative local DOCX from user Downloads folder.
@@ -35,4 +51,5 @@
 - Preserved all scientific claims, evidence grades, governance boundaries, controlled-substance restrictions, attribution language, tables, and references.
 - Confirmed APPRE language: schema-and-rules framework for closed-loop measurement, not a validated clinical decision system or AI product.
 - Confirmed controlled-substance boundary: no sourcing, preparation, administration, or self-use instructions.
+
 
