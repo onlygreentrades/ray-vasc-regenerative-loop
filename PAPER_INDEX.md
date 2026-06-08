@@ -47,5 +47,5 @@ Expected files:
 
 ## Legacy Materials
 
-Legacy working drafts and older release-gate artifacts are stored under `archive/` and are not the primary public citation path.
+Legacy working drafts and older archived materials are stored under `archive/` and are not the primary public citation path.
 
