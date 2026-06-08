@@ -25,3 +25,14 @@
 - Publication-only repository boundary defined.
 - Attribution, privacy, regulatory, and review files queued.
 - OSF registration placeholder added.
+
+## Paper 1 v1.2 Editorial Release Gate — 2026-06-06
+
+- Added final v1.2 editorial release gate manuscript package.
+- Copied authoritative local DOCX from user Downloads folder.
+- Generated PDF/Markdown/TXT derivatives where local tooling was available.
+- Added editorial changelog and release notes.
+- Preserved all scientific claims, evidence grades, governance boundaries, controlled-substance restrictions, attribution language, tables, and references.
+- Confirmed APPRE language: schema-and-rules framework for closed-loop measurement, not a validated clinical decision system or AI product.
+- Confirmed controlled-substance boundary: no sourcing, preparation, administration, or self-use instructions.
+

@@ -1,0 +1,27 @@
+# PowerShell Push Commands - Paper 1 v1.1
+
+# 1) Download and extract ray_vasc_paper1_v1_1_PUSH_READY.zip to:
+#    C:\Users\onlyg\Downloads\ray_vasc_paper1_v1_1_PUSH_READY
+
+# 2) Confirm authoritative manuscript exists:
+Test-Path "C:\Users\onlyg\Downloads\The_Brain_That_Remains_v1.1.docx"
+
+# 3) Run the push script:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+& "C:\Users\onlyg\Downloads\ray_vasc_paper1_v1_1_PUSH_READY\scripts\PUSH_PAPER_1_TO_GITHUB.ps1"
+
+# Manual fallback if needed:
+$Repo = "C:\Users\onlyg\ray-vasc-regenerative-loop"
+$Remote = "https://github.com/onlygreentrades/ray-vasc-regenerative-loop.git"
+$Branch = "paper-1-v1.1-publication-release"
+if (!(Test-Path $Repo)) { git clone $Remote $Repo }
+cd $Repo
+git fetch origin
+git checkout main
+git pull origin main
+git checkout -b $Branch
+Copy-Item "C:\Users\onlyg\Downloads\ray_vasc_paper1_v1_1_PUSH_READY\*" $Repo -Recurse -Force
+Copy-Item "C:\Users\onlyg\Downloads\The_Brain_That_Remains_v1.1.docx" "$Repo\manuscript\The_Brain_That_Remains_v1.1.docx" -Force
+git add README.md CHANGELOG.md CITATION.cff LICENSE LICENSE-DOCS-CC-BY-4.0.txt ATTRIBUTION.md PRIVACY.md REGULATORY_BOUNDARY.md .gitignore manuscript tables docs scripts schemas analysis forms protocols
+git commit -m "Publish Paper 1 manuscript v1.1 public research packet"
+git push -u origin $Branch
