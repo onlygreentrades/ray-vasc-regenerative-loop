@@ -1,31 +1,32 @@
-﻿# Repository Map
+# Repository Map
 
 ## Root Files
 
-- README.md — program-level landing page
-- PAPER_INDEX.md — paper-specific navigation
-- REPO_MAP.md — folder structure and asset ownership
-- CHANGELOG.md — release history
-- ATTRIBUTION.md — authorship and origin chain
-- PRIVACY.md — data protection and de-identification rules
-- REGULATORY_BOUNDARY.md — clinical, legal, and controlled-substance boundaries
-- CITATION.cff — repository citation metadata
+- `README.md` - program-level landing page.
+- `PAPER_INDEX.md` - paper-specific asset index.
+- `REPO_MAP.md` - repository structure and folder ownership.
+- `ATTRIBUTION.md` - origin, authorship, and human-origin acknowledgment boundary.
+- `PRIVACY.md` - de-identification and public-data rules.
+- `REGULATORY_BOUNDARY.md` - clinical, legal, and controlled-substance boundaries.
+- `CITATION.cff` - repository citation metadata.
+- `LICENSE-DOCS-CC-BY-4.0.txt` - documentation license.
+- `CHANGELOG.md` - public package history.
+- `MANIFEST_SHA256.txt` - checksum manifest for public files.
 
-## Core Folders
+## Publishing-Clean Manuscripts
 
-- manuscripts/ — submission manuscript files by paper and version
-- supplements/ — supplementary appendices by paper and version
-- 	ables/ — machine-readable tables by paper and version
-- eleases/ — release memos, checksums, and packaged bundles
-- orms/ — reusable protocol forms
-- schemas/ — APPRE and protocol data schemas
-- nalysis/ — analysis templates and notebooks
-- protocols/ — protocol components and operational methods
-- docs/ — governance, reporting, and explanatory documentation
-- scripts/ — repository automation scripts
+- `manuscripts/paper1/final/` - Paper 1 clean DOCX/PDF and folder README.
+- `manuscripts/paper2/final/` - Paper 2 clean DOCX/PDF and folder README.
 
-## Current State
+## Supplementary Protocol Materials
 
-Paper 2 v1.8 is organized under versioned folders.
+- `supplements/paper2/final/` - Paper 2 reporting checklist, Schedule of Events, EEG schedule, APPRE data dictionary, and public form templates.
 
-Paper 1 assets include legacy root-level folders and should be normalized in a future cleanup branch.
+## Release Records
+
+- `releases/paper1/final/` - Paper 1 release notes and checksums.
+- `releases/paper2/final/` - Paper 2 release notes and checksums.
+
+## Archive
+
+- `archive/` - legacy or superseded repo assets if/when they are moved out of the public root. Archive content should remain clearly labeled as legacy and should not be treated as current.

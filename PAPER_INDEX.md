@@ -1,42 +1,44 @@
-﻿# RAY-VASC Paper Index
+# RAY-VASC Paper Index
 
-## Paper 1 — Framework
+## Paper 1
 
-**Title:** The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease  
-**Current version:** v1.2 editorial release gate  
-**Status:** Framework / Hypothesis and Theory manuscript  
+**Locked title:** The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease  
+**Manuscript type:** Hypothesis and Theory / Framework Paper  
+**Author:** Logan Henderson  
+**Current public files:**
 
-Current Paper 1 assets may exist in legacy folders including:
+- `manuscripts/paper1/final/The_Brain_That_Remains_Paper1_Publishing_Clean.pdf`
+- `manuscripts/paper1/final/The_Brain_That_Remains_Paper1_Publishing_Clean.docx`
 
-- docs/
-- manuscript/
-- orms/
-- protocols/
-- nalysis/
+**Citation draft:**
 
-Future cleanup should normalize Paper 1 into:
+Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease*. RAY-VASC Regenerative Loop Research Program. https://osf.io/y2h79/
 
-- manuscripts/paper1/v1.2/
-- supplements/paper1/v1.2/
-- eleases/paper1/v1.2/
+## Paper 2
 
-## Paper 2 — Protocol
+**Locked title:** RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease  
+**Manuscript type:** Study Protocol / Methods Paper  
+**Author:** Logan Henderson  
+**Current public files:**
 
-**Title:** RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease  
-**Current version:** v1.8 final editorial release gate  
-**Status:** Study Protocol / Methods Paper  
+- `manuscripts/paper2/final/RAY_VASC_Paper2_Publishing_Clean.pdf`
+- `manuscripts/paper2/final/RAY_VASC_Paper2_Publishing_Clean.docx`
 
-Primary folders:
+**Supplement files:**
 
-- manuscripts/paper2/v1.8/
-- supplements/paper2/v1.8/
-- 	ables/paper2/v1.8/
-- eleases/paper2/v1.8/
+- `supplements/paper2/final/SPIRIT_SPENT_Checklist.md`
+- `supplements/paper2/final/Schedule_of_Events.csv`
+- `supplements/paper2/final/EEG_Schedule.csv`
+- `supplements/paper2/final/APPRE_Data_Dictionary.csv`
+- `supplements/paper2/final/Adverse_Event_Log_Template.csv`
+- `supplements/paper2/final/Confounder_Log_Template.csv`
+- `supplements/paper2/final/Fall_Event_Form_Template.csv`
+- `supplements/paper2/final/Stack_Legal_Input_Log_Template.csv`
 
-Primary release tag:
+**Citation draft:**
 
-- paper2-v1.8-final
+Henderson, L. (2026). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*. RAY-VASC Regenerative Loop Research Program. https://osf.io/y2h79/
 
-## Next Cleanup Target
+## Title Lock
 
-Normalize Paper 1 into the same versioned folder structure used for Paper 2 without deleting legacy files until checksums and links are verified.
+The titles above are the public working titles for citation, OSF upload, GitHub navigation, and journal submission preparation. Title changes should occur only if requested by a target journal or preprint server.

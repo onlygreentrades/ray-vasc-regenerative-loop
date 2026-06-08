@@ -1,0 +1,13 @@
+EEG session,Week,Cycle/phase,Type,Primary scientific purpose
+EEG-01,0-1,Cycle 1 Phase 1 baseline,Resting + P300,"Reference values for band power, alpha/theta, P300, aperiodic exponent."
+EEG-02,4,Cycle 1 Phase 1 exit,Resting + P300,Pre-load delta from legal stack and Regenerative Loop before any Phase 2 consideration.
+EEG-03,8-9,"Cycle 1 Phase 2 mid, if activated",Resting + P300,Early Phase 2 signal vs EEG-02.
+EEG-04,16,"Cycle 1 Phase 2 exit, if activated",Resting + P300 + connectivity,Phase 2 neuroplasticity readout; biomarker sync.
+EEG-05,22,Cycle 1 Phase 3 mid,Resting + P300,Durability check after Cycle 1 transition.
+EEG-06,26,Cycle 1 closeout,Resting + P300 + connectivity,Cycle 1 trajectory summary; biomarker sync.
+EEG-07,27,Cycle 2 baseline,Resting + P300,Six-month longitudinal delta vs EEG-01.
+EEG-08,30,Cycle 2 Phase 1 exit,Resting + P300,Cycle 2 pre-load effect vs EEG-07 and EEG-02.
+EEG-09,34-35,"Cycle 2 Phase 2 mid, if activated",Resting + P300,Second-cycle early Phase 2 signal.
+EEG-10,42,"Cycle 2 Phase 2 exit, if activated",Resting + P300 + connectivity,Second-cycle full readout; compounding architecture hypothesis.
+EEG-11,48,Cycle 2 Phase 3 mid,Resting + P300,Durability of Cycle 2 trajectory.
+EEG-12,50-52,Final closeout,Resting + P300 + connectivity + full-band summary,Complete 52-week longitudinal EEG trajectory; final biomarker sync.

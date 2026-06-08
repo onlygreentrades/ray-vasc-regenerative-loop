@@ -1,60 +1,34 @@
-﻿# RAY-VASC Regenerative Loop Research Program
+# RAY-VASC Regenerative Loop Research Program
 
-**Repository status:** Public research and protocol documentation repository  
-**Originating researcher / first author:** Logan Henderson  
-**Current release:** Paper 2 v1.8 Final Editorial Release Gate  
-**Registration status:** OSF identifier pending before external prospective subject data collection  
-**ClinicalTrials.gov status:** Pending if required by jurisdiction, sponsor, institution, funder, or journal  
+**Originating researcher / author:** Logan Henderson  
+**OSF project:** https://osf.io/y2h79/  
+**Repository purpose:** Public research documentation, protocol architecture, reproducibility assets, and open-science materials.
 
 ## Purpose
 
-The RAY-VASC Regenerative Loop repository publishes open-source research architecture for studying complex neurovascular and mixed neurodegenerative-vascular disease using structured, reproducible, claim-disciplined protocols.
+RAY-VASC Regenerative Loop is an open-source research program for studying complex neurovascular and mixed neurodegenerative-vascular disease through structured measurement, safety-gated protocols, caregiver-supported reporting, reproducible data schemas, and transparent open-science documentation.
 
-The program is designed to make complex trajectories observable before making treatment claims. It focuses on feasibility, longitudinal measurement, safety monitoring, confounder annotation, caregiver-supported reporting, APPRE schema logic, serial EEG, synchronized biomarkers, and open-science reproducibility.
+The public package contains two publishing-clean manuscripts:
 
-This repository is not a treatment service, supplement protocol, clinical care pathway, psychedelic protocol, or commercial product repository.
+| Paper | Locked title | Package status |
+|---|---|---|
+| Paper 1 | The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease | Publishing-clean framework manuscript |
+| Paper 2 | RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease | Publishing-clean protocol manuscript |
 
-## Current Releases
+## Start Here
 
-| Paper | Title | Version | Status | Folder |
-|---|---|---:|---|---|
-| Paper 1 | The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease | v1.2 | Editorial release gate | manuscript/, docs/, legacy Paper 1 folders |
-| Paper 2 | RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease | v1.8 | Final editorial release gate | manuscripts/paper2/v1.8/ |
-
-## Paper 2 v1.8 — Start Here
-
-Paper 2 is the current final protocol package.
-
-Primary folders:
-
-- manuscripts/paper2/v1.8/ — final submission manuscript files
-- supplements/paper2/v1.8/ — supplementary appendices
-- 	ables/paper2/v1.8/ — Schedule of Events and EEG schedule CSV files
-- eleases/paper2/v1.8/ — release memo, checksums, and publication bundle
-
-Paper 2 includes:
-
-- prospective N-of-1 and small-series observational protocol design
-- two-cycle Compounding Plasticity Architecture
-- Phase 1 Baseline / Pre-Load
-- optional Phase 2 Governed Plasticity Window
-- Phase 3 Sustain / Integration
-- Tier 1 burden-limited daily and weekly measurement
-- Tier 2 Required serial EEG when Tier 2 is implemented
-- twelve-session EEG schedule
-- EEG-biomarker synchrony
-- p-tau217, NfL, BDNF, hs-CRP, IL-6, TNF-alpha, HbA1c, eGFR, homocysteine, B12, and CBC biomarker panel
-- dysphagia monitoring
-- fall-event protocol
-- caregiver/proxy training
-- APPRE R1-R13 schema-and-rules layer
-- open-science and repository governance
+- `PAPER_INDEX.md` - direct links to Paper 1 and Paper 2 assets.
+- `REPO_MAP.md` - folder map and file ownership.
+- `manuscripts/paper1/final/` - Paper 1 clean PDF and DOCX.
+- `manuscripts/paper2/final/` - Paper 2 clean PDF and DOCX.
+- `supplements/paper2/final/` - protocol supplement files, forms, schedule tables, and data dictionary.
+- `releases/paper1/final/` and `releases/paper2/final/` - release notes and checksums for the clean public package.
 
 ## Research Boundary
 
-RAY-VASC is hypothesis-generating research architecture.
+This repository is research documentation and protocol architecture only. It is not clinical care, medical advice, legal advice, a treatment recommendation, a supplement protocol, a psychedelic protocol, or a commercial treatment product.
 
-The repository does not claim:
+The manuscripts and repository do not claim:
 
 - treatment efficacy
 - disease modification
@@ -66,25 +40,18 @@ The repository does not claim:
 - supplement efficacy
 - controlled-substance treatment efficacy
 
-Controlled-substance content, where referenced, is limited to research-governance architecture. No sourcing, preparation, dosing, administration, or self-use instructions are provided.
+Controlled-substance content, where referenced, is limited to high-level research-governance architecture and as-administered exposure documentation under lawful, clinician-governed, ethics-approved conditions. No sourcing, preparation, dosing, administration, or self-use instructions are provided.
 
-## Registration and Governance
+## Open Science and Governance
 
-OSF registration is required before any external prospective subject data collection intended to contribute to generalizable knowledge.
+External prospective subject data collection intended to contribute to generalizable knowledge requires appropriate ethics review, consent, privacy review, clinician oversight, and OSF preregistration or registration as applicable.
 
-External implementation requires local ethics review, IRB review, or formal determination as applicable.
+No raw clinical records, medical record numbers, full dates of birth, addresses, clinical screenshots, lab screenshots, imaging reports, or identifiable source documents are included in this public repository.
 
-## Navigation
+## License
 
-See:
+Documentation and manuscripts are released under CC BY 4.0 unless a journal, repository, or funder requires a different compatible publication license. Code, if added later, should be licensed separately and explicitly.
 
-- PAPER_INDEX.md — paper-specific release index
-- REPO_MAP.md — folder map
-- REGULATORY_BOUNDARY.md — safety and governance boundaries
-- PRIVACY.md — data and de-identification rules
-- ATTRIBUTION.md — origin and authorship language
-- CHANGELOG.md — version history
+## Citation
 
-## Disclaimer
-
-Not medical advice. Not legal advice. This repository is for research planning, documentation, protocol architecture, and open-science reproducibility only.
+See `CITATION.cff` for repository-level citation metadata. Paper-specific citation text is provided in `PAPER_INDEX.md`.

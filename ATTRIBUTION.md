@@ -1,19 +1,13 @@
 # Attribution
 
-**Version:** 1.1  
-**Date:** 2026-06-06  
-**Author:** Logan Henderson
-
 ## Originating Researcher
 
-Logan Henderson is the originating researcher and first author of the RAY-VASC Regenerative Loop framework, including the Regenerative Loop, APPRE, and the Three-Phase Plasticity Architecture as organized in Paper 1.
+Logan Henderson is the originating researcher and author of the RAY-VASC Regenerative Loop research program, Paper 1, Paper 2, the APPRE schema-and-rules architecture, and the public protocol documentation structure.
 
-## Human Origin
+## Human Origin Acknowledgment
 
-This framework was motivated by the care of **Raymond Hornsby**, who is acknowledged as the human origin point of this work. Authorization for public attribution is on file.
+The work was motivated by the care context of Raymond A. Hornsby. Public attribution is limited to the acknowledgment language in the publishing-clean manuscripts and may not be expanded to raw clinical records, source documents, private clinical images, screenshots, full dates of birth, addresses, or identifiable medical information.
 
-**Christine A. Hood** is acknowledged for family authorization and care coordination support.
+## Use of Repository Materials
 
-## Public Boundary
-
-No raw medical records, medical record numbers, full dates of birth, addresses, private clinical screenshots, identifiable imaging reports, or case-level clinical outcomes should be committed to this public repository without separate written consent, privacy review, and applicable ethics review.
+Users may cite, reuse, fork, and adapt the public documentation subject to the applicable license and attribution requirements. Clinical implementation requires independent ethics, legal, and medical governance.

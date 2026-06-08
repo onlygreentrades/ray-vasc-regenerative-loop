@@ -1,26 +1,28 @@
-# Privacy Policy for Public Research Repository
+# Privacy and De-Identification Policy
 
-**Version:** 1.1  
-**Date:** 2026-06-06  
-**Author:** Logan Henderson
+This repository must not contain:
 
-## Public-Repository Rule
+- raw clinical records
+- medical record numbers
+- full dates of birth
+- addresses
+- clinical screenshots
+- lab screenshots
+- imaging reports
+- private medical correspondence
+- identifiable source documents
+- unredacted consent forms
+- passwords, credentials, or access tokens
 
-Only de-identified protocols, manuscript drafts, tables, forms, schemas, synthetic examples, evidence maps, and analysis templates belong in this repository.
+Public files may contain:
 
-## Do Not Commit
+- manuscripts
+- protocol descriptions
+- de-identified forms
+- data dictionaries
+- synthetic examples
+- analysis templates
+- public references
+- governance boundaries
 
-Do not commit:
-
-- Medical record numbers.
-- Full dates of birth.
-- Addresses.
-- Raw clinical notes.
-- Private medical screenshots.
-- Identifiable imaging reports.
-- Case-level clinical outcomes without separate consent and review.
-- Insurance, financial, legal, or private family records.
-
-## Human Origin Attribution
-
-Raymond Hornsby may be acknowledged as the human origin point only under the authorization already held privately. This does not authorize publication of raw medical records or private case data.
+Individual-level clinical data may not be released publicly without separate consent, privacy review, de-identification review, and applicable ethics governance.
