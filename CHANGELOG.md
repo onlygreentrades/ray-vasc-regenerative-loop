@@ -1,4 +1,17 @@
 ﻿
+## Repository Navigation Cleanup — Paper 1 + Paper 2 — 2026-06-08
+
+Updated the repository landing structure so the project presents as the RAY-VASC publication program rather than a Paper 1-only packet.
+
+Added:
+
+- program-level root README
+- PAPER_INDEX.md
+- REPO_MAP.md
+- Paper 2 v1.8 folder README files for manuscript, supplement, tables, and release folders
+
+No scientific manuscript content was changed in this cleanup commit.
+
 ## Paper 2 v1.8 Final Editorial Release Gate — 2026-06-08
 
 Released the final Paper 2 protocol package:
@@ -51,5 +64,6 @@ and publication-only governance.
 - Preserved all scientific claims, evidence grades, governance boundaries, controlled-substance restrictions, attribution language, tables, and references.
 - Confirmed APPRE language: schema-and-rules framework for closed-loop measurement, not a validated clinical decision system or AI product.
 - Confirmed controlled-substance boundary: no sourcing, preparation, administration, or self-use instructions.
+
 
 

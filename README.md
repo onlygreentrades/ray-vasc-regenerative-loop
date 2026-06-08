@@ -1,69 +1,90 @@
-# RAY-VASC Regenerative Loop
+﻿# RAY-VASC Regenerative Loop Research Program
 
-**Version:** Paper 1 v1.1 public release  
-**Date:** 2026-06-06  
-**Originating researcher:** Logan Henderson  
-**Repository:** https://github.com/onlygreentrades/ray-vasc-regenerative-loop  
-**Status:** Publication-stage, hypothesis-generating, open-source research framework
+**Repository status:** Public research and protocol documentation repository  
+**Originating researcher / first author:** Logan Henderson  
+**Current release:** Paper 2 v1.8 Final Editorial Release Gate  
+**Registration status:** OSF identifier pending before external prospective subject data collection  
+**ClinicalTrials.gov status:** Pending if required by jurisdiction, sponsor, institution, funder, or journal  
 
-## Paper 1 Release
+## Purpose
 
-This release packages **The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease**.
+The RAY-VASC Regenerative Loop repository publishes open-source research architecture for studying complex neurovascular and mixed neurodegenerative-vascular disease using structured, reproducible, claim-disciplined protocols.
 
-Paper 1 is a framework / Hypothesis and Theory manuscript. It establishes the Regenerative Loop + APPRE + RAY-VASC architecture, the three-phase plasticity model, the mycology convergence map, the measurement architecture, claim boundaries, governance limits, and a publication-safe roadmap for staged research.
+The program is designed to make complex trajectories observable before making treatment claims. It focuses on feasibility, longitudinal measurement, safety monitoring, confounder annotation, caregiver-supported reporting, APPRE schema logic, serial EEG, synchronized biomarkers, and open-science reproducibility.
 
-## What RAY-VASC Is
+This repository is not a treatment service, supplement protocol, clinical care pathway, psychedelic protocol, or commercial product repository.
 
-RAY-VASC is an open-source research-publication framework for studying residual adaptive capacity in complex neurodegenerative and vascular phenotypes through staged measurement, daily biological loops, and auditable adaptive protocol logic.
+## Current Releases
 
-Core architecture:
+| Paper | Title | Version | Status | Folder |
+|---|---|---:|---|---|
+| Paper 1 | The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease | v1.2 | Editorial release gate | manuscript/, docs/, legacy Paper 1 folders |
+| Paper 2 | RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease | v1.8 | Final editorial release gate | manuscripts/paper2/v1.8/ |
 
-1. **Regenerative Loop** - exertion, circadian timing, sleep/repair, and social safety.
-2. **Three-Phase Plasticity Architecture** - Pre-Load, Governed Plasticity Window, Sustain/Integration.
-3. **APPRE** - Algorithmic Personalization Predictive Response Engine: Subject Profile -> Inputs -> Outcomes -> Updated Response Policy.
-4. **RAY-VASC** - Residual Adaptive Vascular And Stroke Capacity, the originating measurement spine.
+## Paper 2 v1.8 — Start Here
 
-## What This Repository Is Not
+Paper 2 is the current final protocol package.
 
-This repository is not medical advice, legal advice, a supplement brand, a retreat, a clinic, a commercial treatment service, or a controlled-substance instruction source.
+Primary folders:
 
-Controlled-substance content is limited to high-level research design, safety monitoring, and as-administered exposure documentation under lawful clinician-governed and ethics-approved settings. No sourcing, preparation, administration, self-use, or uncontrolled dosing guidance is provided.
+- manuscripts/paper2/v1.8/ — final submission manuscript files
+- supplements/paper2/v1.8/ — supplementary appendices
+- 	ables/paper2/v1.8/ — Schedule of Events and EEG schedule CSV files
+- eleases/paper2/v1.8/ — release memo, checksums, and publication bundle
 
-## Repository Contents
+Paper 2 includes:
 
-```text
-manuscript/
-  The_Brain_That_Remains_v1.1.docx
-  The_Brain_That_Remains_v1.1.pdf
-  The_Brain_That_Remains_v1.1.md
-  References_APA7.txt
+- prospective N-of-1 and small-series observational protocol design
+- two-cycle Compounding Plasticity Architecture
+- Phase 1 Baseline / Pre-Load
+- optional Phase 2 Governed Plasticity Window
+- Phase 3 Sustain / Integration
+- Tier 1 burden-limited daily and weekly measurement
+- Tier 2 Required serial EEG when Tier 2 is implemented
+- twelve-session EEG schedule
+- EEG-biomarker synchrony
+- p-tau217, NfL, BDNF, hs-CRP, IL-6, TNF-alpha, HbA1c, eGFR, homocysteine, B12, and CBC biomarker panel
+- dysphagia monitoring
+- fall-event protocol
+- caregiver/proxy training
+- APPRE R1-R13 schema-and-rules layer
+- open-science and repository governance
 
-tables/
-  Table_1_Candidate_Mycology_and_Governed_Plasticity_Convergence_Map.csv
-  Table_2_Expanded_Modular_Measurement_Architecture.csv
-  Table_3_RAY_VASC_Candidate_Intervention_Stack_Dosing_Evidence_Grades_and_Governance.csv
+## Research Boundary
 
-docs/
-  publication/
-  ethics/
-  review/
-  north-star/
-  prompts/
-```
+RAY-VASC is hypothesis-generating research architecture.
 
-## Claim Boundary
+The repository does not claim:
 
-Allowed claims: framework, measurement architecture, hypothesis generation, evidence grading, staged implementation, and reproducible research infrastructure.
+- treatment efficacy
+- disease modification
+- PSP reversal
+- dementia reversal
+- vascular lesion repair
+- brain repair
+- recovery guarantee
+- supplement efficacy
+- controlled-substance treatment efficacy
 
-Excluded claims: cure, reversal, guaranteed recovery, repair of infarcted tissue, treatment efficacy for PSP/vascular dementia/stroke/TBI/COPD, or disease-modifying claims for functional mushrooms or psilocybin.
+Controlled-substance content, where referenced, is limited to research-governance architecture. No sourcing, preparation, dosing, administration, or self-use instructions are provided.
 
-## Citation
+## Registration and Governance
 
-Use `CITATION.cff` or cite the manuscript directly:
+OSF registration is required before any external prospective subject data collection intended to contribute to generalizable knowledge.
 
-Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease* (Version 1.1). RAY-VASC Regenerative Loop. https://github.com/onlygreentrades/ray-vasc-regenerative-loop
+External implementation requires local ethics review, IRB review, or formal determination as applicable.
 
-## Licensing
+## Navigation
 
-- Documentation, manuscripts, forms, and schemas: CC BY 4.0 unless otherwise specified.
-- Code and analysis scripts: MIT License unless otherwise specified.
+See:
+
+- PAPER_INDEX.md — paper-specific release index
+- REPO_MAP.md — folder map
+- REGULATORY_BOUNDARY.md — safety and governance boundaries
+- PRIVACY.md — data and de-identification rules
+- ATTRIBUTION.md — origin and authorship language
+- CHANGELOG.md — version history
+
+## Disclaimer
+
+Not medical advice. Not legal advice. This repository is for research planning, documentation, protocol architecture, and open-science reproducibility only.
