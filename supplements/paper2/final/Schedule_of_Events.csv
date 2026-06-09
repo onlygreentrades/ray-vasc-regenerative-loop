@@ -1,11 +1,11 @@
-Visit / Timepoint,Week,Required procedures
-Screening,-2 to 0,"Eligibility, site capability, consent/LAR, clinician oversight, medication review, safety baseline."
-Cycle 1 baseline,0-1,"Full baseline battery, EEG-01, Tier 2 biomarker panel, EAT-10, APPRE schema lock."
-Cycle 1 Phase 1,1-4,"Daily Tier 1 log, weekly packet, circadian/light capture, legal stack log, AE/confounder review; EEG-02 at Week 4."
-Cycle 1 Phase 2 if activated,5-16,"Governance-specific safety log, daily/weekly capture, EEG-03 Week 8-9, EEG-04 Week 16, biomarker sync within 72 hours."
-Cycle 1 Phase 3,17-26,"Sustain/integration; EEG-05 Week 22, EEG-06 Week 26, full domain battery and Tier 2 biomarkers."
-Cycle 2 baseline,27,Fresh baseline window; full battery; EEG-07; compare to Week 0.
-Cycle 2 Phase 1,27-30,"Daily/weekly capture, legal stack log, CRI, EEG-08 Week 30."
-Cycle 2 Phase 2 if activated,31-42,"Governance-specific safety log, EEG-09 Week 34-35, EEG-10 Week 42, biomarker sync."
-Cycle 2 Phase 3,43-52,Final sustain/integration; EEG-11 Week 48; EEG-12 Week 50-52; final domain battery and biomarkers.
-Closeout,52,"Data lock, AE/confounder audit, missingness summary, APPRE final response policy, repository package."
+Visit_Timepoint,Week,Required_Procedures
+Screening,-2 to 0,Eligibility; site capability; consent/LAR; clinician oversight; medication review; safety baseline
+Cycle 1 baseline,0-1,Full baseline battery; EEG-01; Tier 2 biomarker panel; EAT-10; APPRE schema lock
+Cycle 1 Phase 1,1-4,Daily Tier 1 log; weekly packet; circadian/light capture; legal stack log; AE/confounder review; EEG-02 at Week 4
+Cycle 1 Phase 2 if activated,5-16,Governance-specific safety log; daily/weekly capture; EEG-03 Week 8-9; EEG-04 Week 16; biomarker sync within 72 hours
+Cycle 1 Phase 3,17-26,Sustain/integration; EEG-05 Week 22; EEG-06 Week 26; full domain battery and Tier 2 biomarkers
+Cycle 2 baseline,27,Fresh baseline window; full battery; EEG-07; compare to Week 0
+Cycle 2 Phase 1,27-30,Daily/weekly capture; legal stack log; CRI; EEG-08 Week 30
+Cycle 2 Phase 2 if activated,31-42,Governance-specific safety log; EEG-09 Week 34-35; EEG-10 Week 42; biomarker sync
+Cycle 2 Phase 3,43-52,Final sustain/integration; EEG-11 Week 48; EEG-12 Week 50-52; final domain battery and biomarkers
+Closeout,52,Data lock; AE/confounder audit; missingness summary; APPRE final response policy; repository package

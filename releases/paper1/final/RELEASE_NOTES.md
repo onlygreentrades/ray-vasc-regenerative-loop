@@ -1,11 +1,12 @@
-# Paper 1 Public Package Notes
+# Paper 1 Final Release Notes
 
-Publishing-clean manuscript package for Paper 1.
+Locked publishing title:
 
-Included:
+**The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease**
 
-- clean PDF
-- clean DOCX
-- checksum file
+Final public files:
 
-This package contains no raw clinical records or identifiable source documents.
+- `The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.docx`
+- `The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.pdf`
+
+This release contains the publishing-clean Paper 1 manuscript files only. No raw clinical records or identifiable source documents are included.

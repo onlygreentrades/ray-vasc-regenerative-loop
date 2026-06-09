@@ -1,4 +1,4 @@
-﻿# RAY-VASC Regenerative Loop Research Program
+# RAY-VASC Regenerative Loop Research Program
 
 **Repository status:** Public research and protocol documentation repository  
 **Originating researcher / first author:** Logan Henderson  
@@ -14,38 +14,34 @@ The program is designed to make complex trajectories observable before making tr
 
 This repository is not a treatment service, supplement protocol, clinical care pathway, psychedelic protocol, or commercial product repository.
 
-## Current Papers
+## Locked Publishing Titles
 
-| Paper | Locked title | Status | Primary folder |
-|---|---|---|---|
-| Paper 1 | The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease | Publishing-clean manuscript | `manuscripts/paper1/final/` |
-| Paper 2 | RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease | Publishing-clean protocol manuscript | `manuscripts/paper2/final/` |
+| Paper | Locked title | Primary folder |
+|---|---|---|
+| Paper 1 | The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease | `manuscripts/paper1/final/` |
+| Paper 2 | RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease | `manuscripts/paper2/final/` |
 
-## Start Here
+## Public Manuscript Files
 
-- `PAPER_INDEX.md` — paper-specific asset index
-- `REPO_MAP.md` — repository structure
-- `manuscripts/paper1/final/` — Paper 1 publishing-clean DOCX/PDF
-- `manuscripts/paper2/final/` — Paper 2 publishing-clean DOCX/PDF
-- `supplements/paper2/final/` — protocol supplements, checklists, schedules, and data dictionary
-- `releases/paper1/final/` — Paper 1 release notes and checksums
-- `releases/paper2/final/` — Paper 2 release notes and checksums
+| Paper | DOCX | PDF |
+|---|---|---|
+| Paper 1 | `manuscripts/paper1/final/The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.docx` | `manuscripts/paper1/final/The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.pdf` |
+| Paper 2 | `manuscripts/paper2/final/RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.docx` | `manuscripts/paper2/final/RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.pdf` |
+
+## Repository Structure
+
+- `manuscripts/paper1/final/` - Paper 1 publishing-clean DOCX/PDF
+- `manuscripts/paper2/final/` - Paper 2 publishing-clean DOCX/PDF
+- `supplements/paper2/final/` - Paper 2 supplementary checklist, schedule, data dictionary, and template files
+- `releases/paper1/final/` - Paper 1 release notes and checksums
+- `releases/paper2/final/` - Paper 2 release notes and checksums
+- `archive/` - legacy working materials retained only for provenance
+
+GitHub may visually compress nested paths such as `supplements/paper2/final`; the repository still preserves the nested folder structure shown above.
 
 ## Research Boundary
 
-RAY-VASC is hypothesis-generating research architecture.
-
-The repository does not claim:
-
-- treatment efficacy
-- disease modification
-- PSP reversal
-- dementia reversal
-- vascular lesion repair
-- brain repair
-- recovery guarantee
-- supplement efficacy
-- controlled-substance treatment efficacy
+RAY-VASC is hypothesis-generating research architecture. The repository does not claim treatment efficacy, disease modification, PSP reversal, dementia reversal, vascular lesion repair, brain repair, recovery guarantee, supplement efficacy, or controlled-substance treatment efficacy.
 
 Controlled-substance content, where referenced, is limited to research-governance architecture. No sourcing, preparation, dosing, administration, or self-use instructions are provided.
 
@@ -53,9 +49,7 @@ Controlled-substance content, where referenced, is limited to research-governanc
 
 The OSF project is available at: https://osf.io/y2h79/
 
-OSF registration should precede any external prospective subject data collection intended to contribute to generalizable knowledge.
-
-External implementation requires local ethics review, IRB review, or formal determination as applicable.
+OSF registration should precede any external prospective subject data collection intended to contribute to generalizable knowledge. External implementation requires local ethics review, IRB review, or formal determination as applicable.
 
 ## Public Data Boundary
 

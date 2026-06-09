@@ -1,28 +1,9 @@
-# Privacy and De-Identification Policy
+# Privacy and Public Data Boundary
 
-This repository must not contain:
+This repository is a publication-only research documentation repository.
 
-- raw clinical records
-- medical record numbers
-- full dates of birth
-- addresses
-- clinical screenshots
-- lab screenshots
-- imaging reports
-- private medical correspondence
-- identifiable source documents
-- unredacted consent forms
-- passwords, credentials, or access tokens
+Do not upload raw clinical records, medical record numbers, full dates of birth, clinical screenshots, lab screenshots, imaging reports, addresses, private communications, or identifiable source documents.
 
-Public files may contain:
+Public materials may include manuscripts, protocol templates, forms, schemas, synthetic examples, analysis templates, release notes, and governance documentation.
 
-- manuscripts
-- protocol descriptions
-- de-identified forms
-- data dictionaries
-- synthetic examples
-- analysis templates
-- public references
-- governance boundaries
-
-Individual-level clinical data may not be released publicly without separate consent, privacy review, de-identification review, and applicable ethics governance.
+Any future sharing of individual-level clinical data requires separate consent, privacy review, de-identification, and ethics governance.

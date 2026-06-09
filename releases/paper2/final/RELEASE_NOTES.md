@@ -1,12 +1,12 @@
-# Paper 2 Public Package Notes
+# Paper 2 Final Release Notes
 
-Publishing-clean manuscript and protocol-support package for Paper 2.
+Locked publishing title:
 
-Included:
+**RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease**
 
-- clean PDF
-- clean DOCX
-- supplement files
-- checksum file
+Final public files:
 
-This package contains no raw clinical records or identifiable source documents.
+- `RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.docx`
+- `RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.pdf`
+
+This release contains the publishing-clean Paper 2 protocol manuscript, supplementary checklist, schedule, EEG schedule, data dictionary, and adverse-event template. No raw clinical records or identifiable source documents are included.

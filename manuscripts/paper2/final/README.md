@@ -1,7 +1,10 @@
-﻿# Paper 2 Final Manuscript
+# Paper 2 Final Manuscript
 
-This folder contains the publishing-clean protocol manuscript files for:
+**Locked title:** RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease
 
-**RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease**
+Files:
+
+- `RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.docx`
+- `RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.pdf`
 
 These files are the primary public manuscript assets for Paper 2.

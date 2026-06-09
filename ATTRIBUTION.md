@@ -1,13 +1,21 @@
 # Attribution
 
-## Originating Researcher
+**Originating researcher / first author:** Logan Henderson
 
-Logan Henderson is the originating researcher and author of the RAY-VASC Regenerative Loop research program, Paper 1, Paper 2, the APPRE schema-and-rules architecture, and the public protocol documentation structure.
+## Paper 1
 
-## Human Origin Acknowledgment
+**The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease**
 
-The work was motivated by the care context of Raymond A. Hornsby. Public attribution is limited to the acknowledgment language in the publishing-clean manuscripts and may not be expanded to raw clinical records, source documents, private clinical images, screenshots, full dates of birth, addresses, or identifiable medical information.
+Author: Logan Henderson  
+Affiliation: Independent researcher
 
-## Use of Repository Materials
+## Paper 2
 
-Users may cite, reuse, fork, and adapt the public documentation subject to the applicable license and attribution requirements. Clinical implementation requires independent ethics, legal, and medical governance.
+**RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease**
+
+Author: Logan Henderson  
+Affiliation: Independent researcher
+
+## Origin Acknowledgment
+
+The research architecture was motivated by the care of Raymond A. Hornsby, acknowledged in the manuscripts as the human origin point of the work. No raw medical records or individual-level clinical source documents are included in this public repository.

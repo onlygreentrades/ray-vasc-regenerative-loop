@@ -1,28 +1,23 @@
-field,type,required,notes
-subject_id,string,yes,De-identified subject identifier
-date,date,yes,ISO 8601 recommended
-phase,enum,yes,"screening, baseline, phase1, phase2, phase3, closeout"
-entry_by,enum,yes,"self, caregiver, clinician, mixed"
-sleep_hours,numeric,daily,Daily log
-sleep_quality_0_10,integer,daily,0 to 10
-wake_time_hhmm,time,daily,Circadian regularity
-bedtime_hhmm,time,daily,Circadian regularity
-morning_light_yn,boolean,daily,Morning light >=10 minutes
-nap_minutes,integer,daily,Total nap minutes
-exertion_minutes,integer,daily,Activity minutes
-fall_count,integer,daily,Falls
-near_fall_count,integer,daily,Near-falls
-breathlessness_0_10,integer,daily,0 to 10
-fatigue_0_10,integer,daily,0 to 10
-mood_distress_0_10,integer,daily,0 to 10
-phq2_total,integer,weekly,0 to 6
-gad2_total,integer,weekly,0 to 6
-zbi12_total,integer,weekly/alternate,0 to 48
-modified_adl_iadl_total,integer,weekly/alternate,0 to 22
-tug_seconds,numeric,weekly,Timed Up and Go
-EAT10_total,integer,monthly/as indicated,Dysphagia tracking
-eeg_session_id,string,tier2,EEG-01 through EEG-12
-biomarker_panel_complete,boolean,tier2,Quarterly biomarker panel
-confounder_flag,boolean,yes,Confounder annotation
-adverse_event_present,boolean,yes,Safety flag
-response_policy_version,string,monthly/as needed,APPRE update version
+field_name,layer,type,required,notes
+subject_id,Subject Profile,string,yes,De-identified subject ID
+diagnosis_category,Subject Profile,enum,yes,PSP-spectrum; VCI/vascular dementia; vascular Parkinsonism; post-stroke syndrome; mixed phenotype
+phase,Daily Input Log,enum,yes,Cycle/phase label
+sleep_hours,Daily Input Log,numeric,yes,Daily sleep duration
+sleep_quality_0_10,Daily Input Log,integer,yes,Participant/proxy sleep quality rating
+wake_time_hhmm,Daily Input Log,time,yes,Circadian regularity field
+bedtime_hhmm,Daily Input Log,time,yes,Circadian regularity field
+morning_light_yn,Daily Input Log,boolean,yes,Morning light exposure field
+nap_minutes,Daily Input Log,numeric,yes,Nap duration
+exertion_minutes,Daily Input Log,numeric,yes,Activity/exertion minutes
+fall_count,Daily Input Log,integer,yes,Daily falls
+near_fall_count,Daily Input Log,integer,yes,Daily near-falls
+breathlessness_0_10,Daily Input Log,integer,yes,Respiratory burden rating
+mood_distress_0_10,Daily Input Log,integer,yes,Daily mood/distress rating
+phq4_total,Weekly Assessment,integer,recommended,PHQ-2 + GAD-2 combined score where used
+zbi12_total,Weekly Assessment,integer,recommended,Caregiver burden score
+modified_adl_iadl_total,Weekly Assessment,integer,recommended,RAY-VASC Modified ADL/IADL v0.1 total score
+tug_seconds,Weekly Assessment,numeric,recommended,Timed Up-and-Go seconds
+moca_total,Monthly/Quarterly Assessment,integer,recommended,MoCA total score
+EAT10_total,Monthly/Quarterly Assessment,integer,recommended,Dysphagia screening score
+eeg_session_id,Monthly/Quarterly Assessment,string,tier2,EEG-01 through EEG-12
+biomarker_panel_complete,Monthly/Quarterly Assessment,boolean,tier2,Biomarker panel completed within 72-hour EEG window where required

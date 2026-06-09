@@ -1,2 +1,2 @@
-773bc3272d3a26898fc9dabc46763542639240c812d3765f42cd73900d15d697  The_Brain_That_Remains_Paper1_Publishing_Clean.pdf
-397a636770289f1242d0026cee656e1e17bcb852499895c780f32f2a53cd6fde  The_Brain_That_Remains_Paper1_Publishing_Clean.docx
+86F478F46D0F032D635FBF1CACEE080AB176D0BB9A6380D8CC2BE1C2DB8AF42C  manuscripts/paper1/final/The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.docx
+6293DF92DB87FC4D5E284627172789AA115B0663220BA83E837B517CAAD263BD  manuscripts/paper1/final/The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.pdf
