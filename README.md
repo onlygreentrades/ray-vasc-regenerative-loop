@@ -1,62 +1,107 @@
-# RAY-VASC Regenerative Loop Research Program
+# RAY-VASC Regenerative Loop
 
-**Repository status:** Public research and protocol documentation repository  
-**Originating researcher / first author:** Logan Henderson  
-**Current public package:** Papers 1 and 2 publishing-clean manuscript package  
-**OSF project:** https://osf.io/y2h79/  
-**License for documentation:** CC BY 4.0  
+**Current public release:** v2.1  
+**Author:** Logan Henderson  
+**Affiliation:** Independent Researcher, Houston, Texas, United States  
+**Repository:** https://github.com/onlygreentrades/ray-vasc-regenerative-loop
 
-## Purpose
+## Overview
 
-The RAY-VASC Regenerative Loop repository publishes open-source research architecture for studying complex neurovascular and mixed neurodegenerative-vascular disease using structured, reproducible, claim-disciplined protocols.
+RAY-VASC Regenerative Loop is a publication-only open research framework for studying residual adaptive capacity, longitudinal measurement, confounder tracking, and protocol design in complex neurodegenerative and neurovascular disease.
 
-The program is designed to make complex trajectories observable before making treatment claims. It focuses on feasibility, longitudinal measurement, safety monitoring, confounder annotation, caregiver-supported reporting, APPRE schema logic, serial EEG, synchronized biomarkers, and open-science reproducibility.
+This repository contains public manuscript assets, governance files, release archives, and supporting documentation for the RAY-VASC Regenerative Loop research program.
 
-This repository is not a treatment service, supplement protocol, clinical care pathway, psychedelic protocol, or commercial product repository.
+## Included Papers
 
-## Locked Publishing Titles
+### Paper 1
 
-| Paper | Locked title | Primary folder |
-|---|---|---|
-| Paper 1 | The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease | `manuscripts/paper1/final/` |
-| Paper 2 | RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease | `manuscripts/paper2/final/` |
+**The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease**
 
-## Public Manuscript Files
+Paper 1 defines the parent framework: the Regenerative Loop, APPRE, RAY-VASC, residual adaptive capacity, and the Three-Phase Plasticity Architecture.
 
-| Paper | DOCX | PDF |
-|---|---|---|
-| Paper 1 | `manuscripts/paper1/final/The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.docx` | `manuscripts/paper1/final/The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.pdf` |
-| Paper 2 | `manuscripts/paper2/final/RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.docx` | `manuscripts/paper2/final/RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.pdf` |
+Location:
+
+- `manuscripts/paper1/final/`
+
+### Paper 2
+
+**RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease**
+
+Paper 2 translates the parent framework into a prospective observational N-of-1 and small-series protocol architecture for feasibility, safety, signal detection, confounder annotation, EEG/biomarker synchronization, and reproducible protocol implementation.
+
+Location:
+
+- `manuscripts/paper2/final/`
+
+## Relationship Between Papers
+
+Paper 1 is the conceptual and framework manuscript.
+
+Paper 2 is the protocol and methods manuscript.
+
+Paper 2 operationalizes the residual-capacity hypothesis and measurement architecture introduced in Paper 1. The two manuscripts are intended to be read together but remain separate public research outputs.
 
 ## Repository Structure
 
-- `manuscripts/paper1/final/` - Paper 1 publishing-clean DOCX/PDF
-- `manuscripts/paper2/final/` - Paper 2 publishing-clean DOCX/PDF
-- `supplements/paper2/final/` - Paper 2 supplementary checklist, schedule, data dictionary, and template files
-- `releases/paper1/final/` - Paper 1 release notes and checksums
-- `releases/paper2/final/` - Paper 2 release notes and checksums
-- `archive/` - legacy working materials retained only for provenance
-
-GitHub may visually compress nested paths such as `supplements/paper2/final`; the repository still preserves the nested folder structure shown above.
+```text
+ray-vasc-regenerative-loop/
+├── README.md
+├── PAPER_INDEX.md
+├── REPO_MAP.md
+├── ATTRIBUTION.md
+├── PRIVACY.md
+├── REGULATORY_BOUNDARY.md
+├── CITATION.cff
+├── LICENSE-DOCS-CC-BY-4.0.txt
+├── CHANGELOG.md
+├── MANIFEST_SHA256.txt
+├── manuscripts/
+│   ├── paper1/final/
+│   └── paper2/final/
+├── supplements/
+│   └── paper2/final/
+├── releases/
+│   ├── paper1/final/
+│   └── paper2/final/
+└── archive/
+```
 
 ## Research Boundary
 
-RAY-VASC is hypothesis-generating research architecture. The repository does not claim treatment efficacy, disease modification, PSP reversal, dementia reversal, vascular lesion repair, brain repair, recovery guarantee, supplement efficacy, or controlled-substance treatment efficacy.
+This repository is for research planning, documentation, protocol design, reproducibility, and open scientific review.
 
-Controlled-substance content, where referenced, is limited to research-governance architecture. No sourcing, preparation, dosing, administration, or self-use instructions are provided.
+It does not report new clinical outcomes.
 
-## Registration and Governance
+It does not make treatment claims.
 
-The OSF project is available at: https://osf.io/y2h79/
+It does not claim disease reversal, tissue regeneration, brain repair, PSP reversal, dementia reversal, vascular lesion reversal, or recovery guarantees.
 
-OSF registration should precede any external prospective subject data collection intended to contribute to generalizable knowledge. External implementation requires local ethics review, IRB review, or formal determination as applicable.
+It does not provide medical advice or legal advice.
 
-## Public Data Boundary
+It does not provide controlled-substance sourcing, preparation, dosing, administration, conversion, or self-use instructions.
 
-No raw clinical records, medical record numbers, full dates of birth, clinical screenshots, lab screenshots, imaging reports, or identifiable source documents belong in this public repository.
+Any future implementation involving identifiable participants, prospective data collection, clinical intervention, controlled-substance exposure, imaging, EEG, biomarkers, or data sharing requires appropriate consent, privacy review, clinician oversight, and IRB or ethics review as applicable.
 
-Public repository materials are limited to manuscripts, protocols, forms, schemas, synthetic examples, analysis templates, release notes, and governance documentation.
+## Data and Privacy Boundary
 
-## Disclaimer
+Public materials are limited to manuscripts, de-identified protocols, forms, schemas, evidence maps, synthetic examples, analysis templates, and governance documentation.
 
-This repository is for research planning, documentation, protocol architecture, and open-science reproducibility only. It is not clinical care, medical advice, legal advice, or a treatment recommendation.
+Raw clinical records, identifiable medical documents, private health information, imaging reports, dates of birth, addresses, medical record numbers, and individual-level clinical data are not public repository assets unless separately consented, reviewed, de-identified, and approved through the appropriate privacy and ethics process.
+
+## Attribution
+
+Logan Henderson is the author, originating researcher, and framework/protocol architect.
+
+Raymond Hornsby is acknowledged in the manuscripts as the human origin point of the RAY-VASC research program where authorization permits public attribution.
+
+Christine A. Hood is acknowledged for family authorization and care coordination support.
+
+## License
+
+Documentation is released under CC BY 4.0 unless otherwise stated.
+
+## Citation
+
+Please cite the specific manuscript used and reference the GitHub/OSF release version when citing this project.
+
+Current release: **v2.1**
