@@ -1,32 +1,40 @@
 # RAY-VASC Paper Index
 
-## Paper 1 - Framework Manuscript
+Current public release: v2.1
 
-**Locked title:** The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease  
-**Primary folder:** `manuscripts/paper1/final/`
+## Paper 1
 
-Files:
+**The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease**
 
-- `The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.pdf`
+Location:
+
+- `manuscripts/paper1/final/`
+
+Public files:
+
 - `The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.docx`
-- `README.md`
+- `The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.pdf`
 
-## Paper 2 - Study Protocol / Methods Manuscript
+## Paper 2
 
-**Locked title:** RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease  
-**Primary folder:** `manuscripts/paper2/final/`
+**RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease**
 
-Files:
+Location:
 
-- `RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.pdf`
+- `manuscripts/paper2/final/`
+
+Public files:
+
 - `RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.docx`
-- `README.md`
+- `RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.pdf`
 
 ## Paper 2 Supplementary Materials
 
-**Primary folder:** `supplements/paper2/final/`
+Location:
 
-Files:
+- `supplements/paper2/final/`
+
+Public files:
 
 - `SPIRIT_SPENT_Checklist.md`
 - `Schedule_of_Events.csv`
@@ -35,11 +43,11 @@ Files:
 - `Adverse_Event_Log_Template.csv`
 - `README.md`
 
-## Release Folders
+## Release Archives
 
-- `releases/paper1/final/`
-- `releases/paper2/final/`
+- `releases/paper1/final/The Brain That Remains - Final Public Manuscript.zip`
+- `releases/paper2/final/RAY-VASC - Final Public Manuscript.zip`
 
-## Legacy Materials
+## Boundary
 
-Legacy working drafts and older archived materials are stored under `archive/` and are not the primary public citation path.
+This repository is a publication-only open research framework. It does not provide medical advice, legal advice, treatment claims, controlled-substance sourcing, preparation, dosing, administration, conversion, or self-use instructions.

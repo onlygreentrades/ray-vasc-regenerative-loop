@@ -1,39 +1,54 @@
-# Repository Map
+# RAY-VASC Repository Map
 
-## Root Files
+Locked public-facing structure:
 
-- `README.md` - public repository landing page
-- `PAPER_INDEX.md` - paper-specific asset index
-- `REPO_MAP.md` - repository structure
-- `ATTRIBUTION.md` - authorship and origin language
-- `PRIVACY.md` - data protection and de-identification rules
-- `REGULATORY_BOUNDARY.md` - clinical, legal, and controlled-substance boundaries
-- `CITATION.cff` - citation metadata
-- `LICENSE-DOCS-CC-BY-4.0.txt` - documentation license
-- `CHANGELOG.md` - public package history
-- `MANIFEST_SHA256.txt` - checksum manifest
+``text
+ray-vasc-regenerative-loop/
+├── README.md
+├── PAPER_INDEX.md
+├── REPO_MAP.md
+├── ATTRIBUTION.md
+├── PRIVACY.md
+├── REGULATORY_BOUNDARY.md
+├── CITATION.cff
+├── LICENSE-DOCS-CC-BY-4.0.txt
+├── CHANGELOG.md
+├── MANIFEST_SHA256.txt
+├── manuscripts/
+│   ├── paper1/final/
+│   └── paper2/final/
+├── supplements/
+│   └── paper2/final/
+├── releases/
+│   ├── paper1/final/
+│   └── paper2/final/
+└── archive/
+``
 
 ## Manuscripts
 
-- `manuscripts/paper1/final/The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.docx`
-- `manuscripts/paper1/final/The Brain That Remains - A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease.pdf`
-- `manuscripts/paper2/final/RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.docx`
-- `manuscripts/paper2/final/RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.pdf`
+Final public manuscript assets live only under:
+
+- `manuscripts/paper1/final/`
+- `manuscripts/paper2/final/`
 
 ## Supplements
 
-- `supplements/paper2/final/` - Paper 2 checklist, schedule, EEG schedule, data dictionary, adverse-event template, and README
+Paper 2 public supplementary materials live under:
+
+- `supplements/paper2/final/`
 
 ## Releases
 
-- `releases/paper1/final/` - Paper 1 release notes and checksums
-- `releases/paper2/final/` - Paper 2 release notes and checksums
+Release ZIP archives live under:
+
+- `releases/paper1/final/`
+- `releases/paper2/final/`
 
 ## Archive
 
-- `archive/paper1_legacy/` - legacy Paper 1 drafts and prior structure
-- `archive/paper2_legacy/` - legacy Paper 2 drafts and prior structure
+The `archive/` folder is for superseded internal or previous working material only. Files in `archive/` are not the public source of truth.
 
 ## Public Boundary
 
-The primary public citation path is the `manuscripts/*/final/`, `supplements/*/final/`, and `releases/*/final/` structure. Legacy archive folders are retained only for provenance.
+The primary public citation path is the `manuscripts/*/final/`, `supplements/*/final/`, and `releases/*/final/` structure. This repository is publication-only and does not provide medical advice, legal advice, treatment claims, controlled-substance sourcing, preparation, dosing, administration, conversion, or self-use instructions.
