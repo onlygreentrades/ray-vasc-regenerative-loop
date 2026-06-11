@@ -23,3 +23,9 @@ No raw clinical records, identifiers, clinical screenshots, lab screenshots, ima
 - Confirmed release ZIP archives under `releases/paper1/final/` and `releases/paper2/final/`.
 - Regenerated `MANIFEST_SHA256.txt` against the final public tree.
 - Preserved publication-only, de-identified, no-treatment-claim, no-controlled-substance-how-to boundary.
+
+## v2.1 supplemental update — 2026-06-11
+
+- Added Paper 2 standalone analysis plan supplement in Markdown and PDF formats.
+- Updated Paper 2 supplementary README to include the analysis plan files.
+- Regenerated SHA256 manifest after analysis plan supplement inclusion.
