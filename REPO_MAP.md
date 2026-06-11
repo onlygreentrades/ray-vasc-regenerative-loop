@@ -52,3 +52,10 @@ The `archive/` folder is for superseded internal or previous working material on
 ## Public Boundary
 
 The primary public citation path is the `manuscripts/*/final/`, `supplements/*/final/`, and `releases/*/final/` structure. This repository is publication-only and does not provide medical advice, legal advice, treatment claims, controlled-substance sourcing, preparation, dosing, administration, conversion, or self-use instructions.
+
+## External Public Records
+
+- OSF parent project: https://osf.io/y2h79/
+- OSF Paper 2 preregistration: https://osf.io/weszy/
+- OSF Paper 2 DOI: https://doi.org/10.17605/OSF.IO/WESZY
+- GitHub repository: https://github.com/onlygreentrades/ray-vasc-regenerative-loop

@@ -29,3 +29,9 @@ No raw clinical records, identifiers, clinical screenshots, lab screenshots, ima
 - Added Paper 2 standalone analysis plan supplement in Markdown and PDF formats.
 - Updated Paper 2 supplementary README to include the analysis plan files.
 - Regenerated SHA256 manifest after analysis plan supplement inclusion.
+
+## v2.1 OSF preregistration — 2026-06-11
+
+- Public OSF preregistration completed for Paper 2.
+- DOI issued: 10.17605/OSF.IO/WESZY.
+- Added OSF registration and DOI references to public repository documentation.

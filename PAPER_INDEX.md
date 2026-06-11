@@ -51,3 +51,11 @@ Public files:
 ## Boundary
 
 This repository is a publication-only open research framework. It does not provide medical advice, legal advice, treatment claims, controlled-substance sourcing, preparation, dosing, administration, conversion, or self-use instructions.
+
+## OSF Registration
+
+Paper 2 public preregistration:
+
+- OSF Registration: https://osf.io/weszy/
+- DOI: https://doi.org/10.17605/OSF.IO/WESZY
+- APA citation: Henderson, L. (2026, June 11). RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease. https://doi.org/10.17605/OSF.IO/WESZY

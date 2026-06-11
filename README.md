@@ -105,3 +105,14 @@ Documentation is released under CC BY 4.0 unless otherwise stated.
 Please cite the specific manuscript used and reference the GitHub/OSF release version when citing this project.
 
 Current release: **v2.1**
+
+## OSF Preregistration
+
+Paper 2 has been publicly preregistered on OSF.
+
+- Title: RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease
+- OSF Registration: https://osf.io/weszy/
+- DOI: https://doi.org/10.17605/OSF.IO/WESZY
+- APA citation: Henderson, L. (2026, June 11). RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease. https://doi.org/10.17605/OSF.IO/WESZY
+
+This registration is a frozen, public, timestamped OSF preregistration for the Paper 2 protocol and analysis plan.
