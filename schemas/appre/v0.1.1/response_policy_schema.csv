@@ -1,0 +1,22 @@
+field_name,data_type,required,vocabulary_or_range,description
+subject_id,string,True,pseudonymous identifier,Subject ID.
+response_policy_id,string,True,unique identifier,Policy ID.
+response_policy_version,string,True,semantic version,Policy version.
+effective_date,date,True,YYYY-MM-DD or shifted date,Effective date.
+phase,string,True,controlled vocabulary,Phase.
+cycle,string,False,cycle1|cycle2|not_applicable,Cycle.
+trigger_event_type,string,True,ae|confounder|missingness|candidate_signal|schema_update|release|other,Trigger type.
+trigger_event_id,string,False,event ID,Linked event.
+policy_domain,string,True,measurement|burden|safety|candidate_input|analysis|release|other,Policy domain.
+prior_policy_summary,string,False,text,Prior posture summary.
+updated_policy_summary,string,True,text,Updated documentation posture.
+rationale,string,True,text,Rationale.
+safety_override_yes_no,boolean,False,yes|no,Safety override.
+clinician_review_required_yes_no,boolean,False,yes|no,Clinician review requirement.
+controlled_substance_tuning_involved,boolean,True,must be no,Should be no in public APPRE release.
+candidate_input_rule_status,string,False,unchanged|documented_change|paused_by_team|not_applicable,Candidate-input status.
+burden_reduction_rule_status,string,False,active|inactive|not_applicable,Burden status.
+missingness_rule_status,string,False,clean|partial|missing|uninterpretable,Missingness status.
+approved_by_role,string,False,role,Approver role.
+created_at,datetime,True,ISO 8601,Creation timestamp.
+record_status,string,True,draft|reviewed|locked|amended,Record status.

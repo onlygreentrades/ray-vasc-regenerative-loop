@@ -1,0 +1,18 @@
+field_name,data_type,required,vocabulary_or_range,description
+subject_id,string,True,pseudonymous identifier,Subject ID.
+confounder_id,string,True,unique identifier,Confounder ID.
+confounder_date_start,date,True,YYYY-MM-DD or shifted date,Start date.
+confounder_date_end,date,False,YYYY-MM-DD or shifted date,End date.
+confounder_category,string,True,controlled vocabulary,Confounder category.
+confounder_description,string,False,short text,Structured description; avoid direct identifiers.
+severity,string,False,low|moderate|high|severe|unknown,Severity.
+expected_direction_of_bias,string,False,improve|worsen|mixed|unknown,Expected bias direction.
+affected_domains,string,False,semicolon-delimited,Affected domains.
+requires_exclusion_yes_no,boolean,False,yes|no,Exclusion flag.
+requires_sensitivity_analysis_yes_no,boolean,False,yes|no,Sensitivity flag.
+source_of_detection,string,False,daily_log|weekly_review|clinician|device|other,Source.
+entered_by_role,string,False,role,Entered by role.
+reviewed_by_role,string,False,role,Reviewed by role.
+resolution_status,string,False,active|resolved|unknown,Resolution status.
+created_at,datetime,True,ISO 8601,Creation timestamp.
+record_status,string,True,draft|reviewed|locked|amended,Record status.

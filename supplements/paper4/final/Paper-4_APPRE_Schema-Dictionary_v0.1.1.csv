@@ -1,0 +1,273 @@
+schema_name,field_name,data_type,required,vocabulary_or_range,description
+subject_profile_schema,subject_id,string,True,pseudonymous identifier,Unique subject ID; no direct identifiers.
+subject_profile_schema,study_id,string,True,pseudonymous identifier,Study or protocol identifier.
+subject_profile_schema,site_id,string,False,pseudonymous identifier,Site identifier if multi-site.
+subject_profile_schema,consent_status,string,True,active|withdrawn|pending|not_applicable,Consent/LAR status.
+subject_profile_schema,consent_type,string,False,self|LAR|proxy|ethics_waiver|unknown,Consent pathway.
+subject_profile_schema,proxy_available,boolean,True,yes|no,Whether caregiver/proxy support is available.
+subject_profile_schema,proxy_relationship_category,string,False,caregiver|family|clinician|other,Broad proxy category only.
+subject_profile_schema,age_band,string,False,50-59|60-69|70-79|80+,Banded age for privacy.
+subject_profile_schema,sex_at_birth,string,False,female|male|intersex|unknown|not_reported,Optional demographic field.
+subject_profile_schema,diagnosis_category,string,True,controlled vocabulary,Complex neurovascular / mixed phenotype category.
+subject_profile_schema,phenotype_tags,string,False,semicolon-delimited,Phenotype descriptors.
+subject_profile_schema,baseline_cognitive_status,string,False,ordinal/banded,Baseline cognition descriptor.
+subject_profile_schema,baseline_function_status,string,False,ordinal/banded,Baseline function descriptor.
+subject_profile_schema,care_setting,string,False,home|clinic|assisted_living|memory_care|hybrid|other,Implementation setting.
+subject_profile_schema,caregiver_available_days_per_week,integer,False,0-7,Caregiver availability estimate.
+subject_profile_schema,tier_level,string,True,Tier1|Tier2|Tier3,Declared measurement tier.
+subject_profile_schema,falls_risk_flag,boolean,False,yes|no,Falls risk flag.
+subject_profile_schema,dysphagia_flag,boolean,False,yes|no,Swallowing risk flag.
+subject_profile_schema,respiratory_status_flag,boolean,False,yes|no,Respiratory concern flag.
+subject_profile_schema,sleep_disorder_flag,boolean,False,yes|no,Sleep disorder concern flag.
+subject_profile_schema,major_safety_flags,string,False,semicolon-delimited,Major safety flags.
+subject_profile_schema,medication_list_hash,string,False,hash only,"Medication list hash or version ID, not raw medication list in public data."
+subject_profile_schema,baseline_start_date,date,False,YYYY-MM-DD or shifted date,Baseline start date or privacy-shifted date.
+subject_profile_schema,baseline_end_date,date,False,YYYY-MM-DD or shifted date,Baseline end date or privacy-shifted date.
+subject_profile_schema,created_at,datetime,True,ISO 8601,Record creation timestamp.
+subject_profile_schema,record_status,string,True,draft|reviewed|locked|amended,Record lifecycle status.
+daily_inputs_schema,subject_id,string,True,pseudonymous identifier,Subject ID.
+daily_inputs_schema,study_day,integer,True,integer,Day number from study start.
+daily_inputs_schema,calendar_date,date,True,YYYY-MM-DD or shifted date,Date or privacy-shifted date.
+daily_inputs_schema,phase,string,True,baseline|preload|governed_window|sustain|other,Protocol phase.
+daily_inputs_schema,cycle,string,False,cycle1|cycle2|not_applicable,Protocol cycle.
+daily_inputs_schema,entry_time,time,False,HH:MM,Entry time.
+daily_inputs_schema,entry_mode,string,False,paper|spreadsheet|REDCap|ePRO|other,Capture mode.
+daily_inputs_schema,completed_by_role,string,True,participant|caregiver|proxy|clinician|assessor|mixed,Reporter role.
+daily_inputs_schema,sleep_hours,number,False,0-24,Sleep duration.
+daily_inputs_schema,sleep_quality_0_10,integer,False,0-10,Sleep quality rating.
+daily_inputs_schema,wake_time,time,False,HH:MM,Wake time.
+daily_inputs_schema,bed_time,time,False,HH:MM,Bed time.
+daily_inputs_schema,nap_minutes,integer,False,0-1440,Nap minutes.
+daily_inputs_schema,morning_light_yes_no,boolean,False,yes|no,Morning light exposure.
+daily_inputs_schema,morning_light_minutes,integer,False,0-1440,Morning light minutes.
+daily_inputs_schema,structured_exertion_yes_no,boolean,False,yes|no,Structured exertion occurred.
+daily_inputs_schema,exertion_minutes,integer,False,0-1440,Exertion minutes.
+daily_inputs_schema,steps_count,integer,False,>=0,Step count if available.
+daily_inputs_schema,social_contact_yes_no,boolean,False,yes|no,Meaningful social contact.
+daily_inputs_schema,medications_as_prescribed,boolean,False,yes|no|unknown,Medication adherence status.
+daily_inputs_schema,medication_change_yes_no,boolean,False,yes|no,Medication change flag.
+daily_inputs_schema,candidate_input_taken_yes_no,boolean,False,yes|no|not_applicable,Candidate input taken if defined.
+daily_inputs_schema,candidate_input_change_yes_no,boolean,False,yes|no,Candidate input change flag.
+daily_inputs_schema,controlled_substance_as_administered_field_present,boolean,False,yes|no|not_applicable,"If present, observational only."
+daily_inputs_schema,breathlessness_0_10,integer,False,0-10,Breathlessness rating.
+daily_inputs_schema,spo2_am,number,False,percent,Morning SpO2 if available.
+daily_inputs_schema,spo2_pm,number,False,percent,Evening SpO2 if available.
+daily_inputs_schema,bp_systolic_am,integer,False,mmHg,Morning systolic BP.
+daily_inputs_schema,bp_diastolic_am,integer,False,mmHg,Morning diastolic BP.
+daily_inputs_schema,hr_am,integer,False,bpm,Morning heart rate.
+daily_inputs_schema,adverse_event_present,boolean,False,yes|no,AE flag.
+daily_inputs_schema,confounder_flag,boolean,False,yes|no,Confounder flag.
+daily_inputs_schema,free_text_note_present,boolean,False,yes|no,Note present flag without public note content.
+daily_inputs_schema,data_absent_reason,string,False,controlled vocabulary,Required when expected data missing.
+daily_inputs_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+daily_inputs_schema,record_status,string,True,draft|reviewed|locked|amended,Record lifecycle status.
+weekly_outcomes_schema,subject_id,string,True,pseudonymous identifier,Subject ID.
+weekly_outcomes_schema,study_week,integer,True,>=0,Study week.
+weekly_outcomes_schema,week_start_date,date,True,YYYY-MM-DD or shifted date,Start date.
+weekly_outcomes_schema,week_end_date,date,True,YYYY-MM-DD or shifted date,End date.
+weekly_outcomes_schema,phase,string,True,controlled vocabulary,Protocol phase.
+weekly_outcomes_schema,cycle,string,False,cycle1|cycle2|not_applicable,Cycle.
+weekly_outcomes_schema,completed_by_role,string,True,participant|caregiver|proxy|clinician|assessor|mixed,Reporter role.
+weekly_outcomes_schema,tug_seconds,number,False,seconds,Timed Up and Go.
+weekly_outcomes_schema,walk_10m_seconds,number,False,seconds,10-meter walk.
+weekly_outcomes_schema,falls_count,integer,False,>=0,Falls count.
+weekly_outcomes_schema,near_falls_count,integer,False,>=0,Near-falls count.
+weekly_outcomes_schema,phq9_total,integer,False,0-27,PHQ-9 total if used.
+weekly_outcomes_schema,gad7_total,integer,False,0-21,GAD-7 total if used.
+weekly_outcomes_schema,mmrc_score,integer,False,0-4,mMRC if used.
+weekly_outcomes_schema,average_sleep_hours,number,False,0-24,Weekly average sleep.
+weekly_outcomes_schema,average_sleep_quality_0_10,number,False,0-10,Weekly average quality.
+weekly_outcomes_schema,activity_minutes_week,integer,False,>=0,Activity minutes.
+weekly_outcomes_schema,average_steps_per_day,number,False,>=0,Average steps.
+weekly_outcomes_schema,adl_iadl_status,string,False,instrument-specific,ADL/IADL status or score.
+weekly_outcomes_schema,caregiver_burden_short_score,integer,False,instrument-specific,ZBI-12 or comparable.
+weekly_outcomes_schema,adherence_full_days,integer,False,0-7,Full adherence days.
+weekly_outcomes_schema,adverse_event_count,integer,False,>=0,AE count.
+weekly_outcomes_schema,confounder_count,integer,False,>=0,Confounder count.
+weekly_outcomes_schema,clinician_contact_yes_no,boolean,False,yes|no,Clinician contact flag.
+weekly_outcomes_schema,weekly_global_impression,string,False,stable|improving|declining|mixed|unknown,Descriptive only.
+weekly_outcomes_schema,missingness_flag,boolean,False,yes|no,Missingness flag.
+weekly_outcomes_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+weekly_outcomes_schema,record_status,string,True,draft|reviewed|locked|amended,Record status.
+monthly_quarterly_measures_schema,subject_id,string,True,pseudonymous identifier,Subject ID.
+monthly_quarterly_measures_schema,assessment_id,string,True,unique identifier,Assessment ID.
+monthly_quarterly_measures_schema,assessment_date,date,True,YYYY-MM-DD or shifted date,Assessment date.
+monthly_quarterly_measures_schema,study_month,integer,False,>=0,Study month.
+monthly_quarterly_measures_schema,study_quarter,integer,False,>=0,Study quarter.
+monthly_quarterly_measures_schema,phase,string,True,controlled vocabulary,Protocol phase.
+monthly_quarterly_measures_schema,cycle,string,False,cycle1|cycle2|not_applicable,Cycle.
+monthly_quarterly_measures_schema,completed_by_role,string,True,participant|caregiver|proxy|clinician|assessor|mixed,Reporter role.
+monthly_quarterly_measures_schema,moca_total,integer,False,0-30,MoCA total if used.
+monthly_quarterly_measures_schema,trail_making_a_seconds,number,False,seconds,TMT-A.
+monthly_quarterly_measures_schema,trail_making_b_seconds,number,False,seconds,TMT-B.
+monthly_quarterly_measures_schema,verbal_fluency_score,integer,False,>=0,Verbal fluency.
+monthly_quarterly_measures_schema,psqi_total,integer,False,0-21,PSQI.
+monthly_quarterly_measures_schema,cat_total,integer,False,0-40,CAT.
+monthly_quarterly_measures_schema,eat10_total,integer,False,0-40,EAT-10.
+monthly_quarterly_measures_schema,mpsprs15_total,integer,False,instrument-specific,mPSPRS-15.
+monthly_quarterly_measures_schema,mds_updrs_part_iii_total,integer,False,instrument-specific,MDS-UPDRS III.
+monthly_quarterly_measures_schema,six_minute_walk_distance,number,False,meters,6MWT.
+monthly_quarterly_measures_schema,spirometry_fev1,number,False,liters or percent predicted,FEV1.
+monthly_quarterly_measures_schema,spirometry_fvc,number,False,liters or percent predicted,FVC.
+monthly_quarterly_measures_schema,assessment_quality_flag,string,False,clean|partial|confounded|missing|uninterpretable,Quality flag.
+monthly_quarterly_measures_schema,assessor_role,string,False,role,Assessor role.
+monthly_quarterly_measures_schema,same_assessor_as_prior,boolean,False,yes|no|unknown,Measurement comparability.
+monthly_quarterly_measures_schema,confounder_window_flag,boolean,False,yes|no,Confounder flag.
+monthly_quarterly_measures_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+monthly_quarterly_measures_schema,record_status,string,True,draft|reviewed|locked|amended,Record status.
+biomarker_schema,subject_id,string,True,pseudonymous identifier,Subject ID.
+biomarker_schema,sample_id,string,True,unique identifier,Sample ID.
+biomarker_schema,collection_date,date,True,YYYY-MM-DD or shifted date,Collection date.
+biomarker_schema,collection_time,time,False,HH:MM,Collection time.
+biomarker_schema,fasting_status,string,False,fasting|nonfasting|unknown,Fasting status.
+biomarker_schema,study_quarter,integer,False,>=0,Quarter.
+biomarker_schema,phase,string,True,controlled vocabulary,Phase.
+biomarker_schema,cycle,string,False,cycle1|cycle2|not_applicable,Cycle.
+biomarker_schema,lab_vendor_category,string,False,public category,"Vendor category, not private account info."
+biomarker_schema,specimen_type,string,False,blood|plasma|serum|saliva|other,Specimen type.
+biomarker_schema,assay_name,string,True,text,Assay name.
+biomarker_schema,assay_result_value,number,False,numeric,Result value.
+biomarker_schema,assay_unit,string,False,unit,Unit.
+biomarker_schema,reference_range_low,number,False,numeric,Reference low.
+biomarker_schema,reference_range_high,number,False,numeric,Reference high.
+biomarker_schema,result_flag,string,False,low|normal|high|critical|unknown,Result flag.
+biomarker_schema,data_absent_reason,string,False,controlled vocabulary,Reason if absent.
+biomarker_schema,collection_within_72h_of_eeg,boolean,False,yes|no|not_applicable,EEG synchronization status.
+biomarker_schema,medication_context_flag,boolean,False,yes|no,Medication context flag.
+biomarker_schema,acute_illness_context_flag,boolean,False,yes|no,Acute illness context.
+biomarker_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+biomarker_schema,record_status,string,True,draft|reviewed|locked|amended,Record status.
+eeg_schema,subject_id,string,True,pseudonymous identifier,Subject ID.
+eeg_schema,eeg_session_id,string,True,unique identifier,EEG session ID.
+eeg_schema,session_date,date,True,YYYY-MM-DD or shifted date,Session date.
+eeg_schema,study_week,integer,False,>=0,Study week.
+eeg_schema,phase,string,True,controlled vocabulary,Phase.
+eeg_schema,cycle,string,False,cycle1|cycle2|not_applicable,Cycle.
+eeg_schema,eeg_tier,string,False,Tier2|Tier3|other,EEG tier.
+eeg_schema,device_class,string,False,dry|wet|consumer|clinical|unknown,Device class.
+eeg_schema,channel_count,integer,False,>=1,Channel count.
+eeg_schema,resting_eyes_open_completed,boolean,False,yes|no,Resting EO.
+eeg_schema,resting_eyes_closed_completed,boolean,False,yes|no,Resting EC.
+eeg_schema,p300_completed,boolean,False,yes|no,P300 completion.
+eeg_schema,recording_quality_flag,string,False,clean|partial|artifact|uninterpretable,Quality flag.
+eeg_schema,sleep_quality_prior_night_0_10,integer,False,0-10,Prior sleep quality.
+eeg_schema,caffeine_within_6h_yes_no,boolean,False,yes|no|unknown,Caffeine flag.
+eeg_schema,acute_illness_flag,boolean,False,yes|no,Acute illness flag.
+eeg_schema,medication_change_14d_flag,boolean,False,yes|no,Medication change flag.
+eeg_schema,artifact_burden_flag,string,False,low|moderate|high|unknown,Artifact burden.
+eeg_schema,spectral_power_file_reference,string,False,path or ID,File reference only.
+eeg_schema,erp_file_reference,string,False,path or ID,ERP file reference.
+eeg_schema,connectivity_file_reference,string,False,path or ID,Connectivity file reference.
+eeg_schema,biomarker_sync_window_yes_no,boolean,False,yes|no|not_applicable,Biomarker sync.
+eeg_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+eeg_schema,record_status,string,True,draft|reviewed|locked|amended,Record status.
+wearables_schema,subject_id,string,True,pseudonymous identifier,Subject ID.
+wearables_schema,calendar_date,date,True,YYYY-MM-DD or shifted date,Date.
+wearables_schema,study_day,integer,True,>=0,Study day.
+wearables_schema,device_class,string,False,wrist|ring|patch|medical|other,Device class.
+wearables_schema,device_wear_hours,number,False,0-24,Wear hours.
+wearables_schema,valid_wear_day_yes_no,boolean,False,yes|no,Valid wear day.
+wearables_schema,steps_count,integer,False,>=0,Steps.
+wearables_schema,resting_hr,integer,False,bpm,Resting HR.
+wearables_schema,hrv_metric,number,False,device-specific,HRV.
+wearables_schema,sleep_duration_minutes,integer,False,0-1440,Sleep duration.
+wearables_schema,sleep_efficiency_percent,number,False,0-100,Sleep efficiency.
+wearables_schema,spo2_mean,number,False,percent,Mean SpO2.
+wearables_schema,spo2_min,number,False,percent,Minimum SpO2.
+wearables_schema,data_export_format,string,False,csv|json|vendor|other,Export format.
+wearables_schema,device_sync_success,boolean,False,yes|no,Sync status.
+wearables_schema,discordance_self_report_flag,boolean,False,yes|no,Discordance flag.
+wearables_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+wearables_schema,record_status,string,True,draft|reviewed|locked|amended,Record status.
+confounder_schema,subject_id,string,True,pseudonymous identifier,Subject ID.
+confounder_schema,confounder_id,string,True,unique identifier,Confounder ID.
+confounder_schema,confounder_date_start,date,True,YYYY-MM-DD or shifted date,Start date.
+confounder_schema,confounder_date_end,date,False,YYYY-MM-DD or shifted date,End date.
+confounder_schema,confounder_category,string,True,controlled vocabulary,Confounder category.
+confounder_schema,confounder_description,string,False,short text,Structured description; avoid direct identifiers.
+confounder_schema,severity,string,False,low|moderate|high|severe|unknown,Severity.
+confounder_schema,expected_direction_of_bias,string,False,improve|worsen|mixed|unknown,Expected bias direction.
+confounder_schema,affected_domains,string,False,semicolon-delimited,Affected domains.
+confounder_schema,requires_exclusion_yes_no,boolean,False,yes|no,Exclusion flag.
+confounder_schema,requires_sensitivity_analysis_yes_no,boolean,False,yes|no,Sensitivity flag.
+confounder_schema,source_of_detection,string,False,daily_log|weekly_review|clinician|device|other,Source.
+confounder_schema,entered_by_role,string,False,role,Entered by role.
+confounder_schema,reviewed_by_role,string,False,role,Reviewed by role.
+confounder_schema,resolution_status,string,False,active|resolved|unknown,Resolution status.
+confounder_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+confounder_schema,record_status,string,True,draft|reviewed|locked|amended,Record status.
+adverse_event_schema,subject_id,string,True,pseudonymous identifier,Subject ID.
+adverse_event_schema,ae_id,string,True,unique identifier,AE ID.
+adverse_event_schema,event_date,date,True,YYYY-MM-DD or shifted date,Event date.
+adverse_event_schema,event_time,time,False,HH:MM,Event time.
+adverse_event_schema,event_category,string,True,fall|respiratory|psychiatric|GI|allergic|cardiovascular|neurologic|swallowing|other,Event category.
+adverse_event_schema,event_description,string,False,short text,Structured description; avoid direct identifiers.
+adverse_event_schema,severity_grade,string,True,mild|moderate|severe|life_threatening|death|unknown,Severity.
+adverse_event_schema,serious_yes_no,boolean,True,yes|no,Serious flag.
+adverse_event_schema,expected_yes_no,boolean,False,yes|no|unknown,Expectedness.
+adverse_event_schema,relatedness_assessment,string,False,unrelated|unlikely|possible|probable|unknown,Relatedness.
+adverse_event_schema,suspected_related_input,string,False,candidate input ID or context,Suspected input/context.
+adverse_event_schema,action_taken,string,False,continue|pause|simplify|clinician_review|emergency_care|other,Action.
+adverse_event_schema,clinician_contacted_yes_no,boolean,False,yes|no,Clinician contacted.
+adverse_event_schema,urgent_care_or_er_yes_no,boolean,False,yes|no,Urgent/ER care.
+adverse_event_schema,outcome_status,string,False,ongoing|resolved|resolved_with_sequelae|unknown,Outcome.
+adverse_event_schema,resolution_date,date,False,YYYY-MM-DD or shifted date,Resolution date.
+adverse_event_schema,protocol_pause_required_yes_no,boolean,False,yes|no,Protocol pause flag.
+adverse_event_schema,response_policy_version_triggered,string,False,version ID,Linked response-policy version.
+adverse_event_schema,reported_by_role,string,False,role,Reported by role.
+adverse_event_schema,reviewed_by_role,string,False,role,Reviewed by role.
+adverse_event_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+adverse_event_schema,record_status,string,True,draft|reviewed|locked|amended,Record status.
+protocol_deviation_schema,subject_id,string,True,pseudonymous identifier,Subject ID.
+protocol_deviation_schema,deviation_id,string,True,unique identifier,Deviation ID.
+protocol_deviation_schema,deviation_date,date,True,YYYY-MM-DD or shifted date,Deviation date.
+protocol_deviation_schema,deviation_category,string,True,missed_assessment|timing|procedure|device|assessor|other,Category.
+protocol_deviation_schema,expected_procedure,string,False,text,Expected procedure.
+protocol_deviation_schema,actual_procedure,string,False,text,Actual procedure.
+protocol_deviation_schema,reason_for_deviation,string,False,text,Reason.
+protocol_deviation_schema,affected_data_window,string,False,window ID or dates,Affected window.
+protocol_deviation_schema,major_minor_classification,string,False,major|minor|unknown,Classification.
+protocol_deviation_schema,corrective_action,string,False,text,Corrective action.
+protocol_deviation_schema,requires_protocol_amendment_yes_no,boolean,False,yes|no,Amendment flag.
+protocol_deviation_schema,reported_by_role,string,False,role,Reported by role.
+protocol_deviation_schema,reviewed_by_role,string,False,role,Reviewed by role.
+protocol_deviation_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+protocol_deviation_schema,record_status,string,True,draft|reviewed|locked|amended,Record status.
+response_policy_schema,subject_id,string,True,pseudonymous identifier,Subject ID.
+response_policy_schema,response_policy_id,string,True,unique identifier,Policy ID.
+response_policy_schema,response_policy_version,string,True,semantic version,Policy version.
+response_policy_schema,effective_date,date,True,YYYY-MM-DD or shifted date,Effective date.
+response_policy_schema,phase,string,True,controlled vocabulary,Phase.
+response_policy_schema,cycle,string,False,cycle1|cycle2|not_applicable,Cycle.
+response_policy_schema,trigger_event_type,string,True,ae|confounder|missingness|candidate_signal|schema_update|release|other,Trigger type.
+response_policy_schema,trigger_event_id,string,False,event ID,Linked event.
+response_policy_schema,policy_domain,string,True,measurement|burden|safety|candidate_input|analysis|release|other,Policy domain.
+response_policy_schema,prior_policy_summary,string,False,text,Prior posture summary.
+response_policy_schema,updated_policy_summary,string,True,text,Updated documentation posture.
+response_policy_schema,rationale,string,True,text,Rationale.
+response_policy_schema,safety_override_yes_no,boolean,False,yes|no,Safety override.
+response_policy_schema,clinician_review_required_yes_no,boolean,False,yes|no,Clinician review requirement.
+response_policy_schema,controlled_substance_tuning_involved,boolean,True,must be no,Should be no in public APPRE release.
+response_policy_schema,candidate_input_rule_status,string,False,unchanged|documented_change|paused_by_team|not_applicable,Candidate-input status.
+response_policy_schema,burden_reduction_rule_status,string,False,active|inactive|not_applicable,Burden status.
+response_policy_schema,missingness_rule_status,string,False,clean|partial|missing|uninterpretable,Missingness status.
+response_policy_schema,approved_by_role,string,False,role,Approver role.
+response_policy_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+response_policy_schema,record_status,string,True,draft|reviewed|locked|amended,Record status.
+version_log_schema,version_id,string,True,unique identifier,Version record ID.
+version_log_schema,version_date,date,True,YYYY-MM-DD,Version date.
+version_log_schema,artifact_type,string,True,manuscript|schema|data|validation|analysis|docs|release|other,Artifact type.
+version_log_schema,artifact_name,string,True,text,Artifact name.
+version_log_schema,prior_version,string,False,semantic version,Prior version.
+version_log_schema,new_version,string,True,semantic version,New version.
+version_log_schema,change_type,string,True,add|update|fix|remove|release,Change type.
+version_log_schema,change_summary,string,True,text,Change summary.
+version_log_schema,reason_for_change,string,False,text,Reason.
+version_log_schema,affected_schema_tables,string,False,semicolon-delimited,Affected schemas.
+version_log_schema,affected_analysis_scripts,string,False,semicolon-delimited,Affected scripts.
+version_log_schema,affected_public_repository_path,string,False,path,Repo path.
+version_log_schema,osf_or_repository_update_required,boolean,False,yes|no,Update required.
+version_log_schema,created_by_role,string,False,role,Created by role.
+version_log_schema,reviewed_by_role,string,False,role,Reviewed by role.
+version_log_schema,created_at,datetime,True,ISO 8601,Creation timestamp.
+version_log_schema,record_status,string,True,draft|reviewed|locked|amended,Record status.

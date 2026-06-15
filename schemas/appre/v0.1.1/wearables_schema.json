@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Wearables Schema",
+  "version": "v0.1.1",
+  "description": "APPRE v0.1.1 public schema. Documentation architecture only; not validated AI, CDS, SaMD, or treatment optimization.",
+  "type": "object",
+  "properties": {
+    "subject_id": {
+      "type": "string",
+      "description": "Subject ID.",
+      "appre_vocabulary_or_range": "pseudonymous identifier",
+      "appre_required": true
+    },
+    "calendar_date": {
+      "type": "string",
+      "description": "Date.",
+      "appre_vocabulary_or_range": "YYYY-MM-DD or shifted date",
+      "appre_required": true
+    },
+    "study_day": {
+      "type": "integer",
+      "description": "Study day.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": true
+    },
+    "device_class": {
+      "type": "string",
+      "description": "Device class.",
+      "appre_vocabulary_or_range": "wrist|ring|patch|medical|other",
+      "appre_required": false
+    },
+    "device_wear_hours": {
+      "type": "number",
+      "description": "Wear hours.",
+      "appre_vocabulary_or_range": "0-24",
+      "appre_required": false
+    },
+    "valid_wear_day_yes_no": {
+      "type": "string",
+      "description": "Valid wear day.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "steps_count": {
+      "type": "integer",
+      "description": "Steps.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": false
+    },
+    "resting_hr": {
+      "type": "integer",
+      "description": "Resting HR.",
+      "appre_vocabulary_or_range": "bpm",
+      "appre_required": false
+    },
+    "hrv_metric": {
+      "type": "number",
+      "description": "HRV.",
+      "appre_vocabulary_or_range": "device-specific",
+      "appre_required": false
+    },
+    "sleep_duration_minutes": {
+      "type": "integer",
+      "description": "Sleep duration.",
+      "appre_vocabulary_or_range": "0-1440",
+      "appre_required": false
+    },
+    "sleep_efficiency_percent": {
+      "type": "number",
+      "description": "Sleep efficiency.",
+      "appre_vocabulary_or_range": "0-100",
+      "appre_required": false
+    },
+    "spo2_mean": {
+      "type": "number",
+      "description": "Mean SpO2.",
+      "appre_vocabulary_or_range": "percent",
+      "appre_required": false
+    },
+    "spo2_min": {
+      "type": "number",
+      "description": "Minimum SpO2.",
+      "appre_vocabulary_or_range": "percent",
+      "appre_required": false
+    },
+    "data_export_format": {
+      "type": "string",
+      "description": "Export format.",
+      "appre_vocabulary_or_range": "csv|json|vendor|other",
+      "appre_required": false
+    },
+    "device_sync_success": {
+      "type": "string",
+      "description": "Sync status.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "discordance_self_report_flag": {
+      "type": "string",
+      "description": "Discordance flag.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "created_at": {
+      "type": "string",
+      "description": "Creation timestamp.",
+      "appre_vocabulary_or_range": "ISO 8601",
+      "appre_required": true
+    },
+    "record_status": {
+      "type": "string",
+      "description": "Record status.",
+      "appre_vocabulary_or_range": "draft|reviewed|locked|amended",
+      "appre_required": true
+    }
+  },
+  "required": [
+    "subject_id",
+    "calendar_date",
+    "study_day",
+    "created_at",
+    "record_status"
+  ]
+}

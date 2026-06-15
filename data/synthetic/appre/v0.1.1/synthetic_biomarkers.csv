@@ -1,0 +1,3 @@
+subject_id,sample_id,collection_date,collection_time,fasting_status,study_quarter,phase,cycle,lab_vendor_category,specimen_type,assay_name,assay_result_value,assay_unit,reference_range_low,reference_range_high,result_flag,data_absent_reason,collection_within_72h_of_eeg,medication_context_flag,acute_illness_context_flag,created_at,record_status
+SYN-001,BIO-SYN-001,2026-01-28,08:00,fasting,1,baseline,cycle1,synthetic,plasma,hs-CRP,3.2,mg/L,0,3,high,,yes,no,no,2026-01-28T08:00:00,locked
+SYN-001,BIO-SYN-002,2026-03-28,08:00,fasting,1,preload,cycle1,synthetic,plasma,BDNF,12.1,ng/mL,,,unknown,,yes,no,no,2026-03-28T08:00:00,locked

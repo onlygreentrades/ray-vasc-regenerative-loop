@@ -1,0 +1,18 @@
+field_name,data_type,required,vocabulary_or_range,description
+version_id,string,True,unique identifier,Version record ID.
+version_date,date,True,YYYY-MM-DD,Version date.
+artifact_type,string,True,manuscript|schema|data|validation|analysis|docs|release|other,Artifact type.
+artifact_name,string,True,text,Artifact name.
+prior_version,string,False,semantic version,Prior version.
+new_version,string,True,semantic version,New version.
+change_type,string,True,add|update|fix|remove|release,Change type.
+change_summary,string,True,text,Change summary.
+reason_for_change,string,False,text,Reason.
+affected_schema_tables,string,False,semicolon-delimited,Affected schemas.
+affected_analysis_scripts,string,False,semicolon-delimited,Affected scripts.
+affected_public_repository_path,string,False,path,Repo path.
+osf_or_repository_update_required,boolean,False,yes|no,Update required.
+created_by_role,string,False,role,Created by role.
+reviewed_by_role,string,False,role,Reviewed by role.
+created_at,datetime,True,ISO 8601,Creation timestamp.
+record_status,string,True,draft|reviewed|locked|amended,Record status.

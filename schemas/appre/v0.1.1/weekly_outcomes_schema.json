@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Weekly Outcomes Schema",
+  "version": "v0.1.1",
+  "description": "APPRE v0.1.1 public schema. Documentation architecture only; not validated AI, CDS, SaMD, or treatment optimization.",
+  "type": "object",
+  "properties": {
+    "subject_id": {
+      "type": "string",
+      "description": "Subject ID.",
+      "appre_vocabulary_or_range": "pseudonymous identifier",
+      "appre_required": true
+    },
+    "study_week": {
+      "type": "integer",
+      "description": "Study week.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": true
+    },
+    "week_start_date": {
+      "type": "string",
+      "description": "Start date.",
+      "appre_vocabulary_or_range": "YYYY-MM-DD or shifted date",
+      "appre_required": true
+    },
+    "week_end_date": {
+      "type": "string",
+      "description": "End date.",
+      "appre_vocabulary_or_range": "YYYY-MM-DD or shifted date",
+      "appre_required": true
+    },
+    "phase": {
+      "type": "string",
+      "description": "Protocol phase.",
+      "appre_vocabulary_or_range": "controlled vocabulary",
+      "appre_required": true
+    },
+    "cycle": {
+      "type": "string",
+      "description": "Cycle.",
+      "appre_vocabulary_or_range": "cycle1|cycle2|not_applicable",
+      "appre_required": false
+    },
+    "completed_by_role": {
+      "type": "string",
+      "description": "Reporter role.",
+      "appre_vocabulary_or_range": "participant|caregiver|proxy|clinician|assessor|mixed",
+      "appre_required": true
+    },
+    "tug_seconds": {
+      "type": "number",
+      "description": "Timed Up and Go.",
+      "appre_vocabulary_or_range": "seconds",
+      "appre_required": false
+    },
+    "walk_10m_seconds": {
+      "type": "number",
+      "description": "10-meter walk.",
+      "appre_vocabulary_or_range": "seconds",
+      "appre_required": false
+    },
+    "falls_count": {
+      "type": "integer",
+      "description": "Falls count.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": false
+    },
+    "near_falls_count": {
+      "type": "integer",
+      "description": "Near-falls count.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": false
+    },
+    "phq9_total": {
+      "type": "integer",
+      "description": "PHQ-9 total if used.",
+      "appre_vocabulary_or_range": "0-27",
+      "appre_required": false
+    },
+    "gad7_total": {
+      "type": "integer",
+      "description": "GAD-7 total if used.",
+      "appre_vocabulary_or_range": "0-21",
+      "appre_required": false
+    },
+    "mmrc_score": {
+      "type": "integer",
+      "description": "mMRC if used.",
+      "appre_vocabulary_or_range": "0-4",
+      "appre_required": false
+    },
+    "average_sleep_hours": {
+      "type": "number",
+      "description": "Weekly average sleep.",
+      "appre_vocabulary_or_range": "0-24",
+      "appre_required": false
+    },
+    "average_sleep_quality_0_10": {
+      "type": "number",
+      "description": "Weekly average quality.",
+      "appre_vocabulary_or_range": "0-10",
+      "appre_required": false
+    },
+    "activity_minutes_week": {
+      "type": "integer",
+      "description": "Activity minutes.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": false
+    },
+    "average_steps_per_day": {
+      "type": "number",
+      "description": "Average steps.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": false
+    },
+    "adl_iadl_status": {
+      "type": "string",
+      "description": "ADL/IADL status or score.",
+      "appre_vocabulary_or_range": "instrument-specific",
+      "appre_required": false
+    },
+    "caregiver_burden_short_score": {
+      "type": "integer",
+      "description": "ZBI-12 or comparable.",
+      "appre_vocabulary_or_range": "instrument-specific",
+      "appre_required": false
+    },
+    "adherence_full_days": {
+      "type": "integer",
+      "description": "Full adherence days.",
+      "appre_vocabulary_or_range": "0-7",
+      "appre_required": false
+    },
+    "adverse_event_count": {
+      "type": "integer",
+      "description": "AE count.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": false
+    },
+    "confounder_count": {
+      "type": "integer",
+      "description": "Confounder count.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": false
+    },
+    "clinician_contact_yes_no": {
+      "type": "string",
+      "description": "Clinician contact flag.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "weekly_global_impression": {
+      "type": "string",
+      "description": "Descriptive only.",
+      "appre_vocabulary_or_range": "stable|improving|declining|mixed|unknown",
+      "appre_required": false
+    },
+    "missingness_flag": {
+      "type": "string",
+      "description": "Missingness flag.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "created_at": {
+      "type": "string",
+      "description": "Creation timestamp.",
+      "appre_vocabulary_or_range": "ISO 8601",
+      "appre_required": true
+    },
+    "record_status": {
+      "type": "string",
+      "description": "Record status.",
+      "appre_vocabulary_or_range": "draft|reviewed|locked|amended",
+      "appre_required": true
+    }
+  },
+  "required": [
+    "subject_id",
+    "study_week",
+    "week_start_date",
+    "week_end_date",
+    "phase",
+    "completed_by_role",
+    "created_at",
+    "record_status"
+  ]
+}

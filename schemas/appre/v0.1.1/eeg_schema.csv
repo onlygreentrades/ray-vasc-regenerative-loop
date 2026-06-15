@@ -1,0 +1,25 @@
+field_name,data_type,required,vocabulary_or_range,description
+subject_id,string,True,pseudonymous identifier,Subject ID.
+eeg_session_id,string,True,unique identifier,EEG session ID.
+session_date,date,True,YYYY-MM-DD or shifted date,Session date.
+study_week,integer,False,>=0,Study week.
+phase,string,True,controlled vocabulary,Phase.
+cycle,string,False,cycle1|cycle2|not_applicable,Cycle.
+eeg_tier,string,False,Tier2|Tier3|other,EEG tier.
+device_class,string,False,dry|wet|consumer|clinical|unknown,Device class.
+channel_count,integer,False,>=1,Channel count.
+resting_eyes_open_completed,boolean,False,yes|no,Resting EO.
+resting_eyes_closed_completed,boolean,False,yes|no,Resting EC.
+p300_completed,boolean,False,yes|no,P300 completion.
+recording_quality_flag,string,False,clean|partial|artifact|uninterpretable,Quality flag.
+sleep_quality_prior_night_0_10,integer,False,0-10,Prior sleep quality.
+caffeine_within_6h_yes_no,boolean,False,yes|no|unknown,Caffeine flag.
+acute_illness_flag,boolean,False,yes|no,Acute illness flag.
+medication_change_14d_flag,boolean,False,yes|no,Medication change flag.
+artifact_burden_flag,string,False,low|moderate|high|unknown,Artifact burden.
+spectral_power_file_reference,string,False,path or ID,File reference only.
+erp_file_reference,string,False,path or ID,ERP file reference.
+connectivity_file_reference,string,False,path or ID,Connectivity file reference.
+biomarker_sync_window_yes_no,boolean,False,yes|no|not_applicable,Biomarker sync.
+created_at,datetime,True,ISO 8601,Creation timestamp.
+record_status,string,True,draft|reviewed|locked|amended,Record status.
