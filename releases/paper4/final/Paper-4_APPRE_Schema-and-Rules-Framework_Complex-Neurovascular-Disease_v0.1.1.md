@@ -1,6 +1,6 @@
 <!--
-Paper 4 APPRE v0.1.1 public-facing markdown export.
-Generated from the release DOCX for repository readability.
+Paper 4 APPRE markdown manuscript export.
+Generated from the clean DOCX for repository readability.
 DOCX/PDF remain canonical manuscript artifacts for upload.
 -->
 
@@ -12,17 +12,11 @@ Independent Researcher, Houston, Texas, United States
 
 Correspondence: Logan Henderson
 
-Version: v0.1.1
-
 Date: 2026-06-15
 
 Article type: Methods / Data Architecture / Open-Science Framework Paper
 
 Program: RAY-VASC Regenerative Loop Research Program
-
-Status: Public-facing final manuscript for OSF/Git release and journal-target adaptation
-
-Changelog: v0.1.1 incorporates a worked synthetic APPRE cycle, RAY-VASC implementation cadence, interpretable-window defaults, small-series aggregation logic, minimal FAIR profile, security/privacy safeguards, behaviorome-to-responseome framing, synthetic-data release mechanics, signal-plot boundaries, future APPRE software/AI pathway, and downstream longevity-stack positioning while preserving APPRE as a research-data architecture rather than validated artificial intelligence, clinical decision support, a medical device, or a treatment optimizer.
 
 
 # Abstract
