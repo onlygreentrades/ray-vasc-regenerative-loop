@@ -1,0 +1,5 @@
+9fbd31cd3ede0c82b96d7d8063c7e50e977bcae3f90542660abeef4dcc897ffb  ./README.md
+33ec540f784529f71d212b9db9a7930b2ce76721c641850db123d0ac7f2268a6  ./manuscripts/paper3/final/Paper-3_RAY-001-Baseline-Characterization_Complex-Neurovascular-Parkinsonian-Phenotype_Pre-Intervention-Architecture-and-Measurement-Feasibility.docx
+87414b13d6f4ff58977b1c7b1f5ab9d6378966c21c41bc47bd4bcf5b3836a0d3  ./manuscripts/paper3/final/Paper-3_RAY-001-Baseline-Characterization_Complex-Neurovascular-Parkinsonian-Phenotype_Pre-Intervention-Architecture-and-Measurement-Feasibility.pdf
+1958f12641f58270a6f628fb6401449455b5a7f82417c6e93186596a7e91726e  ./manuscripts/paper3/final/Paper-3_Submission-Gate-Checklist.md
+9fbd31cd3ede0c82b96d7d8063c7e50e977bcae3f90542660abeef4dcc897ffb  ./manuscripts/paper3/final/README.md
