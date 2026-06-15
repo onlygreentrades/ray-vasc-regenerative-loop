@@ -1,17 +1,30 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the repository and the relevant manuscript."
 title: "RAY-VASC Regenerative Loop Research Program"
-type: software
+type: dataset
 authors:
   - family-names: Henderson
     given-names: Logan
 repository-code: "https://github.com/onlygreentrades/ray-vasc-regenerative-loop"
 url: "https://osf.io/y2h79/"
 license: "CC-BY-4.0"
-abstract: "Open-source research architecture and publishing-clean manuscript package for the RAY-VASC Regenerative Loop research program, including Paper 1 and Paper 2."
+version: "v2.2"
+date-released: "2026-06-15"
+abstract: "Open-source research architecture and publishing-clean manuscript package for the RAY-VASC Regenerative Loop research program, including Paper 1 framework manuscript, Paper 2 protocol manuscript with OSF DOI, Paper 3 RAY-001 baseline characterization case, and de-identified protocol supplements."
 keywords:
   - RAY-VASC
+  - Regenerative Loop
+  - APPRE
   - neuroplasticity
   - N-of-1
   - complex neurovascular disease
+  - baseline characterization
   - open science
+references:
+  - type: article
+    authors:
+      - family-names: Henderson
+        given-names: Logan
+    title: "RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease"
+    doi: "10.17605/OSF.IO/WESZY"
+    date-published: "2026-06-11"
