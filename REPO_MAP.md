@@ -1,15 +1,24 @@
 # Repository Map
 
-## Root files
+This repository is intentionally organized around manuscripts first, then reusable research artifacts.
 
-- `README.md` — public landing page and four-paper sequence overview
-- `PAPER_INDEX.md` — manuscript index and asset map
-- `REPO_MAP.md` — repository structure
-- `ATTRIBUTION.md` — attribution and origin record
-- `PRIVACY.md` — privacy and de-identification boundary
-- `REGULATORY_BOUNDARY.md` — clinical, regulatory, and controlled-substance boundary
-- `CITATION.cff` — citation metadata
-- `CHANGELOG.md` — repository-level changelog
+## Root dashboard
+
+Root files should stay limited to program-level navigation and governance:
+
+```text
+README.md
+PAPER_INDEX.md
+REPO_MAP.md
+CHANGELOG.md
+CITATION.cff
+LICENSE-DOCS-CC-BY-4.0.txt
+ATTRIBUTION.md
+PRIVACY.md
+REGULATORY_BOUNDARY.md
+```
+
+Paper-specific release notes, checksums, cleanup notes, appendices, and bundle notes belong under the relevant paper release tree, not the root dashboard.
 
 ## Manuscripts
 
@@ -21,7 +30,7 @@ manuscripts/
 └── paper4/final/
 ```
 
-## Paper 4 APPRE materials
+## Paper 4 APPRE
 
 ```text
 figures/paper4/final/
@@ -32,6 +41,7 @@ validation/appre/v0.1.1/
 analysis/appre/v0.1.1/
 docs/appre/
 releases/paper4/final/
+releases/paper4/final/metadata/
 ```
 
 ## Release posture
