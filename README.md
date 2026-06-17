@@ -1,90 +1,72 @@
 # RAY-VASC Regenerative Loop
 
-**Current public release:** v2.2  
+**Current Git working release:** v2.3.1 public-clean Paper 4 release plus final Paper 4 figure/supplement bundle  
 **Author:** Logan Henderson  
 **Affiliation:** Independent Researcher, Houston, Texas, United States  
 **Repository:** https://github.com/onlygreentrades/ray-vasc-regenerative-loop  
-**OSF parent project:** https://osf.io/y2h79/
+**OSF parent project:** https://osf.io/y2h79/  
+**Paper 2 OSF registration DOI:** https://doi.org/10.17605/OSF.IO/WESZY  
 
 ## Overview
 
-RAY-VASC Regenerative Loop is a publication-only open research framework for studying residual adaptive capacity, longitudinal measurement, confounder tracking, and protocol design in complex neurodegenerative and neurovascular disease.
+RAY-VASC Regenerative Loop is a publication-only open research program for studying residual adaptive capacity, longitudinal measurement, confounder tracking, adverse-event documentation, missingness handling, and protocol design in complex neurovascular and mixed neurodegenerative-vascular disease.
 
-This repository contains public manuscript assets, governance files, release archives, and supporting documentation for the RAY-VASC Regenerative Loop research program.
+This repository contains manuscripts, protocol materials, schemas, synthetic datasets, figures, validation rules, reproducibility checklists, and governance files. It is designed so qualified external teams can review and implement the documentation architecture under appropriate clinical, ethics, privacy, and regulatory governance.
 
-## Publication Series Status
+## Public Boundary
 
-This project now contains a three-part public manuscript triad:
+This repository is for research planning, documentation, protocol design, reproducibility, and open scientific review.
 
-1. **Paper 1** establishes the residual-capacity and open-source protocol design framework.
-2. **Paper 2** operationalizes the framework into the RAY-VASC multidomain N-of-1 and small-series protocol with OSF DOI.
-3. **Paper 3** documents the originating RAY-001 baseline characterization, missingness pattern, and timing-window lesson without reporting intervention outcomes.
+It does not provide medical advice, legal advice, clinical directives, treatment claims, supplement marketing, disease cure or reversal claims, or controlled-substance how-to content.
 
-Together, the triad provides the conceptual framework, protocol spine, and originating baseline case for future qualified, lawful, ethics-governed implementation.
+Controlled-substance exposure, if present in future lawful research implementations, is documented only as as-administered observational data under separate lawful, clinician-governed, ethics-approved oversight. APPRE does not recommend, adjust, tune, or optimize controlled-substance exposure.
 
-## Included Papers
+## Publication Series
 
-### Paper 1
+| Paper | Public title | Function | Repository path |
+|---|---|---|---|
+| Paper 1 | *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease* | Framework / hypothesis paper | `manuscripts/paper1/final/` |
+| Paper 2 | *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease* | Protocol paper | `manuscripts/paper2/final/` |
+| Paper 3 | *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* | Baseline / feasibility paper | `manuscripts/paper3/final/` |
+| Paper 4 | *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease* | Methods / data-architecture paper | `manuscripts/paper4/final/` |
 
-**The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease**
+## Current Paper 4 Release Package
 
-Paper 1 defines the parent framework: the Regenerative Loop, APPRE, RAY-VASC, residual adaptive capacity, and the Three-Phase Plasticity Architecture.
+Paper 4 publishes APPRE as a schema-and-rules research documentation framework for repeated measures, confounder annotation, adverse-event capture, missingness handling, provenance, synthetic-data testing, validation rules, and versioned response-policy documentation.
 
-Location:
+APPRE is not validated artificial intelligence, not clinical decision support, not Software as a Medical Device, not a treatment optimizer, and not a longevity product.
 
-- `manuscripts/paper1/final/`
+### Paper 4 core manuscript files
 
-Status:
+- `manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v0.1.1.docx`
+- `manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v0.1.1.pdf`
+- `manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v0.1.1.md`
 
-- Manuscript / preprint path pending.
-- No placeholder DOI is assigned in this repository.
+### Paper 4 figures
 
-### Paper 2
+- `figures/paper4/final/Figure-1_Publication-Sequence-and-APPRE-Role_v0.1.1.png`
+- `figures/paper4/final/Figure-2_APPRE-Entity-Flow-Governance-and-Provenance_v0.1.1.png`
+- `figures/paper4/final/Figure-3_APPRE-FHIR-Conceptual-Crosswalk_v0.1.1.png`
 
-**RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease**
+### Paper 4 supplements
 
-Paper 2 translates the parent framework into a prospective observational N-of-1 and small-series protocol architecture for feasibility, safety, signal detection, confounder annotation, EEG/biomarker synchronization, and reproducible protocol implementation.
+- `supplements/paper4/final/Paper-4_APPRE_Example-Schema_v0.1.1.json`
+- `supplements/paper4/final/Paper-4_APPRE_Data-Dictionary_v0.1.1.csv`
+- `supplements/paper4/final/Paper-4_APPRE_Worked-Synthetic-Cycle_v0.1.1.md`
+- `supplements/paper4/final/Paper-4_APPRE_FHIR-Crosswalk_v0.1.1.csv`
+- `supplements/paper4/final/Paper-4_APPRE_Missingness-Confounder-AE-Vocabularies_v0.1.1.csv`
+- `supplements/paper4/final/Paper-4_APPRE_Reproducibility-Checklist_v0.1.1.md`
+- `supplements/paper4/final/Paper-4_APPRE_Response-Policy-Rules_v0.1.1.csv`
+- `supplements/paper4/final/Paper-4_APPRE_Schema-Dictionary_v0.1.1.csv`
 
-Location:
+### Paper 4 machine-readable and reproducibility assets
 
-- `manuscripts/paper2/final/`
-- `supplements/paper2/final/`
-
-Public OSF registration:
-
-- OSF Registration: https://osf.io/weszy/
-- DOI: https://doi.org/10.17605/OSF.IO/WESZY
-
-### Paper 3
-
-**RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research**
-
-Paper 3 is a CARE-aligned baseline characterization and methods case report. It documents the originating RAY-001 baseline phenotype, available data, missingness pattern, caregiver and homebound feasibility constraints, Tier 1/Tier 2 protocol-readiness mismatch, and the timing-window lesson that shaped the RAY-VASC protocol.
-
-Location:
-
-- `manuscripts/paper3/final/`
-
-OSF component:
-
-- `RAY-001 Baseline Characterization`
-
-Boundary:
-
-- Baseline characterization only.
-- No intervention outcomes.
-- No treatment response, clinical efficacy, recovery, reversal, repair, cure, or disease-modification claims.
-- Tier 2 EEG, synchronized biomarkers, wearables, and APPRE response-policy cycles are described as protocol-specified but not executed for RAY-001.
-
-## Relationship Between Papers
-
-Paper 1 is the conceptual and framework manuscript.
-
-Paper 2 is the protocol and methods manuscript.
-
-Paper 3 is the originating baseline characterization and timing-window case.
-
-Paper 2 operationalizes the residual-capacity hypothesis and measurement architecture introduced in Paper 1. Paper 3 documents why early caregiver-supported Tier 1 baseline capture matters before Tier 2 EEG/biomarker readiness delays the clinical window. The three manuscripts are intended to be read together but remain separate public research outputs.
+- `schemas/appre/v0.1.1/`
+- `data/synthetic/appre/v0.1.1/`
+- `validation/appre/v0.1.1/`
+- `analysis/appre/v0.1.1/`
+- `docs/appre/`
+- `releases/paper4/final/`
 
 ## Repository Structure
 
@@ -97,77 +79,46 @@ ray-vasc-regenerative-loop/
 ├── PRIVACY.md
 ├── REGULATORY_BOUNDARY.md
 ├── CITATION.cff
-├── LICENSE-DOCS-CC-BY-4.0.txt
 ├── CHANGELOG.md
-├── MANIFEST_SHA256.txt
 ├── manuscripts/
 │   ├── paper1/final/
 │   ├── paper2/final/
-│   └── paper3/final/
+│   ├── paper3/final/
+│   └── paper4/final/
 ├── supplements/
-│   └── paper2/final/
+│   ├── paper2/final/
+│   └── paper4/final/
+├── figures/
+│   └── paper4/final/
+├── schemas/
+│   └── appre/v0.1.1/
+├── data/
+│   └── synthetic/appre/v0.1.1/
+├── validation/
+│   └── appre/v0.1.1/
+├── analysis/
+│   └── appre/v0.1.1/
+├── docs/
+│   └── appre/
 ├── releases/
 │   ├── paper1/final/
 │   ├── paper2/final/
-│   └── paper3/final/
+│   ├── paper3/final/
+│   └── paper4/final/
 └── archive/
 ```
 
-## Research Boundary
+## Governance
 
-This repository is for research planning, documentation, protocol design, reproducibility, and open scientific review.
+Core rule: protocol before claims; measurement before interpretation; safety before signal; governance before implementation.
 
-It does not report new treatment outcomes.
-
-It does not make treatment claims.
-
-It does not claim disease reversal, tissue regeneration, brain repair, PSP reversal, dementia reversal, vascular lesion reversal, or recovery guarantees.
-
-It does not provide medical advice or legal advice.
-
-It does not provide controlled-substance sourcing, preparation, dosing, administration, conversion, or self-use instructions.
-
-Any future implementation involving identifiable participants, prospective data collection, clinical intervention, controlled-substance exposure, imaging, EEG, biomarkers, or data sharing requires appropriate consent, privacy review, clinician oversight, and IRB or ethics review as applicable.
-
-## Data and Privacy Boundary
-
-Public materials are limited to manuscripts, de-identified protocols, forms, schemas, evidence maps, synthetic examples, analysis templates, and governance documentation.
-
-Raw clinical records, identifiable medical documents, private health information, imaging reports, dates of birth, addresses, medical record numbers, source-lock ledgers, consent documents, and individual-level clinical data are not public repository assets unless separately consented, reviewed, de-identified, and approved through the appropriate privacy and ethics process.
+External prospective use requires appropriate consent, privacy review, clinical governance, and IRB or ethics review where applicable. Public repository materials are limited to manuscripts, protocols, schemas, forms, synthetic data, validation rules, reproducibility materials, and governance documents.
 
 ## Attribution
 
-Logan Henderson is the author, originating researcher, and framework/protocol architect.
-
-Raymond A. Hornsby is acknowledged in the manuscripts as the human origin point of the RAY-VASC research program where authorization permits public attribution.
-
-Christine A. Hood is acknowledged for family authorization and care coordination support where authorization permits public attribution.
-
-## License
-
-Documentation is released under CC BY 4.0 unless otherwise stated.
+Originating researcher: Logan Henderson.  
+Human origin of the RAY-VASC work: Raymond A. Hornsby, acknowledged where authorization permits.
 
 ## Citation
 
-Please cite the specific manuscript used and reference the GitHub/OSF release version when citing this project.
-
-Current release: **v2.2**
-
-## OSF Records
-
-Parent OSF project:
-
-- https://osf.io/y2h79/
-
-Paper 2 public preregistration:
-
-- Title: RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease
-- OSF Registration: https://osf.io/weszy/
-- DOI: https://doi.org/10.17605/OSF.IO/WESZY
-- APA citation: Henderson, L. (2026, June 11). RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease. https://doi.org/10.17605/OSF.IO/WESZY
-
-Paper 3 OSF component:
-
-- Component title: `RAY-001 Baseline Characterization`
-- Full manuscript title: RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research
-- Status: clean public manuscript component; no intervention outcomes.
+Use the specific manuscript, OSF registration, or GitHub release citation associated with the paper or release being referenced. Paper 2 has an OSF DOI: https://doi.org/10.17605/OSF.IO/WESZY

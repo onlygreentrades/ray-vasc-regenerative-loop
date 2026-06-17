@@ -29,3 +29,13 @@ Controlled-substance exposure, if present in separate lawful, clinician-governed
 - Release notes
 - SHA256 manifest
 - PowerShell commit/push script
+
+
+## Final bundle additions (2026-06-17)
+This final Paper 4 bundle adds:
+- three publication-ready figure PNG files under `figures/paper4/final/`
+- `Paper-4_APPRE_Example-Schema_v0.1.1.json`
+- `Paper-4_APPRE_Data-Dictionary_v0.1.1.csv`
+- `Paper-4_APPRE_Worked-Synthetic-Cycle_v0.1.1.md`
+
+The manuscript artifacts in `manuscripts/paper4/final/` and `releases/paper4/final/` are the public-clean versions.

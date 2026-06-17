@@ -22,3 +22,6 @@ This release publishes Paper 4 and the APPRE v0.1.1 public methods/data-architec
 
 ## Boundary
 APPRE is documentation architecture. Not AI, not CDS, not SaMD, not a medical device, not a treatment optimizer.
+
+## Final bundle addendum
+This bundle includes three publication-ready figure PNG files and three new supplements: example schema JSON, compact data dictionary CSV, and worked synthetic cycle markdown.
