@@ -67,4 +67,7 @@ No raw medical records or individual-level clinical outcomes are reported in thi
 
 Cite this manuscript as:
 
-Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease*. RAY-VASC Regenerative Loop repository, public release v2.1.
+Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20832833
+
+Version DOI: https://doi.org/10.5281/zenodo.20832833  
+All-versions DOI: https://doi.org/10.5281/zenodo.20832832

@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 message: "If you use this repository, please cite the repository and the relevant manuscript."
 title: "RAY-VASC Regenerative Loop Research Program"
 type: dataset
@@ -8,9 +8,9 @@ authors:
 repository-code: "https://github.com/onlygreentrades/ray-vasc-regenerative-loop"
 url: "https://osf.io/y2h79/"
 license: "CC-BY-4.0"
-version: "v2.2"
-date-released: "2026-06-15"
-abstract: "Open-source research architecture and publishing-clean manuscript package for the RAY-VASC Regenerative Loop research program, including Paper 1 framework manuscript, Paper 2 protocol manuscript with OSF DOI, Paper 3 RAY-001 baseline characterization case, and de-identified protocol supplements."
+version: "v2.3"
+date-released: "2026-06-24"
+abstract: "Open-source research architecture and publishing-clean manuscript package for the RAY-VASC Regenerative Loop research program, including DOI-backed Paper 1 Zenodo preprint, Paper 2 OSF-registered protocol, Paper 3 Zenodo baseline characterization preprint, and de-identified protocol supplements. Paper 4 remains local and not externally deposited as of v2.3."
 keywords:
   - RAY-VASC
   - Regenerative Loop
@@ -28,3 +28,18 @@ references:
     title: "RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease"
     doi: "10.17605/OSF.IO/WESZY"
     date-published: "2026-06-11"
+  - type: article
+    authors:
+      - family-names: Henderson
+        given-names: Logan
+    title: "The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease"
+    doi: "10.5281/zenodo.20832833"
+    date-published: "2026-06-24"
+  - type: article
+    authors:
+      - family-names: Henderson
+        given-names: Logan
+    title: "RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research"
+    doi: "10.5281/zenodo.20834331"
+    date-published: "2026-06-24"
+

@@ -28,3 +28,12 @@ This manuscript reports baseline characterization, measurement feasibility, miss
 ## Replacement instruction
 
 Replace any prior Paper 3 v1.0.0 files that included version/changelog manuscript text or broken table formatting with this clean bundle.
+
+## Citation
+
+Cite this manuscript as:
+
+Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20834331
+
+Version DOI: https://doi.org/10.5281/zenodo.20834331  
+All-versions DOI: https://doi.org/10.5281/zenodo.20834330

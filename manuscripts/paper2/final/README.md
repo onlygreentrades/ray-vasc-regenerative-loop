@@ -83,4 +83,6 @@ No raw medical records or individual-level clinical outcomes are reported in thi
 
 Cite this manuscript as:
 
-Henderson, L. (2026). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*. RAY-VASC Regenerative Loop repository, public release v2.1.
+Henderson, L. (2026, June 11). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*. OSF Registries. https://doi.org/10.17605/OSF.IO/WESZY
+
+DOI: 10.17605/OSF.IO/WESZY

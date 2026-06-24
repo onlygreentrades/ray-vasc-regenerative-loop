@@ -1,6 +1,20 @@
-# Changelog
+﻿# Changelog
 
-## v2.2 — Paper 3 OSF Component and Root Index Update — 2026-06-15
+## v2.3 â€” DOI Ledger for Papers 1â€“3 â€” 2026-06-24
+
+Added public DOI metadata for the first three RAY-VASC manuscript-series artifacts:
+
+- Paper 1 Zenodo preprint DOI: 10.5281/zenodo.20832833.
+- Paper 2 OSF registration DOI: 10.17605/OSF.IO/WESZY.
+- Paper 3 Zenodo preprint DOI: 10.5281/zenodo.20834331.
+
+Updated README, Paper Index, Repository Map, citation metadata, and paper-level README files to align public citation records across Zenodo, OSF, GitHub, and ORCID.
+
+Paper 4 remains intentionally unreleased as a DOI-backed external record. As of this update, Paper 4 exists as a GitHub release/repository artifact only; it has not been uploaded to OSF, Zenodo, or ORCID and has no DOI. Paper 4 remains pending rewrite, formatting normalization, and cohesion review before DOI-backed external release.
+
+No raw clinical records, direct identifiers, portal screenshots, consent files, controlled-substance instructions, treatment claims, intervention outcomes, recovery claims, reversal claims, repair claims, cure claims, or disease-modification claims are included.
+
+## v2.2 â€” Paper 3 OSF Component and Root Index Update â€” 2026-06-15
 
 Added the clean public manuscript for Paper 3:
 
@@ -16,19 +30,19 @@ Updated root navigation and governance files to reflect the completed three-pape
 
 No raw clinical records, direct identifiers, portal screenshots, consent files, controlled-substance instructions, treatment claims, intervention outcomes, recovery claims, reversal claims, repair claims, cure claims, or disease-modification claims are included.
 
-## v2.1 OSF preregistration — 2026-06-11
+## v2.1 OSF preregistration â€” 2026-06-11
 
 - Public OSF preregistration completed for Paper 2.
 - DOI issued: 10.17605/OSF.IO/WESZY.
 - Added OSF registration and DOI references to public repository documentation.
 
-## v2.1 supplemental update — 2026-06-11
+## v2.1 supplemental update â€” 2026-06-11
 
 - Added Paper 2 standalone analysis plan supplement in Markdown and PDF formats.
 - Updated Paper 2 supplementary README to include the analysis plan files.
 - Regenerated SHA256 manifest after analysis plan supplement inclusion.
 
-## v2.1 — Final Public Tree Lock
+## v2.1 â€” Final Public Tree Lock
 
 - Locked the public-facing manuscript tree.
 - Confirmed Paper 1 final assets under `manuscripts/paper1/final/`.
@@ -38,7 +52,7 @@ No raw clinical records, direct identifiers, portal screenshots, consent files, 
 - Regenerated `MANIFEST_SHA256.txt` against the final public tree.
 - Preserved publication-only, de-identified, no-treatment-claim, no-controlled-substance-how-to boundary.
 
-## Publishing-Clean Public Package — Papers 1 and 2
+## Publishing-Clean Public Package â€” Papers 1 and 2
 
 This package established the public repository as a clean two-paper research package.
 
@@ -51,3 +65,4 @@ Included:
 - Public privacy, attribution, regulatory boundary, citation, license, and checksum files.
 
 No raw clinical records, identifiers, clinical screenshots, lab screenshots, imaging reports, or identifiable source documents were included.
+

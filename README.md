@@ -1,4 +1,4 @@
-# RAY-VASC Regenerative Loop
+﻿# RAY-VASC Regenerative Loop
 
 **Public research repository for the RAY-VASC Regenerative Loop manuscript series**  
 **Originating researcher:** Logan Henderson  
@@ -6,6 +6,22 @@
 **Repository:** https://github.com/onlygreentrades/ray-vasc-regenerative-loop  
 **OSF parent project:** https://osf.io/y2h79/  
 **Paper 2 OSF registration DOI:** https://doi.org/10.17605/OSF.IO/WESZY  
+**Paper 1 Zenodo DOI:** https://doi.org/10.5281/zenodo.20832833  
+**Paper 3 Zenodo DOI:** https://doi.org/10.5281/zenodo.20834331
+
+## Public DOI Ledger â€” Papers 1â€“3
+
+| Paper | Public record | DOI | Status |
+|---|---|---|---|
+| Paper 1 | Zenodo preprint | [10.5281/zenodo.20832833](https://doi.org/10.5281/zenodo.20832833) | Public, archived, citable |
+| Paper 2 | OSF registration | [10.17605/OSF.IO/WESZY](https://doi.org/10.17605/OSF.IO/WESZY) | Public, registered, citable |
+| Paper 3 | Zenodo preprint | [10.5281/zenodo.20834331](https://doi.org/10.5281/zenodo.20834331) | Public, archived, citable |
+| Paper 4 | Not yet deposited | Not assigned | GitHub release only; no OSF, Zenodo, ORCID, or DOI record assigned; pending rewrite and formatting cohesion before DOI-backed external deposit |
+
+Concept DOIs, where applicable:
+
+- Paper 1 all-versions DOI: https://doi.org/10.5281/zenodo.20832832
+- Paper 3 all-versions DOI: https://doi.org/10.5281/zenodo.20834330
 
 ## Purpose
 
@@ -29,6 +45,10 @@ Controlled-substance exposure, if present in future lawful research implementati
 | Paper 2 | *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease* | Protocol paper | `manuscripts/paper2/final/` |
 | Paper 3 | *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* | Baseline / feasibility paper | `manuscripts/paper3/final/` |
 | Paper 4 | *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease* | Methods / data architecture paper | `manuscripts/paper4/final/` |
+
+## Paper 4 Current Release Posture
+
+Paper 4 APPRE materials exist in the repository and GitHub release tree as public-clean draft/package artifacts. As of 2026-06-24, Paper 4 has not been deposited to OSF, Zenodo, or ORCID and has no public DOI. Paper 4 remains pending rewrite, formatting normalization, and cohesion review before DOI-backed external release.
 
 ## Paper 4 APPRE Package
 
@@ -54,41 +74,41 @@ releases/paper4/final/
 
 ```text
 ray-vasc-regenerative-loop/
-├── README.md
-├── PAPER_INDEX.md
-├── REPO_MAP.md
-├── CHANGELOG.md
-├── CITATION.cff
-├── LICENSE-DOCS-CC-BY-4.0.txt
-├── ATTRIBUTION.md
-├── PRIVACY.md
-├── REGULATORY_BOUNDARY.md
-├── manuscripts/
-│   ├── paper1/final/
-│   ├── paper2/final/
-│   ├── paper3/final/
-│   └── paper4/final/
-├── figures/
-│   └── paper4/final/
-├── supplements/
-│   ├── paper2/final/
-│   └── paper4/final/
-├── schemas/
-│   └── appre/v0.1.1/
-├── data/
-│   └── synthetic/appre/v0.1.1/
-├── validation/
-│   └── appre/v0.1.1/
-├── analysis/
-│   └── appre/v0.1.1/
-├── docs/
-│   └── appre/
-├── releases/
-│   ├── paper1/final/
-│   ├── paper2/final/
-│   ├── paper3/final/
-│   └── paper4/final/
-└── archive/
+â”œâ”€â”€ README.md
+â”œâ”€â”€ PAPER_INDEX.md
+â”œâ”€â”€ REPO_MAP.md
+â”œâ”€â”€ CHANGELOG.md
+â”œâ”€â”€ CITATION.cff
+â”œâ”€â”€ LICENSE-DOCS-CC-BY-4.0.txt
+â”œâ”€â”€ ATTRIBUTION.md
+â”œâ”€â”€ PRIVACY.md
+â”œâ”€â”€ REGULATORY_BOUNDARY.md
+â”œâ”€â”€ manuscripts/
+â”‚   â”œâ”€â”€ paper1/final/
+â”‚   â”œâ”€â”€ paper2/final/
+â”‚   â”œâ”€â”€ paper3/final/
+â”‚   â””â”€â”€ paper4/final/
+â”œâ”€â”€ figures/
+â”‚   â””â”€â”€ paper4/final/
+â”œâ”€â”€ supplements/
+â”‚   â”œâ”€â”€ paper2/final/
+â”‚   â””â”€â”€ paper4/final/
+â”œâ”€â”€ schemas/
+â”‚   â””â”€â”€ appre/v0.1.1/
+â”œâ”€â”€ data/
+â”‚   â””â”€â”€ synthetic/appre/v0.1.1/
+â”œâ”€â”€ validation/
+â”‚   â””â”€â”€ appre/v0.1.1/
+â”œâ”€â”€ analysis/
+â”‚   â””â”€â”€ appre/v0.1.1/
+â”œâ”€â”€ docs/
+â”‚   â””â”€â”€ appre/
+â”œâ”€â”€ releases/
+â”‚   â”œâ”€â”€ paper1/final/
+â”‚   â”œâ”€â”€ paper2/final/
+â”‚   â”œâ”€â”€ paper3/final/
+â”‚   â””â”€â”€ paper4/final/
+â””â”€â”€ archive/
 ```
 
 ## Navigation
@@ -104,3 +124,4 @@ ray-vasc-regenerative-loop/
 ## Citation
 
 Use the specific manuscript, OSF registration, or GitHub release citation associated with the paper or release being referenced. Paper 2 has an OSF DOI: https://doi.org/10.17605/OSF.IO/WESZY
+
