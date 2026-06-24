@@ -1,4 +1,4 @@
-# Repository Map
+﻿# Repository Map
 
 This repository is intentionally organized around manuscripts first, then reusable research artifacts.
 
@@ -20,15 +20,30 @@ REGULATORY_BOUNDARY.md
 
 Paper-specific release notes, checksums, cleanup notes, appendices, and bundle notes belong under the relevant paper release tree, not the root dashboard.
 
+## Public DOI Ledger
+
+| Artifact | Record | DOI / URL |
+|---|---|---|
+| Paper 1 Zenodo preprint | Version DOI | https://doi.org/10.5281/zenodo.20832833 |
+| Paper 1 Zenodo preprint | All-versions DOI | https://doi.org/10.5281/zenodo.20832832 |
+| Paper 2 OSF registration | OSF DOI | https://doi.org/10.17605/OSF.IO/WESZY |
+| Paper 3 Zenodo preprint | Version DOI | https://doi.org/10.5281/zenodo.20834331 |
+| Paper 3 Zenodo preprint | All-versions DOI | https://doi.org/10.5281/zenodo.20834330 |
+| Paper 4 | Not externally deposited | No DOI assigned |
+
 ## Manuscripts
 
 ```text
 manuscripts/
-├── paper1/final/
-├── paper2/final/
-├── paper3/final/
-└── paper4/final/
+â”œâ”€â”€ paper1/final/
+â”œâ”€â”€ paper2/final/
+â”œâ”€â”€ paper3/final/
+â””â”€â”€ paper4/final/
 ```
+
+## Paper 4 Release Posture
+
+Paper 4 directories are retained as local repository artifacts for continued revision. Paper 4 has not been deposited to OSF, Zenodo, or ORCID and should not be cited as DOI-backed until a future release gate is passed.
 
 ## Paper 4 APPRE
 
@@ -47,3 +62,4 @@ releases/paper4/final/metadata/
 ## Release posture
 
 GitHub is the working version-control mechanism. OSF is the archival/public registration layer. External prospective data collection requires separate ethics, consent, privacy, and clinical governance.
+
