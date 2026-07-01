@@ -1,4 +1,4 @@
-﻿# RAY-VASC Regenerative Loop
+# RAY-VASC Regenerative Loop
 
 **Public research repository for the RAY-VASC Regenerative Loop manuscript series**
 
@@ -21,7 +21,7 @@ The repository currently supports a seven-paper manuscript sequence:
 | Paper 1 | The Brain That Remains | Published Zenodo DOI; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition |
 | Paper 2 | RAY-VASC Protocol | Published Zenodo DOI; OSF registration active; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition |
 | Paper 3 | RAY-001 Baseline Characterization | Published Zenodo DOI; OSF component active; OSF Wiki updated; ORCID updated; GitHub DOI-lock complete; v1.1.0 Figure-Enhanced Edition |
-| Paper 4 | APPRE Schema-and-Rules Framework | GitHub/repository artifact only; rewrite before DOI lock |
+| Paper 4 | APPRE Schema-and-Rules Framework | Published Zenodo DOI; OSF project active; ORCID updated; GitHub DOI-lock in progress; v1.0.0 Figure-Integrated Edition |
 | Paper 5 | Regenerative Loop Theory | Queued / drafting |
 | Paper 6 | Neurotrophic Mycology Evidence Map | Queued / drafting |
 | Paper 7 | Three-Phase Plasticity Architecture | Queued / drafting |
@@ -48,10 +48,10 @@ This repository is not medical advice, legal advice, a clinical directive, a tre
 | Paper 3 - prior version | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20834331](https://doi.org/10.5281/zenodo.20834331) | Prior archived version |
 | Paper 3 - OSF component | OSF project component | [https://osf.io/k8jhz/](https://osf.io/k8jhz/) | Public component with Paper 3 v1.0.0 and v1.1.0 materials |
 | Paper 3 - GitHub release tag | GitHub tag | `paper3-published-citable-v1.1.0` | DOI-synchronized public lock tag |
-| Paper 4 - APPRE Schema-and-Rules Framework | GitHub/repository artifact only | Not assigned | No OSF deposit, no Zenodo deposit, no ORCID work, no DOI |
+| Paper 4 - APPRE Schema-and-Rules Framework | Zenodo publication, v1.0.0 Figure-Integrated Edition | [10.5281/zenodo.21116291](https://doi.org/10.5281/zenodo.21116291) | Public, archived, citable |
+| Paper 4 - all versions | Zenodo concept DOI | [10.5281/zenodo.21116290](https://doi.org/10.5281/zenodo.21116290) | Resolves to latest Paper 4 version |
+| Paper 4 - OSF project | OSF project archive | [https://osf.io/nqybd/](https://osf.io/nqybd/) | Public Paper 4 project archive |
 | Papers 5-7 | Queued / drafting | Not assigned | No external deposit yet |
-
-Paper 4 must not be cited as DOI-backed until a future OSF, Zenodo, or ORCID public archive is completed.
 
 ---
 
@@ -65,7 +65,8 @@ Paper 4 must not be cited as DOI-backed until a future OSF, Zenodo, or ORCID pub
 | Paper 2 v1.1.0 | Figure-Enhanced Edition of RAY-VASC Protocol | Published on Zenodo; OSF registration active; OSF component updated; ORCID updated |
 | Paper 3 v1.0.0 | Original public baseline characterization preprint | Prior archived Zenodo version |
 | Paper 3 v1.1.0 | Figure-Enhanced Edition of RAY-001 Baseline Characterization | Published on Zenodo; OSF component updated; OSF Wiki updated; ORCID updated; GitHub DOI-synchronized |
-| Paper 4 current state | APPRE schema-and-rules framework draft/repository artifact | Not DOI locked; rewrite before public DOI release |
+| Paper 4 v1.0.0 | Figure-Integrated Edition of APPRE Schema-and-Rules Framework | Published on Zenodo; OSF project active; ORCID updated; GitHub DOI-lock cleanup in progress |
+| Papers 5-7 | Remaining core manuscript sequence | Queued / drafting |
 
 ---
 
@@ -78,6 +79,8 @@ Paper 1 v1.1.0 embeds seven explanatory figures, journal-style captions, accessi
 **Paper 1 all-versions DOI:** https://doi.org/10.5281/zenodo.20832832  
 **Prior Paper 1 v1.0.0 DOI:** https://doi.org/10.5281/zenodo.20832833  
 **Paper 1 OSF component:** https://osf.io/mxepj  
+
+Paper 1 establishes the framework layer of the series. It defines the Regenerative Loop, residual-capacity hypothesis, APPRE architecture, RAY-VASC protocol logic, three-phase plasticity architecture, open-source release discipline, and claim-boundary rules.
 
 Paper 1 v1.1.0 added:
 
@@ -198,6 +201,84 @@ Paper 3 does not include raw clinical records, source-lock ledgers, consent file
 
 ---
 
+## Paper 4 v1.0.0 Figure-Integrated Edition
+
+Paper 4 v1.0.0 is the published, citable, figure-integrated methods and data-architecture manuscript for the RAY-VASC publication sequence.
+
+**Locked title:** APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease  
+**Version:** v1.0.0 Figure-Integrated Edition  
+**Publication date:** 2026-07-02  
+**Primary citable manuscript DOI:** https://doi.org/10.5281/zenodo.21116291  
+**Paper 4 all-versions DOI:** https://doi.org/10.5281/zenodo.21116290  
+**Paper 4 OSF project:** https://osf.io/nqybd/  
+**ORCID record status:** Zenodo DOI work added using DOI 10.5281/zenodo.21116291.  
+
+Paper 4 publishes APPRE as a transparent schema-and-rules methods/data-architecture framework for adaptive measurement, confounder annotation, adverse-event capture, missingness handling, provenance, synthetic-data release, validation-rule documentation, and response-policy versioning in RAY-VASC-style N-of-1 and small-series complex neurovascular research.
+
+APPRE is not validated artificial intelligence, not clinical decision support, not Software as a Medical Device, not a treatment optimizer, and not a longevity product. No clinical outcomes are reported in Paper 4.
+
+APPRE is defined as a research documentation architecture that maps:
+
+Subject Profile → Candidate Inputs → Outcomes → Confounders / Adverse Events / Missingness → Updated Response Policy → Version Log.
+
+The v1.0.0 Figure-Integrated Edition embeds eight APPRE architecture figures:
+
+1. APPRE Core Loop: Observation to Versioned Response Policy.
+2. APPRE Object Model and Schema Families.
+3. Behaviorome-to-Responseome Translation.
+4. APPRE Interpretable Window State Machine.
+5. APPRE Confounder and Safety Gate.
+6. APPRE Response-Policy Versioning Timeline.
+7. APPRE Standards Alignment Map.
+8. APPRE Synthetic Dataset and Open-Source Release Package.
+
+Paper 4 public assets include:
+
+- Figure-integrated DOCX manuscript.
+- Figure-integrated PDF manuscript.
+- Public release ZIP archive.
+- Eight high-resolution Paper 4 figure PNG assets.
+- Figure-caption and alt-text metadata.
+- APPRE schema/data supplements.
+- APPRE synthetic-data materials.
+- APPRE validation-rule documentation.
+- APPRE governance boundary documentation.
+- APPRE future software and AI pathway note.
+- Paper 4 Zenodo DOI record.
+- Paper 4 OSF project archive.
+- Paper 4 ORCID work record.
+- Release notes and SHA256 checksum metadata.
+
+Paper 4 standards alignment includes:
+
+- FAIR data orientation.
+- W3C PROV-style provenance logic.
+- HL7 FHIR conceptual crosswalk logic.
+- REDCap-compatible research-data implementation pathway.
+- Synthetic-data-first public release posture.
+- Versioned response-policy audit trail.
+- Missingness, confounder, adverse-event, and protocol-deviation vocabularies.
+- Reproducibility checklist and release package documentation.
+
+Paper 4 public folders include:
+
+- `manuscripts/paper4/final/`
+- `figures/paper4/final/`
+- `supplements/paper4/final/`
+- `schemas/appre/`
+- `data/synthetic/appre/`
+- `validation/appre/`
+- `analysis/appre/`
+- `docs/appre/`
+- `releases/paper4/final/`
+- `releases/paper4/final/metadata/`
+
+Controlled-substance exposure, if present in future lawful research implementations, is documented only as as-administered observational data under separate lawful, clinician-governed, ethics-approved oversight. APPRE does not recommend, adjust, tune, optimize, select, increase, decrease, cycle, or personalize controlled-substance exposure.
+
+Paper 4 reports no clinical outcomes. It does not claim treatment efficacy, disease modification, brain repair, vascular lesion reversal, PSP reversal, dementia reversal, recovery, cure, longevity benefit, or guaranteed benefit.
+
+---
+
 ## How to Cite
 
 Use the specific DOI for the public artifact being cited.
@@ -234,6 +315,14 @@ Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascu
 
 Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20834331
 
+### Paper 4 - current version
+
+Henderson, L. (2026). *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease* (v1.0.0 Figure-Integrated Edition). Zenodo. https://doi.org/10.5281/zenodo.21116291
+
+### Paper 4 - all versions
+
+Henderson, L. (2026). *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease*. Zenodo. https://doi.org/10.5281/zenodo.21116290
+
 ### Repository citation
 
 Use `CITATION.cff` for repository-level citation metadata.
@@ -242,7 +331,7 @@ Use `CITATION.cff` for repository-level citation metadata.
 
 ## Purpose
 
-RAY-VASC Regenerative Loop is a public research documentation system for studying residual adaptive capacity, longitudinal measurement, confounder tracking, adverse-event documentation, missingness handling, caregiver-supported reporting, protocol feasibility, and reproducible study architecture in complex neurovascular and mixed neurodegenerative-vascular disease.
+RAY-VASC Regenerative Loop is a public research documentation system for studying residual adaptive capacity, longitudinal measurement, confounder tracking, adverse-event documentation, missingness handling, caregiver-supported reporting, protocol feasibility, reproducible data architecture, and open-source study design in complex neurovascular and mixed neurodegenerative-vascular disease.
 
 The project exists to make the research architecture reviewable, reproducible, and implementable by qualified teams without dependence on private notes, informal memory, or undocumented operational assumptions.
 
@@ -265,6 +354,7 @@ It does not provide:
 - Recovery claims.
 - Repair claims.
 - Cure claims.
+- Longevity claims.
 - Controlled-substance sourcing instructions.
 - Controlled-substance preparation instructions.
 - Controlled-substance dosing instructions.
@@ -274,7 +364,27 @@ It does not provide:
 - Controlled-substance self-use instructions.
 - Raw identifiable clinical records.
 
-Controlled-substance-related content, where referenced, is limited to lawful, clinician-governed, ethics-approved research architecture. No self-use or how-to implementation instructions are included.
+Controlled-substance-related content, where referenced, is limited to lawful, clinician-governed, ethics-approved research architecture, safety governance, and as-administered exposure documentation. No self-use or how-to implementation instructions are included.
+
+---
+
+## APPRE Boundary
+
+APPRE is a transparent schema-and-rules framework for research data integrity, confounder annotation, adverse-event capture, missingness handling, provenance, synthetic-data release, validation-rule documentation, and versioned response-policy documentation.
+
+APPRE is not:
+
+- Validated artificial intelligence.
+- Clinical decision support.
+- Software as a Medical Device.
+- A treatment optimizer.
+- A diagnosis engine.
+- A prescribing engine.
+- A controlled-substance optimization engine.
+- A longevity product.
+- A replacement for clinician judgment.
+
+Future APPRE software, rules engines, dashboards, workflow tools, or AI-assisted systems require separate intended-use definition, technical validation, privacy and cybersecurity review, human-factors review, regulatory assessment, and prospective evaluation before any decision-support or clinical claims are made.
 
 ---
 
@@ -284,7 +394,7 @@ Originating researcher and first author: Logan Henderson.
 
 Raymond A. Hornsby is credited as the human origin and motivating context for the RAY-VASC research program.
 
-The manuscript sequence, open-source protocol structure, measurement architecture, and publication pathway are maintained under Logan Henderson's authorship and public research governance.
+The manuscript sequence, open-source protocol structure, measurement architecture, APPRE schema-and-rules framework, and publication pathway are maintained under Logan Henderson's authorship and public research governance.
 
 See: [`ATTRIBUTION.md`](ATTRIBUTION.md)
 
@@ -315,6 +425,8 @@ See: [`PRIVACY.md`](PRIVACY.md)
 ## Clean Repository Map
 
 This repository is organized as a manuscript-series release tree. Root files orient the public reader. Paper-specific files remain inside their paper folders.
+
+Root files should stay limited to program-level navigation, citation, privacy, attribution, licensing, regulatory boundary, changelog, and whole-repository manifest files.
 
 ```text
 ray-vasc-regenerative-loop/
@@ -350,9 +462,17 @@ ray-vasc-regenerative-loop/
 |   |   |-- figures/
 |   |-- paper4/final/
 |
+|-- schemas/
+|   |-- appre/v0.1.1/
 |
+|-- data/
+|   |-- synthetic/appre/v0.1.1/
 |
+|-- validation/
+|   |-- appre/v0.1.1/
 |
+|-- analysis/
+|   |-- appre/v0.1.1/
 |
 |-- releases/
 |   |-- paper1/final/
@@ -360,51 +480,6 @@ ray-vasc-regenerative-loop/
 |   |-- paper2/final/
 |   |-- paper3/v1.1.0/
 |   |-- paper4/final/
+|   |   |-- metadata/
 |
 |-- archive/
-
----
-
-## Paper 4 â€” APPRE Schema-and-Rules Framework
-
-**Title:** APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease  
-**Version:** v1.0.0  
-**Publication date:** 2026-07-02  
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.21116291  
-**Zenodo all-versions DOI:** https://doi.org/10.5281/zenodo.21116290  
-**OSF Project:** https://osf.io/nqybd/  
-**GitHub Release Tag:** v2.4.0-paper4-appre-v1.0.0  
-
-Paper 4 publishes APPRE as the RAY-VASC schema-and-rules methods/data-architecture paper. It defines the object model, schema families, validation rules, missingness model, confounder annotation, adverse-event structure, response-policy versioning, synthetic-data package, standards-aware alignment map, and open-source reproducibility package for RAY-VASC-style N-of-1 and small-series complex neurovascular research.
-
-APPRE is not validated artificial intelligence, not clinical decision support, not Software as a Medical Device, not a treatment optimizer, and not a longevity product. No clinical outcomes are reported in Paper 4.
-
-Primary folders:
-- manuscripts/paper4/final/
-- figures/paper4/final/
-- supplements/paper4/final/
-- schemas/appre/
-- data/synthetic/appre/
-- validation/appre/
-- releases/paper4/final/
-
----
-
-## Paper 4 APPRE Support Asset Placement
-
-APPRE v0.1.1 schema, synthetic-data, analysis, and validation materials are stored under:
-
-`supplements/paper4/final/appre-v0.1.1/`
-
-They are intentionally not stored as independent root-level branches because this repository is organized as a manuscript-series release tree.
-
-Correct placement:
-
-| Asset family | Repository location |
-|---|---|
-| APPRE analysis materials | `supplements/paper4/final/appre-v0.1.1/analysis/` |
-| APPRE synthetic/example data | `supplements/paper4/final/appre-v0.1.1/data/synthetic/` |
-| APPRE schema materials | `supplements/paper4/final/appre-v0.1.1/schemas/` |
-| APPRE validation materials | `supplements/paper4/final/appre-v0.1.1/validation/` |
-
-The repository root should remain limited to major manuscript-series lanes such as `archive/`, `docs/`, `figures/`, `manuscripts/`, `releases/`, `scripts/`, and `supplements/`.
