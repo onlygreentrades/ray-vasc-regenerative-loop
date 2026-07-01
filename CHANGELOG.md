@@ -1,5 +1,15 @@
 ﻿# Changelog
 
+## Paper 3 v1.1.0 Figure-Enhanced Edition — 2026-07-01
+
+Published Paper 3 as a citable Zenodo preprint and synchronized OSF, ORCID, and GitHub citation metadata.
+
+- Title: RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research
+- Zenodo DOI: 10.5281/zenodo.21113371
+- OSF component: https://osf.io/k8jhz/
+- Version: v1.1.0 Figure-Enhanced Edition
+- Added eight embedded/standalone figures, DOI citation record, release package, manifest, and repo metadata.
+- Preserved claim boundary: baseline characterization and measurement feasibility only; no intervention outcomes, treatment efficacy, disease-modification, repair, reversal, recovery, or cure claims.
 ## Paper 2 v1.1.0 Figure-Enhanced Edition — 2026-07-01
 
 Published Paper 2 as a citable Zenodo preprint and synchronized the public GitHub/OSF citation record.
@@ -86,5 +96,6 @@ Included:
 - Public privacy, attribution, regulatory boundary, citation, license, and checksum files.
 
 No raw clinical records, identifiers, clinical screenshots, lab screenshots, imaging reports, or identifiable source documents were included.
+
 
 

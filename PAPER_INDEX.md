@@ -72,3 +72,18 @@ The series reports framework, protocol, baseline characterization, methods, data
 | Primary manuscript path | manuscripts/paper2/final/ |
 | Supplement path | supplements/paper2/final/ |
 | Claim boundary | Protocol architecture, feasibility, measurement, safety, confounder annotation, and small-series reporting only |
+
+## Paper 3 v1.1.0 Figure-Enhanced Edition
+
+| Field | Value |
+|---|---|
+| Locked title | RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research |
+| Version | v1.1.0 Figure-Enhanced Edition |
+| Status | Published Zenodo preprint; OSF component updated; ORCID updated |
+| Zenodo DOI | https://doi.org/10.5281/zenodo.21113371 |
+| OSF component | https://osf.io/k8jhz/ |
+| GitHub release tag | paper3-published-citable-v1.1.0 |
+| Primary manuscript path | manuscripts/paper3/final/ |
+| Figure path | manuscripts/paper3/final/figures/ |
+| Release package path | releases/paper3/v1.1.0/ |
+| Claim boundary | Baseline characterization and measurement feasibility only; no intervention outcome or treatment efficacy claims |

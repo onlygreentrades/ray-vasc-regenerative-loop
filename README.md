@@ -411,3 +411,19 @@ See: [`LICENSE-DOCS-CC-BY-4.0.txt`](LICENSE-DOCS-CC-BY-4.0.txt)
 RAY-VASC is a research documentation and open-source protocol architecture project. It is designed to support reproducibility, review, structured measurement, and qualified future research implementation.
 
 It is not evidence of clinical efficacy. It is not a treatment recommendation. It is not a claim of disease reversal, recovery, repair, or cure.
+
+---
+
+## Paper 3 Published Citation Lock
+
+**Paper 3 title:** RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research
+
+**Version:** v1.1.0 Figure-Enhanced Edition
+
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.21113371
+
+**OSF component:** https://osf.io/k8jhz/
+
+**GitHub release tag:** paper3-published-citable-v1.1.0
+
+**Claim boundary:** Baseline characterization and measurement-feasibility only; no intervention outcomes, no treatment efficacy claims, no disease-modification claims, no recovery, repair, reversal, or cure claims.

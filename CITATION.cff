@@ -58,3 +58,11 @@ references:
     doi: "10.5281/zenodo.21111619"
     date-published: "2026-07-01"
 
+  - type: article
+    authors:
+      - family-names: Henderson
+        given-names: Logan
+    title: "RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research"
+    doi: "10.5281/zenodo.21113371"
+    date-published: "2026-07-01"
+

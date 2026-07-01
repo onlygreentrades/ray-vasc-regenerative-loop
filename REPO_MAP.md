@@ -87,3 +87,14 @@ GitHub is the working version-control mechanism. OSF is the archival/public regi
 | Paper 2 figure insertion report | docs/paper2/FIGURE_INSERTION_REPORT.md |
 | Paper 2 manuscript files | manuscripts/paper2/final/ |
 | Paper 2 supplemental files | supplements/paper2/final/ |
+
+## Paper 3 Published Record Map
+
+| Artifact | Location |
+|---|---|
+| Paper 3 Zenodo DOI | https://doi.org/10.5281/zenodo.21113371 |
+| Paper 3 OSF component | https://osf.io/k8jhz/ |
+| Paper 3 citation note | docs/paper3/PAPER3_PUBLIC_CITATION.md |
+| Paper 3 manuscript files | manuscripts/paper3/final/ |
+| Paper 3 figure files | manuscripts/paper3/final/figures/ |
+| Paper 3 release package | releases/paper3/v1.1.0/ |
