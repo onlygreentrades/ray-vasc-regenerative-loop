@@ -18,9 +18,9 @@ The repository currently supports a seven-paper manuscript sequence:
 
 | Paper | Short title | Current public status |
 |---|---|---|
-| Paper 1 | The Brain That Remains | Published DOI; v1.1.0 Figure-Enhanced Edition |
-| Paper 2 | RAY-VASC Protocol | Published OSF registration DOI; figure-enhanced revision path active |
-| Paper 3 | RAY-001 Baseline Characterization | Published DOI; figure-enhanced revision path active |
+| Paper 1 | The Brain That Remains | Published Zenodo DOI; v1.1.0 Figure-Enhanced Edition |
+| Paper 2 | RAY-VASC Protocol | Published Zenodo DOI; OSF registration active; v1.1.0 Figure-Enhanced Edition |
+| Paper 3 | RAY-001 Baseline Characterization | Published Zenodo DOI; figure-enhanced revision path active |
 | Paper 4 | APPRE Schema-and-Rules Framework | GitHub/repository artifact only; rewrite before DOI lock |
 | Paper 5 | Regenerative Loop Theory | Queued / drafting |
 | Paper 6 | Neurotrophic Mycology Evidence Map | Queued / drafting |
@@ -40,13 +40,15 @@ This repository is not medical advice, legal advice, a clinical directive, a tre
 | Paper 1 - all versions | Zenodo concept DOI | [10.5281/zenodo.20832832](https://doi.org/10.5281/zenodo.20832832) | Resolves to latest Paper 1 version |
 | Paper 1 - prior version | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20832833](https://doi.org/10.5281/zenodo.20832833) | Prior archived version |
 | Paper 1 - OSF component | OSF project component | [https://osf.io/mxepj](https://osf.io/mxepj) | Public component with Paper 1 materials |
-| Paper 2 - RAY-VASC Protocol | OSF registration | [10.17605/OSF.IO/WESZY](https://doi.org/10.17605/OSF.IO/WESZY) | Public, registered, citable |
+| Paper 2 - RAY-VASC Protocol | Zenodo preprint, v1.1.0 Figure-Enhanced Edition | [10.5281/zenodo.21111619](https://doi.org/10.5281/zenodo.21111619) | Public, archived, citable |
+| Paper 2 - all versions | Zenodo concept DOI | [10.5281/zenodo.21111618](https://doi.org/10.5281/zenodo.21111618) | Resolves to latest Paper 2 version |
+| Paper 2 - OSF registration | OSF Registries | [10.17605/OSF.IO/WESZY](https://doi.org/10.17605/OSF.IO/WESZY) | Public, registered, citable |
 | Paper 3 - RAY-001 Baseline Characterization | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20834331](https://doi.org/10.5281/zenodo.20834331) | Public, archived, citable |
 | Paper 3 - all versions | Zenodo concept DOI | [10.5281/zenodo.20834330](https://doi.org/10.5281/zenodo.20834330) | Resolves to latest Paper 3 version |
 | Paper 4 - APPRE Schema-and-Rules Framework | GitHub/repository artifact only | Not assigned | No OSF deposit, no Zenodo deposit, no ORCID work, no DOI |
 | Papers 5-7 | Queued / drafting | Not assigned | No external deposit yet |
 
-Paper 4 must not be cited as DOI-backed until a future OSF, Zenodo, or ORCID release gate is completed.
+Paper 4 must not be cited as DOI-backed until a future OSF, Zenodo, or ORCID public archive is completed.
 
 ---
 
@@ -54,6 +56,7 @@ Paper 4 must not be cited as DOI-backed until a future OSF, Zenodo, or ORCID rel
 
 Paper 1 v1.1.0 embeds seven explanatory figures, journal-style captions, accessibility alt text, and figure-caption metadata while preserving the original framework-only claim boundary.
 
+**Locked title:** The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease  
 **Current Paper 1 version DOI:** https://doi.org/10.5281/zenodo.21109062  
 **Paper 1 all-versions DOI:** https://doi.org/10.5281/zenodo.20832832  
 **Prior Paper 1 v1.0.0 DOI:** https://doi.org/10.5281/zenodo.20832833  
@@ -75,15 +78,72 @@ No clinical outcomes, treatment efficacy claims, disease reversal claims, recove
 
 ---
 
+## Paper 2 v1.1.0 Figure-Enhanced Edition
+
+Paper 2 v1.1.0 is the published, citable, figure-enhanced protocol manuscript for the RAY-VASC publication sequence.
+
+**Locked title:** RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease  
+**Primary citable manuscript DOI:** https://doi.org/10.5281/zenodo.21111619  
+**Paper 2 all-versions DOI:** https://doi.org/10.5281/zenodo.21111618  
+**OSF registration DOI:** https://doi.org/10.17605/OSF.IO/WESZY  
+**GitHub figure-enhanced tag:** `paper2-figure-enhanced-v1.1.0`  
+**GitHub DOI-lock tag:** `paper2-published-citable-v1.1.0`  
+**ORCID record status:** Zenodo preprint work added; OSF registration work retained separately.  
+
+Paper 2 translates the Paper 1 framework into a prospective observational N-of-1 and small-series protocol architecture. It defines the study-design spine, feasibility endpoints, tiered measurement architecture, safety monitoring, confounder annotation, proxy-supported reporting, serial EEG measurement, synchronized biomarker collection, APPRE response-policy documentation, and small-series aggregation logic.
+
+The v1.1.0 Figure-Enhanced Edition embeds eight protocol figures:
+
+1. RAY-VASC 52-Week Schedule of Events.
+2. Tiered Measurement Architecture.
+3. Daily-to-Quarterly Data Capture Cadence.
+4. EEG and Biomarker Synchronization Map.
+5. Feasibility Endpoint Dashboard Schema.
+6. Safety Monitoring and Adverse-Event Workflow.
+7. Confounder Annotation Flow.
+8. Small-Series Expansion Model.
+
+Paper 2 public assets include:
+
+- Figure-enhanced DOCX manuscript.
+- Figure-enhanced PDF manuscript.
+- Eight high-resolution Paper 2 figure PNG assets.
+- Figure alt-text file.
+- SPIRIT/SPENT checklist material.
+- Schedule of Events CSV.
+- EEG Schedule CSV.
+- APPRE Data Dictionary CSV.
+- Adverse Event Log Template CSV.
+- Analysis Plan materials.
+- Paper 2 public citation record.
+- Figure insertion report.
+- Release notes and SHA256 release materials.
+- Zenodo archival record.
+- OSF registration/component update.
+- ORCID Zenodo preprint work update.
+- GitHub DOI-synchronized tag.
+
+Paper 2 reports no clinical outcomes. It does not claim treatment efficacy, disease modification, brain repair, vascular lesion reversal, PSP reversal, dementia reversal, recovery, cure, or guaranteed benefit.
+
+Controlled-substance-related content, where referenced, is limited to lawful, clinician-governed, ethics-approved research architecture and as-administered documentation only. No sourcing, preparation, dosing, administration, conversion, procurement, or self-use instructions are provided.
+
+External prospective implementation requires applicable consent, privacy review, clinician oversight, and IRB review, ethics review, or formal determination before enrollment. OSF registration is required before external prospective participant data collection.
+
+---
+
 ## How to Cite
 
 Use the specific DOI for the public artifact being cited.
 
 ### Paper 1 - current version
 
-Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease* (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.21109062
+Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease* (v1.1.0 Figure-Enhanced Edition). Zenodo. https://doi.org/10.5281/zenodo.21109062
 
-### Paper 2 - registered protocol
+### Paper 2 - current version
+
+Henderson, L. (2026). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease* (v1.1.0 Figure-Enhanced Edition). Zenodo. https://doi.org/10.5281/zenodo.21111619
+
+### Paper 2 - OSF registration record
 
 Henderson, L. (2026, June 11). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*. OSF Registries. https://doi.org/10.17605/OSF.IO/WESZY
 
@@ -192,14 +252,17 @@ ray-vasc-regenerative-loop/
 |   |-- paper3/final/
 |   |-- paper4/final/
 |
+|-- docs/
+|   |-- appre/
+|   |-- paper2/
+|
 |-- figures/
 |   |-- paper1/final/
-|   |-- paper2/final/
-|   |-- paper3/final/
 |   |-- paper4/final/
 |
 |-- supplements/
 |   |-- paper2/final/
+|   |   |-- figures/
 |   |-- paper4/final/
 |
 |-- schemas/
@@ -214,17 +277,37 @@ ray-vasc-regenerative-loop/
 |-- analysis/
 |   |-- appre/v0.1.1/
 |
-|-- docs/
-|   |-- appre/
-|
 |-- releases/
+|   |-- paper1/final/
 |   |-- paper1/v1.1.0/
 |   |-- paper2/final/
-|   |-- paper3/final/
 |   |-- paper4/final/
 |
 |-- archive/
 ```
+
+---
+
+## Paper 2 Public File Map
+
+| Artifact | Path |
+|---|---|
+| Paper 2 DOCX manuscript | `manuscripts/paper2/final/RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.docx` |
+| Paper 2 PDF manuscript | `manuscripts/paper2/final/RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.pdf` |
+| Paper 2 folder README | `manuscripts/paper2/final/README.md` |
+| Paper 2 public citation record | `docs/paper2/PAPER2_PUBLIC_CITATION.md` |
+| Paper 2 figure insertion report | `docs/paper2/FIGURE_INSERTION_REPORT.md` |
+| Paper 2 supplement README | `supplements/paper2/final/README.md` |
+| Paper 2 figure alt text | `supplements/paper2/final/Figure_Alt_Text.md` |
+| Paper 2 figures | `supplements/paper2/final/figures/` |
+| Schedule of Events | `supplements/paper2/final/Schedule_of_Events.csv` |
+| EEG schedule | `supplements/paper2/final/EEG_Schedule.csv` |
+| APPRE data dictionary | `supplements/paper2/final/APPRE_Data_Dictionary.csv` |
+| Adverse event log template | `supplements/paper2/final/Adverse_Event_Log_Template.csv` |
+| SPIRIT/SPENT checklist | `supplements/paper2/final/SPIRIT_SPENT_Checklist.md` |
+| Analysis plan | `supplements/paper2/final/RAY-VASC_Analysis_Plan_v0.1.md` |
+| Paper 2 release notes | `releases/paper2/final/RELEASE_NOTES.md` |
+| Paper 2 SHA256 checksums | `releases/paper2/final/SHA256SUMS.txt` |
 
 ---
 
@@ -253,7 +336,11 @@ The following facts must not be changed unless the public record itself changes:
 - Paper 1 all-versions DOI: `10.5281/zenodo.20832832`
 - Paper 1 prior v1.0.0 DOI: `10.5281/zenodo.20832833`
 - Paper 1 OSF component: `https://osf.io/mxepj`
-- Paper 2 OSF DOI: `10.17605/OSF.IO/WESZY`
+- Paper 2 current version DOI: `10.5281/zenodo.21111619`
+- Paper 2 all-versions DOI: `10.5281/zenodo.21111618`
+- Paper 2 OSF registration DOI: `10.17605/OSF.IO/WESZY`
+- Paper 2 GitHub figure-enhanced tag: `paper2-figure-enhanced-v1.1.0`
+- Paper 2 GitHub DOI-lock tag: `paper2-published-citable-v1.1.0`
 - Paper 3 version DOI: `10.5281/zenodo.20834331`
 - Paper 3 all-versions DOI: `10.5281/zenodo.20834330`
 - Paper 4 has no OSF deposit, no Zenodo deposit, no ORCID work, and no DOI as of this README state.
@@ -264,7 +351,7 @@ Do not rewrite the README from scratch during future paper updates unless the RE
 
 For normal updates:
 
-1. Add only the new release section.
+1. Add only the new public release section.
 2. Update only the affected paper row in the DOI ledger.
 3. Add or revise only the affected citation.
 4. Keep prior locked facts intact.
@@ -274,9 +361,10 @@ For normal updates:
 
 ### Paper update scope
 
-- Paper 2 update: add Paper 2 figure-enhanced files, update Paper 2 row, update Paper 2 citation, regenerate manifest if used.
+- Paper 1 is locked at v1.1.0 Figure-Enhanced Edition unless a future Zenodo version is created.
+- Paper 2 is locked at v1.1.0 Figure-Enhanced Edition unless a future Zenodo version is created.
 - Paper 3 update: add Paper 3 figure-enhanced files, update Paper 3 row, update Paper 3 citation, regenerate manifest if used.
-- Paper 4 update: do not add a DOI unless OSF, Zenodo, or ORCID release is actually completed. Until then, Paper 4 remains GitHub/repository artifact only.
+- Paper 4 update: do not add a DOI unless OSF, Zenodo, or ORCID public archive is actually completed. Until then, Paper 4 remains GitHub/repository artifact only.
 - Papers 5-7 update: add only when a public draft, release package, preprint, registration, or DOI record actually exists.
 
 ### Claim boundary rule
@@ -323,19 +411,3 @@ See: [`LICENSE-DOCS-CC-BY-4.0.txt`](LICENSE-DOCS-CC-BY-4.0.txt)
 RAY-VASC is a research documentation and open-source protocol architecture project. It is designed to support reproducibility, review, structured measurement, and qualified future research implementation.
 
 It is not evidence of clinical efficacy. It is not a treatment recommendation. It is not a claim of disease reversal, recovery, repair, or cure.
-
----
-
-## Paper 2 Published Citation Lock
-
-**Paper 2 title:** RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease
-
-**Version:** v1.1.0 Figure-Enhanced Edition
-
-**Zenodo version DOI:** https://doi.org/10.5281/zenodo.21111619
-
-**Zenodo all-versions DOI:** https://doi.org/10.5281/zenodo.21111618
-
-**OSF registration DOI:** https://doi.org/10.17605/OSF.IO/WESZY
-
-**GitHub release tag:** paper2-figure-enhanced-v1.1.0
