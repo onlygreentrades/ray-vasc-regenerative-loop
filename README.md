@@ -1,4 +1,4 @@
-# RAY-VASC Regenerative Loop
+﻿# RAY-VASC Regenerative Loop
 
 **Public research repository for the RAY-VASC Regenerative Loop manuscript series**
 
@@ -350,17 +350,9 @@ ray-vasc-regenerative-loop/
 |   |   |-- figures/
 |   |-- paper4/final/
 |
-|-- schemas/
-|   |-- appre/v0.1.1/
 |
-|-- data/
-|   |-- synthetic/appre/v0.1.1/
 |
-|-- validation/
-|   |-- appre/v0.1.1/
 |
-|-- analysis/
-|   |-- appre/v0.1.1/
 |
 |-- releases/
 |   |-- paper1/final/
@@ -373,7 +365,7 @@ ray-vasc-regenerative-loop/
 
 ---
 
-## Paper 4 — APPRE Schema-and-Rules Framework
+## Paper 4 â€” APPRE Schema-and-Rules Framework
 
 **Title:** APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease  
 **Version:** v1.0.0  
@@ -396,3 +388,23 @@ Primary folders:
 - validation/appre/
 - releases/paper4/final/
 
+---
+
+## Paper 4 APPRE Support Asset Placement
+
+APPRE v0.1.1 schema, synthetic-data, analysis, and validation materials are stored under:
+
+`supplements/paper4/final/appre-v0.1.1/`
+
+They are intentionally not stored as independent root-level branches because this repository is organized as a manuscript-series release tree.
+
+Correct placement:
+
+| Asset family | Repository location |
+|---|---|
+| APPRE analysis materials | `supplements/paper4/final/appre-v0.1.1/analysis/` |
+| APPRE synthetic/example data | `supplements/paper4/final/appre-v0.1.1/data/synthetic/` |
+| APPRE schema materials | `supplements/paper4/final/appre-v0.1.1/schemas/` |
+| APPRE validation materials | `supplements/paper4/final/appre-v0.1.1/validation/` |
+
+The repository root should remain limited to major manuscript-series lanes such as `archive/`, `docs/`, `figures/`, `manuscripts/`, `releases/`, `scripts/`, and `supplements/`.

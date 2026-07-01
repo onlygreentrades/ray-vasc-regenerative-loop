@@ -1,4 +1,4 @@
-# Repository Map
+﻿# Repository Map
 
 This repository is intentionally organized around manuscripts first, then reusable research artifacts.
 
@@ -46,10 +46,10 @@ Paper-specific release notes, checksums, cleanup notes, appendices, and bundle n
 
 ```text
 manuscripts/
-â”œâ”€â”€ paper1/final/
-â”œâ”€â”€ paper2/final/
-â”œâ”€â”€ paper3/final/
-â””â”€â”€ paper4/final/
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ paper1/final/
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ paper2/final/
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ paper3/final/
+Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ paper4/final/
 ```
 
 ## Paper 4 Release Posture
@@ -103,13 +103,28 @@ GitHub is the working version-control mechanism. OSF is the archival/public regi
 
 ## Paper 4 APPRE v1.0.0 Public Release Paths
 
-- manuscripts/paper4/final/ — figure-integrated manuscript PDF/DOCX
-- figures/paper4/final/ — eight APPRE architecture figures
-- supplements/paper4/final/ — schema/data supplements and worked synthetic materials
-- schemas/appre/ — APPRE schema files
-- data/synthetic/appre/ — synthetic datasets only
-- validation/appre/ — validation-rule documentation
-- releases/paper4/final/ — release notes, checksums, citation/archive links
+- manuscripts/paper4/final/ â€” figure-integrated manuscript PDF/DOCX
+- figures/paper4/final/ â€” eight APPRE architecture figures
+- supplements/paper4/final/ â€” schema/data supplements and worked synthetic materials
+- schemas/appre/ â€” APPRE schema files
+- data/synthetic/appre/ â€” synthetic datasets only
+- validation/appre/ â€” validation-rule documentation
+- releases/paper4/final/ â€” release notes, checksums, citation/archive links
 
 Canonical citation DOI: https://doi.org/10.5281/zenodo.21116291  
 OSF mirror: https://osf.io/nqybd/
+
+---
+
+## APPRE v0.1.1 Support Asset Placement
+
+APPRE v0.1.1 support assets are stored under the Paper 4 supplement lane.
+
+| Asset family | Correct repository location |
+|---|---|
+| APPRE analysis materials | `supplements/paper4/final/appre-v0.1.1/analysis/` |
+| APPRE synthetic/example data | `supplements/paper4/final/appre-v0.1.1/data/synthetic/` |
+| APPRE schema materials | `supplements/paper4/final/appre-v0.1.1/schemas/` |
+| APPRE validation materials | `supplements/paper4/final/appre-v0.1.1/validation/` |
+
+These assets should not appear as independent root-level lanes.

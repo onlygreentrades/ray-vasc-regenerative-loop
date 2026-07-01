@@ -1,4 +1,4 @@
-# RAY-VASC Paper Index
+﻿# RAY-VASC Paper Index
 
 **Program:** RAY-VASC Regenerative Loop Research Program  
 **Originating researcher:** Logan Henderson  
@@ -36,7 +36,7 @@
 
 ## Paper 4 Release Hold
 
-Paper 4 remains a local Git artifact only. It has not been uploaded to OSF, Zenodo, or ORCID. External release is intentionally held pending rewrite quality, formatting symmetry with Papers 1â€“3, and final claim-boundary review.
+Paper 4 remains a local Git artifact only. It has not been uploaded to OSF, Zenodo, or ORCID. External release is intentionally held pending rewrite quality, formatting symmetry with Papers 1Ã¢â‚¬â€œ3, and final claim-boundary review.
 
 ## Paper 4 APPRE Asset Map
 
@@ -87,3 +87,13 @@ The series reports framework, protocol, baseline characterization, methods, data
 | Figure path | manuscripts/paper3/final/figures/ |
 | Release package path | releases/paper3/v1.1.0/ |
 | Claim boundary | Baseline characterization and measurement feasibility only; no intervention outcome or treatment efficacy claims |
+
+---
+
+## Paper 4 APPRE Support Asset Placement
+
+APPRE support assets are stored under the Paper 4 supplement lane:
+
+`supplements/paper4/final/appre-v0.1.1/`
+
+This keeps Paper 4 architecture self-contained and prevents APPRE draft/schema support files from appearing as independent root-level repository systems.
