@@ -1,4 +1,4 @@
-﻿# RAY-VASC Regenerative Loop
+# RAY-VASC Regenerative Loop
 
 **Public research repository for the RAY-VASC Regenerative Loop manuscript series**  
 **Originating researcher:** Logan Henderson  
@@ -8,6 +8,16 @@
 **Paper 2 OSF registration DOI:** https://doi.org/10.17605/OSF.IO/WESZY  
 **Paper 1 Zenodo DOI:** https://doi.org/10.5281/zenodo.20832833  
 **Paper 3 Zenodo DOI:** https://doi.org/10.5281/zenodo.20834331
+
+## Paper 1 v1.1.0 Figure-Enhanced Edition
+
+Paper 1 v1.1.0 embeds seven explanatory figures, journal-style captions, accessibility alt text, and figure-caption metadata while preserving the original framework-only claim boundary.
+
+- Current Paper 1 version DOI: [10.5281/zenodo.21109062](https://doi.org/10.5281/zenodo.21109062)
+- Paper 1 all-versions DOI: [10.5281/zenodo.20832832](https://doi.org/10.5281/zenodo.20832832)
+- Prior Paper 1 v1.0.0 DOI: [10.5281/zenodo.20832833](https://doi.org/10.5281/zenodo.20832833)
+
+No clinical outcomes, treatment efficacy claims, disease reversal claims, recovery claims, repair claims, controlled-substance dosing instructions, sourcing instructions, preparation instructions, administration instructions, conversion instructions, or self-use instructions were added.
 
 ## Public DOI Ledger â€” Papers 1â€“3
 

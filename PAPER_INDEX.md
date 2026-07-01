@@ -1,8 +1,20 @@
-﻿# RAY-VASC Paper Index
+# RAY-VASC Paper Index
 
 **Program:** RAY-VASC Regenerative Loop Research Program  
 **Originating researcher:** Logan Henderson  
 **Repository:** https://github.com/onlygreentrades/ray-vasc-regenerative-loop  
+
+## Paper 1 v1.1.0 Figure-Enhanced Edition
+
+| Field | Value |
+|---|---|
+| Version | v1.1.0 |
+| Status | Published Zenodo new version |
+| Version DOI | [10.5281/zenodo.21109062](https://doi.org/10.5281/zenodo.21109062) |
+| All-versions DOI | [10.5281/zenodo.20832832](https://doi.org/10.5281/zenodo.20832832) |
+| Prior v1.0.0 DOI | [10.5281/zenodo.20832833](https://doi.org/10.5281/zenodo.20832833) |
+| Main files | DOCX, PDF, release package ZIP, caption/alt-text bank, accessibility audit, SHA256 manifest, figure PNG assets |
+| Claim boundary | Framework-only; no treatment, recovery, repair, reversal, dosing, sourcing, preparation, administration, conversion, or self-use instruction |
 
 ## Public DOI Ledger
 

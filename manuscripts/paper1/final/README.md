@@ -63,7 +63,20 @@ Christine A. Hood is acknowledged for family authorization and care coordination
 
 No raw medical records or individual-level clinical outcomes are reported in this manuscript.
 
+## Paper 1 v1.1.0 Figure-Enhanced Edition
+
+Current version: v1.1.0  
+Current version DOI: https://doi.org/10.5281/zenodo.21109062  
+All-versions DOI: https://doi.org/10.5281/zenodo.20832832  
+Prior v1.0.0 DOI: https://doi.org/10.5281/zenodo.20832833  
+
+This release embeds seven explanatory figures, captions, accessibility alt text, and figure-caption metadata. It preserves the original framework-only boundary and adds no clinical outcomes, treatment claims, disease reversal claims, recovery claims, repair claims, controlled-substance dosing instructions, sourcing instructions, preparation instructions, administration instructions, conversion instructions, or self-use instructions.
+
 ## Citation
+
+Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease* (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.21109062
+
+
 
 Cite this manuscript as:
 
