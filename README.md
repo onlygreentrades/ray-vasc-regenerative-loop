@@ -47,7 +47,6 @@ This repository is not medical advice, legal advice, a clinical directive, a tre
 | Paper 3 - all versions | Zenodo concept DOI | [10.5281/zenodo.20834330](https://doi.org/10.5281/zenodo.20834330) | Resolves to latest Paper 3 version |
 | Paper 3 - prior version | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20834331](https://doi.org/10.5281/zenodo.20834331) | Prior archived version |
 | Paper 3 - OSF component | OSF project component | [https://osf.io/k8jhz/](https://osf.io/k8jhz/) | Public component with Paper 3 v1.0.0 and v1.1.0 materials |
-| Paper 3 - GitHub release tag | GitHub tag | `paper3-published-citable-v1.1.0` | DOI-synchronized public lock tag |
 | Paper 4 - APPRE Schema-and-Rules Framework | Zenodo publication, v1.0.0 Figure-Integrated Edition | [10.5281/zenodo.21116291](https://doi.org/10.5281/zenodo.21116291) | Public, archived, citable |
 | Paper 4 - all versions | Zenodo concept DOI | [10.5281/zenodo.21116290](https://doi.org/10.5281/zenodo.21116290) | Resolves to latest Paper 4 version |
 | Paper 4 - OSF project | OSF project archive | [https://osf.io/nqybd/](https://osf.io/nqybd/) | Public Paper 4 project archive |
