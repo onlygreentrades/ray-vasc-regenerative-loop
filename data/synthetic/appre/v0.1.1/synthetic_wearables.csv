@@ -1,3 +1,0 @@
-subject_id,calendar_date,study_day,device_class,device_wear_hours,valid_wear_day_yes_no,steps_count,resting_hr,hrv_metric,sleep_duration_minutes,sleep_efficiency_percent,spo2_mean,spo2_min,data_export_format,device_sync_success,discordance_self_report_flag,created_at,record_status
-SYN-001,2026-01-10,10,wrist,22,yes,1600,70,30,420,78,95,91,csv,yes,no,2026-01-10T23:00:00,locked
-SYN-001,2026-01-20,20,wrist,6,no,,,,,,,,csv,no,yes,2026-01-20T23:00:00,locked

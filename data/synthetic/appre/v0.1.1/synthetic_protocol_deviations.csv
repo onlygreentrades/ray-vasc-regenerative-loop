@@ -1,2 +1,0 @@
-subject_id,deviation_id,deviation_date,deviation_category,expected_procedure,actual_procedure,reason_for_deviation,affected_data_window,major_minor_classification,corrective_action,requires_protocol_amendment_yes_no,reported_by_role,reviewed_by_role,created_at,record_status
-SYN-001,DEV-SYN-001,2026-01-20,device,wearable valid day,device not worn long enough,participant unable during illness window,2026-01-20,minor,mark invalid wearable day and continue paper log,no,caregiver,protocol_reviewer,2026-01-20T23:00:00,locked

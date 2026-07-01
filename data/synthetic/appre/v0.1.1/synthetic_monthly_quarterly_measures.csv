@@ -1,4 +1,0 @@
-subject_id,assessment_id,assessment_date,study_month,study_quarter,phase,cycle,completed_by_role,moca_total,trail_making_a_seconds,trail_making_b_seconds,verbal_fluency_score,psqi_total,cat_total,eat10_total,mpsprs15_total,mds_updrs_part_iii_total,six_minute_walk_distance,spirometry_fev1,spirometry_fvc,assessment_quality_flag,assessor_role,same_assessor_as_prior,confounder_window_flag,created_at,record_status
-SYN-001,ASSESS-SYN-01,2026-01-28,1,1,baseline,cycle1,assessor,19,59,139,13,10,14,4,20,35,255,1.8,2.7,confounded,assessor,yes,yes,2026-01-28T12:00:00,locked
-SYN-001,ASSESS-SYN-02,2026-02-28,2,1,preload,cycle1,assessor,20,58,138,14,8,14,4,20,35,260,1.8,2.7,clean,assessor,yes,no,2026-01-28T12:00:00,locked
-SYN-001,ASSESS-SYN-03,2026-03-28,3,1,preload,cycle1,assessor,21,57,137,15,8,14,4,20,35,265,1.8,2.7,clean,assessor,yes,no,2026-01-28T12:00:00,locked
