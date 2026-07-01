@@ -1,0 +1,4 @@
+subject_id,confounder_id,confounder_date_start,confounder_date_end,confounder_category,confounder_description,severity,expected_direction_of_bias,affected_domains,requires_exclusion_yes_no,requires_sensitivity_analysis_yes_no,source_of_detection,entered_by_role,reviewed_by_role,resolution_status,created_at,record_status
+SYN-001,CONF-SYN-001,2026-01-15,2026-01-28,acute_infection,Synthetic respiratory infection window,moderate,worsen,sleep;respiratory;cognition;gait;mood,yes,yes,daily_log,caregiver,protocol_reviewer,resolved,2026-01-15T20:00:00,locked
+SYN-001,CONF-SYN-002,2026-01-20,2026-02-03,medication_change,Synthetic medication timing change,moderate,mixed,sleep;mood;cognition;gait,yes,yes,weekly_review,caregiver,protocol_reviewer,resolved,2026-01-20T20:00:00,locked
+SYN-001,CONF-SYN-003,2026-01-18,2026-01-25,fall_or_injury,Synthetic non-injurious fall,low,worsen,gait;falls;mood,yes,yes,daily_log,caregiver,protocol_reviewer,resolved,2026-01-18T20:00:00,locked

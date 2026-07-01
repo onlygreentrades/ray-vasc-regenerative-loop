@@ -1,0 +1,79 @@
+{
+  "version": "v0.1.1",
+  "boundary": "APPRE is documentation architecture only; not validated AI, CDS, SaMD, or treatment optimizer.",
+  "rules": [
+    {
+      "id": "R1",
+      "name": "Safety override",
+      "description": "Any severe or serious adverse event triggers response-policy review before signal interpretation."
+    },
+    {
+      "id": "R2",
+      "name": "One-variable documentation rule",
+      "description": "Candidate-input changes are documented one primary variable at a time where feasible."
+    },
+    {
+      "id": "R3",
+      "name": "Baseline rule",
+      "description": "No candidate signal is interpreted without baseline window and variability estimate."
+    },
+    {
+      "id": "R4",
+      "name": "Confounder rule",
+      "description": "Infection, medication change, hospitalization, fall, sleep collapse, travel, or caregiver disruption must be annotated before interpretation."
+    },
+    {
+      "id": "R5",
+      "name": "Minimum completion rule",
+      "description": "Default primary interpretation requires >=70% Tier 1 daily and weekly completion unless protocol justifies alternate threshold."
+    },
+    {
+      "id": "R6",
+      "name": "Exploratory signal rule",
+      "description": ">=0.3 SD directional change can flag review only; not validated responder criterion."
+    },
+    {
+      "id": "R7",
+      "name": "Controlled-substance boundary",
+      "description": "APPRE records only as-administered observational exposure under separate lawful clinician-governed ethics-approved oversight if present."
+    },
+    {
+      "id": "R8",
+      "name": "Burden ceiling",
+      "description": "Participant/caregiver burden triggers simplification before data ambition."
+    },
+    {
+      "id": "R9",
+      "name": "Versioned response policy",
+      "description": "Every material update includes date, reason, window, reviewer, prior policy link."
+    },
+    {
+      "id": "R10",
+      "name": "EEG confounder gate",
+      "description": "EEG sessions require sleep, caffeine, acute illness, medication, and artifact context before primary interpretation."
+    },
+    {
+      "id": "R11",
+      "name": "Cycle boundary rule",
+      "description": "New cycles establish fresh baseline estimates; prior cycles are hypotheses, not established effects."
+    },
+    {
+      "id": "R12",
+      "name": "Biomarker-EEG synchrony rule",
+      "description": "Matched EEG-biomarker analysis requires documented synchronization window."
+    },
+    {
+      "id": "R13",
+      "name": "Repository release rule",
+      "description": "Public release increments version log and manifest; raw identifiable data excluded."
+    }
+  ],
+  "interpretable_window_defaults": {
+    "daily_tier1_completion_minimum": 0.7,
+    "weekly_outcome_completion_minimum": 0.7,
+    "unresolved_severe_adverse_event_allowed": false,
+    "active_confounder_review_required": true,
+    "measurement_method_comparability_required": true,
+    "status": "default heuristic; not validated cutoff"
+  }
+}

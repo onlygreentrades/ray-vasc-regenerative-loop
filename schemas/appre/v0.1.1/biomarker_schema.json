@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Biomarker Schema",
+  "version": "v0.1.1",
+  "description": "APPRE v0.1.1 public schema. Documentation architecture only; not validated AI, CDS, SaMD, or treatment optimization.",
+  "type": "object",
+  "properties": {
+    "subject_id": {
+      "type": "string",
+      "description": "Subject ID.",
+      "appre_vocabulary_or_range": "pseudonymous identifier",
+      "appre_required": true
+    },
+    "sample_id": {
+      "type": "string",
+      "description": "Sample ID.",
+      "appre_vocabulary_or_range": "unique identifier",
+      "appre_required": true
+    },
+    "collection_date": {
+      "type": "string",
+      "description": "Collection date.",
+      "appre_vocabulary_or_range": "YYYY-MM-DD or shifted date",
+      "appre_required": true
+    },
+    "collection_time": {
+      "type": "string",
+      "description": "Collection time.",
+      "appre_vocabulary_or_range": "HH:MM",
+      "appre_required": false
+    },
+    "fasting_status": {
+      "type": "string",
+      "description": "Fasting status.",
+      "appre_vocabulary_or_range": "fasting|nonfasting|unknown",
+      "appre_required": false
+    },
+    "study_quarter": {
+      "type": "integer",
+      "description": "Quarter.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": false
+    },
+    "phase": {
+      "type": "string",
+      "description": "Phase.",
+      "appre_vocabulary_or_range": "controlled vocabulary",
+      "appre_required": true
+    },
+    "cycle": {
+      "type": "string",
+      "description": "Cycle.",
+      "appre_vocabulary_or_range": "cycle1|cycle2|not_applicable",
+      "appre_required": false
+    },
+    "lab_vendor_category": {
+      "type": "string",
+      "description": "Vendor category, not private account info.",
+      "appre_vocabulary_or_range": "public category",
+      "appre_required": false
+    },
+    "specimen_type": {
+      "type": "string",
+      "description": "Specimen type.",
+      "appre_vocabulary_or_range": "blood|plasma|serum|saliva|other",
+      "appre_required": false
+    },
+    "assay_name": {
+      "type": "string",
+      "description": "Assay name.",
+      "appre_vocabulary_or_range": "text",
+      "appre_required": true
+    },
+    "assay_result_value": {
+      "type": "number",
+      "description": "Result value.",
+      "appre_vocabulary_or_range": "numeric",
+      "appre_required": false
+    },
+    "assay_unit": {
+      "type": "string",
+      "description": "Unit.",
+      "appre_vocabulary_or_range": "unit",
+      "appre_required": false
+    },
+    "reference_range_low": {
+      "type": "number",
+      "description": "Reference low.",
+      "appre_vocabulary_or_range": "numeric",
+      "appre_required": false
+    },
+    "reference_range_high": {
+      "type": "number",
+      "description": "Reference high.",
+      "appre_vocabulary_or_range": "numeric",
+      "appre_required": false
+    },
+    "result_flag": {
+      "type": "string",
+      "description": "Result flag.",
+      "appre_vocabulary_or_range": "low|normal|high|critical|unknown",
+      "appre_required": false
+    },
+    "data_absent_reason": {
+      "type": "string",
+      "description": "Reason if absent.",
+      "appre_vocabulary_or_range": "controlled vocabulary",
+      "appre_required": false
+    },
+    "collection_within_72h_of_eeg": {
+      "type": "string",
+      "description": "EEG synchronization status.",
+      "appre_vocabulary_or_range": "yes|no|not_applicable",
+      "appre_required": false
+    },
+    "medication_context_flag": {
+      "type": "string",
+      "description": "Medication context flag.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "acute_illness_context_flag": {
+      "type": "string",
+      "description": "Acute illness context.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "created_at": {
+      "type": "string",
+      "description": "Creation timestamp.",
+      "appre_vocabulary_or_range": "ISO 8601",
+      "appre_required": true
+    },
+    "record_status": {
+      "type": "string",
+      "description": "Record status.",
+      "appre_vocabulary_or_range": "draft|reviewed|locked|amended",
+      "appre_required": true
+    }
+  },
+  "required": [
+    "subject_id",
+    "sample_id",
+    "collection_date",
+    "phase",
+    "assay_name",
+    "created_at",
+    "record_status"
+  ]
+}

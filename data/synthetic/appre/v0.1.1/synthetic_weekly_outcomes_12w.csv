@@ -1,0 +1,13 @@
+subject_id,study_week,week_start_date,week_end_date,phase,cycle,completed_by_role,tug_seconds,walk_10m_seconds,falls_count,near_falls_count,phq9_total,gad7_total,mmrc_score,average_sleep_hours,average_sleep_quality_0_10,activity_minutes_week,average_steps_per_day,adl_iadl_status,caregiver_burden_short_score,adherence_full_days,adverse_event_count,confounder_count,clinician_contact_yes_no,weekly_global_impression,missingness_flag,created_at,record_status
+SYN-001,1,2026-W01-start,2026-W01-end,baseline,cycle1,caregiver,18.2,12.1,0,0,8,6,2,7,7,60,1600,moderate_dependence,12,6,0,0,no,stable,no,2026-01-01T20:00:00,locked
+SYN-001,2,2026-W02-start,2026-W02-end,baseline,cycle1,caregiver,18.4,12.2,0,0,8,6,2,7,7,60,1600,moderate_dependence,12,6,0,0,no,stable,no,2026-01-01T20:00:00,locked
+SYN-001,3,2026-W03-start,2026-W03-end,preload,cycle1,caregiver,21.6,12.3,1,1,8,6,2,4,3,60,1600,moderate_dependence,12,5,1,2,yes,confounded,no,2026-01-01T20:00:00,locked
+SYN-001,4,2026-W04-start,2026-W04-end,preload,cycle1,caregiver,21.8,12.4,0,1,8,6,2,7,7,60,1600,moderate_dependence,12,5,0,0,no,confounded,no,2026-01-01T20:00:00,locked
+SYN-001,5,2026-W05-start,2026-W05-end,preload,cycle1,caregiver,19.0,12.5,0,0,8,6,2,7,7,60,1600,moderate_dependence,12,6,0,0,no,stable,no,2026-01-01T20:00:00,locked
+SYN-001,6,2026-W06-start,2026-W06-end,preload,cycle1,caregiver,19.2,12.6,0,0,8,6,2,7,7,60,1600,moderate_dependence,12,6,0,0,no,stable,no,2026-01-01T20:00:00,locked
+SYN-001,7,2026-W07-start,2026-W07-end,preload,cycle1,caregiver,19.4,12.7,0,0,8,6,2,7,7,60,1600,moderate_dependence,12,6,0,0,no,stable,no,2026-01-01T20:00:00,locked
+SYN-001,8,2026-W08-start,2026-W08-end,preload,cycle1,caregiver,19.6,12.8,0,0,8,6,2,7,7,60,1600,moderate_dependence,12,6,0,0,no,stable,no,2026-01-01T20:00:00,locked
+SYN-001,9,2026-W09-start,2026-W09-end,preload,cycle1,caregiver,19.8,12.9,0,0,8,6,2,7,7,60,1600,moderate_dependence,12,6,0,0,no,stable,no,2026-01-01T20:00:00,locked
+SYN-001,10,2026-W10-start,2026-W10-end,preload,cycle1,caregiver,20.0,13.0,0,0,8,6,2,7,7,60,1600,moderate_dependence,12,6,0,0,no,stable,no,2026-01-01T20:00:00,locked
+SYN-001,11,2026-W11-start,2026-W11-end,preload,cycle1,caregiver,20.2,13.1,0,0,8,6,2,7,7,60,1600,moderate_dependence,12,6,0,0,no,stable,no,2026-01-01T20:00:00,locked
+SYN-001,12,2026-W12-start,2026-W12-end,preload,cycle1,caregiver,20.4,13.2,0,0,8,6,2,7,7,60,1600,moderate_dependence,12,6,0,0,no,stable,no,2026-01-01T20:00:00,locked

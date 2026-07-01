@@ -1,0 +1,10 @@
+appre_layer,fhir_analogue,rationale_and_boundary
+Daily / weekly forms,Questionnaire,Structured instrument definition; conceptual mapping only.
+Completed forms,QuestionnaireResponse,Completed or partial responses; conceptual mapping only.
+Vitals / biomarkers / symptom scores,Observation,"Measurements, assertions, coded results; conceptual mapping only."
+Missing expected result,Observation.dataAbsentReason,Structured reason for absent data; conceptual mapping only.
+Adverse events,AdverseEvent,"Harm, near-harm, outcome, contributing factors; conceptual mapping only."
+Response-policy update,Provenance / PlanDefinition analogue,Traceable activity and policy context; not formal FHIR implementation guide.
+Version log,Provenance,"Actor, timestamp, source entity, activity, derived artifact."
+Wearable metadata,Device,Device/software source of data.
+Sample metadata,Specimen,Biological sample context for lab results.

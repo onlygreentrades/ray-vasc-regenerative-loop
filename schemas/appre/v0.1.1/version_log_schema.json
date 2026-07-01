@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Version Log Schema",
+  "version": "v0.1.1",
+  "description": "APPRE v0.1.1 public schema. Documentation architecture only; not validated AI, CDS, SaMD, or treatment optimization.",
+  "type": "object",
+  "properties": {
+    "version_id": {
+      "type": "string",
+      "description": "Version record ID.",
+      "appre_vocabulary_or_range": "unique identifier",
+      "appre_required": true
+    },
+    "version_date": {
+      "type": "string",
+      "description": "Version date.",
+      "appre_vocabulary_or_range": "YYYY-MM-DD",
+      "appre_required": true
+    },
+    "artifact_type": {
+      "type": "string",
+      "description": "Artifact type.",
+      "appre_vocabulary_or_range": "manuscript|schema|data|validation|analysis|docs|release|other",
+      "appre_required": true
+    },
+    "artifact_name": {
+      "type": "string",
+      "description": "Artifact name.",
+      "appre_vocabulary_or_range": "text",
+      "appre_required": true
+    },
+    "prior_version": {
+      "type": "string",
+      "description": "Prior version.",
+      "appre_vocabulary_or_range": "semantic version",
+      "appre_required": false
+    },
+    "new_version": {
+      "type": "string",
+      "description": "New version.",
+      "appre_vocabulary_or_range": "semantic version",
+      "appre_required": true
+    },
+    "change_type": {
+      "type": "string",
+      "description": "Change type.",
+      "appre_vocabulary_or_range": "add|update|fix|remove|release",
+      "appre_required": true
+    },
+    "change_summary": {
+      "type": "string",
+      "description": "Change summary.",
+      "appre_vocabulary_or_range": "text",
+      "appre_required": true
+    },
+    "reason_for_change": {
+      "type": "string",
+      "description": "Reason.",
+      "appre_vocabulary_or_range": "text",
+      "appre_required": false
+    },
+    "affected_schema_tables": {
+      "type": "string",
+      "description": "Affected schemas.",
+      "appre_vocabulary_or_range": "semicolon-delimited",
+      "appre_required": false
+    },
+    "affected_analysis_scripts": {
+      "type": "string",
+      "description": "Affected scripts.",
+      "appre_vocabulary_or_range": "semicolon-delimited",
+      "appre_required": false
+    },
+    "affected_public_repository_path": {
+      "type": "string",
+      "description": "Repo path.",
+      "appre_vocabulary_or_range": "path",
+      "appre_required": false
+    },
+    "osf_or_repository_update_required": {
+      "type": "string",
+      "description": "Update required.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "created_by_role": {
+      "type": "string",
+      "description": "Created by role.",
+      "appre_vocabulary_or_range": "role",
+      "appre_required": false
+    },
+    "reviewed_by_role": {
+      "type": "string",
+      "description": "Reviewed by role.",
+      "appre_vocabulary_or_range": "role",
+      "appre_required": false
+    },
+    "created_at": {
+      "type": "string",
+      "description": "Creation timestamp.",
+      "appre_vocabulary_or_range": "ISO 8601",
+      "appre_required": true
+    },
+    "record_status": {
+      "type": "string",
+      "description": "Record status.",
+      "appre_vocabulary_or_range": "draft|reviewed|locked|amended",
+      "appre_required": true
+    }
+  },
+  "required": [
+    "version_id",
+    "version_date",
+    "artifact_type",
+    "artifact_name",
+    "new_version",
+    "change_type",
+    "change_summary",
+    "created_at",
+    "record_status"
+  ]
+}

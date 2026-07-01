@@ -1,0 +1,7 @@
+Creative Commons Attribution 4.0 International Public License (CC BY 4.0)
+
+This repository's public documentation, manuscripts, forms, schemas, and protocol materials are released under CC BY 4.0 unless a file states otherwise.
+
+Summary: You are free to share and adapt the material for any purpose, provided appropriate credit is given and changes are indicated.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode

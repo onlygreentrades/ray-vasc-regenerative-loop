@@ -1,0 +1,37 @@
+field_name,data_type,required,vocabulary_or_range,description
+subject_id,string,True,pseudonymous identifier,Subject ID.
+study_day,integer,True,integer,Day number from study start.
+calendar_date,date,True,YYYY-MM-DD or shifted date,Date or privacy-shifted date.
+phase,string,True,baseline|preload|governed_window|sustain|other,Protocol phase.
+cycle,string,False,cycle1|cycle2|not_applicable,Protocol cycle.
+entry_time,time,False,HH:MM,Entry time.
+entry_mode,string,False,paper|spreadsheet|REDCap|ePRO|other,Capture mode.
+completed_by_role,string,True,participant|caregiver|proxy|clinician|assessor|mixed,Reporter role.
+sleep_hours,number,False,0-24,Sleep duration.
+sleep_quality_0_10,integer,False,0-10,Sleep quality rating.
+wake_time,time,False,HH:MM,Wake time.
+bed_time,time,False,HH:MM,Bed time.
+nap_minutes,integer,False,0-1440,Nap minutes.
+morning_light_yes_no,boolean,False,yes|no,Morning light exposure.
+morning_light_minutes,integer,False,0-1440,Morning light minutes.
+structured_exertion_yes_no,boolean,False,yes|no,Structured exertion occurred.
+exertion_minutes,integer,False,0-1440,Exertion minutes.
+steps_count,integer,False,>=0,Step count if available.
+social_contact_yes_no,boolean,False,yes|no,Meaningful social contact.
+medications_as_prescribed,boolean,False,yes|no|unknown,Medication adherence status.
+medication_change_yes_no,boolean,False,yes|no,Medication change flag.
+candidate_input_taken_yes_no,boolean,False,yes|no|not_applicable,Candidate input taken if defined.
+candidate_input_change_yes_no,boolean,False,yes|no,Candidate input change flag.
+controlled_substance_as_administered_field_present,boolean,False,yes|no|not_applicable,"If present, observational only."
+breathlessness_0_10,integer,False,0-10,Breathlessness rating.
+spo2_am,number,False,percent,Morning SpO2 if available.
+spo2_pm,number,False,percent,Evening SpO2 if available.
+bp_systolic_am,integer,False,mmHg,Morning systolic BP.
+bp_diastolic_am,integer,False,mmHg,Morning diastolic BP.
+hr_am,integer,False,bpm,Morning heart rate.
+adverse_event_present,boolean,False,yes|no,AE flag.
+confounder_flag,boolean,False,yes|no,Confounder flag.
+free_text_note_present,boolean,False,yes|no,Note present flag without public note content.
+data_absent_reason,string,False,controlled vocabulary,Required when expected data missing.
+created_at,datetime,True,ISO 8601,Creation timestamp.
+record_status,string,True,draft|reviewed|locked|amended,Record lifecycle status.

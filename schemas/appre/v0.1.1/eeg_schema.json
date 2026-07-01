@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Eeg Schema",
+  "version": "v0.1.1",
+  "description": "APPRE v0.1.1 public schema. Documentation architecture only; not validated AI, CDS, SaMD, or treatment optimization.",
+  "type": "object",
+  "properties": {
+    "subject_id": {
+      "type": "string",
+      "description": "Subject ID.",
+      "appre_vocabulary_or_range": "pseudonymous identifier",
+      "appre_required": true
+    },
+    "eeg_session_id": {
+      "type": "string",
+      "description": "EEG session ID.",
+      "appre_vocabulary_or_range": "unique identifier",
+      "appre_required": true
+    },
+    "session_date": {
+      "type": "string",
+      "description": "Session date.",
+      "appre_vocabulary_or_range": "YYYY-MM-DD or shifted date",
+      "appre_required": true
+    },
+    "study_week": {
+      "type": "integer",
+      "description": "Study week.",
+      "appre_vocabulary_or_range": ">=0",
+      "appre_required": false
+    },
+    "phase": {
+      "type": "string",
+      "description": "Phase.",
+      "appre_vocabulary_or_range": "controlled vocabulary",
+      "appre_required": true
+    },
+    "cycle": {
+      "type": "string",
+      "description": "Cycle.",
+      "appre_vocabulary_or_range": "cycle1|cycle2|not_applicable",
+      "appre_required": false
+    },
+    "eeg_tier": {
+      "type": "string",
+      "description": "EEG tier.",
+      "appre_vocabulary_or_range": "Tier2|Tier3|other",
+      "appre_required": false
+    },
+    "device_class": {
+      "type": "string",
+      "description": "Device class.",
+      "appre_vocabulary_or_range": "dry|wet|consumer|clinical|unknown",
+      "appre_required": false
+    },
+    "channel_count": {
+      "type": "integer",
+      "description": "Channel count.",
+      "appre_vocabulary_or_range": ">=1",
+      "appre_required": false
+    },
+    "resting_eyes_open_completed": {
+      "type": "string",
+      "description": "Resting EO.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "resting_eyes_closed_completed": {
+      "type": "string",
+      "description": "Resting EC.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "p300_completed": {
+      "type": "string",
+      "description": "P300 completion.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "recording_quality_flag": {
+      "type": "string",
+      "description": "Quality flag.",
+      "appre_vocabulary_or_range": "clean|partial|artifact|uninterpretable",
+      "appre_required": false
+    },
+    "sleep_quality_prior_night_0_10": {
+      "type": "integer",
+      "description": "Prior sleep quality.",
+      "appre_vocabulary_or_range": "0-10",
+      "appre_required": false
+    },
+    "caffeine_within_6h_yes_no": {
+      "type": "string",
+      "description": "Caffeine flag.",
+      "appre_vocabulary_or_range": "yes|no|unknown",
+      "appre_required": false
+    },
+    "acute_illness_flag": {
+      "type": "string",
+      "description": "Acute illness flag.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "medication_change_14d_flag": {
+      "type": "string",
+      "description": "Medication change flag.",
+      "appre_vocabulary_or_range": "yes|no",
+      "appre_required": false
+    },
+    "artifact_burden_flag": {
+      "type": "string",
+      "description": "Artifact burden.",
+      "appre_vocabulary_or_range": "low|moderate|high|unknown",
+      "appre_required": false
+    },
+    "spectral_power_file_reference": {
+      "type": "string",
+      "description": "File reference only.",
+      "appre_vocabulary_or_range": "path or ID",
+      "appre_required": false
+    },
+    "erp_file_reference": {
+      "type": "string",
+      "description": "ERP file reference.",
+      "appre_vocabulary_or_range": "path or ID",
+      "appre_required": false
+    },
+    "connectivity_file_reference": {
+      "type": "string",
+      "description": "Connectivity file reference.",
+      "appre_vocabulary_or_range": "path or ID",
+      "appre_required": false
+    },
+    "biomarker_sync_window_yes_no": {
+      "type": "string",
+      "description": "Biomarker sync.",
+      "appre_vocabulary_or_range": "yes|no|not_applicable",
+      "appre_required": false
+    },
+    "created_at": {
+      "type": "string",
+      "description": "Creation timestamp.",
+      "appre_vocabulary_or_range": "ISO 8601",
+      "appre_required": true
+    },
+    "record_status": {
+      "type": "string",
+      "description": "Record status.",
+      "appre_vocabulary_or_range": "draft|reviewed|locked|amended",
+      "appre_required": true
+    }
+  },
+  "required": [
+    "subject_id",
+    "eeg_session_id",
+    "session_date",
+    "phase",
+    "created_at",
+    "record_status"
+  ]
+}

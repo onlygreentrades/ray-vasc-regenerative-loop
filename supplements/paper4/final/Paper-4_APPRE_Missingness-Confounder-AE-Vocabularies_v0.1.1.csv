@@ -1,0 +1,29 @@
+vocabulary_family,term,definition
+missingness,participant_unable,Participant could not complete due to symptoms/cognition/fatigue/illness.
+missingness,caregiver_unavailable,Proxy/caregiver unavailable.
+missingness,technical_failure,Device/software/form/upload problem.
+missingness,device_not_worn,Wearable/sensor not worn long enough.
+missingness,acute_illness,Infection/exacerbation/hospitalization/acute medical issue.
+missingness,safety_pause,Protocol paused for safety.
+missingness,clinician_directed_hold,Clinician or governance team directed hold.
+missingness,burden_reduction,Measurement simplified to preserve feasibility.
+missingness,protocol_deviation,Expected procedure not completed as planned.
+missingness,not_scheduled,No data expected for that date/window.
+missingness,unknown,Reason unavailable.
+confounder,acute_infection,Respiratory/urinary/other infection or fever.
+confounder,medication_change,Start/stop/timing/adherence change.
+confounder,fall_or_injury,"Fall, near-fall, head injury, new injury."
+confounder,sleep_collapse,Severe sleep reduction or poor sleep quality.
+confounder,respiratory_exacerbation,Breathlessness/oxygenation/pulmonary flare.
+confounder,dysphagia_nutrition,"Aspiration concern, nutrition change, administration route change."
+confounder,caregiver_disruption,Caregiver absence or care-transition instability.
+confounder,device_failure,Wearable/EEG/export failure.
+confounder,testing_irregularity,Assessor change/timing deviation/incomplete test.
+confounder,hospital_er_visit,"Urgent care, emergency care, hospitalization."
+adverse_event,fall,Fall with or without injury.
+adverse_event,near_fall,Loss of balance requiring support to avoid ground contact.
+adverse_event,respiratory,Respiratory worsening or oxygenation concern.
+adverse_event,swallowing,Choking/aspiration/dysphagia concern.
+adverse_event,psychiatric,"Severe distress, confusion, agitation, mood crisis."
+adverse_event,allergic,Allergic reaction or hypersensitivity concern.
+adverse_event,GI,"GI distress, dehydration risk, intolerance."
