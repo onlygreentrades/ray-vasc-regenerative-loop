@@ -1,4 +1,14 @@
-﻿# Changelog
+# Changelog
+
+## Paper 1 v1.1.0 Figure-Enhanced Edition — 2026-07-01
+
+Published Paper 1 v1.1.0 as a figure-enhanced Zenodo version.
+
+- Version DOI: 10.5281/zenodo.21109062
+- All-versions DOI: 10.5281/zenodo.20832832
+- Prior v1.0.0 DOI: 10.5281/zenodo.20832833
+- Added seven embedded figures, figure captions, accessibility alt text, caption/alt-text bank, accessibility audit report, SHA256 manifest, and figure PNG assets.
+- Preserved claim boundary: no clinical outcomes, treatment efficacy claims, disease reversal claims, recovery claims, repair claims, controlled-substance dosing instructions, sourcing instructions, preparation instructions, administration instructions, conversion instructions, or self-use instructions.
 
 ## v2.3 â€” DOI Ledger for Papers 1â€“3 â€” 2026-06-24
 

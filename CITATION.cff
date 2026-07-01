@@ -1,4 +1,4 @@
-﻿cff-version: 1.2.0
+cff-version: 1.2.0
 message: "If you use this repository, please cite the repository and the relevant manuscript."
 title: "RAY-VASC Regenerative Loop Research Program"
 type: dataset
@@ -42,4 +42,10 @@ references:
     title: "RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research"
     doi: "10.5281/zenodo.20834331"
     date-published: "2026-06-24"
-
+  - type: article
+    authors:
+      - family-names: Henderson
+        given-names: Logan
+    title: "The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease"
+    doi: "10.5281/zenodo.21109062"
+    date-published: "2026-07-01"

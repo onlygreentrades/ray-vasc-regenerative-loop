@@ -1,4 +1,4 @@
-﻿# Repository Map
+# Repository Map
 
 This repository is intentionally organized around manuscripts first, then reusable research artifacts.
 
@@ -19,6 +19,17 @@ REGULATORY_BOUNDARY.md
 ```
 
 Paper-specific release notes, checksums, cleanup notes, appendices, and bundle notes belong under the relevant paper release tree, not the root dashboard.
+
+## Paper 1 v1.1.0 Figure-Enhanced File Map
+
+| Path | Purpose |
+|---|---|
+| manuscripts/paper1/final/Paper-1_The-Brain-That-Remains_v1.1.0_Figure-Enhanced.docx | Editable figure-enhanced manuscript |
+| manuscripts/paper1/final/Paper-1_The-Brain-That-Remains_v1.1.0_Figure-Enhanced.pdf | Rendered public manuscript |
+| manuscripts/paper1/final/Paper-1_v1.1.0_Figure-Caption-AltText-Bank.csv | Figure caption and accessibility metadata |
+| manuscripts/paper1/final/Paper-1_v1.1.0_A11Y_Audit.json | Accessibility audit report |
+| figures/paper1/final/ | Final Paper 1 figure PNG assets |
+| releases/paper1/v1.1.0/ | Release package and SHA256 manifest |
 
 ## Public DOI Ledger
 
