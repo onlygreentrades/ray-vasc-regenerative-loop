@@ -74,3 +74,16 @@ releases/paper4/final/metadata/
 
 GitHub is the working version-control mechanism. OSF is the archival/public registration layer. External prospective data collection requires separate ethics, consent, privacy, and clinical governance.
 
+
+## Paper 2 Published Record Map
+
+| Artifact | Location |
+|---|---|
+| Paper 2 Zenodo version DOI | https://doi.org/10.5281/zenodo.21111619 |
+| Paper 2 Zenodo all-versions DOI | https://doi.org/10.5281/zenodo.21111618 |
+| Paper 2 OSF registration DOI | https://doi.org/10.17605/OSF.IO/WESZY |
+| Paper 2 GitHub release | releases/tag/paper2-figure-enhanced-v1.1.0 |
+| Paper 2 citation note | docs/paper2/PAPER2_PUBLIC_CITATION.md |
+| Paper 2 figure insertion report | docs/paper2/FIGURE_INSERTION_REPORT.md |
+| Paper 2 manuscript files | manuscripts/paper2/final/ |
+| Paper 2 supplemental files | supplements/paper2/final/ |

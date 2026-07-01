@@ -1,6 +1,17 @@
-# Changelog
+﻿# Changelog
 
-## Paper 1 v1.1.0 Figure-Enhanced Edition — 2026-07-01
+## Paper 2 v1.1.0 Figure-Enhanced Edition — 2026-07-01
+
+Published Paper 2 as a citable Zenodo preprint and synchronized the public GitHub/OSF citation record.
+
+- Title: RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease
+- Version DOI: 10.5281/zenodo.21111619
+- All-versions DOI: 10.5281/zenodo.21111618
+- OSF registration DOI: 10.17605/OSF.IO/WESZY
+- GitHub release tag: paper2-figure-enhanced-v1.1.0
+- Added DOI-synchronized citation metadata for Paper 2.
+- Preserved publication-only boundary: no medical advice, legal advice, treatment claims, disease-modification claims, repair/reversal/recovery claims, or controlled-substance how-to.
+## Paper 1 v1.1.0 Figure-Enhanced Edition â€” 2026-07-01
 
 Published Paper 1 v1.1.0 as a figure-enhanced Zenodo version.
 
@@ -10,7 +21,7 @@ Published Paper 1 v1.1.0 as a figure-enhanced Zenodo version.
 - Added seven embedded figures, figure captions, accessibility alt text, caption/alt-text bank, accessibility audit report, SHA256 manifest, and figure PNG assets.
 - Preserved claim boundary: no clinical outcomes, treatment efficacy claims, disease reversal claims, recovery claims, repair claims, controlled-substance dosing instructions, sourcing instructions, preparation instructions, administration instructions, conversion instructions, or self-use instructions.
 
-## v2.3 â€” DOI Ledger for Papers 1â€“3 â€” 2026-06-24
+## v2.3 Ã¢â‚¬â€ DOI Ledger for Papers 1Ã¢â‚¬â€œ3 Ã¢â‚¬â€ 2026-06-24
 
 Added public DOI metadata for the first three RAY-VASC manuscript-series artifacts:
 
@@ -24,7 +35,7 @@ Paper 4 remains intentionally unreleased as a DOI-backed external record. As of 
 
 No raw clinical records, direct identifiers, portal screenshots, consent files, controlled-substance instructions, treatment claims, intervention outcomes, recovery claims, reversal claims, repair claims, cure claims, or disease-modification claims are included.
 
-## v2.2 â€” Paper 3 OSF Component and Root Index Update â€” 2026-06-15
+## v2.2 Ã¢â‚¬â€ Paper 3 OSF Component and Root Index Update Ã¢â‚¬â€ 2026-06-15
 
 Added the clean public manuscript for Paper 3:
 
@@ -40,19 +51,19 @@ Updated root navigation and governance files to reflect the completed three-pape
 
 No raw clinical records, direct identifiers, portal screenshots, consent files, controlled-substance instructions, treatment claims, intervention outcomes, recovery claims, reversal claims, repair claims, cure claims, or disease-modification claims are included.
 
-## v2.1 OSF preregistration â€” 2026-06-11
+## v2.1 OSF preregistration Ã¢â‚¬â€ 2026-06-11
 
 - Public OSF preregistration completed for Paper 2.
 - DOI issued: 10.17605/OSF.IO/WESZY.
 - Added OSF registration and DOI references to public repository documentation.
 
-## v2.1 supplemental update â€” 2026-06-11
+## v2.1 supplemental update Ã¢â‚¬â€ 2026-06-11
 
 - Added Paper 2 standalone analysis plan supplement in Markdown and PDF formats.
 - Updated Paper 2 supplementary README to include the analysis plan files.
 - Regenerated SHA256 manifest after analysis plan supplement inclusion.
 
-## v2.1 â€” Final Public Tree Lock
+## v2.1 Ã¢â‚¬â€ Final Public Tree Lock
 
 - Locked the public-facing manuscript tree.
 - Confirmed Paper 1 final assets under `manuscripts/paper1/final/`.
@@ -62,7 +73,7 @@ No raw clinical records, direct identifiers, portal screenshots, consent files, 
 - Regenerated `MANIFEST_SHA256.txt` against the final public tree.
 - Preserved publication-only, de-identified, no-treatment-claim, no-controlled-substance-how-to boundary.
 
-## Publishing-Clean Public Package â€” Papers 1 and 2
+## Publishing-Clean Public Package Ã¢â‚¬â€ Papers 1 and 2
 
 This package established the public repository as a clean two-paper research package.
 
@@ -75,4 +86,5 @@ Included:
 - Public privacy, attribution, regulatory boundary, citation, license, and checksum files.
 
 No raw clinical records, identifiers, clinical screenshots, lab screenshots, imaging reports, or identifiable source documents were included.
+
 

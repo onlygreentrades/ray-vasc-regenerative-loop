@@ -57,3 +57,18 @@ Paper 4 remains a local Git artifact only. It has not been uploaded to OSF, Zeno
 
 The series reports framework, protocol, baseline characterization, methods, data architecture, and reproducibility materials. It does not report treatment efficacy, clinical response, disease reversal, cure, repair, controlled-substance how-to, or software validation.
 
+
+## Paper 2 v1.1.0 Figure-Enhanced Edition
+
+| Field | Value |
+|---|---|
+| Locked title | RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease |
+| Version | v1.1.0 Figure-Enhanced Edition |
+| Status | Published Zenodo preprint; OSF registration active |
+| Zenodo version DOI | https://doi.org/10.5281/zenodo.21111619 |
+| Zenodo all-versions DOI | https://doi.org/10.5281/zenodo.21111618 |
+| OSF registration DOI | https://doi.org/10.17605/OSF.IO/WESZY |
+| GitHub release tag | paper2-figure-enhanced-v1.1.0 |
+| Primary manuscript path | manuscripts/paper2/final/ |
+| Supplement path | supplements/paper2/final/ |
+| Claim boundary | Protocol architecture, feasibility, measurement, safety, confounder annotation, and small-series reporting only |

@@ -323,3 +323,19 @@ See: [`LICENSE-DOCS-CC-BY-4.0.txt`](LICENSE-DOCS-CC-BY-4.0.txt)
 RAY-VASC is a research documentation and open-source protocol architecture project. It is designed to support reproducibility, review, structured measurement, and qualified future research implementation.
 
 It is not evidence of clinical efficacy. It is not a treatment recommendation. It is not a claim of disease reversal, recovery, repair, or cure.
+
+---
+
+## Paper 2 Published Citation Lock
+
+**Paper 2 title:** RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease
+
+**Version:** v1.1.0 Figure-Enhanced Edition
+
+**Zenodo version DOI:** https://doi.org/10.5281/zenodo.21111619
+
+**Zenodo all-versions DOI:** https://doi.org/10.5281/zenodo.21111618
+
+**OSF registration DOI:** https://doi.org/10.17605/OSF.IO/WESZY
+
+**GitHub release tag:** paper2-figure-enhanced-v1.1.0
