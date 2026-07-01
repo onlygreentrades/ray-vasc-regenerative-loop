@@ -18,9 +18,9 @@ The repository currently supports a seven-paper manuscript sequence:
 
 | Paper | Short title | Current public status |
 |---|---|---|
-| Paper 1 | The Brain That Remains | Published Zenodo DOI; v1.1.0 Figure-Enhanced Edition |
-| Paper 2 | RAY-VASC Protocol | Published Zenodo DOI; OSF registration active; v1.1.0 Figure-Enhanced Edition |
-| Paper 3 | RAY-001 Baseline Characterization | Published Zenodo DOI; figure-enhanced revision path active |
+| Paper 1 | The Brain That Remains | Published Zenodo DOI; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition |
+| Paper 2 | RAY-VASC Protocol | Published Zenodo DOI; OSF registration active; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition |
+| Paper 3 | RAY-001 Baseline Characterization | Published Zenodo DOI; OSF component active; OSF Wiki updated; ORCID updated; GitHub DOI-lock complete; v1.1.0 Figure-Enhanced Edition |
 | Paper 4 | APPRE Schema-and-Rules Framework | GitHub/repository artifact only; rewrite before DOI lock |
 | Paper 5 | Regenerative Loop Theory | Queued / drafting |
 | Paper 6 | Neurotrophic Mycology Evidence Map | Queued / drafting |
@@ -43,12 +43,29 @@ This repository is not medical advice, legal advice, a clinical directive, a tre
 | Paper 2 - RAY-VASC Protocol | Zenodo preprint, v1.1.0 Figure-Enhanced Edition | [10.5281/zenodo.21111619](https://doi.org/10.5281/zenodo.21111619) | Public, archived, citable |
 | Paper 2 - all versions | Zenodo concept DOI | [10.5281/zenodo.21111618](https://doi.org/10.5281/zenodo.21111618) | Resolves to latest Paper 2 version |
 | Paper 2 - OSF registration | OSF Registries | [10.17605/OSF.IO/WESZY](https://doi.org/10.17605/OSF.IO/WESZY) | Public, registered, citable |
-| Paper 3 - RAY-001 Baseline Characterization | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20834331](https://doi.org/10.5281/zenodo.20834331) | Public, archived, citable |
+| Paper 3 - RAY-001 Baseline Characterization | Zenodo preprint, v1.1.0 Figure-Enhanced Edition | [10.5281/zenodo.21113371](https://doi.org/10.5281/zenodo.21113371) | Public, archived, citable |
 | Paper 3 - all versions | Zenodo concept DOI | [10.5281/zenodo.20834330](https://doi.org/10.5281/zenodo.20834330) | Resolves to latest Paper 3 version |
+| Paper 3 - prior version | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20834331](https://doi.org/10.5281/zenodo.20834331) | Prior archived version |
+| Paper 3 - OSF component | OSF project component | [https://osf.io/k8jhz/](https://osf.io/k8jhz/) | Public component with Paper 3 v1.0.0 and v1.1.0 materials |
+| Paper 3 - GitHub release tag | GitHub tag | `paper3-published-citable-v1.1.0` | DOI-synchronized public lock tag |
 | Paper 4 - APPRE Schema-and-Rules Framework | GitHub/repository artifact only | Not assigned | No OSF deposit, no Zenodo deposit, no ORCID work, no DOI |
 | Papers 5-7 | Queued / drafting | Not assigned | No external deposit yet |
 
 Paper 4 must not be cited as DOI-backed until a future OSF, Zenodo, or ORCID public archive is completed.
+
+---
+
+## Public Release Ledger
+
+| Release | Scope | Public status |
+|---|---|---|
+| v2.1 | Public OSF-facing root repository release with Papers 1-2 structure and protocol materials | Historical public release |
+| v2.2 | Root repository update adding Paper 3 OSF component and Paper 3 clean public state | Public root update |
+| Paper 1 v1.1.0 | Figure-Enhanced Edition of The Brain That Remains | Published on Zenodo; OSF component updated; ORCID updated |
+| Paper 2 v1.1.0 | Figure-Enhanced Edition of RAY-VASC Protocol | Published on Zenodo; OSF registration active; OSF component updated; ORCID updated |
+| Paper 3 v1.0.0 | Original public baseline characterization preprint | Prior archived Zenodo version |
+| Paper 3 v1.1.0 | Figure-Enhanced Edition of RAY-001 Baseline Characterization | Published on Zenodo; OSF component updated; OSF Wiki updated; ORCID updated; GitHub DOI-synchronized |
+| Paper 4 current state | APPRE schema-and-rules framework draft/repository artifact | Not DOI locked; rewrite before public DOI release |
 
 ---
 
@@ -131,6 +148,181 @@ External prospective implementation requires applicable consent, privacy review,
 
 ---
 
+## Paper 3 v1.1.0 Figure-Enhanced Edition
+
+Paper 3 v1.1.0 is the published, citable, figure-enhanced baseline characterization and measurement-feasibility case report for the RAY-VASC publication sequence.
+
+**Locked title:** RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research  
+**Primary citable manuscript DOI:** https://doi.org/10.5281/zenodo.21113371  
+**Paper 3 all-versions DOI:** https://doi.org/10.5281/zenodo.20834330  
+**Prior Paper 3 v1.0.0 DOI:** https://doi.org/10.5281/zenodo.20834331  
+**Paper 3 OSF component:** https://osf.io/k8jhz/  
+**GitHub DOI-lock tag:** `paper3-published-citable-v1.1.0`  
+**ORCID record status:** Existing Paper 3 Zenodo preprint work updated and saved.  
+
+Paper 3 documents the originating RAY-001 baseline phenotype, data availability, missingness pattern, caregiver and homebound feasibility constraints, Tier 1 / Tier 2 protocol-readiness mismatch, and the timing-window lesson that shaped RAY-VASC implementation logic.
+
+Paper 3 is not an outcome paper. It does not report intervention results. It does not report clinical response, treatment efficacy, improvement, recovery, reversal, repair, cure, or disease modification.
+
+The central operational finding is that the protocol architecture matured after the clean prospective measurement window had already begun closing. Missingness is treated as a methodological signal and timing-window lesson, not as a hidden failure.
+
+The v1.1.0 Figure-Enhanced Edition embeds eight public figures:
+
+1. RAY-001 De-Identified Baseline Timeline.
+2. RAY-001 Multisystem Phenotype Burden Map.
+3. Measurement Availability and Missingness Matrix.
+4. Timing-Window Constraint Map.
+5. Baseline Source Inventory.
+6. PSP / VCID / COPD / TBI Interaction Map.
+7. What Was Measured vs What Was Not Collected.
+8. Case-to-Protocol Lessons Learned.
+
+Paper 3 public assets include:
+
+- Figure-enhanced DOCX manuscript.
+- Figure-enhanced PDF manuscript.
+- Eight high-resolution Paper 3 figure PNG assets.
+- Figure-enhanced README.
+- Figure-enhanced SHA256 manifest.
+- Paper 3 public citation record.
+- Zenodo v1.1.0 archival record.
+- OSF Paper 3 component update.
+- OSF Paper 3 Wiki update.
+- ORCID Paper 3 work update.
+- GitHub DOI-synchronized tag.
+- Versioned release package.
+
+Paper 3 reports no intervention outcomes. It does not claim treatment efficacy, disease modification, brain repair, vascular lesion reversal, PSP reversal, dementia reversal, recovery, cure, or guaranteed benefit.
+
+Paper 3 does not include raw clinical records, source-lock ledgers, consent files, direct identifiers, portal screenshots, full dates of birth, medical record numbers, facility identifiers, private reports, or private clinical source packets.
+
+---
+
+## Paper 3 Published Citation Lock
+
+**Paper 3 title:**  
+*RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research*
+
+**Version:** v1.1.0 Figure-Enhanced Edition  
+**Zenodo version DOI:** https://doi.org/10.5281/zenodo.21113371  
+**Zenodo all-versions DOI:** https://doi.org/10.5281/zenodo.20834330  
+**Prior v1.0.0 DOI:** https://doi.org/10.5281/zenodo.20834331  
+**OSF Paper 3 component:** https://osf.io/k8jhz/  
+**GitHub release tag:** `paper3-published-citable-v1.1.0`  
+**ORCID status:** Existing Paper 3 work updated and saved under Logan Henderson ORCID profile.
+
+**Recommended citation:**  
+Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* (v1.1.0 Figure-Enhanced Edition). Zenodo. https://doi.org/10.5281/zenodo.21113371
+
+**Boundary:** Baseline characterization and measurement-feasibility case report only. No intervention outcomes. No treatment efficacy claims. No disease-modification claims. No recovery, repair, reversal, or cure claims. No raw clinical records, source-lock ledgers, consent files, direct identifiers, portal screenshots, facility identifiers, or private reports are included.
+
+---
+
+## Paper 3 Public Release State
+
+| Channel | Status |
+|---|---|
+| Zenodo | Published and citable as v1.1.0 Figure-Enhanced Edition |
+| Zenodo version DOI | https://doi.org/10.5281/zenodo.21113371 |
+| Zenodo concept DOI | https://doi.org/10.5281/zenodo.20834330 |
+| Zenodo prior version DOI | https://doi.org/10.5281/zenodo.20834331 |
+| OSF | Paper 3 component uploaded and Wiki updated |
+| OSF component | https://osf.io/k8jhz/ |
+| ORCID | Existing Paper 3 work updated and saved |
+| GitHub | Main branch repaired, clean, and DOI-synchronized |
+| GitHub tag | `paper3-published-citable-v1.1.0` |
+| Repository citation file | `docs/paper3/PAPER3_PUBLIC_CITATION.md` |
+| Current status | Locked, published, citable, and synchronized |
+
+---
+
+## Paper 3 Embedded and Standalone Figures
+
+| Figure | Title | Role | Placement |
+|---|---|---|---|
+| P3_F01 | RAY-001 De-Identified Baseline Timeline | Relative timeline of available and missing data | Case Presentation |
+| P3_F02 | RAY-001 Multisystem Phenotype Burden Map | Baseline phenotype and feasibility burden map | Baseline Characterization |
+| P3_F03 | Measurement Availability and Missingness Matrix | Available, reconstructable, planned, and absent data matrix | Data Availability / Missingness |
+| P3_F04 | Timing-Window Constraint Map | Operational timing-window narrowing diagram | Discussion |
+| P3_F05 | Baseline Source Inventory | Source-to-domain mapping for public baseline reporting | Methods / Data Sources |
+| P3_F06 | PSP / VCID / COPD / TBI Interaction Map | Plausibility map only; not causal proof | Discussion |
+| P3_F07 | What Was Measured vs What Was Not Collected | Honest limitations figure | Limitations |
+| P3_F08 | Case-to-Protocol Lessons Learned | Methodological lessons mapped to future protocol rules | Conclusion |
+
+### Paper 3 Figure Boundary
+
+The Paper 3 figures are explanatory research figures.
+
+They are not diagnostic figures, treatment figures, outcome figures, efficacy figures, proof-of-mechanism figures, or disease-modification figures.
+
+P3_F06 is a plausibility map only and does not prove causality.
+
+P3_F07 intentionally documents what was measured versus what was not collected. Absence of prospective data is part of the operational finding.
+
+P3_F08 maps RAY-001 observations to protocol-design lessons. It does not convert baseline observations into clinical outcome claims.
+
+---
+
+## Paper 3 File Map
+
+| Artifact | Repository location |
+|---|---|
+| Paper 3 citation record | `docs/paper3/PAPER3_PUBLIC_CITATION.md` |
+| Paper 3 v1.1.0 DOCX | `manuscripts/paper3/final/Paper-3_RAY-001-Baseline_v1.1.0_Figure-Enhanced.docx` |
+| Paper 3 v1.1.0 PDF | `manuscripts/paper3/final/Paper-3_RAY-001-Baseline_v1.1.0_Figure-Enhanced.pdf` |
+| Paper 3 v1.1.0 README | `manuscripts/paper3/final/README_v1.1.0_Figure-Enhanced.md` |
+| Paper 3 v1.1.0 manifest | `manuscripts/paper3/final/MANIFEST_SHA256_v1.1.0.txt` |
+| Paper 3 figure assets | `manuscripts/paper3/final/figures/` |
+| Paper 3 release package | `releases/paper3/v1.1.0/` |
+
+---
+
+## Paper 3 OSF Component
+
+The Paper 3 OSF component is:
+
+https://osf.io/k8jhz/
+
+The OSF component contains:
+
+- v1.0.0 historical clean manuscript files.
+- v1.1.0 Figure-Enhanced manuscript package.
+- v1.1.0 standalone figure folder.
+- README metadata.
+- Wiki with current DOI and recommended citation.
+- Public component metadata and tags.
+
+The OSF component does not contain:
+
+- raw clinical records.
+- source-lock ledgers.
+- consent files.
+- portal screenshots.
+- full dates of birth.
+- medical record numbers.
+- facility identifiers.
+- private reports.
+- clinical source packets.
+
+The OSF component is a public archive of de-identified manuscript materials only.
+
+---
+
+## Paper 3 ORCID Record
+
+The ORCID work record for Paper 3 has been updated to the v1.1.0 Figure-Enhanced Edition.
+
+**Work type:** Preprint  
+**Publisher / journal field:** Zenodo  
+**Publication date:** 2026-07-01  
+**DOI:** https://doi.org/10.5281/zenodo.21113371  
+**Visibility:** Everyone  
+**Contributor:** Logan Henderson - Author  
+
+The prior Paper 3 version remains represented through the Zenodo version chain and should not be featured separately unless needed for historical audit.
+
+---
+
 ## How to Cite
 
 Use the specific DOI for the public artifact being cited.
@@ -139,15 +331,31 @@ Use the specific DOI for the public artifact being cited.
 
 Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease* (v1.1.0 Figure-Enhanced Edition). Zenodo. https://doi.org/10.5281/zenodo.21109062
 
+### Paper 1 - all versions
+
+Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease*. Zenodo. https://doi.org/10.5281/zenodo.20832832
+
 ### Paper 2 - current version
 
 Henderson, L. (2026). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease* (v1.1.0 Figure-Enhanced Edition). Zenodo. https://doi.org/10.5281/zenodo.21111619
+
+### Paper 2 - all versions
+
+Henderson, L. (2026). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*. Zenodo. https://doi.org/10.5281/zenodo.21111618
 
 ### Paper 2 - OSF registration record
 
 Henderson, L. (2026, June 11). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*. OSF Registries. https://doi.org/10.17605/OSF.IO/WESZY
 
-### Paper 3 - baseline characterization
+### Paper 3 - current version
+
+Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* (v1.1.0 Figure-Enhanced Edition). Zenodo. https://doi.org/10.5281/zenodo.21113371
+
+### Paper 3 - all versions
+
+Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research*. Zenodo. https://doi.org/10.5281/zenodo.20834330
+
+### Paper 3 - prior version
 
 Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20834331
 
@@ -250,11 +458,13 @@ ray-vasc-regenerative-loop/
 |   |-- paper1/final/
 |   |-- paper2/final/
 |   |-- paper3/final/
+|   |   |-- figures/
 |   |-- paper4/final/
 |
 |-- docs/
 |   |-- appre/
 |   |-- paper2/
+|   |-- paper3/
 |
 |-- figures/
 |   |-- paper1/final/
@@ -281,149 +491,7 @@ ray-vasc-regenerative-loop/
 |   |-- paper1/final/
 |   |-- paper1/v1.1.0/
 |   |-- paper2/final/
+|   |-- paper3/v1.1.0/
 |   |-- paper4/final/
 |
 |-- archive/
-```
-
----
-
-## Paper 2 Public File Map
-
-| Artifact | Path |
-|---|---|
-| Paper 2 DOCX manuscript | `manuscripts/paper2/final/RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.docx` |
-| Paper 2 PDF manuscript | `manuscripts/paper2/final/RAY-VASC - A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease.pdf` |
-| Paper 2 folder README | `manuscripts/paper2/final/README.md` |
-| Paper 2 public citation record | `docs/paper2/PAPER2_PUBLIC_CITATION.md` |
-| Paper 2 figure insertion report | `docs/paper2/FIGURE_INSERTION_REPORT.md` |
-| Paper 2 supplement README | `supplements/paper2/final/README.md` |
-| Paper 2 figure alt text | `supplements/paper2/final/Figure_Alt_Text.md` |
-| Paper 2 figures | `supplements/paper2/final/figures/` |
-| Schedule of Events | `supplements/paper2/final/Schedule_of_Events.csv` |
-| EEG schedule | `supplements/paper2/final/EEG_Schedule.csv` |
-| APPRE data dictionary | `supplements/paper2/final/APPRE_Data_Dictionary.csv` |
-| Adverse event log template | `supplements/paper2/final/Adverse_Event_Log_Template.csv` |
-| SPIRIT/SPENT checklist | `supplements/paper2/final/SPIRIT_SPENT_Checklist.md` |
-| Analysis plan | `supplements/paper2/final/RAY-VASC_Analysis_Plan_v0.1.md` |
-| Paper 2 release notes | `releases/paper2/final/RELEASE_NOTES.md` |
-| Paper 2 SHA256 checksums | `releases/paper2/final/SHA256SUMS.txt` |
-
----
-
-## Core Navigation
-
-- Manuscript index: [`PAPER_INDEX.md`](PAPER_INDEX.md)
-- Repository map: [`REPO_MAP.md`](REPO_MAP.md)
-- Attribution: [`ATTRIBUTION.md`](ATTRIBUTION.md)
-- Privacy boundary: [`PRIVACY.md`](PRIVACY.md)
-- Regulatory boundary: [`REGULATORY_BOUNDARY.md`](REGULATORY_BOUNDARY.md)
-- Changelog: [`CHANGELOG.md`](CHANGELOG.md)
-- Citation metadata: [`CITATION.cff`](CITATION.cff)
-- SHA256 manifest: [`MANIFEST_SHA256.txt`](MANIFEST_SHA256.txt)
-
----
-
-## README Maintenance Contract for Future Updates
-
-This section controls how future LLMs, contributors, and release passes should update the root README.
-
-### Locked public facts
-
-The following facts must not be changed unless the public record itself changes:
-
-- Paper 1 current version DOI: `10.5281/zenodo.21109062`
-- Paper 1 all-versions DOI: `10.5281/zenodo.20832832`
-- Paper 1 prior v1.0.0 DOI: `10.5281/zenodo.20832833`
-- Paper 1 OSF component: `https://osf.io/mxepj`
-- Paper 2 current version DOI: `10.5281/zenodo.21111619`
-- Paper 2 all-versions DOI: `10.5281/zenodo.21111618`
-- Paper 2 OSF registration DOI: `10.17605/OSF.IO/WESZY`
-- Paper 2 GitHub figure-enhanced tag: `paper2-figure-enhanced-v1.1.0`
-- Paper 2 GitHub DOI-lock tag: `paper2-published-citable-v1.1.0`
-- Paper 3 version DOI: `10.5281/zenodo.20834331`
-- Paper 3 all-versions DOI: `10.5281/zenodo.20834330`
-- Paper 4 has no OSF deposit, no Zenodo deposit, no ORCID work, and no DOI as of this README state.
-
-### Layering rule
-
-Do not rewrite the README from scratch during future paper updates unless the README itself is corrupted or structurally broken.
-
-For normal updates:
-
-1. Add only the new public release section.
-2. Update only the affected paper row in the DOI ledger.
-3. Add or revise only the affected citation.
-4. Keep prior locked facts intact.
-5. Preserve the public boundary and privacy boundary.
-6. Do not add unsupported scientific or medical claims.
-7. Do not add controlled-substance how-to content.
-
-### Paper update scope
-
-- Paper 1 is locked at v1.1.0 Figure-Enhanced Edition unless a future Zenodo version is created.
-- Paper 2 is locked at v1.1.0 Figure-Enhanced Edition unless a future Zenodo version is created.
-- Paper 3 update: add Paper 3 figure-enhanced files, update Paper 3 row, update Paper 3 citation, regenerate manifest if used.
-- Paper 4 update: do not add a DOI unless OSF, Zenodo, or ORCID public archive is actually completed. Until then, Paper 4 remains GitHub/repository artifact only.
-- Papers 5-7 update: add only when a public draft, release package, preprint, registration, or DOI record actually exists.
-
-### Claim boundary rule
-
-Do not add treatment claims, disease reversal claims, recovery claims, repair claims, cure claims, supplement marketing, controlled-substance sourcing, preparation, dosing, administration, conversion, procurement, or self-use instructions.
-
-### Citation rule
-
-The README is a public navigation and provenance layer. Scientific, medical, safety, biomarker, mechanism, or outcome claims belong inside the manuscripts and must be supported by citations there. The README should not introduce new uncited scientific claims.
-
-### Encoding rule
-
-Use plain ASCII for repository trees and structural diagrams in Markdown. Avoid Unicode box-drawing characters in README tree blocks because prior rendering produced mojibake in GitHub.
-
----
-
-## Release Workflow
-
-The release order for each paper is:
-
-1. Finalize manuscript and figure-enhanced package.
-2. Confirm claim boundary and privacy boundary.
-3. Archive externally where appropriate.
-4. Capture DOI or public record URL.
-5. Update ORCID only after the DOI or public record exists.
-6. Update OSF component files without deleting earlier public files.
-7. Update GitHub repository files.
-8. Update README only by layering the new public facts.
-9. Update `PAPER_INDEX.md`, `REPO_MAP.md`, `CHANGELOG.md`, `CITATION.cff`, and `MANIFEST_SHA256.txt` only when appropriate for that release.
-10. Do not represent any paper as DOI-backed until the external DOI is live.
-
----
-
-## License
-
-Repository documents are released under Creative Commons Attribution 4.0 International unless otherwise stated.
-
-See: [`LICENSE-DOCS-CC-BY-4.0.txt`](LICENSE-DOCS-CC-BY-4.0.txt)
-
----
-
-## Final Boundary Statement
-
-RAY-VASC is a research documentation and open-source protocol architecture project. It is designed to support reproducibility, review, structured measurement, and qualified future research implementation.
-
-It is not evidence of clinical efficacy. It is not a treatment recommendation. It is not a claim of disease reversal, recovery, repair, or cure.
-
----
-
-## Paper 3 Published Citation Lock
-
-**Paper 3 title:** RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research
-
-**Version:** v1.1.0 Figure-Enhanced Edition
-
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.21113371
-
-**OSF component:** https://osf.io/k8jhz/
-
-**GitHub release tag:** paper3-published-citable-v1.1.0
-
-**Claim boundary:** Baseline characterization and measurement-feasibility only; no intervention outcomes, no treatment efficacy claims, no disease-modification claims, no recovery, repair, reversal, or cure claims.
