@@ -98,3 +98,18 @@ GitHub is the working version-control mechanism. OSF is the archival/public regi
 | Paper 3 manuscript files | manuscripts/paper3/final/ |
 | Paper 3 figure files | manuscripts/paper3/final/figures/ |
 | Paper 3 release package | releases/paper3/v1.1.0/ |
+
+---
+
+## Paper 4 APPRE v1.0.0 Public Release Paths
+
+- manuscripts/paper4/final/ — figure-integrated manuscript PDF/DOCX
+- figures/paper4/final/ — eight APPRE architecture figures
+- supplements/paper4/final/ — schema/data supplements and worked synthetic materials
+- schemas/appre/ — APPRE schema files
+- data/synthetic/appre/ — synthetic datasets only
+- validation/appre/ — validation-rule documentation
+- releases/paper4/final/ — release notes, checksums, citation/archive links
+
+Canonical citation DOI: https://doi.org/10.5281/zenodo.21116291  
+OSF mirror: https://osf.io/nqybd/

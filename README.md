@@ -370,3 +370,29 @@ ray-vasc-regenerative-loop/
 |   |-- paper4/final/
 |
 |-- archive/
+
+---
+
+## Paper 4 — APPRE Schema-and-Rules Framework
+
+**Title:** APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease  
+**Version:** v1.0.0  
+**Publication date:** 2026-07-02  
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.21116291  
+**Zenodo all-versions DOI:** https://doi.org/10.5281/zenodo.21116290  
+**OSF Project:** https://osf.io/nqybd/  
+**GitHub Release Tag:** v2.4.0-paper4-appre-v1.0.0  
+
+Paper 4 publishes APPRE as the RAY-VASC schema-and-rules methods/data-architecture paper. It defines the object model, schema families, validation rules, missingness model, confounder annotation, adverse-event structure, response-policy versioning, synthetic-data package, standards-aware alignment map, and open-source reproducibility package for RAY-VASC-style N-of-1 and small-series complex neurovascular research.
+
+APPRE is not validated artificial intelligence, not clinical decision support, not Software as a Medical Device, not a treatment optimizer, and not a longevity product. No clinical outcomes are reported in Paper 4.
+
+Primary folders:
+- manuscripts/paper4/final/
+- figures/paper4/final/
+- supplements/paper4/final/
+- schemas/appre/
+- data/synthetic/appre/
+- validation/appre/
+- releases/paper4/final/
+

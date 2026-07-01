@@ -1,0 +1,12 @@
+﻿cff-version: 1.2.0
+message: "If you use the RAY-VASC Paper 4 APPRE release, cite the Zenodo DOI."
+title: "APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease"
+authors:
+  - family-names: Henderson
+    given-names: Logan
+    orcid: "https://orcid.org/0009-0001-7592-3411"
+date-released: "2026-07-02"
+version: "v1.0.0"
+doi: "10.5281/zenodo.21116291"
+url: "https://github.com/onlygreentrades/ray-vasc-regenerative-loop"
+license: "CC-BY-4.0"
