@@ -1,30 +1,39 @@
-﻿# RAY-VASC Regenerative Loop
+# RAY-VASC Regenerative Loop
 
-**Public research repository for the RAY-VASC Regenerative Loop manuscript series**
+**Public research repository for the RAY-VASC Regenerative Loop thesis, published manuscript series, and open-source research architecture**
 
 **Originating researcher:** Logan Henderson  
 **Affiliation:** Independent Researcher, Houston, Texas, United States  
-**ORCID:** https://orcid.org/0009-0001-7592-3411  
-**GitHub repository:** https://github.com/onlygreentrades/ray-vasc-regenerative-loop  
-**OSF parent project:** https://osf.io/y2h79/  
+**ORCID:** [https://orcid.org/0009-0001-7592-3411](https://orcid.org/0009-0001-7592-3411)  
+**GitHub repository:** [https://github.com/onlygreentrades/ray-vasc-regenerative-loop](https://github.com/onlygreentrades/ray-vasc-regenerative-loop)  
+**OSF parent project:** [https://osf.io/y2h79/](https://osf.io/y2h79/)  
+
+---
+
+## Purpose
+
+RAY-VASC Regenerative Loop is a public research documentation and publication system for studying residual adaptive capacity, longitudinal measurement, confounder tracking, adverse-event documentation, missingness handling, caregiver-supported reporting, protocol feasibility, reproducible data architecture, and open-source study design in complex neurovascular and mixed neurodegenerative-vascular disease.
+
+The program exists to make the research architecture reviewable, reproducible, citable, and implementable by qualified teams without dependence on private notes, informal memory, or undocumented operational assumptions.
+
+The thesis is the complete program-level synthesis. Papers 1–4 are the published and citable manuscript foundation. Papers 5–7 remain the planned continuation of the seven-paper manuscript sequence.
+
+The program does not claim that any intervention treats, reverses, repairs, cures, or modifies neurodegenerative disease.
 
 ---
 
 ## Current Public Status
 
-RAY-VASC Regenerative Loop is a publication-only open research program for organizing, archiving, preregistering, version-controlling, and publicly documenting a complex neurovascular and mixed neurodegenerative research architecture.
-
-The repository currently supports a seven-paper manuscript sequence:
-
-| Paper | Short title | Current public status |
-|---|---|---|
-| Paper 1 | The Brain That Remains | Published Zenodo DOI; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition |
-| Paper 2 | RAY-VASC Protocol | Published Zenodo DOI; OSF registration active; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition |
-| Paper 3 | RAY-001 Baseline Characterization | Published Zenodo DOI; OSF component active; OSF Wiki updated; ORCID updated; GitHub DOI-lock complete; v1.1.0 Figure-Enhanced Edition |
-| Paper 4 | APPRE Schema-and-Rules Framework | Published Zenodo DOI; standalone OSF archive active; parent-project OSF component active; ORCID updated; GitHub synchronized; v1.0.0 Figure-Integrated Edition |
-| Paper 5 | Regenerative Loop Theory | Queued / drafting |
-| Paper 6 | Neurotrophic Mycology Evidence Map | Queued / drafting |
-| Paper 7 | Three-Phase Plasticity Architecture | Queued / drafting |
+| Artifact | Short title | Current public status | Canonical records |
+|---|---|---|---|
+| **Thesis** | **RAY-VASC Thesis** | Published Zenodo DOI; OSF thesis component linked; GitHub PDF/DOCX live; v1.0.0 | [DOI](https://doi.org/10.5281/zenodo.21457646) · [OSF](https://osf.io/nzawv/) · [PDF](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf) · [DOCX](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx) |
+| **Paper 1** | The Brain That Remains | Published Zenodo DOI; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition | [DOI](https://doi.org/10.5281/zenodo.21109062) · [OSF](https://osf.io/mxepj/) |
+| **Paper 2** | RAY-VASC Protocol | Published Zenodo DOI; OSF registration active; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition | [DOI](https://doi.org/10.5281/zenodo.21111619) · [Registration](https://doi.org/10.17605/OSF.IO/WESZY) |
+| **Paper 3** | RAY-001 Baseline Characterization | Published Zenodo DOI; OSF component active; OSF Wiki updated; ORCID updated; GitHub DOI-lock complete; v1.1.0 Figure-Enhanced Edition | [DOI](https://doi.org/10.5281/zenodo.21113371) · [OSF](https://osf.io/k8jhz/) |
+| **Paper 4** | APPRE Schema-and-Rules Framework | Published Zenodo DOI; standalone OSF archive active; parent-project OSF component linked; ORCID updated; GitHub synchronized; v1.0.0 Figure-Integrated Edition | [DOI](https://doi.org/10.5281/zenodo.21116291) · [Standalone OSF](https://osf.io/nqybd/) · [Parent component](https://osf.io/dwr3v/) · [PDF](manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.pdf) · [DOCX](manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.docx) |
+| **Paper 5** | Regenerative Loop Theory | Queued / drafting | DOI not assigned |
+| **Paper 6** | Neurotrophic Mycology Evidence Map | Queued / drafting | DOI not assigned |
+| **Paper 7** | Three-Phase Plasticity Architecture | Queued / drafting | DOI not assigned |
 
 This repository is designed for qualified scientific review, protocol critique, open-source reproducibility, and future ethics-governed implementation by qualified teams.
 
@@ -32,55 +41,90 @@ This repository is not medical advice, legal advice, a clinical directive, a tre
 
 ---
 
-## Public DOI Ledger
+## Program Architecture
+
+The public program is organized into three connected layers:
+
+1. **Program-level synthesis:** the RAY-VASC Thesis.
+2. **Published manuscript foundation:** Papers 1–4.
+3. **Planned manuscript continuation:** Papers 5–7.
+
+The thesis does not replace or renumber the seven-paper sequence. It synthesizes the published foundation, formalizes the complete research architecture, and defines the forward research pathway.
+
+---
+
+## Public DOI and Archive Ledger
 
 | Artifact | Public record | DOI / record | Status |
 |---|---|---|---|
-| Paper 1 - The Brain That Remains | Zenodo preprint, v1.1.0 Figure-Enhanced Edition | [10.5281/zenodo.21109062](https://doi.org/10.5281/zenodo.21109062) | Public, archived, citable |
-| Paper 1 - all versions | Zenodo concept DOI | [10.5281/zenodo.20832832](https://doi.org/10.5281/zenodo.20832832) | Resolves to latest Paper 1 version |
-| Paper 1 - prior version | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20832833](https://doi.org/10.5281/zenodo.20832833) | Prior archived version |
-| Paper 1 - OSF component | OSF project component | [https://osf.io/mxepj](https://osf.io/mxepj) | Public component with Paper 1 materials |
-| Paper 2 - RAY-VASC Protocol | Zenodo preprint, v1.1.0 Figure-Enhanced Edition | [10.5281/zenodo.21111619](https://doi.org/10.5281/zenodo.21111619) | Public, archived, citable |
-| Paper 2 - all versions | Zenodo concept DOI | [10.5281/zenodo.21111618](https://doi.org/10.5281/zenodo.21111618) | Resolves to latest Paper 2 version |
-| Paper 2 - OSF registration | OSF Registries | [10.17605/OSF.IO/WESZY](https://doi.org/10.17605/OSF.IO/WESZY) | Public, registered, citable |
-| Paper 3 - RAY-001 Baseline Characterization | Zenodo preprint, v1.1.0 Figure-Enhanced Edition | [10.5281/zenodo.21113371](https://doi.org/10.5281/zenodo.21113371) | Public, archived, citable |
-| Paper 3 - all versions | Zenodo concept DOI | [10.5281/zenodo.20834330](https://doi.org/10.5281/zenodo.20834330) | Resolves to latest Paper 3 version |
-| Paper 3 - prior version | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20834331](https://doi.org/10.5281/zenodo.20834331) | Prior archived version |
-| Paper 3 - OSF component | OSF project component | [https://osf.io/k8jhz/](https://osf.io/k8jhz/) | Public component with Paper 3 v1.0.0 and v1.1.0 materials |
-| Paper 4 - APPRE Schema-and-Rules Framework | Zenodo publication, v1.0.0 Figure-Integrated Edition | [10.5281/zenodo.21116291](https://doi.org/10.5281/zenodo.21116291) | Public, archived, citable |
-| Paper 4 - all versions | Zenodo concept DOI | [10.5281/zenodo.21116290](https://doi.org/10.5281/zenodo.21116290) | Resolves to latest Paper 4 version |
-| Paper 4 - standalone OSF archive | OSF project archive | [https://osf.io/nqybd/](https://osf.io/nqybd/) | Public standalone Paper 4 archive |
-| Paper 4 - parent-project component | OSF project component | [https://osf.io/dwr3v/](https://osf.io/dwr3v/) | Paper 4 component under the RAY-VASC parent project |
-| Papers 5-7 | Queued / drafting | Not assigned | No external deposit yet |
+| **RAY-VASC Thesis** | Zenodo working paper, v1.0.0 | [10.5281/zenodo.21457646](https://doi.org/10.5281/zenodo.21457646) | Public, archived, citable |
+| **RAY-VASC Thesis — OSF component** | OSF parent-project component | [https://osf.io/nzawv/](https://osf.io/nzawv/) | Program archive and component record |
+| Paper 1 — The Brain That Remains | Zenodo preprint, v1.1.0 Figure-Enhanced Edition | [10.5281/zenodo.21109062](https://doi.org/10.5281/zenodo.21109062) | Public, archived, citable |
+| Paper 1 — all versions | Zenodo concept DOI | [10.5281/zenodo.20832832](https://doi.org/10.5281/zenodo.20832832) | Resolves to latest Paper 1 version |
+| Paper 1 — prior version | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20832833](https://doi.org/10.5281/zenodo.20832833) | Prior archived version |
+| Paper 1 — OSF component | OSF project component | [https://osf.io/mxepj/](https://osf.io/mxepj/) | Paper 1 materials |
+| Paper 2 — RAY-VASC Protocol | Zenodo preprint, v1.1.0 Figure-Enhanced Edition | [10.5281/zenodo.21111619](https://doi.org/10.5281/zenodo.21111619) | Public, archived, citable |
+| Paper 2 — all versions | Zenodo concept DOI | [10.5281/zenodo.21111618](https://doi.org/10.5281/zenodo.21111618) | Resolves to latest Paper 2 version |
+| Paper 2 — OSF registration | OSF Registries | [10.17605/OSF.IO/WESZY](https://doi.org/10.17605/OSF.IO/WESZY) | Public, registered, citable |
+| Paper 3 — RAY-001 Baseline Characterization | Zenodo preprint, v1.1.0 Figure-Enhanced Edition | [10.5281/zenodo.21113371](https://doi.org/10.5281/zenodo.21113371) | Public, archived, citable |
+| Paper 3 — all versions | Zenodo concept DOI | [10.5281/zenodo.20834330](https://doi.org/10.5281/zenodo.20834330) | Resolves to latest Paper 3 version |
+| Paper 3 — prior version | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20834331](https://doi.org/10.5281/zenodo.20834331) | Prior archived version |
+| Paper 3 — OSF component | OSF project component | [https://osf.io/k8jhz/](https://osf.io/k8jhz/) | Paper 3 materials |
+| Paper 4 — APPRE Schema-and-Rules Framework | Zenodo publication, v1.0.0 Figure-Integrated Edition | [10.5281/zenodo.21116291](https://doi.org/10.5281/zenodo.21116291) | Public, archived, citable |
+| Paper 4 — all versions | Zenodo concept DOI | [10.5281/zenodo.21116290](https://doi.org/10.5281/zenodo.21116290) | Resolves to latest Paper 4 version |
+| Paper 4 — standalone OSF archive | OSF project archive | [https://osf.io/nqybd/](https://osf.io/nqybd/) | Standalone Paper 4 archive |
+| Paper 4 — parent-project component | OSF parent-project component | [https://osf.io/dwr3v/](https://osf.io/dwr3v/) | Paper 4 component within the RAY-VASC parent project |
+| Papers 5–7 | Queued / drafting | Not assigned | No external deposit yet |
 
 ---
 
-## Public Release Ledger
+## RAY-VASC Thesis v1.0.0
 
-| Release | Scope | Public status |
-|---|---|---|
-| v2.1 | Public OSF-facing root repository release with Papers 1-2 structure and protocol materials | Historical public release |
-| v2.2 | Root repository update adding Paper 3 OSF component and Paper 3 clean public state | Public root update |
-| Paper 1 v1.1.0 | Figure-Enhanced Edition of The Brain That Remains | Published on Zenodo; OSF component updated; ORCID updated |
-| Paper 2 v1.1.0 | Figure-Enhanced Edition of RAY-VASC Protocol | Published on Zenodo; OSF registration active; OSF component updated; ORCID updated |
-| Paper 3 v1.0.0 | Original public baseline characterization preprint | Prior archived Zenodo version |
-| Paper 3 v1.1.0 | Figure-Enhanced Edition of RAY-001 Baseline Characterization | Published on Zenodo; OSF component updated; OSF Wiki updated; ORCID updated; GitHub DOI-synchronized |
-| Paper 4 v1.0.0 | Figure-Integrated Edition of APPRE Schema-and-Rules Framework | Published on Zenodo; standalone OSF archive active; parent-project OSF component active; ORCID updated; GitHub synchronized |
-| Papers 5-7 | Remaining core manuscript sequence | Queued / drafting |
+The RAY-VASC Thesis is the complete public synthesis of the research program.
+
+**Title:** *RAY-VASC Thesis: A Longitudinal N-of-1 Observational Research Program for Residual Adaptive Capacity, Neuropathic Pathway Repair and Remapping, and Personalized Neurotrophic Optimization in Progressive Supranuclear Palsy with Vascular Dementia, Post-Stroke Sequelae, and COPD*  
+**Author:** Logan Henderson  
+**Version:** v1.0.0  
+**Publication date:** 2026-07-20  
+**Resource type:** Independent thesis-form working paper and dissertation precursor  
+**Primary citable DOI:** [https://doi.org/10.5281/zenodo.21457646](https://doi.org/10.5281/zenodo.21457646)  
+**OSF thesis component:** [https://osf.io/nzawv/](https://osf.io/nzawv/)  
+**GitHub PDF:** [`manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf`](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf)  
+**GitHub DOCX:** [`manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx`](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx)  
+
+The thesis synthesizes:
+
+- The published Papers 1–4.
+- The planned Papers 5–7 research pathway.
+- The Neuropathic Repair-Remap Hypothesis.
+- The Regenerative Loop.
+- The Three-Phase Plasticity Architecture.
+- APPRE.
+- The responseome.
+- The complete Layer 1 candidate universe.
+- The participant-specific Layer 2 implementation and safety filter.
+- The RAY-001 baseline and methodological stress-test case.
+- The open-science, preregistration, reproducibility, and small-series expansion architecture.
+
+The thesis is a standalone academic synthesis artifact. It is not Paper 5 and does not replace or renumber the seven-paper manuscript sequence.
+
+The thesis is hypothesis-generating. It does not establish clinical efficacy, disease modification, neurological repair, reversal, recovery, cure, or guaranteed benefit.
 
 ---
 
-## Paper 1 v1.1.0 Figure-Enhanced Edition
+## Published Manuscript Sequence
 
-Paper 1 v1.1.0 embeds seven explanatory figures, journal-style captions, accessibility alt text, and figure-caption metadata while preserving the original framework-only claim boundary.
+### Paper 1 v1.1.0 Figure-Enhanced Edition
 
-**Locked title:** The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease  
-**Current Paper 1 version DOI:** https://doi.org/10.5281/zenodo.21109062  
-**Paper 1 all-versions DOI:** https://doi.org/10.5281/zenodo.20832832  
-**Prior Paper 1 v1.0.0 DOI:** https://doi.org/10.5281/zenodo.20832833  
-**Paper 1 OSF component:** https://osf.io/mxepj  
+Paper 1 establishes the framework layer of the series.
 
-Paper 1 establishes the framework layer of the series. It defines the Regenerative Loop, residual-capacity hypothesis, APPRE architecture, RAY-VASC protocol logic, three-phase plasticity architecture, open-source release discipline, and claim-boundary rules.
+**Locked title:** *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease*  
+**Current Paper 1 version DOI:** [https://doi.org/10.5281/zenodo.21109062](https://doi.org/10.5281/zenodo.21109062)  
+**Paper 1 all-versions DOI:** [https://doi.org/10.5281/zenodo.20832832](https://doi.org/10.5281/zenodo.20832832)  
+**Prior Paper 1 v1.0.0 DOI:** [https://doi.org/10.5281/zenodo.20832833](https://doi.org/10.5281/zenodo.20832833)  
+**Paper 1 OSF component:** [https://osf.io/mxepj/](https://osf.io/mxepj/)  
+
+Paper 1 defines the Regenerative Loop, residual-capacity hypothesis, APPRE architecture, RAY-VASC protocol logic, Three-Phase Plasticity Architecture, open-source release discipline, and claim-boundary rules.
 
 Paper 1 v1.1.0 added:
 
@@ -98,14 +142,14 @@ No clinical outcomes, treatment efficacy claims, disease reversal claims, recove
 
 ---
 
-## Paper 2 v1.1.0 Figure-Enhanced Edition
+### Paper 2 v1.1.0 Figure-Enhanced Edition
 
-Paper 2 v1.1.0 is the published, citable, figure-enhanced protocol manuscript for the RAY-VASC publication sequence.
+Paper 2 is the published, citable, figure-enhanced protocol manuscript for the RAY-VASC publication sequence.
 
-**Locked title:** RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease  
-**Primary citable manuscript DOI:** https://doi.org/10.5281/zenodo.21111619  
-**Paper 2 all-versions DOI:** https://doi.org/10.5281/zenodo.21111618  
-**OSF registration DOI:** https://doi.org/10.17605/OSF.IO/WESZY  
+**Locked title:** *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*  
+**Primary citable manuscript DOI:** [https://doi.org/10.5281/zenodo.21111619](https://doi.org/10.5281/zenodo.21111619)  
+**Paper 2 all-versions DOI:** [https://doi.org/10.5281/zenodo.21111618](https://doi.org/10.5281/zenodo.21111618)  
+**OSF registration DOI:** [https://doi.org/10.17605/OSF.IO/WESZY](https://doi.org/10.17605/OSF.IO/WESZY)  
 **GitHub figure-enhanced tag:** `paper2-figure-enhanced-v1.1.0`  
 **GitHub DOI-lock tag:** `paper2-published-citable-v1.1.0`  
 **ORCID record status:** Zenodo preprint work added; OSF registration work retained separately.  
@@ -151,15 +195,15 @@ External prospective implementation requires applicable consent, privacy review,
 
 ---
 
-## Paper 3 v1.1.0 Figure-Enhanced Edition
+### Paper 3 v1.1.0 Figure-Enhanced Edition
 
-Paper 3 v1.1.0 is the published, citable, figure-enhanced baseline characterization and measurement-feasibility case report for the RAY-VASC publication sequence.
+Paper 3 is the published, citable, figure-enhanced baseline characterization and measurement-feasibility case report for the RAY-VASC publication sequence.
 
-**Locked title:** RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research  
-**Primary citable manuscript DOI:** https://doi.org/10.5281/zenodo.21113371  
-**Paper 3 all-versions DOI:** https://doi.org/10.5281/zenodo.20834330  
-**Prior Paper 3 v1.0.0 DOI:** https://doi.org/10.5281/zenodo.20834331  
-**Paper 3 OSF component:** https://osf.io/k8jhz/  
+**Locked title:** *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research*  
+**Primary citable manuscript DOI:** [https://doi.org/10.5281/zenodo.21113371](https://doi.org/10.5281/zenodo.21113371)  
+**Paper 3 all-versions DOI:** [https://doi.org/10.5281/zenodo.20834330](https://doi.org/10.5281/zenodo.20834330)  
+**Prior Paper 3 v1.0.0 DOI:** [https://doi.org/10.5281/zenodo.20834331](https://doi.org/10.5281/zenodo.20834331)  
+**Paper 3 OSF component:** [https://osf.io/k8jhz/](https://osf.io/k8jhz/)  
 **GitHub DOI-lock tag:** `paper3-published-citable-v1.1.0`  
 **ORCID record status:** Existing Paper 3 Zenodo preprint work updated and saved.  
 
@@ -201,18 +245,21 @@ Paper 3 does not include raw clinical records, source-lock ledgers, consent file
 
 ---
 
-## Paper 4 v1.0.0 Figure-Integrated Edition
+### Paper 4 v1.0.0 Figure-Integrated Edition
 
-Paper 4 v1.0.0 is the published, citable, figure-integrated methods and data-architecture manuscript for the RAY-VASC publication sequence.
+Paper 4 is the published, citable, figure-integrated methods and data-architecture manuscript for the RAY-VASC publication sequence.
 
-**Locked title:** APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease  
+**Locked title:** *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease*  
 **Version:** v1.0.0 Figure-Integrated Edition  
 **Publication date:** 2026-07-02  
-**Primary citable manuscript DOI:** https://doi.org/10.5281/zenodo.21116291  
-**Paper 4 all-versions DOI:** https://doi.org/10.5281/zenodo.21116290  
-**Paper 4 standalone OSF archive:** https://osf.io/nqybd/  
-**Paper 4 parent-project OSF component:** https://osf.io/dwr3v/  
-**ORCID record status:** Zenodo DOI work added using DOI 10.5281/zenodo.21116291.  
+**Primary citable manuscript DOI:** [https://doi.org/10.5281/zenodo.21116291](https://doi.org/10.5281/zenodo.21116291)  
+**Paper 4 all-versions DOI:** [https://doi.org/10.5281/zenodo.21116290](https://doi.org/10.5281/zenodo.21116290)  
+**Paper 4 standalone OSF archive:** [https://osf.io/nqybd/](https://osf.io/nqybd/)  
+**Paper 4 parent-project component:** [https://osf.io/dwr3v/](https://osf.io/dwr3v/)  
+**GitHub PDF:** [`manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.pdf`](manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.pdf)  
+**GitHub DOCX:** [`manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.docx`](manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.docx)  
+**GitHub release ZIP:** [`releases/paper4/final/RAY-VASC_Paper4_APPRE_v1.0.0_FIGURE-INTEGRATED_PUBLIC_RELEASE_2026-06-24.zip`](releases/paper4/final/RAY-VASC_Paper4_APPRE_v1.0.0_FIGURE-INTEGRATED_PUBLIC_RELEASE_2026-06-24.zip)  
+**ORCID record status:** Zenodo DOI work added using DOI `10.5281/zenodo.21116291`.  
 
 Paper 4 publishes APPRE as a transparent schema-and-rules methods/data-architecture framework for adaptive measurement, confounder annotation, adverse-event capture, missingness handling, provenance, synthetic-data release, validation-rule documentation, and response-policy versioning in RAY-VASC-style N-of-1 and small-series complex neurovascular research.
 
@@ -220,7 +267,7 @@ APPRE is not validated artificial intelligence, not clinical decision support, n
 
 APPRE is defined as a research documentation architecture that maps:
 
-Subject Profile → Candidate Inputs → Outcomes → Confounders / Adverse Events / Missingness → Updated Response Policy → Version Log.
+**Subject Profile → Candidate Inputs → Outcomes → Confounders / Adverse Events / Missingness → Updated Response Policy → Version Log**
 
 The v1.0.0 Figure-Integrated Edition embeds eight APPRE architecture figures:
 
@@ -249,7 +296,6 @@ Paper 4 public assets include:
 - Paper 4 standalone OSF project archive.
 - Paper 4 parent-project OSF component.
 - Paper 4 ORCID work record.
-- GitHub-synchronized v1.0.0 manuscript and public release ZIP.
 - Release notes and SHA256 checksum metadata.
 
 Paper 4 standards alignment includes:
@@ -276,92 +322,94 @@ Paper 4 public folders include:
 - `releases/paper4/final/`
 - `releases/paper4/final/metadata/`
 
-Controlled-substance exposure, if present in future lawful research implementations, is documented only as as-administered observational data under separate lawful, clinician-governed, ethics-approved oversight. APPRE does not recommend, adjust, tune, optimize, select, increase, decrease, cycle, or personalize controlled-substance exposure.
+Controlled-substance exposure, if present in future lawful research implementations, is documented only as as-administered observational data under separate lawful, clinician-governed, ethics-approved oversight.
+
+APPRE does not recommend, adjust, tune, optimize, select, increase, decrease, cycle, or personalize controlled-substance exposure.
 
 Paper 4 reports no clinical outcomes. It does not claim treatment efficacy, disease modification, brain repair, vascular lesion reversal, PSP reversal, dementia reversal, recovery, cure, longevity benefit, or guaranteed benefit.
 
 ---
 
-<!-- RAY_VASC_THESIS_v1.0.0 -->
-## RAY-VASC Thesis v1.0.0
+## Planned Manuscript Continuation
 
-The RAY-VASC thesis is the standalone synthesis artifact for the research program. It is separate from the numbered seven-paper manuscript sequence and is not Paper 5.
+| Paper | Planned manuscript | Current status |
+|---|---|---|
+| Paper 5 | Regenerative Loop Theory | Queued / drafting |
+| Paper 6 | Neurotrophic Mycology Evidence Map | Queued / drafting |
+| Paper 7 | Three-Phase Plasticity Architecture | Queued / drafting |
 
-**Title:** RAY-VASC Thesis: A Longitudinal N-of-1 Observational Research Program for Residual Adaptive Capacity, Neuropathic Pathway Repair and Remapping, and Personalized Neurotrophic Optimization in Progressive Supranuclear Palsy with Vascular Dementia, Post-Stroke Sequelae, and COPD  
-**Author:** Logan Henderson  
-**ORCID:** https://orcid.org/0009-0001-7592-3411  
-**Public status:** Published thesis-form working paper and dissertation precursor  
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.21457646  
-**OSF thesis component:** https://osf.io/nzawv/  
-**GitHub manuscript path:** manuscripts/thesis/final/  
-
-The thesis integrates the published Papers 1â€“4, the planned Papers 5â€“7 pathway, the Neuropathic Repair-Remap Hypothesis, the Regenerative Loop, the Three-Phase Plasticity Architecture, APPRE, the responseome, the Layer 1 candidate universe, the Layer 2 participant-specific safety filter, the RAY-001 baseline architecture, and the open-science translation pathway.
-
-Public thesis files:
-
-- manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf
-- manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx
-
-This thesis is hypothesis-generating. It does not establish clinical efficacy, disease modification, neurological repair, reversal, recovery, cure, or guaranteed benefit. Controlled-substance content is limited to published evidence and lawful, clinician-governed, ethics-approved research contexts.
+Papers 5–7 remain planned work. They do not yet have assigned DOIs or external archival records.
 
 ---
+
+## Public Release Ledger
+
+The release ledger is ordered from the newest major public artifact to the earliest root-program release.
+
+| Release | Scope | Public status |
+|---|---|---|
+| **Thesis v1.0.0** | Complete program-level academic synthesis | Published on Zenodo; OSF component linked; GitHub PDF/DOCX live |
+| **Paper 4 v1.0.0** | Figure-Integrated Edition of APPRE Schema-and-Rules Framework | Published on Zenodo; standalone OSF archive active; parent-project OSF component linked; ORCID updated; GitHub synchronized |
+| **Paper 3 v1.1.0** | Figure-Enhanced Edition of RAY-001 Baseline Characterization | Published on Zenodo; OSF component and Wiki updated; ORCID updated; GitHub DOI-synchronized |
+| **Paper 3 v1.0.0** | Original public baseline characterization preprint | Prior archived Zenodo version |
+| **Paper 2 v1.1.0** | Figure-Enhanced Edition of RAY-VASC Protocol | Published on Zenodo; OSF registration active; OSF component updated; ORCID updated |
+| **Paper 1 v1.1.0** | Figure-Enhanced Edition of The Brain That Remains | Published on Zenodo; OSF component updated; ORCID updated |
+| **v2.2** | Root repository update adding Paper 3 OSF component and clean public state | Historical public root update |
+| **v2.1** | Public OSF-facing root repository release with Papers 1–2 structure and protocol materials | Historical public release |
+
+---
+
 ## How to Cite
 
 Use the specific DOI for the public artifact being cited.
 
-### Paper 1 - current version
+### RAY-VASC Thesis
 
-Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease* (v1.1.0 Figure-Enhanced Edition). Zenodo. https://doi.org/10.5281/zenodo.21109062
+Henderson, L. (2026). *RAY-VASC Thesis: A Longitudinal N-of-1 Observational Research Program for Residual Adaptive Capacity, Neuropathic Pathway Repair and Remapping, and Personalized Neurotrophic Optimization in Progressive Supranuclear Palsy with Vascular Dementia, Post-Stroke Sequelae, and COPD* (Version 1.0.0) [Working paper]. Zenodo. [https://doi.org/10.5281/zenodo.21457646](https://doi.org/10.5281/zenodo.21457646)
 
-### Paper 1 - all versions
+### Paper 1 — current version
 
-Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease*. Zenodo. https://doi.org/10.5281/zenodo.20832832
+Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease* (v1.1.0 Figure-Enhanced Edition). Zenodo. [https://doi.org/10.5281/zenodo.21109062](https://doi.org/10.5281/zenodo.21109062)
 
-### Paper 2 - current version
+### Paper 1 — all versions
 
-Henderson, L. (2026). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease* (v1.1.0 Figure-Enhanced Edition). Zenodo. https://doi.org/10.5281/zenodo.21111619
+Henderson, L. (2026). *The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease*. Zenodo. [https://doi.org/10.5281/zenodo.20832832](https://doi.org/10.5281/zenodo.20832832)
 
-### Paper 2 - all versions
+### Paper 2 — current version
 
-Henderson, L. (2026). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*. Zenodo. https://doi.org/10.5281/zenodo.21111618
+Henderson, L. (2026). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease* (v1.1.0 Figure-Enhanced Edition). Zenodo. [https://doi.org/10.5281/zenodo.21111619](https://doi.org/10.5281/zenodo.21111619)
 
-### Paper 2 - OSF registration record
+### Paper 2 — all versions
 
-Henderson, L. (2026, June 11). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*. OSF Registries. https://doi.org/10.17605/OSF.IO/WESZY
+Henderson, L. (2026). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*. Zenodo. [https://doi.org/10.5281/zenodo.21111618](https://doi.org/10.5281/zenodo.21111618)
 
-### Paper 3 - current version
+### Paper 2 — OSF registration record
 
-Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* (v1.1.0 Figure-Enhanced Edition). Zenodo. https://doi.org/10.5281/zenodo.21113371
+Henderson, L. (2026, June 11). *RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease*. OSF Registries. [https://doi.org/10.17605/OSF.IO/WESZY](https://doi.org/10.17605/OSF.IO/WESZY)
 
-### Paper 3 - all versions
+### Paper 3 — current version
 
-Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research*. Zenodo. https://doi.org/10.5281/zenodo.20834330
+Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* (v1.1.0 Figure-Enhanced Edition). Zenodo. [https://doi.org/10.5281/zenodo.21113371](https://doi.org/10.5281/zenodo.21113371)
 
-### Paper 3 - prior version
+### Paper 3 — all versions
 
-Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20834331
+Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research*. Zenodo. [https://doi.org/10.5281/zenodo.20834330](https://doi.org/10.5281/zenodo.20834330)
 
-### Paper 4 - current version
+### Paper 3 — prior version
 
-Henderson, L. (2026). *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease* (v1.0.0 Figure-Integrated Edition). Zenodo. https://doi.org/10.5281/zenodo.21116291
+Henderson, L. (2026). *RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research* (v1.0.0). Zenodo. [https://doi.org/10.5281/zenodo.20834331](https://doi.org/10.5281/zenodo.20834331)
 
-### Paper 4 - all versions
+### Paper 4 — current version
 
-Henderson, L. (2026). *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease*. Zenodo. https://doi.org/10.5281/zenodo.21116290
+Henderson, L. (2026). *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease* (v1.0.0 Figure-Integrated Edition). Zenodo. [https://doi.org/10.5281/zenodo.21116291](https://doi.org/10.5281/zenodo.21116291)
+
+### Paper 4 — all versions
+
+Henderson, L. (2026). *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease*. Zenodo. [https://doi.org/10.5281/zenodo.21116290](https://doi.org/10.5281/zenodo.21116290)
 
 ### Repository citation
 
-Use `CITATION.cff` for repository-level citation metadata.
-
----
-
-## Purpose
-
-RAY-VASC Regenerative Loop is a public research documentation system for studying residual adaptive capacity, longitudinal measurement, confounder tracking, adverse-event documentation, missingness handling, caregiver-supported reporting, protocol feasibility, reproducible data architecture, and open-source study design in complex neurovascular and mixed neurodegenerative-vascular disease.
-
-The project exists to make the research architecture reviewable, reproducible, and implementable by qualified teams without dependence on private notes, informal memory, or undocumented operational assumptions.
-
-The project does not claim that any intervention treats, reverses, repairs, cures, or modifies neurodegenerative disease.
+Use [`CITATION.cff`](CITATION.cff) for repository-level citation metadata.
 
 ---
 
@@ -416,11 +464,11 @@ Future APPRE software, rules engines, dashboards, workflow tools, or AI-assisted
 
 ## Attribution
 
-Originating researcher and first author: Logan Henderson.
+**Originating researcher and first author:** Logan Henderson.
 
 Raymond A. Hornsby is credited as the human origin and motivating context for the RAY-VASC research program.
 
-The manuscript sequence, open-source protocol structure, measurement architecture, APPRE schema-and-rules framework, and publication pathway are maintained under Logan Henderson's authorship and public research governance.
+The thesis, manuscript sequence, open-source protocol structure, measurement architecture, APPRE schema-and-rules framework, and publication pathway are maintained under Logan Henderson's authorship and public research governance.
 
 See: [`ATTRIBUTION.md`](ATTRIBUTION.md)
 
@@ -450,7 +498,7 @@ See: [`PRIVACY.md`](PRIVACY.md)
 
 ## Clean Repository Map
 
-This repository is organized as a manuscript-series release tree. Root files orient the public reader. Paper-specific files remain inside their paper folders.
+This repository is organized as a thesis and manuscript-series release tree. Root files orient the public reader. Artifact-specific files remain inside their established folders.
 
 Root files should stay limited to program-level navigation, citation, privacy, attribution, licensing, regulatory boundary, changelog, and whole-repository manifest files.
 
@@ -468,6 +516,7 @@ ray-vasc-regenerative-loop/
 |-- MANIFEST_SHA256.txt
 |
 |-- manuscripts/
+|   |-- thesis/final/
 |   |-- paper1/final/
 |   |-- paper2/final/
 |   |-- paper3/final/
@@ -509,4 +558,4 @@ ray-vasc-regenerative-loop/
 |   |   |-- metadata/
 |
 |-- archive/
-
+```
