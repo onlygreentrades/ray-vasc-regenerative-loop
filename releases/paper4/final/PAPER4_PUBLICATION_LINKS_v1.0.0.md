@@ -1,32 +1,36 @@
-﻿# Paper 4 Public Citation and Archive Links
+# Paper 4 Public Citation and Archive Links
 
-Version: v1.0.0  
-Publication date: 2026-07-02  
-Paper: APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease
+**Version:** v1.0.0 Figure-Integrated Edition  
+**Publication date:** 2026-07-02  
+**Paper:** APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease
 
 ## Zenodo
 
-Version DOI: 10.5281/zenodo.21116291  
-Version DOI URL: https://doi.org/10.5281/zenodo.21116291  
-All-versions DOI: 10.5281/zenodo.21116290  
-All-versions DOI URL: https://doi.org/10.5281/zenodo.21116290  
+- Version DOI: https://doi.org/10.5281/zenodo.21116291
+- All-versions DOI: https://doi.org/10.5281/zenodo.21116290
 
 ## OSF
 
-Paper 4 OSF Project: https://osf.io/nqybd/
+- Standalone Paper 4 archive: https://osf.io/nqybd/
+- Parent-project Paper 4 component: https://osf.io/dwr3v/
 
 ## GitHub
 
-Repository: https://github.com/onlygreentrades/ray-vasc-regenerative-loop  
-Release tag: v2.4.0-paper4-appre-v1.0.0
+- Repository: https://github.com/onlygreentrades/ray-vasc-regenerative-loop
+- Manuscript path: `manuscripts/paper4/final/`
+- Figure path: `figures/paper4/final/`
+- Supplement path: `supplements/paper4/final/`
+- Release path: `releases/paper4/final/`
+- Release tag: `paper4-figure-integrated-v1.0.0`
+- GitHub release: https://github.com/onlygreentrades/ray-vasc-regenerative-loop/releases/tag/paper4-figure-integrated-v1.0.0
 
 ## Citation
 
-Henderson, L. (2026). *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21116291
+Henderson, L. (2026). *APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease* (v1.0.0 Figure-Integrated Edition). Zenodo. https://doi.org/10.5281/zenodo.21116291
 
 ## Public Boundary
 
-APPRE is a schema-and-rules research documentation framework. It is not validated artificial intelligence, not clinical decision support, not Software as a Medical Device, not a treatment optimizer, and not a longevity product.
+APPRE is a schema-and-rules research documentation framework. It is not validated artificial intelligence, clinical decision support, Software as a Medical Device, a treatment optimizer, or a longevity product.
 
 Controlled-substance exposure, if present in future lawful research implementations, is documented only as as-administered observational data under separate lawful, clinician-governed, ethics-approved oversight.
 

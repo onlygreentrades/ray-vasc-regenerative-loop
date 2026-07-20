@@ -1,68 +1,84 @@
-﻿cff-version: 1.2.0
-message: "If you use this repository, please cite the repository and the relevant manuscript."
-title: "RAY-VASC Regenerative Loop Research Program"
+cff-version: 1.2.0
+message: If you use this repository, cite the repository and the relevant thesis or manuscript DOI.
+title: RAY-VASC Regenerative Loop Research Program
 type: dataset
 authors:
+- family-names: Henderson
+  given-names: Logan
+  orcid: https://orcid.org/0009-0001-7592-3411
+  affiliation: Independent Researcher, Houston, Texas, United States
+repository-code: https://github.com/onlygreentrades/ray-vasc-regenerative-loop
+url: https://osf.io/y2h79/
+license: CC-BY-4.0
+version: 2.4.1
+date-released: '2026-07-20'
+abstract: Open-source research architecture and public manuscript repository for the RAY-VASC Regenerative Loop program. The
+  repository contains the DOI-backed RAY-VASC Thesis, published Papers 1–4, de-identified protocol and baseline materials,
+  APPRE schema-and-rules documentation, synthetic data, validation rules, and reproducibility-support artifacts. Papers 5–7
+  remain planned work.
+keywords:
+- RAY-VASC
+- Regenerative Loop
+- APPRE
+- neuroplasticity
+- N-of-1
+- complex neurovascular disease
+- progressive supranuclear palsy
+- vascular cognitive impairment
+- residual adaptive capacity
+- open science
+references:
+- type: article
+  authors:
   - family-names: Henderson
     given-names: Logan
-repository-code: "https://github.com/onlygreentrades/ray-vasc-regenerative-loop"
-url: "https://osf.io/y2h79/"
-license: "CC-BY-4.0"
-version: "paper2-published-citable-v1.1.0"
-date-released: "2026-07-01"
-abstract: "Open-source research architecture and publishing-clean manuscript package for the RAY-VASC Regenerative Loop research program, including DOI-backed Paper 1 Zenodo preprint, Paper 2 OSF-registered protocol, Paper 3 Zenodo baseline characterization preprint, and de-identified protocol supplements. Paper 4 remains local and not externally deposited as of v2.3."
-keywords:
-  - RAY-VASC
-  - Regenerative Loop
-  - APPRE
-  - neuroplasticity
-  - N-of-1
-  - complex neurovascular disease
-  - baseline characterization
-  - open science
-references:
-  - type: article
-    authors:
-      - family-names: Henderson
-        given-names: Logan
-    title: "RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease"
-    doi: "10.17605/OSF.IO/WESZY"
-    date-published: "2026-06-11"
-  - type: article
-    authors:
-      - family-names: Henderson
-        given-names: Logan
-    title: "The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease"
-    doi: "10.5281/zenodo.20832833"
-    date-published: "2026-06-24"
-  - type: article
-    authors:
-      - family-names: Henderson
-        given-names: Logan
-    title: "RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research"
-    doi: "10.5281/zenodo.20834331"
-    date-published: "2026-06-24"
-  - type: article
-    authors:
-      - family-names: Henderson
-        given-names: Logan
-    title: "The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex Neurodegenerative Disease"
-    doi: "10.5281/zenodo.21109062"
-    date-published: "2026-07-01"
-
-  - type: article
-    authors:
-      - family-names: Henderson
-        given-names: Logan
-    title: "RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease"
-    doi: "10.5281/zenodo.21111619"
-    date-published: "2026-07-01"
-
-  - type: article
-    authors:
-      - family-names: Henderson
-        given-names: Logan
-    title: "RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention Architecture and Measurement Feasibility for Future Neuroplasticity Research"
-    doi: "10.5281/zenodo.21113371"
-    date-published: "2026-07-01"
-
+  title: 'RAY-VASC Thesis: A Longitudinal N-of-1 Observational Research Program for Residual Adaptive Capacity, Neuropathic
+    Pathway Repair and Remapping, and Personalized Neurotrophic Optimization in Progressive Supranuclear Palsy with Vascular
+    Dementia, Post-Stroke Sequelae, and COPD'
+  doi: 10.5281/zenodo.21457646
+  date-published: '2026-07-20'
+- type: article
+  authors:
+  - family-names: Henderson
+    given-names: Logan
+  title: 'The Brain That Remains: A Framework for Neuroplasticity, Residual Capacity, and Open-Source Protocol Design in Complex
+    Neurodegenerative Disease'
+  doi: 10.5281/zenodo.21109062
+  date-published: '2026-07-01'
+- type: article
+  authors:
+  - family-names: Henderson
+    given-names: Logan
+  title: 'RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease'
+  doi: 10.5281/zenodo.21111619
+  date-published: '2026-07-01'
+- type: article
+  authors:
+  - family-names: Henderson
+    given-names: Logan
+  title: 'RAY-VASC: A Multidomain N-of-1 and Small-Series Protocol for Complex Neurovascular Disease'
+  doi: 10.17605/OSF.IO/WESZY
+  date-published: '2026-06-11'
+- type: article
+  authors:
+  - family-names: Henderson
+    given-names: Logan
+  title: 'RAY-001 Baseline Characterization in a Complex Neurovascular Parkinsonian Phenotype: Documenting Pre-Intervention
+    Architecture and Measurement Feasibility for Future Neuroplasticity Research'
+  doi: 10.5281/zenodo.21113371
+  date-published: '2026-07-01'
+- type: article
+  authors:
+  - family-names: Henderson
+    given-names: Logan
+  title: 'APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation
+    in Complex Neurovascular Disease'
+  doi: 10.5281/zenodo.21116291
+  date-published: '2026-07-02'
+identifiers:
+- type: doi
+  value: 10.5281/zenodo.21457646
+  description: RAY-VASC Thesis v1.0.0
+- type: doi
+  value: 10.5281/zenodo.21116291
+  description: Paper 4 APPRE v1.0.0 Figure-Integrated Edition

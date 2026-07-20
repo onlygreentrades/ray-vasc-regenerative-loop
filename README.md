@@ -26,11 +26,11 @@ The program does not claim that any intervention treats, reverses, repairs, cure
 
 | Artifact | Short title | Current public status | Canonical records |
 |---|---|---|---|
-| **Thesis** | **RAY-VASC Thesis** | Published Zenodo DOI; OSF thesis component linked; GitHub PDF/DOCX live; v1.0.0 | [DOI](https://doi.org/10.5281/zenodo.21457646) · [OSF](https://osf.io/nzawv/) · [PDF](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf) · [DOCX](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx) |
+| **Thesis** | **RAY-VASC Thesis** | Published Zenodo DOI; OSF thesis component public; GitHub PDF/DOCX live; v1.0.0 | [DOI](https://doi.org/10.5281/zenodo.21457646) · [OSF](https://osf.io/nzawv/) · [PDF](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf) · [DOCX](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx) |
 | **Paper 1** | The Brain That Remains | Published Zenodo DOI; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition | [DOI](https://doi.org/10.5281/zenodo.21109062) · [OSF](https://osf.io/mxepj/) |
 | **Paper 2** | RAY-VASC Protocol | Published Zenodo DOI; OSF registration active; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition | [DOI](https://doi.org/10.5281/zenodo.21111619) · [Registration](https://doi.org/10.17605/OSF.IO/WESZY) |
 | **Paper 3** | RAY-001 Baseline Characterization | Published Zenodo DOI; OSF component active; OSF Wiki updated; ORCID updated; GitHub DOI-lock complete; v1.1.0 Figure-Enhanced Edition | [DOI](https://doi.org/10.5281/zenodo.21113371) · [OSF](https://osf.io/k8jhz/) |
-| **Paper 4** | APPRE Schema-and-Rules Framework | Published Zenodo DOI; standalone OSF archive active; parent-project OSF component linked; ORCID updated; GitHub synchronized; v1.0.0 Figure-Integrated Edition | [DOI](https://doi.org/10.5281/zenodo.21116291) · [Standalone OSF](https://osf.io/nqybd/) · [Parent component](https://osf.io/dwr3v/) · [PDF](manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.pdf) · [DOCX](manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.docx) |
+| **Paper 4** | APPRE Schema-and-Rules Framework | Published Zenodo DOI; standalone OSF archive active; parent-project OSF component public; ORCID updated; GitHub synchronized; v1.0.0 Figure-Integrated Edition | [DOI](https://doi.org/10.5281/zenodo.21116291) · [Standalone OSF](https://osf.io/nqybd/) · [Parent component](https://osf.io/dwr3v/) · [PDF](manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.pdf) · [DOCX](manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.docx) |
 | **Paper 5** | Regenerative Loop Theory | Queued / drafting | DOI not assigned |
 | **Paper 6** | Neurotrophic Mycology Evidence Map | Queued / drafting | DOI not assigned |
 | **Paper 7** | Three-Phase Plasticity Architecture | Queued / drafting | DOI not assigned |
@@ -58,7 +58,7 @@ The thesis does not replace or renumber the seven-paper sequence. It synthesizes
 | Artifact | Public record | DOI / record | Status |
 |---|---|---|---|
 | **RAY-VASC Thesis** | Zenodo working paper, v1.0.0 | [10.5281/zenodo.21457646](https://doi.org/10.5281/zenodo.21457646) | Public, archived, citable |
-| **RAY-VASC Thesis — OSF component** | OSF parent-project component | [https://osf.io/nzawv/](https://osf.io/nzawv/) | Program archive and component record |
+| **RAY-VASC Thesis — OSF component** | OSF parent-project component | [https://osf.io/nzawv/](https://osf.io/nzawv/) | Public program archive and component record |
 | Paper 1 — The Brain That Remains | Zenodo preprint, v1.1.0 Figure-Enhanced Edition | [10.5281/zenodo.21109062](https://doi.org/10.5281/zenodo.21109062) | Public, archived, citable |
 | Paper 1 — all versions | Zenodo concept DOI | [10.5281/zenodo.20832832](https://doi.org/10.5281/zenodo.20832832) | Resolves to latest Paper 1 version |
 | Paper 1 — prior version | Zenodo preprint, v1.0.0 | [10.5281/zenodo.20832833](https://doi.org/10.5281/zenodo.20832833) | Prior archived version |
@@ -91,6 +91,7 @@ The RAY-VASC Thesis is the complete public synthesis of the research program.
 **OSF thesis component:** [https://osf.io/nzawv/](https://osf.io/nzawv/)  
 **GitHub PDF:** [`manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf`](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf)  
 **GitHub DOCX:** [`manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx`](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx)  
+**GitHub tag:** `thesis-v1.0.0`  
 
 The thesis synthesizes:
 
@@ -259,6 +260,7 @@ Paper 4 is the published, citable, figure-integrated methods and data-architectu
 **GitHub PDF:** [`manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.pdf`](manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.pdf)  
 **GitHub DOCX:** [`manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.docx`](manuscripts/paper4/final/Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.docx)  
 **GitHub release ZIP:** [`releases/paper4/final/RAY-VASC_Paper4_APPRE_v1.0.0_FIGURE-INTEGRATED_PUBLIC_RELEASE_2026-06-24.zip`](releases/paper4/final/RAY-VASC_Paper4_APPRE_v1.0.0_FIGURE-INTEGRATED_PUBLIC_RELEASE_2026-06-24.zip)  
+**GitHub release:** [`paper4-figure-integrated-v1.0.0`](https://github.com/onlygreentrades/ray-vasc-regenerative-loop/releases/tag/paper4-figure-integrated-v1.0.0)  
 **ORCID record status:** Zenodo DOI work added using DOI `10.5281/zenodo.21116291`.  
 
 Paper 4 publishes APPRE as a transparent schema-and-rules methods/data-architecture framework for adaptive measurement, confounder annotation, adverse-event capture, missingness handling, provenance, synthetic-data release, validation-rule documentation, and response-policy versioning in RAY-VASC-style N-of-1 and small-series complex neurovascular research.
@@ -314,10 +316,10 @@ Paper 4 public folders include:
 - `manuscripts/paper4/final/`
 - `figures/paper4/final/`
 - `supplements/paper4/final/`
-- `schemas/appre/`
-- `data/synthetic/appre/`
-- `validation/appre/`
-- `analysis/appre/`
+- `supplements/paper4/final/appre-v0.1.1/analysis/v0.1.1/`
+- `supplements/paper4/final/appre-v0.1.1/data/synthetic/v0.1.1/`
+- `supplements/paper4/final/appre-v0.1.1/schemas/v0.1.1/`
+- `supplements/paper4/final/appre-v0.1.1/validation/v0.1.1/`
 - `docs/appre/`
 - `releases/paper4/final/`
 - `releases/paper4/final/metadata/`
@@ -348,8 +350,9 @@ The release ledger is ordered from the newest major public artifact to the earli
 
 | Release | Scope | Public status |
 |---|---|---|
-| **Thesis v1.0.0** | Complete program-level academic synthesis | Published on Zenodo; OSF component linked; GitHub PDF/DOCX live |
-| **Paper 4 v1.0.0** | Figure-Integrated Edition of APPRE Schema-and-Rules Framework | Published on Zenodo; standalone OSF archive active; parent-project OSF component linked; ORCID updated; GitHub synchronized |
+| **v2.4.1** | Root repository synchronization: thesis, Paper 4, navigation, citation, chronology, attribution, and integrity records | Tagged on GitHub as `v2.4.1`; current-state records synchronized |
+| **Thesis v1.0.0** | Complete program-level academic synthesis | Published on Zenodo; OSF component public; GitHub PDF/DOCX live; tagged `thesis-v1.0.0` |
+| **Paper 4 v1.0.0** | Figure-Integrated Edition of APPRE Schema-and-Rules Framework | Published on Zenodo; standalone OSF archive active; parent-project OSF component public; ORCID updated; GitHub synchronized |
 | **Paper 3 v1.1.0** | Figure-Enhanced Edition of RAY-001 Baseline Characterization | Published on Zenodo; OSF component and Wiki updated; ORCID updated; GitHub DOI-synchronized |
 | **Paper 3 v1.0.0** | Original public baseline characterization preprint | Prior archived Zenodo version |
 | **Paper 2 v1.1.0** | Figure-Enhanced Edition of RAY-VASC Protocol | Published on Zenodo; OSF registration active; OSF component updated; ORCID updated |
@@ -500,7 +503,7 @@ See: [`PRIVACY.md`](PRIVACY.md)
 
 This repository is organized as a thesis and manuscript-series release tree. Root files orient the public reader. Artifact-specific files remain inside their established folders.
 
-Root files should stay limited to program-level navigation, citation, privacy, attribution, licensing, regulatory boundary, changelog, and whole-repository manifest files.
+Root files stay limited to program-level navigation, citation, privacy, attribution, licensing, regulatory boundary, changelog, and whole-repository integrity records.
 
 ```text
 ray-vasc-regenerative-loop/
@@ -520,42 +523,36 @@ ray-vasc-regenerative-loop/
 |   |-- paper1/final/
 |   |-- paper2/final/
 |   |-- paper3/final/
-|   |   |-- figures/
-|   |-- paper4/final/
+|   |   `-- figures/
+|   `-- paper4/final/
 |
 |-- docs/
 |   |-- appre/
 |   |-- paper2/
-|   |-- paper3/
+|   `-- paper3/
 |
 |-- figures/
 |   |-- paper1/final/
-|   |-- paper4/final/
+|   `-- paper4/final/
 |
 |-- supplements/
 |   |-- paper2/final/
-|   |   |-- figures/
-|   |-- paper4/final/
-|
-|-- schemas/
-|   |-- appre/v0.1.1/
-|
-|-- data/
-|   |-- synthetic/appre/v0.1.1/
-|
-|-- validation/
-|   |-- appre/v0.1.1/
-|
-|-- analysis/
-|   |-- appre/v0.1.1/
+|   |   `-- figures/
+|   `-- paper4/final/
+|       `-- appre-v0.1.1/
+|           |-- analysis/v0.1.1/
+|           |-- data/synthetic/v0.1.1/
+|           |-- schemas/v0.1.1/
+|           `-- validation/v0.1.1/
 |
 |-- releases/
 |   |-- paper1/final/
 |   |-- paper1/v1.1.0/
 |   |-- paper2/final/
 |   |-- paper3/v1.1.0/
-|   |-- paper4/final/
-|   |   |-- metadata/
+|   `-- paper4/final/
+|       `-- metadata/
 |
-|-- archive/
+|-- scripts/
+`-- archive/
 ```

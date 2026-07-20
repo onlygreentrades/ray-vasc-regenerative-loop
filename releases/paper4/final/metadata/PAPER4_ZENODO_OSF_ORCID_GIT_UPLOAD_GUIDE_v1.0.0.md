@@ -1,30 +1,33 @@
-# Paper 4 Upload and Push Guide - APPRE v1.0.0 Figure-Integrated Public Release
+# Paper 4 Publication Completion Record — APPRE v1.0.0 Figure-Integrated Edition
 
-## Canonical manuscript title
-APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease
+## Canonical Manuscript
 
-## Zenodo deposit
-Resource type: Preprint  
-Publication date: 2026-06-24  
-Version: v1.0.0  
-Creator: Henderson, Logan  
-ORCID: 0009-0001-7592-3411  
-License: Creative Commons Attribution 4.0 International  
-Files to upload:
-1. `Paper-4_APPRE_Schema-and-Rules-Framework_Complex-Neurovascular-Disease_v1.0.0_Figure-Integrated.pdf`
-2. `RAY-VASC_Paper4_APPRE_v1.0.0_FIGURE-INTEGRATED_PUBLIC_RELEASE_2026-06-24.zip`
+**Title:** APPRE: A Schema-and-Rules Framework for Adaptive Measurement, Confounder Annotation, and Response-Policy Documentation in Complex Neurovascular Disease  
+**Author:** Logan Henderson  
+**Version:** v1.0.0 Figure-Integrated Edition  
+**Publication date:** 2026-07-02  
 
-Description:
-This Zenodo record archives Paper 4 of the RAY-VASC Regenerative Loop research sequence. APPRE is a schema-and-rules framework for adaptive measurement, confounder annotation, adverse-event capture, missingness handling, provenance, synthetic-data release, and response-policy documentation in complex neurovascular N-of-1 and small-series research. No clinical outcomes are reported. APPRE is not validated artificial intelligence, not clinical decision support, not Software as a Medical Device, not a treatment optimizer, and not a longevity product.
+## Completed Public Records
 
-## OSF component upload
-Component title: Paper 4 - APPRE Schema-and-Rules Framework  
-Upload the final bundle zip plus the standalone PDF. Keep raw identifiable clinical data out of the component.
+- Zenodo version DOI: https://doi.org/10.5281/zenodo.21116291
+- Zenodo all-versions DOI: https://doi.org/10.5281/zenodo.21116290
+- Standalone OSF archive: https://osf.io/nqybd/
+- Parent-project OSF component: https://osf.io/dwr3v/
+- GitHub repository: https://github.com/onlygreentrades/ray-vasc-regenerative-loop
+- GitHub release tag: `paper4-figure-integrated-v1.0.0`
+- GitHub release: https://github.com/onlygreentrades/ray-vasc-regenerative-loop/releases/tag/paper4-figure-integrated-v1.0.0
+- ORCID: Paper 4 DOI work added
 
-## ORCID
-Do not add Paper 4 to ORCID until the Zenodo DOI is minted. After publication, add the Zenodo DOI as a work, set visibility to Everyone, and use the Zenodo DOI source as the preferred source.
+## Repository Locations
 
-## GitHub push
-Extract this bundle into the canonical repository root and commit the added/updated Paper 4 manuscript, figures, and metadata files. Use a release tag such as `v2.5-paper4-appre-v1.0.0-figure-integrated`.
+- Manuscript: `manuscripts/paper4/final/`
+- Figures: `figures/paper4/final/`
+- Supplements: `supplements/paper4/final/`
+- APPRE support objects: `supplements/paper4/final/appre-v0.1.1/`
+- Release materials: `releases/paper4/final/`
 
-Not medical advice. Not legal advice. No treatment claims.
+## Public Boundary
+
+Paper 4 reports no clinical outcomes. APPRE is not validated artificial intelligence, clinical decision support, Software as a Medical Device, a diagnosis engine, a prescribing engine, or a treatment optimizer.
+
+No medical advice, legal advice, treatment claims, or controlled-substance how-to instructions are provided.
