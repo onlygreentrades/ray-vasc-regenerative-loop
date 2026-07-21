@@ -16,6 +16,8 @@
 | Zenodo DOI | [10.5281/zenodo.21457646](https://doi.org/10.5281/zenodo.21457646) |
 | OSF component | [https://osf.io/nzawv/](https://osf.io/nzawv/) |
 | Main files | `manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf` and `.docx` |
+| Figure sources | `figures/thesis/final/` |
+| Figure metadata | `figures/thesis/final/THESIS_FIGURE_CAPTIONS_AND_ALT_TEXT_v1.0.0.md` |
 | GitHub tag | `thesis-v1.0.0` |
 | Relationship to sequence | Standalone program synthesis; not Paper 5 and does not renumber Papers 1–7 |
 

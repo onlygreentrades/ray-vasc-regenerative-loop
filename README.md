@@ -26,7 +26,7 @@ The program does not claim that any intervention treats, reverses, repairs, cure
 
 | Artifact | Short title | Current public status | Canonical records |
 |---|---|---|---|
-| **Thesis** | **RAY-VASC Thesis** | Published Zenodo DOI; OSF thesis component public; GitHub PDF/DOCX live; v1.0.0 | [DOI](https://doi.org/10.5281/zenodo.21457646) · [OSF](https://osf.io/nzawv/) · [PDF](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf) · [DOCX](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx) |
+| **Thesis** | **RAY-VASC Thesis** | Published Zenodo DOI; OSF thesis component public; GitHub PDF/DOCX and standalone figure sources live; v1.0.0 | [DOI](https://doi.org/10.5281/zenodo.21457646) · [OSF](https://osf.io/nzawv/) · [PDF](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf) · [DOCX](manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx) |
 | **Paper 1** | The Brain That Remains | Published Zenodo DOI; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition | [DOI](https://doi.org/10.5281/zenodo.21109062) · [OSF](https://osf.io/mxepj/) |
 | **Paper 2** | RAY-VASC Protocol | Published Zenodo DOI; OSF registration active; OSF component active; ORCID updated; v1.1.0 Figure-Enhanced Edition | [DOI](https://doi.org/10.5281/zenodo.21111619) · [Registration](https://doi.org/10.17605/OSF.IO/WESZY) |
 | **Paper 3** | RAY-001 Baseline Characterization | Published Zenodo DOI; OSF component active; OSF Wiki updated; ORCID updated; GitHub DOI-lock complete; v1.1.0 Figure-Enhanced Edition | [DOI](https://doi.org/10.5281/zenodo.21113371) · [OSF](https://osf.io/k8jhz/) |
@@ -112,6 +112,18 @@ The thesis is a standalone academic synthesis artifact. It is not Paper 5 and do
 The thesis is hypothesis-generating. It does not establish clinical efficacy, disease modification, neurological repair, reversal, recovery, cure, or guaranteed benefit.
 
 ---
+
+### Standalone Thesis Figure Source Assets
+
+The full-resolution source figures embedded in the thesis are preserved as standalone public assets under [`figures/thesis/final/`](figures/thesis/final/):
+
+1. [`THESIS_F01_Neuropathic_Repair-Remap_Hypothesis_Four-Operation_Model.png`](figures/thesis/final/THESIS_F01_Neuropathic_Repair-Remap_Hypothesis_Four-Operation_Model.png)
+2. [`THESIS_F02_Three-Phase_Plasticity_Architecture.png`](figures/thesis/final/THESIS_F02_Three-Phase_Plasticity_Architecture.png)
+3. [`THESIS_F03_APPRE_Inputs_Filters_Responseome_Policy_Decision.png`](figures/thesis/final/THESIS_F03_APPRE_Inputs_Filters_Responseome_Policy_Decision.png)
+
+Captions, accessibility descriptions, provenance, and claim-boundary language are maintained in [`THESIS_FIGURE_CAPTIONS_AND_ALT_TEXT_v1.0.0.md`](figures/thesis/final/THESIS_FIGURE_CAPTIONS_AND_ALT_TEXT_v1.0.0.md).
+
+These are thesis-level program figures. They do not replace or revise the canonical Paper 1–4 figure files.
 
 ## Published Manuscript Sequence
 
@@ -532,6 +544,7 @@ ray-vasc-regenerative-loop/
 |   `-- paper3/
 |
 |-- figures/
+|   |-- thesis/final/
 |   |-- paper1/final/
 |   `-- paper4/final/
 |

@@ -1,5 +1,17 @@
 # Changelog
 
+## Thesis Standalone Figure Source Completion — 2026-07-20
+
+Completed the program-level thesis figure-source checkpoint.
+
+- Added three full-resolution standalone thesis figure PNG files under `figures/thesis/final/`.
+- Added thesis figure captions, accessibility alt text, provenance, and claim-boundary metadata.
+- Updated `README.md`, `REPO_MAP.md`, and `PAPER_INDEX.md` to expose the new source assets.
+- Regenerated `MANIFEST_SHA256.txt` against the complete corrected repository tree.
+- Preserved the existing Paper 1–4 public figure files without replacement.
+- Preserved the published Paper 4 `P4_F03` and `P4_F07` binaries unchanged.
+- Checkpoint tag: `thesis-figure-sources-v1.0.0`.
+
 ## v2.4.1 — Thesis and Public Record Synchronization — 2026-07-20
 
 Published and synchronized the RAY-VASC Thesis as the program-level academic synthesis artifact.

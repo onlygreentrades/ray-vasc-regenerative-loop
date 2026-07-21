@@ -50,6 +50,7 @@ ray-vasc-regenerative-loop/
 |   `-- paper3/
 |
 |-- figures/
+|   |-- thesis/final/
 |   |-- paper1/final/
 |   `-- paper4/final/
 |
@@ -81,6 +82,11 @@ ray-vasc-regenerative-loop/
 |---|---|
 | `manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.pdf` | Searchable public thesis PDF |
 | `manuscripts/thesis/final/RAY-VASC_Thesis_v1.0.0.docx` | Editable public thesis manuscript |
+| `figures/thesis/final/THESIS_F01_Neuropathic_Repair-Remap_Hypothesis_Four-Operation_Model.png` | Full-resolution NRRH source figure embedded in the thesis |
+| `figures/thesis/final/THESIS_F02_Three-Phase_Plasticity_Architecture.png` | Full-resolution Three-Phase Plasticity Architecture source figure |
+| `figures/thesis/final/THESIS_F03_APPRE_Inputs_Filters_Responseome_Policy_Decision.png` | Full-resolution APPRE inputs-to-policy source figure |
+| `figures/thesis/final/THESIS_FIGURE_CAPTIONS_AND_ALT_TEXT_v1.0.0.md` | Figure captions, alt text, provenance, and claim-boundary metadata |
+| `figures/thesis/final/README.md` | Thesis figure-source folder orientation |
 
 Public records:
 
